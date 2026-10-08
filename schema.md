@@ -46,6 +46,10 @@ defined end date (open-ended). This means:
   `out_of_scope_closed_before_1949` entirely — do not search for its
   yearbooks at any institution. Schools marked `unknown_insufficient_data`
   should still be searched (benefit of the doubt until a human clarifies).
+- **Also check `entity_type`.** Skip any row marked
+  `administrative_district_only` — search its member schools instead (see
+  "Administrative district disambiguation" below). Rows marked
+  `ambiguous_unresolved` should still be searched (benefit of the doubt).
 
 ---
 
@@ -59,8 +63,7 @@ though `school_id` is the permanent identifier going forward).
 | `school_id` | string | Stable ID, e.g. `63147-01`. Carried over from seed `pilot_row_id` for the pilot. |
 | `name` | string | Current/primary name. |
 | `historical_names` | string[] | All known former names. |
-| `zip` | string | The school's actual/home ZIP (where it's physically located). |
-| `also_relevant_to_zips` | string[] | Other RECA-impacted ZIPs this school is relevant to because it served students from that community (even though it isn't physically located there) — e.g. a high school outside the ZIP that neighborhood kids attended. Empty list if none. |
+| `zip` | string | The school's ZIP, kept as descriptive metadata only — the app does not match claimants to schools by ZIP, so this has no functional role beyond identifying location. |
 | `district_operator` | string | |
 | `school_type` | string | |
 | `opened_year` | string | Year or `unknown`. |
@@ -74,6 +77,33 @@ though `school_id` is the permanent identifier going forward).
 | `successor_citation` | string | |
 | `notes` | string | Free text — research trail, ambiguities, dead ends. |
 | `reca_scope_status` | enum | `in_scope` / `out_of_scope_closed_before_1949` / `unknown_insufficient_data`. **Do not set this field manually** — it is computed deterministically by `compute_reca_scope.py` from `closed_year`/`closed_confidence` after you produce your output. Leave it absent from your output; the script will add it. |
+| `entity_type` | enum | `individual_school` / `administrative_district_only` / `ambiguous_unresolved`. See "Administrative district disambiguation" below — required for any row whose name contains "School District," "R-#," "Consolidated District," or similar administrative-sounding language. |
+
+### Administrative district disambiguation
+
+Several raw seed rows are named like a governing body rather than a
+school (e.g. "Baden School District," "Pattonville R-3 School District").
+**Do not assume these are, or aren't, a single physical school — investigate.**
+A name like this could mean:
+- **A genuine multi-school administrative district** with no yearbook of
+  its own — the actual yearbook-producing entities are its individual
+  member schools, which likely already have their own separate rows in
+  this dataset. If so, set `entity_type: administrative_district_only`
+  and use `notes` to name which specific schools (by `school_id` if
+  already known) fall under it, if you can determine that.
+- **A small/historical one-school district** where the district and the
+  school were effectively the same entity (common for rural or
+  early-20th-century districts before consolidation). If so, set
+  `entity_type: individual_school` and treat it as a normal yearbook
+  search target.
+- If you cannot determine which after a genuine search, set
+  `entity_type: ambiguous_unresolved` and explain what you tried in
+  `notes` — do not guess.
+
+This determination must happen **before** any archive-survey (Track B)
+work is attempted on that row — a pure `administrative_district_only`
+row should never be searched for a yearbook directly; redirect that
+research effort to its member schools instead.
 
 ## Table 2: `yearbook_registry`
 
@@ -110,31 +140,50 @@ Each Devin session should produce:
 Where `<scope>` identifies the task, e.g. `63147` for the ZIP 63147 pilot,
 or `slcl` for the St. Louis County Library survey.
 
-## Cross-ZIP school deduplication (`schools_master.json`)
+## School deduplication across batches (`schools_master.json`)
 
-A school that "serves" a community (e.g. the area high school) is often
-included in multiple ZIP-scoped seed files — the same real-world school,
-but potentially researched independently by separate Track A sessions,
-creating duplicate `school_id`s for the same institution.
+The source dataset (`data/all_schools_seed.json`) lists schools repeatedly
+across many rows — the same real-world school can appear many times. Since
+each school only needs to be researched once regardless of how many times
+it appears in the raw seed data, duplicates must be caught before spinning
+up a new research task for a batch.
 
 **Before starting any new Track A task, run:**
 ```
 python3 merge_schools.py                              # refresh the master
-python3 find_potential_duplicates.py <new_seed_file>   # check for overlaps
+python3 find_potential_duplicates.py <new_seed_file>   # check against already-researched schools
+python3 dedupe_seed.py <remaining_rows_file>           # self-dedupe the NEW rows against each other
 ```
 
-For any school the script flags as a likely match to an existing entry in
-`schools_master.json`, tell the new Track A session explicitly in its task
-prompt: *"School X already exists as `<school_id>` — do not create a new
-entry. Instead, add this ZIP to its `also_relevant_to_zips` list, and only
-research it further if the existing entry has unresolved
-gaps (`unknown` fields) you can fill."*
+For any row `find_potential_duplicates.py` flags as a likely match to an
+existing entry in `schools_master.json`, exclude it from the new batch
+entirely — it's already researched. Do not spend a research task
+re-verifying it.
 
-This is a fuzzy-match tool, not an auto-merger — always have a human
-confirm a flagged match is actually the same school before instructing an
-agent to treat it as such, since similarly-named but distinct schools
-exist (see the pilot's "Lutheran High School" / "North High School" decoy
-collisions).
+`dedupe_seed.py` then handles the remaining rows, which still contain
+internal repeats (the same not-yet-researched school appearing multiple
+times across the raw seed data). It only **auto-collapses exact
+name/alias matches** — e.g. a row whose alias field is identical to
+another row's main name. Anything merely *similar* (not exact) is written
+to a separate `*_review_needed.json` file and left as distinct rows by
+default, never silently auto-merged. Fuzzy string similarity is not
+reliable enough to trust blindly here — "Pattonville Heights Middle
+School" and "Pattonville High School" score 0.94 similarity despite being
+different buildings, because "Heights" and "High" share characters. A
+false merge silently drops a real school from research entirely, which is
+a worse outcome than some redundant research — so the default always
+favors keeping rows separate unless a human (or a session that did real
+research) confirms otherwise.
+
+**Different campuses/buildings are never auto-merged, even with an
+identical name/alias.** A school relocating or operating multiple
+campuses (e.g. "Berkeley High School - Hancock Campus" vs "- Caroline
+Avenue Campus" vs "- Walter Avenue Campus") can be functionally distinct
+for research purposes — different building, potentially a separate
+yearbook series. Any row whose name signals a specific
+campus/building/site is kept separate from the plain/un-suffixed version
+of that school, and from other differently-named campus variants of the
+same school, and is instead flagged in `*_review_needed.json`.
 
 ## Cross-institution deduplication (`yearbook_registry_master.json`)
 

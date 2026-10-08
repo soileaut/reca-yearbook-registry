@@ -22,7 +22,17 @@ from pathlib import Path
 
 ROOT = Path(__file__).parent
 MASTER_PATH = ROOT / "schools_master.json"
-SIMILARITY_THRESHOLD = 0.80
+SIMILARITY_THRESHOLD = 0.90
+
+# Generic type-words that make short names look falsely similar
+# ("Duello Elementary School" vs "Baden Elementary School") -- stripped
+# before comparing, so the comparison focuses on the distinctive part of
+# the name (e.g. "Duello" vs "Baden").
+STOPWORDS = {
+    "school", "schools", "elementary", "high", "middle", "junior", "senior",
+    "public", "private", "parochial", "academy", "district", "college",
+    "university", "community", "center", "of", "the", "st", "saint",
+}
 
 
 def normalize(name):
@@ -30,6 +40,10 @@ def normalize(name):
     name = re.sub(r"[^a-z0-9\s]", " ", name)
     name = re.sub(r"\s+", " ", name).strip()
     return name
+
+
+def core_tokens(normalized_name):
+    return {t for t in normalized_name.split() if t not in STOPWORDS}
 
 
 def all_names(row, name_key, alias_key):
@@ -40,6 +54,13 @@ def all_names(row, name_key, alias_key):
     elif isinstance(aliases, str):
         names.extend(re.split(r"[;,]", aliases))
     return [normalize(n) for n in names if n and n.strip()]
+
+
+def row_label(row, name_key, id_keys):
+    for key in id_keys:
+        if row.get(key):
+            return row[key]
+    return "?"
 
 
 def main():
@@ -68,13 +89,24 @@ def main():
     for seed_row in seed_rows:
         seed_names = all_names(seed_row, "School Name", "Historical/Former Name")
         seed_label = seed_row.get("School Name", "?")
-        seed_id = seed_row.get("pilot_row_id", "?")
+        seed_id = row_label(seed_row, "School Name", ["row_id", "pilot_row_id"])
 
         best_matches = []
         for master_id, master_name, master_names in master_lookup:
             best_ratio = 0.0
             for sn in seed_names:
+                sn_tokens = core_tokens(sn)
                 for mn in master_names:
+                    mn_tokens = core_tokens(mn)
+                    # Require the distinctive (non-generic) parts of the
+                    # names to actually overlap -- otherwise two unrelated
+                    # schools sharing a generic suffix ("X Elementary
+                    # School" vs "Y Elementary School") will falsely match.
+                    if not sn_tokens or not mn_tokens:
+                        continue
+                    token_overlap = sn_tokens & mn_tokens
+                    if not token_overlap:
+                        continue
                     ratio = difflib.SequenceMatcher(None, sn, mn).ratio()
                     best_ratio = max(best_ratio, ratio)
             if best_ratio >= SIMILARITY_THRESHOLD:

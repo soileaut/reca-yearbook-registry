@@ -1,0 +1,443 @@
+[
+  {
+    "row_id": "ALL-007",
+    "row_name": "Sacred Heart School - 1889 Building",
+    "possible_match_id": "ALL-005",
+    "possible_match_name": "Sacred Heart Catholic School",
+    "reason": "same name/alias but different campus"
+  },
+  {
+    "row_id": "ALL-007",
+    "row_name": "Sacred Heart School - 1889 Building",
+    "possible_match_id": "ALL-006",
+    "possible_match_name": "Sacred Heart School - 1866 Building",
+    "reason": "fuzzy similarity"
+  },
+  {
+    "row_id": "ALL-008",
+    "row_name": "Sacred Heart School - 1952 Building",
+    "possible_match_id": "ALL-005",
+    "possible_match_name": "Sacred Heart Catholic School",
+    "reason": "same name/alias but different campus"
+  },
+  {
+    "row_id": "ALL-008",
+    "row_name": "Sacred Heart School - 1952 Building",
+    "possible_match_id": "ALL-006",
+    "possible_match_name": "Sacred Heart School - 1866 Building",
+    "reason": "fuzzy similarity"
+  },
+  {
+    "row_id": "ALL-008",
+    "row_name": "Sacred Heart School - 1952 Building",
+    "possible_match_id": "ALL-007",
+    "possible_match_name": "Sacred Heart School - 1889 Building",
+    "reason": "fuzzy similarity"
+  },
+  {
+    "row_id": "ALL-022",
+    "row_name": "Hazelwood Central High School",
+    "possible_match_id": "ALL-021",
+    "possible_match_name": "Hazelwood High School - Second Building",
+    "reason": "same name/alias but different campus"
+  },
+  {
+    "row_id": "ALL-052",
+    "row_name": "Salem Lutheran School - Original Building",
+    "possible_match_id": "ALL-051",
+    "possible_match_name": "Salem Lutheran School",
+    "reason": "same name/alias but different campus"
+  },
+  {
+    "row_id": "ALL-076",
+    "row_name": "Our Lady of Fatima School - Lindenwood campus",
+    "possible_match_id": "ALL-046",
+    "possible_match_name": "Our Lady of Fatima School",
+    "reason": "same name/alias but different campus"
+  },
+  {
+    "row_id": "ALL-108",
+    "row_name": "All Saints Academy - St. Rose Campus",
+    "possible_match_id": "ALL-048",
+    "possible_match_name": "All Saints Academy - St. Rose Philippine Duchesne",
+    "reason": "same name/alias but different campus"
+  },
+  {
+    "row_id": "ALL-111",
+    "row_name": "McCluer High School",
+    "possible_match_id": "ALL-032",
+    "possible_match_name": "McCluer North High School",
+    "reason": "fuzzy similarity"
+  },
+  {
+    "row_id": "ALL-149",
+    "row_name": "Pattonville High School - Original Campus",
+    "possible_match_id": "ALL-148",
+    "possible_match_name": "Pattonville High School",
+    "reason": "same name/alias but different campus"
+  },
+  {
+    "row_id": "ALL-150",
+    "row_name": "Pattonville Heights Middle School",
+    "possible_match_id": "ALL-148",
+    "possible_match_name": "Pattonville High School",
+    "reason": "fuzzy similarity"
+  },
+  {
+    "row_id": "ALL-150",
+    "row_name": "Pattonville Heights Middle School",
+    "possible_match_id": "ALL-149",
+    "possible_match_name": "Pattonville High School - Original Campus",
+    "reason": "fuzzy similarity"
+  },
+  {
+    "row_id": "ALL-166",
+    "row_name": "Carver School - Adie Road Campus",
+    "possible_match_id": "ALL-165",
+    "possible_match_name": "Carver School for Negroes",
+    "reason": "same name/alias but different campus"
+  },
+  {
+    "row_id": "ALL-167",
+    "row_name": "Carver School - Harding Avenue Campus",
+    "possible_match_id": "ALL-165",
+    "possible_match_name": "Carver School for Negroes",
+    "reason": "same name/alias but different campus"
+  },
+  {
+    "row_id": "ALL-167",
+    "row_name": "Carver School - Harding Avenue Campus",
+    "possible_match_id": "ALL-166",
+    "possible_match_name": "Carver School - Adie Road Campus",
+    "reason": "same name/alias but different campus"
+  },
+  {
+    "row_id": "ALL-180",
+    "row_name": "Carrollton Elementary School",
+    "possible_match_id": "ALL-179",
+    "possible_match_name": "Carrollton Oaks Elementary School",
+    "reason": "fuzzy similarity"
+  },
+  {
+    "row_id": "ALL-198",
+    "row_name": "Pattonville High School - Current Campus",
+    "possible_match_id": "ALL-148",
+    "possible_match_name": "Pattonville High School",
+    "reason": "same name/alias but different campus"
+  },
+  {
+    "row_id": "ALL-198",
+    "row_name": "Pattonville High School - Current Campus",
+    "possible_match_id": "ALL-149",
+    "possible_match_name": "Pattonville High School - Original Campus",
+    "reason": "same name/alias but different campus"
+  },
+  {
+    "row_id": "ALL-198",
+    "row_name": "Pattonville High School - Current Campus",
+    "possible_match_id": "ALL-150",
+    "possible_match_name": "Pattonville Heights Middle School",
+    "reason": "fuzzy similarity"
+  },
+  {
+    "row_id": "ALL-249",
+    "row_name": "Old Elm Grove School",
+    "possible_match_id": "ALL-027",
+    "possible_match_name": "Elm Grove School",
+    "reason": "fuzzy similarity"
+  },
+  {
+    "row_id": "ALL-266",
+    "row_name": "Pattonville Early Childhood Center",
+    "possible_match_id": "ALL-181",
+    "possible_match_name": "Pattonville School District - Original District School",
+    "reason": "fuzzy similarity"
+  },
+  {
+    "row_id": "ALL-303",
+    "row_name": "Ritenour High School - Forest Avenue Campus",
+    "possible_match_id": "ALL-285",
+    "possible_match_name": "Ritenour High School",
+    "reason": "same name/alias but different campus"
+  },
+  {
+    "row_id": "ALL-309",
+    "row_name": "Overland School",
+    "possible_match_id": "ALL-304",
+    "possible_match_name": "Ritenour High School - Old Overland Campus",
+    "reason": "same name/alias but different campus"
+  },
+  {
+    "row_id": "ALL-321",
+    "row_name": "Ritenour School",
+    "possible_match_id": "ALL-304",
+    "possible_match_name": "Ritenour High School - Old Overland Campus",
+    "reason": "same name/alias but different campus"
+  },
+  {
+    "row_id": "ALL-321",
+    "row_name": "Ritenour School",
+    "possible_match_id": "ALL-309",
+    "possible_match_name": "Overland School",
+    "reason": "fuzzy similarity"
+  },
+  {
+    "row_id": "ALL-329",
+    "row_name": "Normandy High School - Historical Campus",
+    "possible_match_id": "ALL-328",
+    "possible_match_name": "Normandy High School",
+    "reason": "same name/alias but different campus"
+  },
+  {
+    "row_id": "ALL-330",
+    "row_name": "Normandy Junior High School",
+    "possible_match_id": "ALL-328",
+    "possible_match_name": "Normandy High School",
+    "reason": "fuzzy similarity"
+  },
+  {
+    "row_id": "ALL-342",
+    "row_name": "Normandy Junior High School - Natural Bridge Campus",
+    "possible_match_id": "ALL-328",
+    "possible_match_name": "Normandy High School",
+    "reason": "fuzzy similarity"
+  },
+  {
+    "row_id": "ALL-342",
+    "row_name": "Normandy Junior High School - Natural Bridge Campus",
+    "possible_match_id": "ALL-330",
+    "possible_match_name": "Normandy Junior High School",
+    "reason": "same name/alias but different campus"
+  },
+  {
+    "row_id": "ALL-346",
+    "row_name": "Washington School - 1930 Building",
+    "possible_match_id": "ALL-344",
+    "possible_match_name": "Washington School",
+    "reason": "same name/alias but different campus"
+  },
+  {
+    "row_id": "ALL-346",
+    "row_name": "Washington School - 1930 Building",
+    "possible_match_id": "ALL-345",
+    "possible_match_name": "Washington School - 1895 Building",
+    "reason": "fuzzy similarity"
+  },
+  {
+    "row_id": "ALL-380",
+    "row_name": "Berkeley High School - Caroline Avenue Campus",
+    "possible_match_id": "ALL-114",
+    "possible_match_name": "Berkeley High School",
+    "reason": "same name/alias but different campus"
+  },
+  {
+    "row_id": "ALL-381",
+    "row_name": "Berkeley High School - Walter Avenue Campus",
+    "possible_match_id": "ALL-114",
+    "possible_match_name": "Berkeley High School",
+    "reason": "same name/alias but different campus"
+  },
+  {
+    "row_id": "ALL-381",
+    "row_name": "Berkeley High School - Walter Avenue Campus",
+    "possible_match_id": "ALL-380",
+    "possible_match_name": "Berkeley High School - Caroline Avenue Campus",
+    "reason": "same name/alias but different campus"
+  },
+  {
+    "row_id": "ALL-383",
+    "row_name": "Berkeley Middle School",
+    "possible_match_id": "ALL-114",
+    "possible_match_name": "Berkeley High School",
+    "reason": "fuzzy similarity"
+  },
+  {
+    "row_id": "ALL-390",
+    "row_name": "Airport Elementary School - Historical Campus",
+    "possible_match_id": "ALL-222",
+    "possible_match_name": "Airport Elementary School",
+    "reason": "same name/alias but different campus"
+  },
+  {
+    "row_id": "ALL-395",
+    "row_name": "Dunbar School",
+    "possible_match_id": "ALL-394",
+    "possible_match_name": "Kinloch High School - Dunbar Campus",
+    "reason": "same name/alias but different campus"
+  },
+  {
+    "row_id": "ALL-397",
+    "row_name": "Vernon School - 1927 Building",
+    "possible_match_id": "ALL-396",
+    "possible_match_name": "Vernon School",
+    "reason": "same name/alias but different campus"
+  },
+  {
+    "row_id": "ALL-417",
+    "row_name": "Ferguson High School - January Avenue Campus",
+    "possible_match_id": "ALL-416",
+    "possible_match_name": "Ferguson High School",
+    "reason": "same name/alias but different campus"
+  },
+  {
+    "row_id": "ALL-418",
+    "row_name": "Ferguson Junior High School",
+    "possible_match_id": "ALL-416",
+    "possible_match_name": "Ferguson High School",
+    "reason": "fuzzy similarity"
+  },
+  {
+    "row_id": "ALL-428",
+    "row_name": "Vernon School - Ferguson Campus",
+    "possible_match_id": "ALL-396",
+    "possible_match_name": "Vernon School",
+    "reason": "same name/alias but different campus"
+  },
+  {
+    "row_id": "ALL-428",
+    "row_name": "Vernon School - Ferguson Campus",
+    "possible_match_id": "ALL-397",
+    "possible_match_name": "Vernon School - 1927 Building",
+    "reason": "same name/alias but different campus"
+  },
+  {
+    "row_id": "ALL-438",
+    "row_name": "McCluer Junior High School",
+    "possible_match_id": "ALL-032",
+    "possible_match_name": "McCluer North High School",
+    "reason": "fuzzy similarity"
+  },
+  {
+    "row_id": "ALL-438",
+    "row_name": "McCluer Junior High School",
+    "possible_match_id": "ALL-111",
+    "possible_match_name": "McCluer High School",
+    "reason": "fuzzy similarity"
+  },
+  {
+    "row_id": "ALL-453",
+    "row_name": "Ferguson-Florissant School District - Ferguson Schools",
+    "possible_match_id": "ALL-424",
+    "possible_match_name": "Central School - Early Ferguson School",
+    "reason": "fuzzy similarity"
+  },
+  {
+    "row_id": "ALL-459",
+    "row_name": "Hazelwood High School - Original Campus",
+    "possible_match_id": "ALL-020",
+    "possible_match_name": "Hazelwood High School - Original",
+    "reason": "same name/alias but different campus"
+  },
+  {
+    "row_id": "ALL-459",
+    "row_name": "Hazelwood High School - Original Campus",
+    "possible_match_id": "ALL-021",
+    "possible_match_name": "Hazelwood High School - Second Building",
+    "reason": "same name/alias but different campus"
+  },
+  {
+    "row_id": "ALL-459",
+    "row_name": "Hazelwood High School - Original Campus",
+    "possible_match_id": "ALL-022",
+    "possible_match_name": "Hazelwood Central High School",
+    "reason": "same name/alias but different campus"
+  },
+  {
+    "row_id": "ALL-460",
+    "row_name": "Hazelwood Central High School - Dunn Road Campus",
+    "possible_match_id": "ALL-020",
+    "possible_match_name": "Hazelwood High School - Original",
+    "reason": "same name/alias but different campus"
+  },
+  {
+    "row_id": "ALL-460",
+    "row_name": "Hazelwood Central High School - Dunn Road Campus",
+    "possible_match_id": "ALL-021",
+    "possible_match_name": "Hazelwood High School - Second Building",
+    "reason": "same name/alias but different campus"
+  },
+  {
+    "row_id": "ALL-460",
+    "row_name": "Hazelwood Central High School - Dunn Road Campus",
+    "possible_match_id": "ALL-022",
+    "possible_match_name": "Hazelwood Central High School",
+    "reason": "same name/alias but different campus"
+  },
+  {
+    "row_id": "ALL-460",
+    "row_name": "Hazelwood Central High School - Dunn Road Campus",
+    "possible_match_id": "ALL-459",
+    "possible_match_name": "Hazelwood High School - Original Campus",
+    "reason": "same name/alias but different campus"
+  },
+  {
+    "row_id": "ALL-467",
+    "row_name": "Twillman School - 1928 Building",
+    "possible_match_id": "ALL-075",
+    "possible_match_name": "Twillman School",
+    "reason": "same name/alias but different campus"
+  },
+  {
+    "row_id": "ALL-470",
+    "row_name": "Fort Bellefontaine School",
+    "possible_match_id": "ALL-469",
+    "possible_match_name": "Fort Bellefontaine Campus",
+    "reason": "same name/alias but different campus"
+  },
+  {
+    "row_id": "ALL-497",
+    "row_name": "Kinloch High School - Original Campus",
+    "possible_match_id": "ALL-393",
+    "possible_match_name": "Kinloch High School",
+    "reason": "same name/alias but different campus"
+  },
+  {
+    "row_id": "ALL-619",
+    "row_name": "Fort Zumwalt West Middle School",
+    "possible_match_id": "ALL-618",
+    "possible_match_name": "Fort Zumwalt West High School",
+    "reason": "fuzzy similarity"
+  },
+  {
+    "row_id": "ALL-620",
+    "row_name": "Fort Zumwalt North High School",
+    "possible_match_id": "ALL-618",
+    "possible_match_name": "Fort Zumwalt West High School",
+    "reason": "fuzzy similarity"
+  },
+  {
+    "row_id": "ALL-622",
+    "row_name": "Fort Zumwalt South High School",
+    "possible_match_id": "ALL-618",
+    "possible_match_name": "Fort Zumwalt West High School",
+    "reason": "fuzzy similarity"
+  },
+  {
+    "row_id": "ALL-622",
+    "row_name": "Fort Zumwalt South High School",
+    "possible_match_id": "ALL-620",
+    "possible_match_name": "Fort Zumwalt North High School",
+    "reason": "fuzzy similarity"
+  },
+  {
+    "row_id": "ALL-623",
+    "row_name": "Fort Zumwalt East High School",
+    "possible_match_id": "ALL-618",
+    "possible_match_name": "Fort Zumwalt West High School",
+    "reason": "fuzzy similarity"
+  },
+  {
+    "row_id": "ALL-623",
+    "row_name": "Fort Zumwalt East High School",
+    "possible_match_id": "ALL-620",
+    "possible_match_name": "Fort Zumwalt North High School",
+    "reason": "fuzzy similarity"
+  },
+  {
+    "row_id": "ALL-623",
+    "row_name": "Fort Zumwalt East High School",
+    "possible_match_id": "ALL-622",
+    "possible_match_name": "Fort Zumwalt South High School",
+    "reason": "fuzzy similarity"
+  }
+]

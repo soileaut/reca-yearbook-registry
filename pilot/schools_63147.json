@@ -19,8 +19,7 @@
     "successor_confidence": "unknown",
     "successor_citation": "",
     "notes": "Continuation of the Baden public-school lineage (see 63147-06). The final Baden School building at 8724 Halls Ferry Rd was built 1907 and opened 1908 per Wikipedia's Baden neighborhood history (sourcing the city's Wayman neighborhood survey); Landmarks Association and Picture This STL date the Ittner-designed building to 1907. Closure year is conflicting: Preservation Research Office and Wikipedia say it was recommended for/closed in June 2009, while publicschoolreview.com (NCES-derived) lists 'Closed 2010' \u2014 seed's 2010 is likely a data-record year. SURPRISE: seed address '5814 Thekla Avenue' is actually the Walnut Park School (Ittner, opened Sept 1909, closed 2003) per the National Register nomination for that building; Baden Elementary's historic home is 8724 Halls Ferry Rd. The 5814 Thekla listing on publicschoolreview.com may reflect a late relocation into the vacated Walnut Park building or simply a bad address record. Successor not established \u2014 students likely dispersed to Nance Elementary (63147-02, opened 2002 nearby) and other north-side elementaries, but no direct citation found. Building is being redeveloped as Baden School Apartments (Lutheran Development Group, ldgstl.org).",
-    "reca_scope_status": "in_scope",
-    "also_relevant_to_zips": []
+    "reca_scope_status": "in_scope"
   },
   {
     "school_id": "63147-02",
@@ -42,8 +41,7 @@
     "successor_confidence": "confirmed",
     "successor_citation": "",
     "notes": "Seed's 2002 opening confirmed by the SLPS 'Table of Current SLPS Structures' (Nance Elementary, 8959 Riverview Blvd, year built 2002) and navigatestlschools.org ('one of the district's newer facilities, built in 2002'). School is currently operating (nance.slps.org). Notably, Walnut Park School closed in 2003 'when a new elementary school opened' per the NRHP nomination \u2014 Nance is the probable replacement for Walnut Park, but that school is not in this seed set.",
-    "reca_scope_status": "in_scope",
-    "also_relevant_to_zips": []
+    "reca_scope_status": "in_scope"
   },
   {
     "school_id": "63147-03",
@@ -66,8 +64,7 @@
     "successor_confidence": "confirmed",
     "successor_citation": "",
     "notes": "Resolved the seed's unknown opening: the Peter Herzog School at 5831 Pamplin Ave was completed in 1936 to designs by Ernest T. Friton, per the City of St. Louis Norbury Wayman neighborhood history. Corroborated by the Missouri History Museum archive record 'Herzog (Peter) School Building, 5835 Pamplin Avenue, P.W.A. Project No 282' (consistent with a mid-1930s PWA-funded build). Currently operating as Herzog Elementary / 'Herzog Academy' branding.",
-    "reca_scope_status": "in_scope",
-    "also_relevant_to_zips": []
+    "reca_scope_status": "in_scope"
   },
   {
     "school_id": "63147-04",
@@ -88,8 +85,7 @@
     "successor_confidence": "confirmed",
     "successor_citation": "",
     "notes": "Founded 1869 in Baden; the St. Louis American covered its 150th anniversary. Nearly closed in 2017 (STLPR) after Ebenezer Lutheran Church ended funding in 2002, but remains open \u2014 listed as operating in the NCES Private School Universe Survey for 2023-24 and received a 2025 'Light of St. Louis' award. One of only two remaining Lutheran elementary schools in the City of St. Louis. Tax-exempt since 1941 (EIN 43-0954529, ProPublica Nonprofit Explorer).",
-    "reca_scope_status": "in_scope",
-    "also_relevant_to_zips": []
+    "reca_scope_status": "in_scope"
   },
   {
     "school_id": "63147-05",
@@ -110,8 +106,7 @@
     "successor_confidence": "probable",
     "successor_citation": "https://en.wikipedia.org/wiki/Baden,_St._Louis",
     "notes": "District-level entity retained as a search alias per seed notes. Baden was an unincorporated community whose first public school opened in 1872; the town was annexed into the City of St. Louis in 1876 by act of the state legislature, at which point its school(s) came under the St. Louis Board of Education (SLPS). District formation date not found. Its school line continued as the SLPS 'Baden Public School' (63147-06), which is recorded as the successor in the sense of absorbing its students/records; the district itself was absorbed by SLPS.",
-    "reca_scope_status": "out_of_scope_closed_before_1949",
-    "also_relevant_to_zips": []
+    "reca_scope_status": "out_of_scope_closed_before_1949"
   },
   {
     "school_id": "63147-06",
@@ -133,8 +128,7 @@
     "successor_confidence": "probable",
     "successor_citation": "https://en.wikipedia.org/wiki/Baden,_St._Louis",
     "notes": "WARNING: this row substantially overlaps 63147-01 \u2014 it is the same continuous school, not a separate institution. First Baden public school opened 1872 as a one-room building at Christian & Switzer; replaced in 1878 by a brick building at Church Rd & Bittner (240 students); a portable opened 1906 at Halls Ferry & Gimblin; the 'final Baden School' at 8724 Halls Ferry Rd opened 1908 and is the building associated with Baden Elementary (63147-01). Row kept separate per prompt guidance against silent merging, but a merge into 63147-01 should be considered. Separately, a 'Colored School #11' (later Aldridge School) for Black students opened in the original 1872 schoolhouse in 1878 \u2014 a distinct school that may deserve its own row in a future pass.",
-    "reca_scope_status": "out_of_scope_closed_before_1949",
-    "also_relevant_to_zips": []
+    "reca_scope_status": "out_of_scope_closed_before_1949"
   },
   {
     "school_id": "63147-07",
@@ -156,8 +150,7 @@
     "successor_confidence": "unknown",
     "successor_citation": "",
     "notes": "FLAGGED AS LIKELY PHANTOM: found no evidence a 'Baden High School' ever existed in St. Louis (searches surface only Baden Continuation High School in South San Francisco, CA). Baden-area students historically attended Yeatman High School (opened Sept 1904, the north side's only white high school until 1926), then Beaumont High School (63147-08, opened Jan/Feb 1926 inheriting Yeatman's student body), and later Northwest High School (opened Feb 1964, 5140 Riverview Blvd). Retained per prompt instruction not to delete seed rows; recommend treating 'Baden High School' as a search alias for archival references, not a real school.",
-    "reca_scope_status": "unknown_insufficient_data",
-    "also_relevant_to_zips": []
+    "reca_scope_status": "unknown_insufficient_data"
   },
   {
     "school_id": "63147-08",
@@ -178,8 +171,7 @@
     "successor_confidence": "probable",
     "successor_citation": "",
     "notes": "Seed data confirmed and refined: opened January/February 1926 (inheriting the full student body of Yeatman High School, per the 1926 Caduceus yearbook text on e-yearbook.com and builtstlouis.net); final graduating class May 14, 2014. The building at 3836 Natural Bridge Ave was not fully closed \u2014 it continues as a CTE/technical center ('Beaumont High School' CTE programs), so successor is 'none' in the sense of a building conversion rather than absorption by another school; students dispersed across remaining SLPS comprehensive high schools. Yearbook name: Caduceus. Note: actual address is ZIP 63107, not 63147 \u2014 included in seed for community coverage.",
-    "reca_scope_status": "in_scope",
-    "also_relevant_to_zips": []
+    "reca_scope_status": "in_scope"
   },
   {
     "school_id": "63147-09",
@@ -200,8 +192,7 @@
     "successor_confidence": "unknown",
     "successor_citation": "",
     "notes": "UNRESOLVED IDENTITY: no SLPS school named exactly 'North High School' was found. Candidates the seed may intend: (a) Northwest High School, opened February 1964 at 5140 Riverview Blvd (ZIP 63120), closed as a comprehensive HS in 1992, later Northwest Academy of Law, closed 2022 \u2014 the most likely referent given Baden-area attendance boundaries; (b) Yeatman High School (1904-1926), the north side's flagship whose successor is effectively Beaumont (63147-08). Seed's '1900s' opening hint favors Yeatman; 'Current/Successor' status favors Northwest. Left as unknown rather than guessing \u2014 recommend the source spreadsheet author clarify which school was meant.",
-    "reca_scope_status": "unknown_insufficient_data",
-    "also_relevant_to_zips": []
+    "reca_scope_status": "unknown_insufficient_data"
   },
   {
     "school_id": "63147-10",
@@ -222,8 +213,7 @@
     "successor_confidence": "confirmed",
     "successor_citation": "",
     "notes": "Refined the seed's '1950s': the school was founded in 1927 at the old Science Hill/Moline district site per a detailed alumni-written district history (probable \u2014 informal but specific and internally consistent). The high school relocated to the current 1218 Shepley Drive campus in September 1957, which likely explains the seed's '1950s' value. NCES lists it as open. District is currently provisionally accredited (was unaccredited ~2013-2020). Actual ZIP is 63137 (Ferguson/Glasgow Village area, St. Louis County).",
-    "reca_scope_status": "in_scope",
-    "also_relevant_to_zips": []
+    "reca_scope_status": "in_scope"
   },
   {
     "school_id": "63147-11",
@@ -244,8 +234,7 @@
     "successor_confidence": "confirmed",
     "successor_citation": "",
     "notes": "Seed's '1965' conflates district history with campus opening. Timeline: Junior College District approved by voters 1962; classes began January 1963 in temporary quarters (McCluer HS, Roosevelt HS); $47.2M bond for permanent campuses approved 1965; Florissant Valley's permanent Pershall Rd campus opened for the 1967-68 year \u2014 corroborated by the earliest Florissant Valley yearbook (1967-1968) in the STLCC Digital Archives and a May 1967 cornerstone time capsule documented by the campus paper. Encyclopedia.com lists 'Founded 1963' (district start); 1967 is the campus operating date. Campus remains open.",
-    "reca_scope_status": "in_scope",
-    "also_relevant_to_zips": []
+    "reca_scope_status": "in_scope"
   },
   {
     "school_id": "63147-12",
@@ -267,7 +256,6 @@
     "successor_confidence": "confirmed",
     "successor_citation": "",
     "notes": "Seed's 1963 confirmed: the Normandy Residence Center (opened September 1960 by the Normandy School District on the former Bellerive Country Club site) officially became the University of Missouri-St. Louis on September 15, 1963, after MO House Bill 153 enabled the property transfer. UMSL graduated its first class in 1967. Actual address ZIP is 63121.",
-    "reca_scope_status": "in_scope",
-    "also_relevant_to_zips": []
+    "reca_scope_status": "in_scope"
   }
 ]
