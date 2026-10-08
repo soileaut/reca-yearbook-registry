@@ -1,0 +1,319 @@
+[
+  {
+    "school_id": "ALL-611",
+    "name": "Discovery Ridge Elementary School",
+    "historical_names": [
+      "Discovery Ridge School"
+    ],
+    "zip": "63367",
+    "district_operator": "Wentzville R-IV School District",
+    "school_type": "Public Elementary",
+    "opened_year": "2010",
+    "opened_confidence": "confirmed",
+    "opened_citation": "https://dre.wentzville.k12.mo.us/about",
+    "closed_year": "n/a",
+    "closed_confidence": "confirmed",
+    "closed_citation": "https://dre.wentzville.k12.mo.us/",
+    "successor_school_id": "none",
+    "successor_confidence": "confirmed",
+    "successor_citation": "",
+    "notes": "Resolved the seed's Unknown opening: the school's own About page lists 'Year Opened: 2010' (also corroborated by a Wentzville Patch article calling it a new school completed in 2010). Currently operating at 2523 Sommers Road, O'Fallon MO 63367 — matches seed address.",
+    "entity_type": "individual_school"
+  },
+  {
+    "school_id": "ALL-612",
+    "name": "Crossroads Elementary School",
+    "historical_names": [
+      "Crossroads School"
+    ],
+    "zip": "63368",
+    "district_operator": "Wentzville R-IV School District",
+    "school_type": "Public Elementary",
+    "opened_year": "2002",
+    "opened_confidence": "confirmed",
+    "opened_citation": "https://cre.wentzville.k12.mo.us/about",
+    "closed_year": "n/a",
+    "closed_confidence": "confirmed",
+    "closed_citation": "https://cre.wentzville.k12.mo.us/",
+    "successor_school_id": "none",
+    "successor_confidence": "confirmed",
+    "successor_citation": "",
+    "notes": "Resolved the seed's Unknown opening: the school's own About page lists 'Year Opened: 2002'. Currently operating at 7500 Town Square Ave, Dardenne Prairie MO 63368 — matches seed address. Seed ZIP column says 63367 because its attendance area overlaps 63367; the physical campus is 63368.",
+    "entity_type": "individual_school"
+  },
+  {
+    "school_id": "ALL-613",
+    "name": "Lakeview Elementary School",
+    "historical_names": [
+      "Lakeview School"
+    ],
+    "zip": "63385",
+    "district_operator": "Wentzville R-IV School District",
+    "school_type": "Public Elementary",
+    "opened_year": "2010",
+    "opened_confidence": "confirmed",
+    "opened_citation": "https://patch.com/missouri/wentzville/looking-back-from-the-future-lakeview-time-capsule",
+    "closed_year": "n/a",
+    "closed_confidence": "confirmed",
+    "closed_citation": "https://lve.wentzville.k12.mo.us/",
+    "successor_school_id": "none",
+    "successor_confidence": "confirmed",
+    "successor_citation": "",
+    "notes": "The school exists and is current — the seed's 'Current/Historical' status is just Current. Opened for the 2010-11 school year: a Wentzville Patch article (June 2011) documents the end of 'the very first school year at Lakeview' with a time-capsule burial, describing it as 'one of Wentzville School District's newest schools'. SURPRISE / seed ZIP error: the campus is at 2501 Mexico Road, Wentzville MO 63385 (school's own site + NCES-derived listings), not '63367 area' as the seed claims — it presumably appears in 63367 listings because its attendance boundary overlaps.",
+    "entity_type": "individual_school"
+  },
+  {
+    "school_id": "ALL-614",
+    "name": "Lake St. Louis Rural Schools",
+    "historical_names": [
+      "Various rural one-room schools"
+    ],
+    "zip": "63367",
+    "district_operator": "Multiple local districts",
+    "school_type": "Public Elementary",
+    "opened_year": "unknown",
+    "opened_confidence": "unknown",
+    "opened_citation": "",
+    "closed_year": "unknown",
+    "closed_confidence": "unknown",
+    "closed_citation": "",
+    "successor_school_id": "unknown",
+    "successor_confidence": "unknown",
+    "successor_citation": "",
+    "notes": "NOT A SINGLE SCHOOL: the seed row is a collective placeholder for the rural one-/two-room common-district schools that occupied the farmland where the Lake St. Louis planned community was later built (development began in the 1960s; the area today is served by Wentzville R-IV, ALL-616). No yearbook was ever produced under this name. No named roster of those rural schools was resolvable via web search; the seed's 'closed 1960s' is consistent with Missouri's consolidation era (1947 School District Reorganization Act; St. Charles County districts were merged into reorganized districts from 1949 on — see Fort Zumwalt district history) but no specific year can be pinned. Recommended human follow-up: St. Charles County rural district maps / county historical society to enumerate the predecessor schools of present-day 63367.",
+    "entity_type": "administrative_district_only"
+  },
+  {
+    "school_id": "ALL-615",
+    "name": "Boone-Duden Area Schools",
+    "historical_names": [
+      "Boone/Duden rural schools"
+    ],
+    "zip": "63367",
+    "district_operator": "Francis Howell/Wentzville predecessors",
+    "school_type": "Public Elementary",
+    "opened_year": "unknown",
+    "opened_confidence": "unknown",
+    "opened_citation": "",
+    "closed_year": "unknown",
+    "closed_confidence": "unknown",
+    "closed_citation": "",
+    "successor_school_id": "unknown",
+    "successor_confidence": "unknown",
+    "successor_citation": "",
+    "notes": "NOT A SINGLE SCHOOL: collective row for the one-room schools of the Boone/Duden area of western St. Charles County (Township 45, Range 2 — New Melle/Foristell area, territory later absorbed into what became Francis Howell and Wentzville reorganized districts). The 'Just a Walk Down the Road' history blog (drawing on Boone-Duden Historical Society grade books) names member schools: Bacon School #64 (started before 1875 on land of Williamson Bacon; closed June 2, 1950, building sold 1952), Calamus Springs School #65, and Hamburg School (all one-room schools in Township 45 Range 2). Citation: http://justawalkdowntheroad.blogspot.com/2015/02/normal-0-microsoftinternetexplorer4_17.html. Seed's 'opened 1800s / closed 1950s' is consistent with this (Bacon: pre-1875 to 1950) but no single open/close year applies to the set. The 63367 ZIP linkage is borderline — Township 45R2 is further west than Lake St. Louis; its inclusion is community-level only.",
+    "entity_type": "administrative_district_only"
+  },
+  {
+    "school_id": "ALL-616",
+    "name": "Wentzville School District",
+    "historical_names": [
+      "Wentzville R-IV"
+    ],
+    "zip": "63367",
+    "district_operator": "Wentzville R-IV School District",
+    "school_type": "Public School District",
+    "opened_year": "unknown",
+    "opened_confidence": "unknown",
+    "opened_citation": "",
+    "closed_year": "n/a",
+    "closed_confidence": "confirmed",
+    "closed_citation": "https://www.wentzville.k12.mo.us/",
+    "successor_school_id": "none",
+    "successor_confidence": "confirmed",
+    "successor_citation": "",
+    "notes": "ADMINISTRATIVE DISTRICT ONLY: Wentzville R-IV (NCES district ID 2931650) is a multi-school district headquartered at 280 Interstate Drive, Wentzville MO 63385 — it has no yearbook of its own. Member schools (per Wikipedia's district article and the district site): high schools Holt, Timberland, Liberty, North Point; middle schools Frontier, South, Wentzville, North Point; elementaries Boone Trail, Crossroads (ALL-612), Discovery Ridge (ALL-611), Duello, Green Tree, Heritage, Journey, Lakeview (ALL-613), Peine Ridge, Prairie View, Stone Creek, Wabash; plus Barfield Early Childhood Center. District formation date not found online (R-IV designation dates to the 1947-era Missouri reorganization, exact vote year unverified). Track B searches must target member schools, not this row.",
+    "entity_type": "administrative_district_only"
+  },
+  {
+    "school_id": "ALL-618",
+    "name": "Fort Zumwalt West High School",
+    "historical_names": [
+      "Fort Zumwalt West Senior High"
+    ],
+    "zip": "63366",
+    "district_operator": "Fort Zumwalt R-II School District",
+    "school_type": "Public High School",
+    "opened_year": "1998",
+    "opened_confidence": "confirmed",
+    "opened_citation": "https://en.wikipedia.org/wiki/Fort_Zumwalt_West_High_School",
+    "closed_year": "n/a",
+    "closed_confidence": "confirmed",
+    "closed_citation": "https://en.wikipedia.org/wiki/Fort_Zumwalt_West_High_School",
+    "successor_school_id": "none",
+    "successor_confidence": "confirmed",
+    "successor_citation": "",
+    "notes": "Seed's 1998 confirmed: the district's own history page says 'in the 1998-99 school year ... Fort Zumwalt West High School, the district's third high school' opened (archived fzschools.org history, https://web.archive.org/web/20070812095313/www.fzschools.org/Html/fzsdhist.htm); Wikipedia lists 'Established 1998' / 'First opened for the 1998-1999 school year'. Currently operating at 1251 Turtle Creek Dr, O'Fallon MO 63366 — note the campus ZIP is 63366, not 63368 as the seed's ZIP column says (seed marks it 'Served ZIP/community').",
+    "entity_type": "individual_school"
+  },
+  {
+    "school_id": "ALL-619",
+    "name": "Fort Zumwalt West Middle School",
+    "historical_names": [
+      "Fort Zumwalt West Junior High",
+      "West Middle School"
+    ],
+    "zip": "63368",
+    "district_operator": "Fort Zumwalt R-II School District",
+    "school_type": "Public Middle School",
+    "opened_year": "2001",
+    "opened_confidence": "confirmed",
+    "opened_citation": "https://web.archive.org/web/20070812095313/www.fzschools.org/Html/fzsdhist.htm",
+    "closed_year": "n/a",
+    "closed_confidence": "confirmed",
+    "closed_citation": "https://www.fz.k12.mo.us/o/wms/",
+    "successor_school_id": "none",
+    "successor_confidence": "confirmed",
+    "successor_citation": "",
+    "notes": "Seed's 2001 confirmed: the district history page records 'the new Herbert A. Westhoff Elementary School and West Middle School, both opening for students for the 2001-2002 school year', consistent with the seed's 'Opened Sept. 4, 2001' note. Currently operating at 150 Waterford Crossing, O'Fallon MO 63368 — matches seed.",
+    "entity_type": "individual_school"
+  },
+  {
+    "school_id": "ALL-620",
+    "name": "Fort Zumwalt North High School",
+    "historical_names": [
+      "Fort Zumwalt High School",
+      "Fort Zumwalt North Senior High"
+    ],
+    "zip": "63366",
+    "district_operator": "Fort Zumwalt R-II School District",
+    "school_type": "Public High School",
+    "opened_year": "1960",
+    "opened_confidence": "confirmed",
+    "opened_citation": "https://www.publicschoolreview.com/ft-zumwalt-north-high-school-profile",
+    "closed_year": "n/a",
+    "closed_confidence": "confirmed",
+    "closed_citation": "https://www.publicschoolreview.com/ft-zumwalt-north-high-school-profile",
+    "successor_school_id": "none",
+    "successor_confidence": "confirmed",
+    "successor_citation": "",
+    "notes": "Seed's 1960 confirmed: the district history page records the district's high school opening in 1960 (planned 1958), and publicschoolreview/Wikipedia describe Fort Zumwalt North as 'established in 1960 as Fort Zumwalt High School', renamed Fort Zumwalt North High School in 1987 when the second high school (South, ALL-622) opened; moved to its current 1230 Tom Ginnever Ave building in 1976. Currently operating — campus ZIP is 63366, not 63368 (community-served inclusion).",
+    "entity_type": "individual_school"
+  },
+  {
+    "school_id": "ALL-622",
+    "name": "Fort Zumwalt South High School",
+    "historical_names": [
+      "Fort Zumwalt South"
+    ],
+    "zip": "63376",
+    "district_operator": "Fort Zumwalt R-II School District",
+    "school_type": "Public High School",
+    "opened_year": "1987",
+    "opened_confidence": "confirmed",
+    "opened_citation": "https://web.archive.org/web/20070812095313/www.fzschools.org/Html/fzsdhist.htm",
+    "closed_year": "n/a",
+    "closed_confidence": "confirmed",
+    "closed_citation": "https://fortzumwalt.com/",
+    "successor_school_id": "none",
+    "successor_confidence": "confirmed",
+    "successor_citation": "",
+    "notes": "Seed's 1987 confirmed: the district history page records 'In the 1987-88 school year, the district opened its eighth elementary building, Dardenne Elementary School, and a second high school, Fort Zumwalt South High School.' Currently operating at 8050 Mexico Road, St. Peters MO 63376 — campus ZIP is 63376, not 63368 (community-served inclusion).",
+    "entity_type": "individual_school"
+  },
+  {
+    "school_id": "ALL-623",
+    "name": "Fort Zumwalt East High School",
+    "historical_names": [
+      "Fort Zumwalt East"
+    ],
+    "zip": "63376",
+    "district_operator": "Fort Zumwalt R-II School District",
+    "school_type": "Public High School",
+    "opened_year": "2007",
+    "opened_confidence": "confirmed",
+    "opened_citation": "https://en.wikipedia.org/wiki/Fort_Zumwalt_East_High_School",
+    "closed_year": "n/a",
+    "closed_confidence": "confirmed",
+    "closed_citation": "https://ehs.fz.k12.mo.us",
+    "successor_school_id": "none",
+    "successor_confidence": "confirmed",
+    "successor_citation": "",
+    "notes": "Seed's 2007 confirmed: Wikipedia and publicschoolreview record the district's fourth high school first opening to freshmen and sophomores on August 20, 2007, on the former Koenig's Farm site (stlouishighschools.com corroborates 'opened August 2007'). Currently operating. Seed's historical address '6001 Highway 94' differs from the documented address '600 1st Executive Ave, St. Peters MO 63376' — campus ZIP is 63376, not 63368 (community-served inclusion); the address discrepancy is flagged rather than corrected silently.",
+    "entity_type": "individual_school"
+  },
+  {
+    "school_id": "ALL-624",
+    "name": "Dardenne Elementary School",
+    "historical_names": [
+      "Dardenne School"
+    ],
+    "zip": "63368",
+    "district_operator": "Fort Zumwalt R-II School District",
+    "school_type": "Public Elementary",
+    "opened_year": "1987",
+    "opened_confidence": "confirmed",
+    "opened_citation": "https://web.archive.org/web/20070812095313/www.fzschools.org/Html/fzsdhist.htm",
+    "closed_year": "n/a",
+    "closed_confidence": "confirmed",
+    "closed_citation": "https://ecc.fz.k12.mo.us/o/des",
+    "successor_school_id": "none",
+    "successor_confidence": "confirmed",
+    "successor_citation": "",
+    "notes": "Resolved the seed's Unknown opening: the district history page records 'In the 1987-88 school year, the district opened its eighth elementary building, Dardenne Elementary School'. Currently operating at 2621 Highway K, O'Fallon MO 63368 — matches seed.",
+    "entity_type": "individual_school"
+  },
+  {
+    "school_id": "ALL-625",
+    "name": "Ostmann Elementary School",
+    "historical_names": [
+      "Ostmann School"
+    ],
+    "zip": "63368",
+    "district_operator": "Fort Zumwalt R-II School District",
+    "school_type": "Public Elementary",
+    "opened_year": "2002",
+    "opened_confidence": "confirmed",
+    "opened_citation": "https://web.archive.org/web/20070812095313/www.fzschools.org/Html/fzsdhist.htm",
+    "closed_year": "n/a",
+    "closed_confidence": "confirmed",
+    "closed_citation": "https://www.fz.k12.mo.us/o/oes",
+    "successor_school_id": "none",
+    "successor_confidence": "confirmed",
+    "successor_citation": "",
+    "notes": "Resolved the seed's Unknown opening: the district history page records 'During the 2002-2003 school year, two new elementary schools, Ostmann and Emge, opened to help alleviate overcrowding in the Dardenne and Twin Chimneys Elementary Schools.' Currently operating at 200 Meriwether Lewis Dr, O'Fallon MO 63368 — matches seed.",
+    "entity_type": "individual_school"
+  },
+  {
+    "school_id": "ALL-626",
+    "name": "Pheasant Point Elementary School",
+    "historical_names": [
+      "Pheasant Point School"
+    ],
+    "zip": "63368",
+    "district_operator": "Fort Zumwalt R-II School District",
+    "school_type": "Public Elementary",
+    "opened_year": "1998",
+    "opened_confidence": "confirmed",
+    "opened_citation": "https://web.archive.org/web/20070812095313/www.fzschools.org/Html/fzsdhist.htm",
+    "closed_year": "n/a",
+    "closed_confidence": "confirmed",
+    "closed_citation": "https://ppe.fz.k12.mo.us/",
+    "successor_school_id": "none",
+    "successor_confidence": "confirmed",
+    "successor_citation": "",
+    "notes": "Resolved the seed's Unknown opening: the district history page records 'in the 1998-99 school year, the district's twelfth elementary school, Pheasant Point Elementary opened'. Currently operating at 3450 Pheasant Meadow Dr, O'Fallon MO 63368 — matches seed.",
+    "entity_type": "individual_school"
+  },
+  {
+    "school_id": "ALL-627",
+    "name": "Twin Chimneys Elementary School",
+    "historical_names": [
+      "Twin Chimneys School"
+    ],
+    "zip": "63368",
+    "district_operator": "Fort Zumwalt R-II School District",
+    "school_type": "Public Elementary",
+    "opened_year": "1993",
+    "opened_confidence": "confirmed",
+    "opened_citation": "https://web.archive.org/web/20070812095313/www.fzschools.org/Html/fzsdhist.htm",
+    "closed_year": "n/a",
+    "closed_confidence": "confirmed",
+    "closed_citation": "https://tce.fz.k12.mo.us/",
+    "successor_school_id": "none",
+    "successor_confidence": "confirmed",
+    "successor_citation": "",
+    "notes": "Resolved the seed's Unknown opening: the district history page records 'Twin Chimneys Elementary was opened for the 1993-94 school year with the final addition completed for the Fall of 1997.' Currently operating at 7396 Twin Chimneys Blvd, O'Fallon MO 63368 — matches seed.",
+    "entity_type": "individual_school"
+  }
+]
