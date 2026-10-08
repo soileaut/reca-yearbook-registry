@@ -101,3 +101,26 @@ Each Devin session should produce:
 
 Where `<scope>` identifies the task, e.g. `63147` for the ZIP 63147 pilot,
 or `slcl` for the St. Louis County Library survey.
+
+## Cross-institution deduplication (`yearbook_registry_master.json`)
+
+`yearbook_registry_master.json` (repo root) is the running merge of every
+`yearbook_registry_<scope>.json` produced so far — regenerate it with
+`merge_registry.py` after merging a new task's output into `main`.
+
+**Any archive-survey task (Track B-style, surveying a specific institution)
+MUST read `yearbook_registry_master.json` before starting its search.**
+
+Rule: for any `(school_id, year)` that already has a row in the master with
+`digitized_status: digitized` — **do not actively spend search effort
+re-finding it at the new institution.** Skip it and move to the next item.
+This does NOT apply to `physical_only` or `not_found` rows; those should
+still be actively searched at every institution, since a different
+institution may succeed where another didn't, or hold a physical copy
+worth knowing about even if a digital one already exists elsewhere.
+
+If, while browsing an institution's collection for other purposes, you
+incidentally notice it also holds something already marked `digitized`
+elsewhere, it's fine (not required) to add a row noting the duplicate
+holding — this can be useful for redundancy/preservation purposes — but it
+should never come at the cost of time spent actively searching for it.
