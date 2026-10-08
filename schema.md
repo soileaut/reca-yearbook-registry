@@ -40,6 +40,12 @@ defined end date (open-ended). This means:
   the right one to search for yearbooks.
 - There is no upper-bound year — a 2020 yearbook is just as relevant as a
   1950 one.
+- **Before starting an archive-survey (Track B-style) task, check each
+  school's `reca_scope_status` in the relevant `schools_<scope>.json` file
+  (see Table 1 below).** Skip any school marked
+  `out_of_scope_closed_before_1949` entirely — do not search for its
+  yearbooks at any institution. Schools marked `unknown_insufficient_data`
+  should still be searched (benefit of the doubt until a human clarifies).
 
 ---
 
@@ -66,6 +72,7 @@ though `school_id` is the permanent identifier going forward).
 | `successor_confidence` | enum | `confirmed` / `probable` / `unknown` |
 | `successor_citation` | string | |
 | `notes` | string | Free text — research trail, ambiguities, dead ends. |
+| `reca_scope_status` | enum | `in_scope` / `out_of_scope_closed_before_1949` / `unknown_insufficient_data`. **Do not set this field manually** — it is computed deterministically by `compute_reca_scope.py` from `closed_year`/`closed_confidence` after you produce your output. Leave it absent from your output; the script will add it. |
 
 ## Table 2: `yearbook_registry`
 
