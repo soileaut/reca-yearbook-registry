@@ -18,7 +18,8 @@
     "successor_confidence": "confirmed",
     "successor_citation": "https://www.psdr3.org/about/history",
     "notes": "Pattonville's own history page states Carrollton opened in 1960 at 3936 Celburne in Bridgeton (K-4 in year one, 5th grade added later). It was bought out by St. Louis Lambert International Airport for the west runway expansion and torn down. Closure-year conflict: the district's school-profile list says 'closed in 2001' and Wikipedia says 'shut down in 2002'; the district's by-the-years timeline says the redistricting 'took effect in the 2002-2003 school year when Carrollton and Carrollton Oaks elementary schools closed', so the last operating year was 2001-2002 and 2002 is recorded here. Successor confirmed: former Carrollton students went to Robert Drummond Elementary (ALL-264), opened August 2002 with airport funds as the joint replacement for Carrollton and Carrollton Oaks. DATA-QUALITY FLAG: distinct from ALL-179 'Carrollton Oaks Elementary School' (opened 1967 at 4385 Holmford, Bridgeton) flagged in data/schools_seed_deduped_review_needed.json - same fate but a different building; do not merge.",
-    "entity_type": "individual_school"
+    "entity_type": "individual_school",
+    "reca_scope_status": "in_scope"
   },
   {
     "school_id": "ALL-181",
@@ -41,7 +42,8 @@
     "successor_confidence": "probable",
     "successor_citation": "https://en.wikipedia.org/wiki/Pattonville_School_District",
     "notes": "ENTITY RESOLUTION: the seed's 'Pattonville School District - Original District School' (with note that 'the district consisted of one grade school in the early 1930s') resolves to Pattonville Grade School at 4020 Fee Fee Road, the district's sole grade school. Seed's 'Opened: 1930' is actually the district's reorganization year (April 1930 special election converting Fee Fee District No. 16 into the 'School District of Pattonville, St. Louis County'); the school building itself opened in 1907, a two-room brick school replacing the 1850/1880 Fee Fee School across the road. Still operating under the 'Pattonville Grade School' name in the district's 1956 school list. The district's school list separately records 'Pattonville Elementary School (opened 1954)' on Fee Fee Road near St. Charles Rock Road - most likely the same site/lineage rebuilt or renamed, since the grade school was already listed in 1956 and the addresses are effectively the same; treated here as one continuous school that closed in 1978 (declining enrollment; building sold to Raymond Oetting, June 1981). Wikipedia states Pattonville Elementary 'was replaced by Parkwood Elementary starting in the 1967 school year', so students were progressively redistributed; no single successor school_id is recorded (Parkwood Elementary is outside this batch). The 4020 Fee Fee Rd building later became Vantage Credit Union.",
-    "entity_type": "individual_school"
+    "entity_type": "individual_school",
+    "reca_scope_status": "in_scope"
   },
   {
     "school_id": "ALL-182",
@@ -64,7 +66,8 @@
     "successor_confidence": "confirmed",
     "successor_citation": "https://sites.google.com/psdr3.org/pattonvillehistory/home/evolution-of-pattonville",
     "notes": "ADMINISTRATIVE DISTRICT ROW - confirmed seed data via Pattonville's own district history: 'The Maryland Heights School District was founded as Rural District 24 in 1924 and was reorganized as a town district.' In 1962, after twice rejecting merger, voters elected to merge with Pattonville R-3. At merger the district comprised: (1) Maryland Heights High School, 115 Harding Ave (building opened Sept 1924 as Maryland Heights School, designed by Joseph Senne, 6 rooms/140 students; later became the Pattonville Administration Building, vacated 1995, demolished 1998) - high school students began attending Pattonville High School; (2) Remington Elementary (opened 1955, remained open); (3) Carver Elementary School for Negroes (discontinued after the merger). The district had no yearbook of its own - search the member schools instead. Corroborating legal record: 'State ex rel. School District No. 24 of St. Louis County v. Neaf', 344 Mo. 905 (Mo. Sup. Ct. 1939) shows District No. 24 operating in the 1930s. Not an individual school for yearbook purposes.",
-    "entity_type": "administrative_district_only"
+    "entity_type": "administrative_district_only",
+    "reca_scope_status": "in_scope"
   },
   {
     "school_id": "ALL-183",
@@ -86,7 +89,8 @@
     "successor_confidence": "confirmed",
     "successor_citation": "https://www.psdr3.org/about/history",
     "notes": "ADMINISTRATIVE DISTRICT ROW - a district name era, not a physical school. Pattonville reorganized at a special election on Oct. 27, 1951, when the Junction and Mount Pleasant districts merged in (Penn and Bridgeton districts had already been annexed during the 1949-1950 school year); Pattonville officially became known as the R-3 District and is documented under the name 'Pattonville Consolidated School District R-3' in the 1950s (e.g., a district bus photo caption in the district history). In 1958 the name was changed to 'Pattonville R-3 School District, St. Louis County' - recorded as successor ALL-184. The underlying district organization itself dates to April 1930 (Fee Fee District No. 16 reorganized as the School District of Pattonville). No yearbook search should target this row directly; redirect to member schools.",
-    "entity_type": "administrative_district_only"
+    "entity_type": "administrative_district_only",
+    "reca_scope_status": "in_scope"
   },
   {
     "school_id": "ALL-184",
@@ -109,7 +113,8 @@
     "successor_confidence": "confirmed",
     "successor_citation": "",
     "notes": "ADMINISTRATIVE DISTRICT ROW - current operating district (umbrella identity, not a school). Name adopted 1958; the continuous district organization itself began April 1930 ('School District of Pattonville, St. Louis County', from Fee Fee District No. 16) and absorbed Penn & Bridgeton (1949-50), Junction & Mount Pleasant (1951 reorganization to R-3), and Maryland Heights School District/Rural District 24 (1962, see ALL-182). Current member schools per psdr3.org: Pattonville High School (ALL-198), Pattonville Heights Middle School, Holman Middle School, Drummond Elementary (ALL-264), Bridgeway Elementary, Parkwood Elementary, Rose Acres Elementary, Willow Brook Elementary, Academy of Innovation at Remington, Pattonville Early Childhood Center (ALL-266), POSITIVE School. Historic member schools no longer operating include Pattonville Grade School/Elementary (ALL-181), Carrollton (ALL-180), Carrollton Oaks, Bridgeton Elementary, St. Ann Elementary, Penn-Junction, Mount Pleasant. Redirect all yearbook-search effort to those member schools; the district publishes no yearbook of its own.",
-    "entity_type": "administrative_district_only"
+    "entity_type": "administrative_district_only",
+    "reca_scope_status": "in_scope"
   },
   {
     "school_id": "ALL-198",
@@ -130,7 +135,8 @@
     "successor_confidence": "confirmed",
     "successor_citation": "",
     "notes": "This row represents the current campus at 2497 Creve Coeur Mill Road, opened in 1971 (construction completed in phases Sept 1970-Dec 1971; formally dedicated Jan 7, 1973) and still operating (phs.psdr3.org). The school entity itself is older: Pattonville's first high school was established at its original site in 1936 at 11055 St. Charles Rock Road (students moved in March 17, 1936; first commencement June 18, 1937; yearbook: Echo/Legacy). After the 1971 move the original building became Holman Junior High/Middle School; its 'A Complex' was torn down May 1988. The 1971 site was in the village of Champ, annexed into Maryland Heights in December 1994 - actual ZIP is 63043, not the seed's 63044. DATA-QUALITY FLAG: same continuous school as ALL-148 'Pattonville High School' and ALL-149 'Pattonville High School - Original Campus' in other batches (see schools_seed_deduped_review_needed.json); kept separate per batch structure - for yearbook purposes this is one yearbook series spanning both campuses.",
-    "entity_type": "individual_school"
+    "entity_type": "individual_school",
+    "reca_scope_status": "in_scope"
   },
   {
     "school_id": "ALL-202",
@@ -149,7 +155,8 @@
     "successor_confidence": "unknown",
     "successor_citation": "",
     "notes": "UNRESOLVED IDENTITY: no school literally named 'St. Charles Rock Road School' appears in Pattonville's published district history or elsewhere; the name reads like a road-address label lifted from a directory/record. Two plausible referents: (a) Junction School, the one-room school at the St. Charles Rock Road/Natural Bridge intersection (opened 1869, merged with Penn School in 1936 to form Penn-Junction; site is now SSM DePaul Hospital) - the best geographic match for a school known by its St. Charles Rock Road location; (b) the original Pattonville High School building at 11055 St. Charles Rock Road (occupied 1936-1971, then Holman Middle School; 'A Complex' demolished 1988). Wikipedia's Pattonville article also notes 'Penn Elementary School (a one-room school), located on Old St Charles Rock Rd... closed in the 1940s' - a third possible referent. Left unresolved rather than guessed; a human could resolve this by finding the source record the seed compiler used.",
-    "entity_type": "individual_school"
+    "entity_type": "individual_school",
+    "reca_scope_status": "unknown_insufficient_data"
   },
   {
     "school_id": "ALL-220",
@@ -170,7 +177,8 @@
     "successor_confidence": "unknown",
     "successor_citation": "",
     "notes": "LIKELY PHANTOM: no evidence a public 'Bridgeton (Senior) High School' ever operated in Bridgeton, MO - searches surface only Bridgeton High School in Bridgeton, New Jersey. The Bridgeton School District itself was real (incorporated by the legislature in 1864, covering Bridgeton and Bridgeton Commons; its town school was the Moravian School/Bridgeton Academy, an elementary-level institution still standing as late as 1968). Like the other small north-county districts, it appears to have sent students to neighboring high schools on tuition rather than operating its own (Pattonville students went to Ritenour, Normandy and University City until Pattonville HS opened in 1936; the same pattern applied to Bridgeton). The district was annexed into Pattonville during the 1949-1950 school year, which matches the seed's 'Closed: 1950'. If this row intends the Bridgeton district's secondary students, their effective destination was Pattonville High School (ALL-198) - recorded as probable context, not a confirmed successor, since the existence of the school itself is unverified. Retained per no-silent-delete rule.",
-    "entity_type": "individual_school"
+    "entity_type": "individual_school",
+    "reca_scope_status": "in_scope"
   },
   {
     "school_id": "ALL-222",
@@ -191,7 +199,8 @@
     "successor_confidence": "probable",
     "successor_citation": "",
     "notes": "SEED ATTRIBUTION WRONG - CORRECTED: the only 'Airport Elementary School' in north St. Louis County is at 8249 Airport Road, Berkeley MO 63134 (city documents also use 8429 Airport Rd) - a Ferguson-Florissant R-II school, not Pattonville R-III, and in Berkeley rather than the seed's 'Bridgeton/Earth City' (it is ~3 miles southeast of Bridgeton). School and gymnasium built in 1954 (City of Berkeley RFP; corroborated by the 1984 appellate decision Szombathy v. Ferguson-Florissant R-2 describing the 1954 construction). Closed at the end of the 2018-19 school year under the FFSD redistricting plan (Berkeley residents sued to keep it open); the City of Berkeley purchased the property in 2023 for conversion to a community center. No successor school - students were redistributed within FFSD. DATA-QUALITY FLAG: likely the same school as ALL-390 'Airport Elementary School - Historical Campus' in another batch (flagged pair in schools_seed_deduped_review_needed.json) - coordinate with that batch's output rather than double-recording.",
-    "entity_type": "individual_school"
+    "entity_type": "individual_school",
+    "reca_scope_status": "in_scope"
   },
   {
     "school_id": "ALL-249",
@@ -214,7 +223,8 @@
     "successor_confidence": "unknown",
     "successor_citation": "",
     "notes": "Confirmed by the City of Hazelwood historical marker (via HMDB): built 1852, one of the earliest school buildings in St. Louis County; closed in 1952 following the organization of the Hazelwood School District; moved to Brookes Park and rebuilt to its 1890s appearance; federal historic listing June 14, 1970. Esley Hamilton's 'Surviving Rural Schools in St. Louis County' (St. Louis Architecture newsletter, Spring 2013) records it as 'Elm Grove School #9, 450 Brookes Dr., Hazelwood - district established 1852, brick building later'. DISCREPANCY: marker and seed say the building was moved in 1966; the Hamilton inventory and flovalleynews.com say 1961 - the move year does not affect the school's operating dates. The specific Hazelwood elementary that absorbed its students is not documented online (successor unknown). DATA-QUALITY FLAG: near-certain duplicate of ALL-027 'Elm Grove School' in another batch (flagged pair in schools_seed_deduped_review_needed.json) - same school, coordinate outputs.",
-    "entity_type": "individual_school"
+    "entity_type": "individual_school",
+    "reca_scope_status": "in_scope"
   },
   {
     "school_id": "ALL-253",
@@ -236,7 +246,8 @@
     "successor_confidence": "unknown",
     "successor_citation": "",
     "notes": "SEED LOCATION WRONG - CORRECTED: the seed assigns this to the 'Hazelwood predecessor' district at '18820 Melrose Road Florissant MO 63031', but 18820 Melrose Road is in Wildwood (ZIP 63038, Ward Six) in far-west St. Louis County, in the historic Village of Melrose (platted 1851 by Charles H. Haven) - roughly 25 miles from Hazelwood and outside the RECA ZIPs this seed row claims to serve. Esley Hamilton's county-wide inventory ('Surviving Rural Schools in St. Louis County', St. Louis Architecture newsletter, Spring 2013, based on the county's 1991 rural-schools inventory) lists 'Melrose School #57, 18820 Melrose Rd., circa 1859, now a residence' - matching the seed's c.1859 opening. The Wildwood Historical Society holds 1931/1937 photos of the school, and the City of Wildwood's Historic Preservation Commission considered acquiring 'the Old Melrose School, 18820 Melrose Road' in Jan 2019. Exact closure year not found: as a numbered rural district (#57 in the county's 1910 renumbering), it almost certainly closed when Missouri merged the rural districts into modern districts between 1947 and 1954 - consistent with the seed's '1950s' - but no specific date or successor school is documented online. Recommended human follow-up: the Wildwood Historical Society holds records/photos that could pin down the closing date and receiving district (likely an ancestor of Rockwood or Eureka).",
-    "entity_type": "individual_school"
+    "entity_type": "individual_school",
+    "reca_scope_status": "unknown_insufficient_data"
   },
   {
     "school_id": "ALL-261",
@@ -257,7 +268,8 @@
     "successor_confidence": "confirmed",
     "successor_citation": "",
     "notes": "Per Ritenour's '100 Interesting Ritenour Facts': Buder School opened September 1939 north and east of the Ashby School site, replacing the Ashby School portable (grades 1-4, 1936-1939 at Ashby Road & Clarendon Ave). Named for Hugo F. Buder, board member 1932-1939 who as board president obtained the property. Interrupted operation: closed 1981 due to declining enrollment and reopened 1986. Currently operating as Buder Elementary, 10350 Baltimore Ave, St. Ann (Ritenour's website and NCES). Seed's 'Unknown' opening resolved.",
-    "entity_type": "individual_school"
+    "entity_type": "individual_school",
+    "reca_scope_status": "in_scope"
   },
   {
     "school_id": "ALL-262",
@@ -279,7 +291,8 @@
     "successor_confidence": "confirmed",
     "successor_citation": "",
     "notes": "Per Ritenour's '100 Interesting Ritenour Facts': the property at 3312 Ashby Road was obtained in 1952 for $100, and a 1953 bond issue funded construction of Hoech Junior High School, which opened mid-year in January 1955. Named for Arthur A. Hoech, Ritenour's longest-serving superintendent (1920-1956). Now operating as Hoech Middle School (junior-high-to-middle conversion year not found online; Ritenour currently lists it as a middle school). Seed's 'Unknown' opening resolved.",
-    "entity_type": "individual_school"
+    "entity_type": "individual_school",
+    "reca_scope_status": "in_scope"
   },
   {
     "school_id": "ALL-264",
@@ -300,7 +313,8 @@
     "successor_confidence": "confirmed",
     "successor_citation": "",
     "notes": "Seed confirmed: opened August 2002 (dedicated Aug 29, 2002), built with Lambert St. Louis International Airport funds as the joint replacement for Carrollton Elementary (ALL-180) and Carrollton Oaks Elementary (ALL-179, other batch), both demolished for the runway expansion. Pattonville bought 17 acres at the site of Hope Lutheran School (itself the former St. Ann Elementary, closed effective the 1982-83 school year) at 3721 St. Bridget Lane, St. Ann - hence the same address as the former St. Ann Elementary. Named for Robert Drummond, Pattonville board member 1972-2002. First principal Jim Schwab had been principal of Carrollton Oaks. Currently operating (drummond.psdr3.org).",
-    "entity_type": "individual_school"
+    "entity_type": "individual_school",
+    "reca_scope_status": "in_scope"
   },
   {
     "school_id": "ALL-266",
@@ -323,6 +337,7 @@
     "successor_confidence": "confirmed",
     "successor_citation": "",
     "notes": "Seed confirmed: opened August 2018 (2018-19 school year) at 2900 Adie Road, St. Ann - the former Briar Crest Elementary School building (opened 1965, closed 2013 for budget cuts, leased to a private school/YWCA in the interim), renovated with a 2017 no-tax-rate-increase bond. Houses Pattonville's preschool (ages 3-5) and Parents as Teachers programs; the district's early childhood program itself was created August 2002 and was previously scattered across elementary schools and the Pattonville Learning Center (1995-2018). Currently operating (earlychildhood.psdr3.org). NOTE for yearbook purposes: an early-childhood center almost certainly publishes no yearbook; the underlying building's Briar Crest Elementary era (1965-2013) is the yearbook-relevant lineage if a Briar Crest row exists elsewhere in the dataset.",
-    "entity_type": "individual_school"
+    "entity_type": "individual_school",
+    "reca_scope_status": "in_scope"
   }
 ]

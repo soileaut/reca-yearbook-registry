@@ -2,7 +2,9 @@
   {
     "school_id": "ALL-569",
     "name": "Castlio Elementary School",
-    "historical_names": ["Castlio School"],
+    "historical_names": [
+      "Castlio School"
+    ],
     "zip": "63304",
     "district_operator": "Francis Howell R-III School District",
     "school_type": "Public Elementary",
@@ -15,13 +17,17 @@
     "successor_school_id": "none",
     "successor_confidence": "confirmed",
     "successor_citation": "",
-    "notes": "Confirmed: Castlio Elementary opened in 1981 (FHSD history timeline says 'Castlio Elementary opens (1981, July)'; the school's own parent handbook adds it opened with 500 students in grades K-6 and doubled in size for the 1989-90 year). Named for Hiram Beverly Castlio, nephew of district founder Francis Howell. Currently operating at 1020 Dingledine Rd. Unrelated earlier history: a mid-19th-century Castlio-area school (land sold for a school in 1857, burned during the Civil War) existed nearby per the 'Just a Walk Down the Road' local history blog — a different institution, not this building's opening date.",
-    "entity_type": "individual_school"
+    "notes": "Confirmed: Castlio Elementary opened in 1981 (FHSD history timeline says 'Castlio Elementary opens (1981, July)'; the school's own parent handbook adds it opened with 500 students in grades K-6 and doubled in size for the 1989-90 year). Named for Hiram Beverly Castlio, nephew of district founder Francis Howell. Currently operating at 1020 Dingledine Rd. Unrelated earlier history: a mid-19th-century Castlio-area school (land sold for a school in 1857, burned during the Civil War) existed nearby per the 'Just a Walk Down the Road' local history blog \u2014 a different institution, not this building's opening date.",
+    "entity_type": "individual_school",
+    "reca_scope_status": "in_scope"
   },
   {
     "school_id": "ALL-571",
     "name": "Independence Elementary School",
-    "historical_names": ["Independence School", "Independent School (1885-1941, predecessor site)"],
+    "historical_names": [
+      "Independence School",
+      "Independent School (1885-1941, predecessor site)"
+    ],
     "zip": "63304",
     "district_operator": "Francis Howell R-III School District",
     "school_type": "Public Elementary",
@@ -35,12 +41,15 @@
     "successor_confidence": "confirmed",
     "successor_citation": "",
     "notes": "Confirmed: opened March 18, 1999 as FHSD's ninth elementary school (name approved by the Board of Education that evening), per the school's own handbook; also on the FHSD history timeline ('Independence Elementary opens (1999)') and publicschoolreview ('Year Founded 1999'). Currently operating at 4800 Meadows Parkway. Name lineage note from the same handbook: a one-room 'Independent School' opened 1885 nearby and ran until May 1941, when it voted to join Consolidated School District No. 2; the original brick schoolhouse survives on Independence Road. That earlier school is a predecessor in name/location, not the same institution opened in 1999.",
-    "entity_type": "individual_school"
+    "entity_type": "individual_school",
+    "reca_scope_status": "in_scope"
   },
   {
     "school_id": "ALL-572",
     "name": "Westwood Trail Academy",
-    "historical_names": ["Westwood Trail School"],
+    "historical_names": [
+      "Westwood Trail School"
+    ],
     "zip": "63304",
     "district_operator": "Francis Howell R-III School District",
     "school_type": "Public Alternative",
@@ -54,12 +63,16 @@
     "successor_confidence": "confirmed",
     "successor_citation": "",
     "notes": "Confirmed: FHSD history timeline lists 'Westwood Trail Academy opens (2019)'. District-run alternative school for students with significant emotional/behavioral diagnoses, entered via IEP referral, grades roughly 2-12 (publicschoolreview). Currently operating at 810 Westwood Industrial Park Dr, Weldon Spring. NCES teacher counts go back to ~2006 under a predecessor program/record, but 2019 is the documented opening of the academy itself.",
-    "entity_type": "individual_school"
+    "entity_type": "individual_school",
+    "reca_scope_status": "in_scope"
   },
   {
     "school_id": "ALL-573",
     "name": "Early Childhood Family Education Center (Central School Road)",
-    "historical_names": ["ECFEC", "Central School Road Early Childhood Center"],
+    "historical_names": [
+      "ECFEC",
+      "Central School Road Early Childhood Center"
+    ],
     "zip": "63304",
     "district_operator": "Francis Howell R-III School District",
     "school_type": "Public Early Childhood",
@@ -72,13 +85,16 @@
     "successor_school_id": "none",
     "successor_confidence": "confirmed",
     "successor_citation": "",
-    "notes": "Confirmed: FHSD history timeline lists 'Central School Road Early Childhood Center opens (1993)'. Still operating — listed as a current district building ('Early Childhood Family Education Center - Central School Road, 4535 Central School Road') in a 2025 district RFP and in NCES/publicschoolreview listings. FHSD operates sister EC centers on Hackmann Road (opened 1997) and Meadows Parkway; this row is specifically the Central School Road site matching the seed's address.",
-    "entity_type": "individual_school"
+    "notes": "Confirmed: FHSD history timeline lists 'Central School Road Early Childhood Center opens (1993)'. Still operating \u2014 listed as a current district building ('Early Childhood Family Education Center - Central School Road, 4535 Central School Road') in a 2025 district RFP and in NCES/publicschoolreview listings. FHSD operates sister EC centers on Hackmann Road (opened 1997) and Meadows Parkway; this row is specifically the Central School Road site matching the seed's address.",
+    "entity_type": "individual_school",
+    "reca_scope_status": "in_scope"
   },
   {
     "school_id": "ALL-575",
     "name": "Messiah Lutheran School",
-    "historical_names": ["Messiah Lutheran School"],
+    "historical_names": [
+      "Messiah Lutheran School"
+    ],
     "zip": "63304",
     "district_operator": "Messiah Lutheran Church (Weldon Spring)",
     "school_type": "Private Lutheran",
@@ -91,13 +107,16 @@
     "successor_school_id": "none",
     "successor_confidence": "confirmed",
     "successor_citation": "",
-    "notes": "privateschoolreview lists 'Year Founded 2001' (its blurb quotes the school's own copy: 'Since 2001, we've partnered with hundreds of families') — probable, not independently confirmed. School is clearly operating (mlslions.org; NAQT lists it active at 5911 S Hwy 94; won a 2013 National Blue Ribbon, the only Missouri private school so honored that year per Patch). Mailing city is Weldon Spring though ZIP is 63304 — consistent with seed.",
-    "entity_type": "individual_school"
+    "notes": "privateschoolreview lists 'Year Founded 2001' (its blurb quotes the school's own copy: 'Since 2001, we've partnered with hundreds of families') \u2014 probable, not independently confirmed. School is clearly operating (mlslions.org; NAQT lists it active at 5911 S Hwy 94; won a 2013 National Blue Ribbon, the only Missouri private school so honored that year per Patch). Mailing city is Weldon Spring though ZIP is 63304 \u2014 consistent with seed.",
+    "entity_type": "individual_school",
+    "reca_scope_status": "in_scope"
   },
   {
     "school_id": "ALL-576",
     "name": "St. Cletus School",
-    "historical_names": ["St. Cletus Parish School"],
+    "historical_names": [
+      "St. Cletus Parish School"
+    ],
     "zip": "63301",
     "district_operator": "Archdiocese of St. Louis / St. Cletus Parish",
     "school_type": "Parochial School",
@@ -110,13 +129,17 @@
     "successor_school_id": "none",
     "successor_confidence": "confirmed",
     "successor_citation": "",
-    "notes": "Parish history (St. Cletus Guide Book): Archbishop Ritter founded the parish in 1965; its first school building was completed within two years (~1967) near Elm & Duchesne but only housed grades 7-8, sharing facilities with neighboring St. Peter parish. After an Archdiocese redistricting placed the site inside St. Peter's boundaries, the parish relocated: groundbreaking at 2705 Zumbehl Rd May 16, 1982, church and school dedicated April 17, 1983, and 'in the fall of 1983, St. Cletus School opened its doors to students from kindergarten through eighth grade.' The school itself claims 'over 50 years'/'six decades' of operation — consistent with the ~1967 origin (privateschoolreview's '1982' is the construction/NCES year). Still open per NCES PSS (2721 Zumbehl Rd) and a 2014 National Blue Ribbon. SURPRISE: actual ZIP is 63301 (St. Charles city), not 63304 as seeded — included for community coverage.",
-    "entity_type": "individual_school"
+    "notes": "Parish history (St. Cletus Guide Book): Archbishop Ritter founded the parish in 1965; its first school building was completed within two years (~1967) near Elm & Duchesne but only housed grades 7-8, sharing facilities with neighboring St. Peter parish. After an Archdiocese redistricting placed the site inside St. Peter's boundaries, the parish relocated: groundbreaking at 2705 Zumbehl Rd May 16, 1982, church and school dedicated April 17, 1983, and 'in the fall of 1983, St. Cletus School opened its doors to students from kindergarten through eighth grade.' The school itself claims 'over 50 years'/'six decades' of operation \u2014 consistent with the ~1967 origin (privateschoolreview's '1982' is the construction/NCES year). Still open per NCES PSS (2721 Zumbehl Rd) and a 2014 National Blue Ribbon. SURPRISE: actual ZIP is 63301 (St. Charles city), not 63304 as seeded \u2014 included for community coverage.",
+    "entity_type": "individual_school",
+    "reca_scope_status": "in_scope"
   },
   {
     "school_id": "ALL-577",
     "name": "Immaculate Conception School (Dardenne)",
-    "historical_names": ["Immaculate Conception School", "Immaculate Conception of Dardenne Catholic School (ICD)"],
+    "historical_names": [
+      "Immaculate Conception School",
+      "Immaculate Conception of Dardenne Catholic School (ICD)"
+    ],
     "zip": "63368",
     "district_operator": "Archdiocese of St. Louis / Immaculate Conception of Dardenne Parish",
     "school_type": "Parochial School",
@@ -129,13 +152,17 @@
     "successor_school_id": "none",
     "successor_confidence": "confirmed",
     "successor_citation": "",
-    "notes": "School's own website: 'Since 1881 when Immaculate Conception Dardenne opened its doors to the first students.' Still operating — NCES PSS lists it at 2089 Hanley Rd, Dardenne Prairie MO 63368 (matching the seed's '2089 Hanley Road' — a real address in Dardenne Prairie, not the St. Louis city Hanley Rd as the seed's 'Historical Address' column might suggest). Parish campus is now at 7701 Town Square Ave, Dardenne Prairie; the school may operate there — worth confirming in Track B. SURPRISE: seed ZIP is 63304 but actual ZIP is 63368 — included for community coverage.",
-    "entity_type": "individual_school"
+    "notes": "School's own website: 'Since 1881 when Immaculate Conception Dardenne opened its doors to the first students.' Still operating \u2014 NCES PSS lists it at 2089 Hanley Rd, Dardenne Prairie MO 63368 (matching the seed's '2089 Hanley Road' \u2014 a real address in Dardenne Prairie, not the St. Louis city Hanley Rd as the seed's 'Historical Address' column might suggest). Parish campus is now at 7701 Town Square Ave, Dardenne Prairie; the school may operate there \u2014 worth confirming in Track B. SURPRISE: seed ZIP is 63304 but actual ZIP is 63368 \u2014 included for community coverage.",
+    "entity_type": "individual_school",
+    "reca_scope_status": "in_scope"
   },
   {
     "school_id": "ALL-578",
     "name": "Francis Howell School District",
-    "historical_names": ["Francis Howell R-III", "Consolidated School District No. 2 of St. Charles County (1915-1966)"],
+    "historical_names": [
+      "Francis Howell R-III",
+      "Consolidated School District No. 2 of St. Charles County (1915-1966)"
+    ],
     "zip": "63304",
     "district_operator": "Francis Howell School District",
     "school_type": "Public School District",
@@ -148,13 +175,17 @@
     "successor_school_id": "none",
     "successor_confidence": "confirmed",
     "successor_citation": "",
-    "notes": "ADMINISTRATIVE DISTRICT, not a school — the yearbook-producing entities are its member schools. Legal entity is the same one organized May 8, 1915 as Consolidated School District No. 2 of St. Charles County (see ALL-585); renamed 'Francis Howell School District of St. Charles County, Missouri' on March 15, 1966, per the district's own history page, which also states 'founded in 1915.' Currently ~23 campuses / ~17,000 students covering ~150 sq mi of SE St. Charles County. Member schools (from district site): Francis Howell HS (1915), Francis Howell Central HS and Francis Howell Union HS (1997), Francis Howell North HS (1986); Barnwell (1980), Bryan (1998), Hollenbeck (1970), Francis Howell MS (1992), Saeger (1996); Becky-David (1963), Castlio (1981), Central (1942), Daniel Boone (1955), Fairmount (1978), Harvest Ridge (1991), Henderson (1986), Independence (1999), John Weldon (1991), Warren (2000); Westwood Trail Academy (2019); three early-childhood centers (Central School Rd 1993, Hackmann Rd 1997, Meadows Pkwy).",
-    "entity_type": "administrative_district_only"
+    "notes": "ADMINISTRATIVE DISTRICT, not a school \u2014 the yearbook-producing entities are its member schools. Legal entity is the same one organized May 8, 1915 as Consolidated School District No. 2 of St. Charles County (see ALL-585); renamed 'Francis Howell School District of St. Charles County, Missouri' on March 15, 1966, per the district's own history page, which also states 'founded in 1915.' Currently ~23 campuses / ~17,000 students covering ~150 sq mi of SE St. Charles County. Member schools (from district site): Francis Howell HS (1915), Francis Howell Central HS and Francis Howell Union HS (1997), Francis Howell North HS (1986); Barnwell (1980), Bryan (1998), Hollenbeck (1970), Francis Howell MS (1992), Saeger (1996); Becky-David (1963), Castlio (1981), Central (1942), Daniel Boone (1955), Fairmount (1978), Harvest Ridge (1991), Henderson (1986), Independence (1999), John Weldon (1991), Warren (2000); Westwood Trail Academy (2019); three early-childhood centers (Central School Rd 1993, Hackmann Rd 1997, Meadows Pkwy).",
+    "entity_type": "administrative_district_only",
+    "reca_scope_status": "in_scope"
   },
   {
     "school_id": "ALL-579",
     "name": "Fort Zumwalt School District",
-    "historical_names": ["Fort Zumwalt R-II", "Central School District R-II (1949)"],
+    "historical_names": [
+      "Fort Zumwalt R-II",
+      "Central School District R-II (1949)"
+    ],
     "zip": "63304",
     "district_operator": "Fort Zumwalt School District",
     "school_type": "Public School District",
@@ -167,13 +198,17 @@
     "successor_school_id": "none",
     "successor_confidence": "confirmed",
     "successor_citation": "",
-    "notes": "ADMINISTRATIVE DISTRICT, not a school. Per the district's own (archived) history page: under Missouri's 1947 reorganization law, St. Charles County's plan combined 12 small districts into 'Central School District R-II,' approved by voters July 19, 1949; its first high school opened 1960 (the 'Fort Zumwalt' name appears tied to that high school era — exact rename date not found online). Wikipedia agrees 'Established 1949.' Now the largest district in St. Charles County (~18,300 students, 25 schools) serving O'Fallon, St. Peters, Dardenne Prairie, St. Paul, and parts of Wentzville — plus borderline slices of 63304 per the seed. Member high schools: Fort Zumwalt West (1998), South (1987), North, East; see district site for full school list.",
-    "entity_type": "administrative_district_only"
+    "notes": "ADMINISTRATIVE DISTRICT, not a school. Per the district's own (archived) history page: under Missouri's 1947 reorganization law, St. Charles County's plan combined 12 small districts into 'Central School District R-II,' approved by voters July 19, 1949; its first high school opened 1960 (the 'Fort Zumwalt' name appears tied to that high school era \u2014 exact rename date not found online). Wikipedia agrees 'Established 1949.' Now the largest district in St. Charles County (~18,300 students, 25 schools) serving O'Fallon, St. Peters, Dardenne Prairie, St. Paul, and parts of Wentzville \u2014 plus borderline slices of 63304 per the seed. Member high schools: Fort Zumwalt West (1998), South (1987), North, East; see district site for full school list.",
+    "entity_type": "administrative_district_only",
+    "reca_scope_status": "in_scope"
   },
   {
     "school_id": "ALL-580",
     "name": "St. Charles Community College",
-    "historical_names": ["St. Charles County Community College", "Junior College District of St. Charles County"],
+    "historical_names": [
+      "St. Charles County Community College",
+      "Junior College District of St. Charles County"
+    ],
     "zip": "63376",
     "district_operator": "St. Charles Community College District",
     "school_type": "Public Community College",
@@ -186,13 +221,16 @@
     "successor_school_id": "none",
     "successor_confidence": "confirmed",
     "successor_citation": "",
-    "notes": "Seed's '1987' is the first-classes year; the college itself reports 'Established in 1986 with the first classes held in 1987.' Detail from SCC's own Fast Facts/history: voters created the Junior College District of St. Charles County on April 1, 1986 (Missouri's 11th community college district); renamed St. Charles County Community College District effective Feb 19, 1987; first classes June/summer 1987 (~400 students, 1,547 by fall); operated from temporary locations ~5 years before the permanent Cottleville campus at 4601 Mid Rivers Mall Dr opened ~1992. Still operating (main campus Cottleville plus Dardenne Creek and Wentzville centers). Actual ZIP is 63376, not 63304 — included for community coverage.",
-    "entity_type": "individual_school"
+    "notes": "Seed's '1987' is the first-classes year; the college itself reports 'Established in 1986 with the first classes held in 1987.' Detail from SCC's own Fast Facts/history: voters created the Junior College District of St. Charles County on April 1, 1986 (Missouri's 11th community college district); renamed St. Charles County Community College District effective Feb 19, 1987; first classes June/summer 1987 (~400 students, 1,547 by fall); operated from temporary locations ~5 years before the permanent Cottleville campus at 4601 Mid Rivers Mall Dr opened ~1992. Still operating (main campus Cottleville plus Dardenne Creek and Wentzville centers). Actual ZIP is 63376, not 63304 \u2014 included for community coverage.",
+    "entity_type": "individual_school",
+    "reca_scope_status": "in_scope"
   },
   {
     "school_id": "ALL-585",
     "name": "Consolidated School District No. 2 (St. Charles County)",
-    "historical_names": ["Consolidated District No. 2 of St Charles County"],
+    "historical_names": [
+      "Consolidated District No. 2 of St Charles County"
+    ],
     "zip": "63341",
     "district_operator": "St. Charles County",
     "school_type": "Public School District",
@@ -205,13 +243,16 @@
     "successor_school_id": "ALL-578",
     "successor_confidence": "confirmed",
     "successor_citation": "https://www.fhsdschools.org/about",
-    "notes": "SEED ERROR on dates: seed says opened 1950, but the FHSD official history states Consolidated School District No. 2 of St. Charles County was organized May 8, 1915, and was renamed 'Francis Howell School District of St. Charles County, Missouri' on March 15, 1966 — i.e., it did not close; it is the same legal entity as ALL-578, recorded here as its successor. The seed's 1950 likely conflates the statewide ~1949 reorganization era (cf. Central School District R-II/Fort Zumwalt, approved July 19, 1949). School-level members during its tenure included Francis Howell High School (the continuation of Francis Howell Institute, which joined the district in 1940 per the Castlio handbook), Central Elementary (1942), Daniel Boone Elementary (1955, which the seed calls 'second elementary for Reorganized District No. 3' — No. 3 could not be verified and may be a different Defiance-area predecessor), and Becky-David Elementary (1963).",
-    "entity_type": "administrative_district_only"
+    "notes": "SEED ERROR on dates: seed says opened 1950, but the FHSD official history states Consolidated School District No. 2 of St. Charles County was organized May 8, 1915, and was renamed 'Francis Howell School District of St. Charles County, Missouri' on March 15, 1966 \u2014 i.e., it did not close; it is the same legal entity as ALL-578, recorded here as its successor. The seed's 1950 likely conflates the statewide ~1949 reorganization era (cf. Central School District R-II/Fort Zumwalt, approved July 19, 1949). School-level members during its tenure included Francis Howell High School (the continuation of Francis Howell Institute, which joined the district in 1940 per the Castlio handbook), Central Elementary (1942), Daniel Boone Elementary (1955, which the seed calls 'second elementary for Reorganized District No. 3' \u2014 No. 3 could not be verified and may be a different Defiance-area predecessor), and Becky-David Elementary (1963).",
+    "entity_type": "administrative_district_only",
+    "reca_scope_status": "in_scope"
   },
   {
     "school_id": "ALL-587",
     "name": "Daniel Boone Elementary School",
-    "historical_names": ["Daniel Boone School"],
+    "historical_names": [
+      "Daniel Boone School"
+    ],
     "zip": "63365",
     "district_operator": "Francis Howell R-III School District",
     "school_type": "Public Elementary",
@@ -224,13 +265,16 @@
     "successor_school_id": "none",
     "successor_confidence": "confirmed",
     "successor_citation": "",
-    "notes": "Confirmed: opened 1955 — the school's own handbook says 'first opened its doors in 1955,' its National Blue Ribbon nomination page agrees, and the FHSD timeline lists 'Daniel Boone Elementary opens (1955)' (seed's exact day 'Sept. 6, 1955' is plausible but not independently verified). Grew 'from a one-room school on the other side of town' to the current multi-addition building; a National Blue Ribbon school. Seed note 'second elementary for Reorganized District No. 3' could not be verified — the district lineage documented online runs through Consolidated District No. 2 (ALL-585)/FHSD; 'Reorganized District No. 3' may be a Defiance-area predecessor worth a human follow-up. Address quirk: listed as 201 W Highway D, New Melle 63365 in the seed but as Wentzville MO 63385-6208 on the federal Blue Ribbon page — same building, mailing-city/ZIP discrepancy worth noting.",
-    "entity_type": "individual_school"
+    "notes": "Confirmed: opened 1955 \u2014 the school's own handbook says 'first opened its doors in 1955,' its National Blue Ribbon nomination page agrees, and the FHSD timeline lists 'Daniel Boone Elementary opens (1955)' (seed's exact day 'Sept. 6, 1955' is plausible but not independently verified). Grew 'from a one-room school on the other side of town' to the current multi-addition building; a National Blue Ribbon school. Seed note 'second elementary for Reorganized District No. 3' could not be verified \u2014 the district lineage documented online runs through Consolidated District No. 2 (ALL-585)/FHSD; 'Reorganized District No. 3' may be a Defiance-area predecessor worth a human follow-up. Address quirk: listed as 201 W Highway D, New Melle 63365 in the seed but as Wentzville MO 63385-6208 on the federal Blue Ribbon page \u2014 same building, mailing-city/ZIP discrepancy worth noting.",
+    "entity_type": "individual_school",
+    "reca_scope_status": "in_scope"
   },
   {
     "school_id": "ALL-590",
     "name": "Washington High School",
-    "historical_names": ["Washington Senior High School"],
+    "historical_names": [
+      "Washington Senior High School"
+    ],
     "zip": "63090",
     "district_operator": "School District of Washington",
     "school_type": "Public High School",
@@ -243,13 +287,16 @@
     "successor_school_id": "none",
     "successor_confidence": "confirmed",
     "successor_citation": "",
-    "notes": "Confirmed: the Washington Historical Society timeline records '1900 — First public high school established' (it replaced a private high school built at Third & Locust in 1887; Wikipedia corroborates 1900 with 47 students/5 graduates in the first class). Current building at 600 Blue Jay Drive was erected 1955-1956 (district FAQ says 'originally constructed in 1955,' Wikipedia says 1956) with many additions since. Still operating. SEED DATA-QUALITY FLAG: this row's columns are shifted — 'Location Confidence' contains 'Current,' 'Status' contains 'Very High,' 'Yearbook Priority' contains the notes sentence, and 'Notes' is empty; the values were interpreted accordingly. Actual ZIP is 63090 (Franklin County), included for the Defiance-area attendance slice.",
-    "entity_type": "individual_school"
+    "notes": "Confirmed: the Washington Historical Society timeline records '1900 \u2014 First public high school established' (it replaced a private high school built at Third & Locust in 1887; Wikipedia corroborates 1900 with 47 students/5 graduates in the first class). Current building at 600 Blue Jay Drive was erected 1955-1956 (district FAQ says 'originally constructed in 1955,' Wikipedia says 1956) with many additions since. Still operating. SEED DATA-QUALITY FLAG: this row's columns are shifted \u2014 'Location Confidence' contains 'Current,' 'Status' contains 'Very High,' 'Yearbook Priority' contains the notes sentence, and 'Notes' is empty; the values were interpreted accordingly. Actual ZIP is 63090 (Franklin County), included for the Defiance-area attendance slice.",
+    "entity_type": "individual_school",
+    "reca_scope_status": "in_scope"
   },
   {
     "school_id": "ALL-591",
     "name": "Washington Middle School",
-    "historical_names": ["Washington Junior High"],
+    "historical_names": [
+      "Washington Junior High"
+    ],
     "zip": "63090",
     "district_operator": "School District of Washington",
     "school_type": "Public Middle School",
@@ -262,13 +309,16 @@
     "successor_school_id": "none",
     "successor_confidence": "confirmed",
     "successor_citation": "",
-    "notes": "Currently operating at 401 East 14th Street (district site; also confirmed by NAQT/quizbowl venue records). Opening year not found: searches for building construction/establishment dates surfaced only renovation projects (2022 library addition by Bond Architects; earlier additions via K&S Associates) and no founding year. Likely resolvable via the School District of Washington's long-range facilities plan or the Washington Historical Society — recommended human follow-up. SEED DATA-QUALITY FLAG: same shifted-column issue as ALL-590 (Status contains 'High,' Yearbook Priority contains the note text, Notes empty).",
-    "entity_type": "individual_school"
+    "notes": "Currently operating at 401 East 14th Street (district site; also confirmed by NAQT/quizbowl venue records). Opening year not found: searches for building construction/establishment dates surfaced only renovation projects (2022 library addition by Bond Architects; earlier additions via K&S Associates) and no founding year. Likely resolvable via the School District of Washington's long-range facilities plan or the Washington Historical Society \u2014 recommended human follow-up. SEED DATA-QUALITY FLAG: same shifted-column issue as ALL-590 (Status contains 'High,' Yearbook Priority contains the note text, Notes empty).",
+    "entity_type": "individual_school",
+    "reca_scope_status": "in_scope"
   },
   {
     "school_id": "ALL-592",
     "name": "Washington School District",
-    "historical_names": ["School District of Washington"],
+    "historical_names": [
+      "School District of Washington"
+    ],
     "zip": "63341",
     "district_operator": "School District of Washington",
     "school_type": "Public School District",
@@ -281,7 +331,8 @@
     "successor_school_id": "none",
     "successor_confidence": "confirmed",
     "successor_citation": "",
-    "notes": "ADMINISTRATIVE DISTRICT, not a school. The district's own CAFR states it 'has provided education services... since its incorporation as a public entity in 1889' and grew through mergers into one of Missouri's largest geographic districts (~257 sq mi across Franklin, southern St. Charles — including Augusta and part of the Defiance CDP, which is why it's in this batch — and eastern Warren counties). Currently operating; HQ 220 Locust St, Washington MO 63090. Member schools (district site): Washington High School, Washington Middle School, Augusta Elementary, Campbellton Elementary, Clearview Elementary, Labadie Elementary, Marthasville Elementary, South Point Elementary, Washington West Elementary, plus Four Rivers Career Center and an Early Learning Center.",
-    "entity_type": "administrative_district_only"
+    "notes": "ADMINISTRATIVE DISTRICT, not a school. The district's own CAFR states it 'has provided education services... since its incorporation as a public entity in 1889' and grew through mergers into one of Missouri's largest geographic districts (~257 sq mi across Franklin, southern St. Charles \u2014 including Augusta and part of the Defiance CDP, which is why it's in this batch \u2014 and eastern Warren counties). Currently operating; HQ 220 Locust St, Washington MO 63090. Member schools (district site): Washington High School, Washington Middle School, Augusta Elementary, Campbellton Elementary, Clearview Elementary, Labadie Elementary, Marthasville Elementary, South Point Elementary, Washington West Elementary, plus Four Rivers Career Center and an Early Learning Center.",
+    "entity_type": "administrative_district_only",
+    "reca_scope_status": "in_scope"
   }
 ]

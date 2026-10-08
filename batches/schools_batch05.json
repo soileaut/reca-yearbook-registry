@@ -19,8 +19,9 @@
     "successor_school_id": "ALL-464",
     "successor_confidence": "probable",
     "successor_citation": "https://pipes.family/2025/05/the-education-of-st-ferdinand/",
-    "notes": "Rural one-school district of St. Ferdinand Township named for Charles F. Prigge; at least three schoolhouses carried the Prigge name on a 1927 district map, so a single founding date is not meaningful. Per Gregory Franzwa's History of the Hazelwood School District (1977), quoted at pipes.family: 'Prigge is the predecessor name for the Larimore district, which elected to join the growing Hazelwood School District in a special election on July 29, 1951.' That merger is corroborated by the pretrial stipulation in United States v. Hazelwood School District, 392 F.Supp. 1276 (E.D. Mo. 1975) — the district formed from thirteen rural districts between 1949 and 1951. The seed's 'Closed 1950s?' reflects the district merger, not a school closure: the school continued under Hazelwood and the lineage persists as Larimore Elementary (1025 Trampe Lane, 63138), which is the separate current-school row ALL-464 — recorded here as successor in the modern-entity sense. The exact date the school/district name changed from Prigge to Larimore was not found (Franzwa's book, not digitized, is the likely source). FLAG: duplicate coverage — same entity also appears as ALL-025 and ALL-096 ('Prigge/Larimore School', 63031/63034) and ALL-251 ('Prigge/Larimore School #6', the 1910 county district number).",
-    "entity_type": "individual_school"
+    "notes": "Rural one-school district of St. Ferdinand Township named for Charles F. Prigge; at least three schoolhouses carried the Prigge name on a 1927 district map, so a single founding date is not meaningful. Per Gregory Franzwa's History of the Hazelwood School District (1977), quoted at pipes.family: 'Prigge is the predecessor name for the Larimore district, which elected to join the growing Hazelwood School District in a special election on July 29, 1951.' That merger is corroborated by the pretrial stipulation in United States v. Hazelwood School District, 392 F.Supp. 1276 (E.D. Mo. 1975) \u2014 the district formed from thirteen rural districts between 1949 and 1951. The seed's 'Closed 1950s?' reflects the district merger, not a school closure: the school continued under Hazelwood and the lineage persists as Larimore Elementary (1025 Trampe Lane, 63138), which is the separate current-school row ALL-464 \u2014 recorded here as successor in the modern-entity sense. The exact date the school/district name changed from Prigge to Larimore was not found (Franzwa's book, not digitized, is the likely source). FLAG: duplicate coverage \u2014 same entity also appears as ALL-025 and ALL-096 ('Prigge/Larimore School', 63031/63034) and ALL-251 ('Prigge/Larimore School #6', the 1910 county district number).",
+    "entity_type": "individual_school",
+    "reca_scope_status": "in_scope"
   },
   {
     "school_id": "ALL-075",
@@ -41,8 +42,9 @@
     "successor_school_id": "ALL-465",
     "successor_confidence": "probable",
     "successor_citation": "https://twi.hazelwoodschools.org/",
-    "notes": "Rural school of the Twillman district in St. Ferdinand Township, named for the Twillman(n) family — the John Henry Twillman House (built 1870, St. Louis County landmark) stands across the street at 11840 Bellefontaine Rd and spanishlakemo.org confirms 'the school across the street is named for the family.' The district was one of the thirteen rural districts merged into Hazelwood 1949-1951 (United States v. Hazelwood School District, 392 F.Supp. 1276). Twillman Elementary's own website brands the school 'Roaring To Excellence Since 1927' — used as probable opened_year; seed row ALL-467 ('Twillman School - 1928 Building', in another batch) corroborates a ~1927-28 building on the Bellefontaine Rd site, and ALL-466 'Twillman Schoolhouse' suggests an earlier schoolhouse. The school never closed: it continues as Twillman Elementary (11831 Bellefontaine Rd, 63138), which is the separate current-school row ALL-465 — recorded as successor in the modern-entity sense. The seed's 'Closed 1950s?' reflects the district merger, not a school closure.",
-    "entity_type": "individual_school"
+    "notes": "Rural school of the Twillman district in St. Ferdinand Township, named for the Twillman(n) family \u2014 the John Henry Twillman House (built 1870, St. Louis County landmark) stands across the street at 11840 Bellefontaine Rd and spanishlakemo.org confirms 'the school across the street is named for the family.' The district was one of the thirteen rural districts merged into Hazelwood 1949-1951 (United States v. Hazelwood School District, 392 F.Supp. 1276). Twillman Elementary's own website brands the school 'Roaring To Excellence Since 1927' \u2014 used as probable opened_year; seed row ALL-467 ('Twillman School - 1928 Building', in another batch) corroborates a ~1927-28 building on the Bellefontaine Rd site, and ALL-466 'Twillman Schoolhouse' suggests an earlier schoolhouse. The school never closed: it continues as Twillman Elementary (11831 Bellefontaine Rd, 63138), which is the separate current-school row ALL-465 \u2014 recorded as successor in the modern-entity sense. The seed's 'Closed 1950s?' reflects the district merger, not a school closure.",
+    "entity_type": "individual_school",
+    "reca_scope_status": "in_scope"
   },
   {
     "school_id": "ALL-076",
@@ -61,11 +63,12 @@
     "closed_year": "2022",
     "closed_confidence": "probable",
     "closed_citation": "https://lindenwood.smartcatalogiq.com/en/2021-2022/undergraduate-catalog/locations/",
-    "notes": "Adult-education extension site occupying the former Our Lady of Fatima school/church building at 4500 Washington St. The parish school closed in 2004 and the parish itself in 2005; Johnny Londoff Chevrolet bought the property and Lindenwood bought the church/school building, running classes there 'since January 2006' per Lindenwood site director Jim Jump (Catholic Review / archbalt.org, Jan 2012). The site appears as 'Florissant Campus, North County Center (Formerly Our Lady of Fatima School)' in Lindenwood's 2021-22 catalog but is absent from the 2022-23 locations list, so closure ~2022 is probable. Seed's 'Opened 2019' is incorrect (site operated since 2006); seed's 'Closed 2021?' is roughly right. FLAG: this is a university satellite in a former school building, not a K-12 school — it produced no yearbooks; the underlying parochial school is a separate row (ALL-046, 'Our Lady of Fatima School').",
+    "notes": "Adult-education extension site occupying the former Our Lady of Fatima school/church building at 4500 Washington St. The parish school closed in 2004 and the parish itself in 2005; Johnny Londoff Chevrolet bought the property and Lindenwood bought the church/school building, running classes there 'since January 2006' per Lindenwood site director Jim Jump (Catholic Review / archbalt.org, Jan 2012). The site appears as 'Florissant Campus, North County Center (Formerly Our Lady of Fatima School)' in Lindenwood's 2021-22 catalog but is absent from the 2022-23 locations list, so closure ~2022 is probable. Seed's 'Opened 2019' is incorrect (site operated since 2006); seed's 'Closed 2021?' is roughly right. FLAG: this is a university satellite in a former school building, not a K-12 school \u2014 it produced no yearbooks; the underlying parochial school is a separate row (ALL-046, 'Our Lady of Fatima School').",
     "successor_school_id": "none",
     "successor_confidence": "probable",
     "successor_citation": "https://lindenwood.smartcatalogiq.com/en/2022-2023/undergraduate-catalog/locations/",
-    "entity_type": "individual_school"
+    "entity_type": "individual_school",
+    "reca_scope_status": "in_scope"
   },
   {
     "school_id": "ALL-077",
@@ -86,8 +89,9 @@
     "successor_school_id": "none",
     "successor_confidence": "confirmed",
     "successor_citation": "",
-    "notes": "Currently operating Hazelwood elementary at 15600 Old Halls Ferry Road, Florissant 63034 (district site, SchoolDigger/NCES listings). No founding year found online — checked the school website, district map, flovalleynews archives, and architect/portfolio sites; NCES-derived enrollment data go back to 1995 but no dedication/opening article surfaced. Likely a late-20th-century suburban-growth school. Separate seed row ALL-081 ('Barrington Elementary predecessor', same ZIP) exists in another batch and may capture an earlier building/site of this school.",
-    "entity_type": "individual_school"
+    "notes": "Currently operating Hazelwood elementary at 15600 Old Halls Ferry Road, Florissant 63034 (district site, SchoolDigger/NCES listings). No founding year found online \u2014 checked the school website, district map, flovalleynews archives, and architect/portfolio sites; NCES-derived enrollment data go back to 1995 but no dedication/opening article surfaced. Likely a late-20th-century suburban-growth school. Separate seed row ALL-081 ('Barrington Elementary predecessor', same ZIP) exists in another batch and may capture an earlier building/site of this school.",
+    "entity_type": "individual_school",
+    "reca_scope_status": "in_scope"
   },
   {
     "school_id": "ALL-078",
@@ -110,7 +114,8 @@
     "successor_confidence": "confirmed",
     "successor_citation": "",
     "notes": "Currently operating Hazelwood middle school at 4420 Vaile Ave, Florissant 63034. The present building is new-construction from the district's mid-2000s bond program: its dedication ceremony was April 25, 2007 (flovalleynews, 'New Hazelwood Middle Schools Near Completion'). Per the Hazelwood West High School history, all district junior highs were renamed middle schools in 2002, so 'North Middle' dates as a name to 2002 but the predecessor Hazelwood North Junior High's opening year was not found online. Building open-date (2007) vs. institution open-date (unknown, earlier) recorded separately per schema convention. Separate seed row ALL-082 ('North Middle predecessor') exists in another batch.",
-    "entity_type": "individual_school"
+    "entity_type": "individual_school",
+    "reca_scope_status": "in_scope"
   },
   {
     "school_id": "ALL-079",
@@ -127,11 +132,12 @@
     "closed_year": "n/a",
     "closed_confidence": "probable",
     "closed_citation": "https://oltc.us/",
-    "notes": "Small private/alternative K-12 school at 5145 N. Hwy 67, Florissant 63034, run by OLTC, Inc. (office in Normandy; describes itself as 'Organizational Training, K-12/Home-School Online Training and Post-secondary Online Training'). Website is live and Niche lists it as a private PK/K-12 school (~460 students), so it appears to be operating. No founding year found — the site only claims 'over 20 years of professional education experience.' FLAG: unclear whether this is a conventional diploma-granting school or a homeschool-support/tutoring program; whether it ever published a yearbook is doubtful. Recommended human follow-up if the row matters.",
+    "notes": "Small private/alternative K-12 school at 5145 N. Hwy 67, Florissant 63034, run by OLTC, Inc. (office in Normandy; describes itself as 'Organizational Training, K-12/Home-School Online Training and Post-secondary Online Training'). Website is live and Niche lists it as a private PK/K-12 school (~460 students), so it appears to be operating. No founding year found \u2014 the site only claims 'over 20 years of professional education experience.' FLAG: unclear whether this is a conventional diploma-granting school or a homeschool-support/tutoring program; whether it ever published a yearbook is doubtful. Recommended human follow-up if the row matters.",
     "successor_school_id": "unknown",
     "successor_confidence": "unknown",
     "successor_citation": "",
-    "entity_type": "individual_school"
+    "entity_type": "individual_school",
+    "reca_scope_status": "in_scope"
   },
   {
     "school_id": "ALL-080",
@@ -152,8 +158,9 @@
     "successor_school_id": "unknown",
     "successor_confidence": "probable",
     "successor_citation": "https://www.stlouisreview.com/story/renaissance-of-catholic-education-to-extend-to-north-county-schools/",
-    "notes": "Parish school history page: parish founded June 1962 by Archbishop Joseph Ritter, church dedicated June 1964, and the Ursuline Sisters of Owensboro, KY established the school in September 1965 with 163 students in grades 1-4. Archbishop Carlson approved closure in May 2017 (declining enrollment, low 2017-18 registration, principal retirement); school closed at the end of the 2016-17 school year. No single successor: the Archdiocese directed students to the Federation of Catholic Schools in the Northeast Deanery — St. Ferdinand, St. Norbert and St. Rose Philippine Duchesne in Florissant plus other north-county schools — three of which consolidated as All Saints Academy in 2018 (see ALL-108).",
-    "entity_type": "individual_school"
+    "notes": "Parish school history page: parish founded June 1962 by Archbishop Joseph Ritter, church dedicated June 1964, and the Ursuline Sisters of Owensboro, KY established the school in September 1965 with 163 students in grades 1-4. Archbishop Carlson approved closure in May 2017 (declining enrollment, low 2017-18 registration, principal retirement); school closed at the end of the 2016-17 school year. No single successor: the Archdiocese directed students to the Federation of Catholic Schools in the Northeast Deanery \u2014 St. Ferdinand, St. Norbert and St. Rose Philippine Duchesne in Florissant plus other north-county schools \u2014 three of which consolidated as All Saints Academy in 2018 (see ALL-108).",
+    "entity_type": "individual_school",
+    "reca_scope_status": "in_scope"
   },
   {
     "school_id": "ALL-090",
@@ -175,8 +182,9 @@
     "successor_school_id": "none",
     "successor_confidence": "confirmed",
     "successor_citation": "",
-    "notes": "Currently operating Hazelwood middle school. The present building is new-construction from the district's mid-2000s bond program: dedication ceremony April 24, 2007 (flovalleynews, 'New Hazelwood Middle Schools Near Completion'). All district junior highs were renamed middle schools in 2002; the predecessor Hazelwood Southeast Junior High's opening year was not found online. FLAG — address discrepancy: the district map and 2007 article give '918 Prigge Road' (Spanish Lake), while the seed/NCES listing uses '9180 Riverview Drive, St. Louis MO 63137'; these appear to describe the same campus (Riverview Dr at Prigge Rd, Spanish Lake area), but the seed's ZIP of 63034 vs. the actual 63137 should be noted for the ZIP-attribution effort.",
-    "entity_type": "individual_school"
+    "notes": "Currently operating Hazelwood middle school. The present building is new-construction from the district's mid-2000s bond program: dedication ceremony April 24, 2007 (flovalleynews, 'New Hazelwood Middle Schools Near Completion'). All district junior highs were renamed middle schools in 2002; the predecessor Hazelwood Southeast Junior High's opening year was not found online. FLAG \u2014 address discrepancy: the district map and 2007 article give '918 Prigge Road' (Spanish Lake), while the seed/NCES listing uses '9180 Riverview Drive, St. Louis MO 63137'; these appear to describe the same campus (Riverview Dr at Prigge Rd, Spanish Lake area), but the seed's ZIP of 63034 vs. the actual 63137 should be noted for the ZIP-attribution effort.",
+    "entity_type": "individual_school",
+    "reca_scope_status": "in_scope"
   },
   {
     "school_id": "ALL-091",
@@ -197,8 +205,9 @@
     "successor_school_id": "none",
     "successor_confidence": "confirmed",
     "successor_citation": "",
-    "notes": "New-build Hazelwood elementary at 2017 Arrowpoint Drive, St. Louis 63138: architect TR,i Architects' project page gives completion date 08/2004, and a December 2006 flovalleynews article calls it 'the district's newest elementary school' that 'opened two years ago.' Still operating. Physical ZIP is 63138, not 63034 — seed included it for attendance-area overlap; flagged as borderline-ZIP row, kept per instructions.",
-    "entity_type": "individual_school"
+    "notes": "New-build Hazelwood elementary at 2017 Arrowpoint Drive, St. Louis 63138: architect TR,i Architects' project page gives completion date 08/2004, and a December 2006 flovalleynews article calls it 'the district's newest elementary school' that 'opened two years ago.' Still operating. Physical ZIP is 63138, not 63034 \u2014 seed included it for attendance-area overlap; flagged as borderline-ZIP row, kept per instructions.",
+    "entity_type": "individual_school",
+    "reca_scope_status": "in_scope"
   },
   {
     "school_id": "ALL-094",
@@ -220,8 +229,9 @@
     "successor_school_id": "unknown",
     "successor_confidence": "unknown",
     "successor_citation": "",
-    "notes": "Construction completed 1970 (addition 1972) per St. Louis Post-Dispatch correction note; AP News corroborates 'opened 50 years ago' in 2022. Closed indefinitely October 2022 after independent testing found radioactive contamination — the school sits in the Coldwater Creek floodplain, contaminated by Mallinckrodt uranium-processing waste stored near Lambert Airport (directly the same RECA-relevant contamination this project documents). Students went virtual, then were redistricted to other Hazelwood elementaries starting Nov 28, 2022 (AP); the district confirmed in March 2023 there is 'no expectation that Jana Elementary will reopen' (FOX2). In 2024 the board renamed the building the 'Hazelwood School District Logistics Center' (Wikipedia). No single successor school — students dispersed across district elementaries; receiving-school assignments not published. Physical address 405 Jana Drive is in 63031, not 63034 (borderline-ZIP row, retained per instructions).",
-    "entity_type": "individual_school"
+    "notes": "Construction completed 1970 (addition 1972) per St. Louis Post-Dispatch correction note; AP News corroborates 'opened 50 years ago' in 2022. Closed indefinitely October 2022 after independent testing found radioactive contamination \u2014 the school sits in the Coldwater Creek floodplain, contaminated by Mallinckrodt uranium-processing waste stored near Lambert Airport (directly the same RECA-relevant contamination this project documents). Students went virtual, then were redistricted to other Hazelwood elementaries starting Nov 28, 2022 (AP); the district confirmed in March 2023 there is 'no expectation that Jana Elementary will reopen' (FOX2). In 2024 the board renamed the building the 'Hazelwood School District Logistics Center' (Wikipedia). No single successor school \u2014 students dispersed across district elementaries; receiving-school assignments not published. Physical address 405 Jana Drive is in 63031, not 63034 (borderline-ZIP row, retained per instructions).",
+    "entity_type": "individual_school",
+    "reca_scope_status": "in_scope"
   },
   {
     "school_id": "ALL-104",
@@ -241,8 +251,9 @@
     "successor_school_id": "unknown",
     "successor_confidence": "unknown",
     "successor_citation": "",
-    "notes": "FLAG — probable phantom row. No K-12 school named 'Oasis Institute' in the Florissant/North County area could be found in NCES PSS-derived directories (Niche, privateschoolreview, schools-info), or in web/news searches. The only 'Oasis Institute' in the region is the national lifelong-learning nonprofit for older adults headquartered in St. Ann, MO 63074 (oasisnet.org; EIN 43-1830354, tax-exempt since 2001) — a senior-education program that partners with schools but is not a school and publishes no yearbooks. The seed may have misclassified that nonprofit or conflated it with some other entity. Recommended human follow-up: ask the seed compiler what source generated this row.",
-    "entity_type": "ambiguous_unresolved"
+    "notes": "FLAG \u2014 probable phantom row. No K-12 school named 'Oasis Institute' in the Florissant/North County area could be found in NCES PSS-derived directories (Niche, privateschoolreview, schools-info), or in web/news searches. The only 'Oasis Institute' in the region is the national lifelong-learning nonprofit for older adults headquartered in St. Ann, MO 63074 (oasisnet.org; EIN 43-1830354, tax-exempt since 2001) \u2014 a senior-education program that partners with schools but is not a school and publishes no yearbooks. The seed may have misclassified that nonprofit or conflated it with some other entity. Recommended human follow-up: ask the seed compiler what source generated this row.",
+    "entity_type": "ambiguous_unresolved",
+    "reca_scope_status": "unknown_insufficient_data"
   },
   {
     "school_id": "ALL-108",
@@ -264,8 +275,9 @@
     "successor_school_id": "unknown",
     "successor_confidence": "probable",
     "successor_citation": "https://www.stlouisreview.com/story/all-saints-academy-in-florissant-to-transition-from-three-campuses-to-two-for-2023-24-school-year/",
-    "notes": "All Saints Academy opened in 2018 under a multi-campus model jointly operated by its sponsoring parishes and the Archdiocese (St. Louis Review). It operated on three Florissant campuses: St. Rose Philippine Duchesne (3500 St. Catherine St, 63033 — the former parish school site), St. Norbert, and St. Ferdinand. Citing enrollment decline (238 K-8 students in 2018 falling to 131 registered for fall 2023) and staffing vacancies, the St. Rose campus closed for the 2023-24 school year; the archdiocese's Find-a-School page now lists it as 'CLOSED.' Students were offered transfer to the continuing St. Ferdinand and St. Norbert campuses — the institutional successor is All Saints Academy itself, which persists on its two remaining campuses (seed rows ALL-013 'St. Norbert Campus' and ALL-014 'St. Ferdinand Campus' cover those sites). FLAG: this row is the same entity as ALL-048 ('All Saints Academy - St. Rose Philippine Duchesne', 63033) and ALL-135 (63042) — same school at different seed ZIPs; kept separate per no-silent-merge rule.",
-    "entity_type": "individual_school"
+    "notes": "All Saints Academy opened in 2018 under a multi-campus model jointly operated by its sponsoring parishes and the Archdiocese (St. Louis Review). It operated on three Florissant campuses: St. Rose Philippine Duchesne (3500 St. Catherine St, 63033 \u2014 the former parish school site), St. Norbert, and St. Ferdinand. Citing enrollment decline (238 K-8 students in 2018 falling to 131 registered for fall 2023) and staffing vacancies, the St. Rose campus closed for the 2023-24 school year; the archdiocese's Find-a-School page now lists it as 'CLOSED.' Students were offered transfer to the continuing St. Ferdinand and St. Norbert campuses \u2014 the institutional successor is All Saints Academy itself, which persists on its two remaining campuses (seed rows ALL-013 'St. Norbert Campus' and ALL-014 'St. Ferdinand Campus' cover those sites). FLAG: this row is the same entity as ALL-048 ('All Saints Academy - St. Rose Philippine Duchesne', 63033) and ALL-135 (63042) \u2014 same school at different seed ZIPs; kept separate per no-silent-merge rule.",
+    "entity_type": "individual_school",
+    "reca_scope_status": "in_scope"
   },
   {
     "school_id": "ALL-111",
@@ -286,8 +298,9 @@
     "successor_school_id": "none",
     "successor_confidence": "confirmed",
     "successor_citation": "",
-    "notes": "Operating Ferguson-Florissant high school at 1896 S. New Florissant Rd, Florissant 63031 (actual ZIP differs from seed's 63042 — borderline attendance-area row). Wikipedia's infobox gives 'Established 1957' while the article text says it 'opened in 1958' as a junior high — hence probable rather than confirmed; the school converted to a senior high in 1962 when Ferguson High School closed (yearbook lineage likely continuous). The campus also holds the historic Taille de Noyer house, relocated there in 1960. Related rows in other batches: ALL-116 'McCluer High School - Original' and ALL-438 'McCluer Junior High School' (the same early McCluer), and ALL-032/ALL-112 'McCluer North High School' — a different school, fuzzy-name match only.",
-    "entity_type": "individual_school"
+    "notes": "Operating Ferguson-Florissant high school at 1896 S. New Florissant Rd, Florissant 63031 (actual ZIP differs from seed's 63042 \u2014 borderline attendance-area row). Wikipedia's infobox gives 'Established 1957' while the article text says it 'opened in 1958' as a junior high \u2014 hence probable rather than confirmed; the school converted to a senior high in 1962 when Ferguson High School closed (yearbook lineage likely continuous). The campus also holds the historic Taille de Noyer house, relocated there in 1960. Related rows in other batches: ALL-116 'McCluer High School - Original' and ALL-438 'McCluer Junior High School' (the same early McCluer), and ALL-032/ALL-112 'McCluer North High School' \u2014 a different school, fuzzy-name match only.",
+    "entity_type": "individual_school",
+    "reca_scope_status": "in_scope"
   },
   {
     "school_id": "ALL-113",
@@ -309,8 +322,9 @@
     "successor_school_id": "none",
     "successor_confidence": "confirmed",
     "successor_citation": "",
-    "notes": "Opened January 2004 at 201 Brotherton Lane (Ferguson, adjacent to Berkeley) as the newest Ferguson-Florissant high school, replacing Berkeley High School (ALL-114), which had closed December 2003 for Lambert Airport expansion. SURPRISE: seed's 'Opened: 1976' is wrong — that date approximates the 1975-76 court-ordered Berkeley/Kinloch merger into FFSD, not this school's founding. Seed's 'Status: Closed/Reorganized' refers to the October 2018 board redistricting that transformed MSB into the 'STEAM Academy at McCluer South-Berkeley' magnet school (still operating; Wikipedia lists 2022-23 enrollment of 437). Same entity also seeded as ALL-382, ALL-414, ALL-439, and ALL-440 ('STEAM Academy at McCluer South-Berkeley High').",
-    "entity_type": "individual_school"
+    "notes": "Opened January 2004 at 201 Brotherton Lane (Ferguson, adjacent to Berkeley) as the newest Ferguson-Florissant high school, replacing Berkeley High School (ALL-114), which had closed December 2003 for Lambert Airport expansion. SURPRISE: seed's 'Opened: 1976' is wrong \u2014 that date approximates the 1975-76 court-ordered Berkeley/Kinloch merger into FFSD, not this school's founding. Seed's 'Status: Closed/Reorganized' refers to the October 2018 board redistricting that transformed MSB into the 'STEAM Academy at McCluer South-Berkeley' magnet school (still operating; Wikipedia lists 2022-23 enrollment of 437). Same entity also seeded as ALL-382, ALL-414, ALL-439, and ALL-440 ('STEAM Academy at McCluer South-Berkeley High').",
+    "entity_type": "individual_school",
+    "reca_scope_status": "in_scope"
   },
   {
     "school_id": "ALL-114",
@@ -332,7 +346,8 @@
     "successor_school_id": "ALL-113",
     "successor_confidence": "confirmed",
     "successor_citation": "https://en.wikipedia.org/wiki/McCluer_South-Berkeley_High_School",
-    "notes": "Per the Wikipedia Berkeley, Missouri article (sourcing city history): the Berkeley School District formed in 1937 after a dispute over the location of a school for Black students; the new district took over Kinloch High School, which had opened that year, and renamed it Berkeley High School (whites only). A newer campus later opened elsewhere and the original building became Berkeley Middle School. On June 7, 1975 a U.S. district court ordered Ferguson-Florissant to annex the Berkeley and Kinloch districts (effective 1975-76; corroborated by the St. Louis American and the St. Louis County historic-schools survey by Esley Hamilton, stlouisarchitecture.org). The former Berkeley High closed December 2003 due to Lambert-St. Louis International Airport expansion and was replaced by McCluer South-Berkeley High School (ALL-113), which opened January 2004 — direct successor, confirmed. Several campus-variant rows exist in other batches: ALL-378, ALL-379 (Hancock Campus), ALL-380 (Caroline Avenue Campus), ALL-381 (Walter Avenue Campus), plus related ALL-383 Berkeley Middle School and ALL-400 Berkeley School District — all kept separate.",
-    "entity_type": "individual_school"
+    "notes": "Per the Wikipedia Berkeley, Missouri article (sourcing city history): the Berkeley School District formed in 1937 after a dispute over the location of a school for Black students; the new district took over Kinloch High School, which had opened that year, and renamed it Berkeley High School (whites only). A newer campus later opened elsewhere and the original building became Berkeley Middle School. On June 7, 1975 a U.S. district court ordered Ferguson-Florissant to annex the Berkeley and Kinloch districts (effective 1975-76; corroborated by the St. Louis American and the St. Louis County historic-schools survey by Esley Hamilton, stlouisarchitecture.org). The former Berkeley High closed December 2003 due to Lambert-St. Louis International Airport expansion and was replaced by McCluer South-Berkeley High School (ALL-113), which opened January 2004 \u2014 direct successor, confirmed. Several campus-variant rows exist in other batches: ALL-378, ALL-379 (Hancock Campus), ALL-380 (Caroline Avenue Campus), ALL-381 (Walter Avenue Campus), plus related ALL-383 Berkeley Middle School and ALL-400 Berkeley School District \u2014 all kept separate.",
+    "entity_type": "individual_school",
+    "reca_scope_status": "in_scope"
   }
 ]

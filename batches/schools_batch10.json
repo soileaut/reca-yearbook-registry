@@ -18,7 +18,8 @@
     "successor_confidence": "confirmed",
     "successor_citation": "",
     "notes": "Seed's 1925 confirmed by the district's own history page: a $70,000 bond issue passed in January 1925 to build Marion (paired with Midland), and 'the school opened in 1925.' Site land at Midland & Marion (now Sims Avenue) was acquired in stages in 1888, 1918 and 1923. Additions/renovations in 1953 and 1959; the 1990 bond issue funded demolition of the old building and replacement with the current $2,625,700 structure (consistent with the seed note); library renovation completed 2012 under Prop K. School site is live and the building is a current Ritenour elementary.",
-    "entity_type": "individual_school"
+    "entity_type": "individual_school",
+    "reca_scope_status": "in_scope"
   },
   {
     "school_id": "ALL-308",
@@ -38,8 +39,9 @@
     "successor_school_id": "unknown",
     "successor_confidence": "unknown",
     "successor_citation": "",
-    "notes": "Seed's 1929 confirmed: district history page says the school was 'built in 1929 on Woodson Road in Overland' after land was assembled from ten owners; a $69,000 bond issue for it passed 277-30 on Feb. 12, 1929 (per the district's 'Our First 132 Years' history). CLOSURE-YEAR CONFLICT: the district's 100-facts page says it closed in 1975 (matching the seed), but the district's own narrative history says the March 25, 1976 reorganization plan designated Home Heights, Midland and New Overland 'to be closed,' the Armbruster Vo-Prep School moved into the New Overland building in summer 1976, and Elmwood students were still being reassigned TO New Overland for 1975-76 when Elmwood closed — implying the elementary program actually ended in 1976. Recorded 1976 as the better-evidenced year; 1975 is possible if the district's fact list refers to the program wind-down. Receiving elementaries for displaced students are not named in either source. The building was sold to the U.S. Postal Service in 1997 and demolished; the site is now the Overland Post Office (district fact 35) — consistent with the seed note.",
-    "entity_type": "individual_school"
+    "notes": "Seed's 1929 confirmed: district history page says the school was 'built in 1929 on Woodson Road in Overland' after land was assembled from ten owners; a $69,000 bond issue for it passed 277-30 on Feb. 12, 1929 (per the district's 'Our First 132 Years' history). CLOSURE-YEAR CONFLICT: the district's 100-facts page says it closed in 1975 (matching the seed), but the district's own narrative history says the March 25, 1976 reorganization plan designated Home Heights, Midland and New Overland 'to be closed,' the Armbruster Vo-Prep School moved into the New Overland building in summer 1976, and Elmwood students were still being reassigned TO New Overland for 1975-76 when Elmwood closed \u2014 implying the elementary program actually ended in 1976. Recorded 1976 as the better-evidenced year; 1975 is possible if the district's fact list refers to the program wind-down. Receiving elementaries for displaced students are not named in either source. The building was sold to the U.S. Postal Service in 1997 and demolished; the site is now the Overland Post Office (district fact 35) \u2014 consistent with the seed note.",
+    "entity_type": "individual_school",
+    "reca_scope_status": "in_scope"
   },
   {
     "school_id": "ALL-309",
@@ -61,8 +63,9 @@
     "successor_school_id": "unknown",
     "successor_confidence": "probable",
     "successor_citation": "https://www.ritenourschools.org/community/history-of-ritenour/100-facts",
-    "notes": "SEED CLOSURE YEAR WRONG: seed says closed 1924, but the building at 2420 Woodson Rd operated as a school until 1958. District history: in April 1907 the board hired an architect to plan a new eight-room building on the Ritenour School site, and 'Ritenour' opened on time that fall. The district's fact 14 summarizes the site lineage — 'from 1847 to 1958, the location of the Administrative Center was the site of a school — first the Buck School, which became the Ritenour School, which later became the Overland School, which later became the Old Overland School.' Wyland Elementary opened September 1958 and 'replaced' the old Overland School (narrative: 'the board made plans to sell the old Overland School, which it replaced'); no buyer emerged and the building was remodeled into the Ritenour Administrative Center, which still stands at 2420 Woodson Rd. The seed's 1924 is probably the year the district's high-school classes moved out — the new Ritenour High School opened its own building in fall 1924 (that building is today's Ritenour Middle School, district fact 17). The Overland School building had housed Ritenour's early high school classes since 1914. SUCCESSOR GAP: Wyland Elementary School (opened 1958, still operating) is the documented replacement but has NO row anywhere in the seed dataset — recommend adding it. LINEAGE FLAG: this row is the same continuous school as ALL-321 'Ritenour School' (1867-1907 in the seed); they are name/building phases of one entity, kept separate per the no-silent-merge rule.",
-    "entity_type": "individual_school"
+    "notes": "SEED CLOSURE YEAR WRONG: seed says closed 1924, but the building at 2420 Woodson Rd operated as a school until 1958. District history: in April 1907 the board hired an architect to plan a new eight-room building on the Ritenour School site, and 'Ritenour' opened on time that fall. The district's fact 14 summarizes the site lineage \u2014 'from 1847 to 1958, the location of the Administrative Center was the site of a school \u2014 first the Buck School, which became the Ritenour School, which later became the Overland School, which later became the Old Overland School.' Wyland Elementary opened September 1958 and 'replaced' the old Overland School (narrative: 'the board made plans to sell the old Overland School, which it replaced'); no buyer emerged and the building was remodeled into the Ritenour Administrative Center, which still stands at 2420 Woodson Rd. The seed's 1924 is probably the year the district's high-school classes moved out \u2014 the new Ritenour High School opened its own building in fall 1924 (that building is today's Ritenour Middle School, district fact 17). The Overland School building had housed Ritenour's early high school classes since 1914. SUCCESSOR GAP: Wyland Elementary School (opened 1958, still operating) is the documented replacement but has NO row anywhere in the seed dataset \u2014 recommend adding it. LINEAGE FLAG: this row is the same continuous school as ALL-321 'Ritenour School' (1867-1907 in the seed); they are name/building phases of one entity, kept separate per the no-silent-merge rule.",
+    "entity_type": "individual_school",
+    "reca_scope_status": "in_scope"
   },
   {
     "school_id": "ALL-310",
@@ -82,8 +85,9 @@
     "successor_school_id": "unknown",
     "successor_confidence": "unknown",
     "successor_citation": "",
-    "notes": "Seed confirmed on both dates by the district's own history: a $2,000 bond for a 'wooden school' in the Home Heights/St. John area was approved April 1905 and 'the first Home Heights School building opened in 1907' (narrative adds the fall 1907 opening was delayed a month). The four-room brick replacement was approved May 1915 and opened Jan. 31, 1916 (narrative gives the exact opening date and a Feb. 5 open house). A $60,000 WPA-assisted addition passed in November 1933. 'Home Heights School closed in 1976' under the March 25, 1976 board reorganization plan; the building then housed the district's expanded Community Education Program before being 'demolished in 1998 to develop an outstanding soccer facility on the site, now known as the Ritenour High School North Campus Athletic Field.' Receiving school(s) for its students were not specified in the district sources — left successor unknown. Color detail: Charles Lindbergh photographed the school from the air on Oct. 2, 1926.",
-    "entity_type": "individual_school"
+    "notes": "Seed confirmed on both dates by the district's own history: a $2,000 bond for a 'wooden school' in the Home Heights/St. John area was approved April 1905 and 'the first Home Heights School building opened in 1907' (narrative adds the fall 1907 opening was delayed a month). The four-room brick replacement was approved May 1915 and opened Jan. 31, 1916 (narrative gives the exact opening date and a Feb. 5 open house). A $60,000 WPA-assisted addition passed in November 1933. 'Home Heights School closed in 1976' under the March 25, 1976 board reorganization plan; the building then housed the district's expanded Community Education Program before being 'demolished in 1998 to develop an outstanding soccer facility on the site, now known as the Ritenour High School North Campus Athletic Field.' Receiving school(s) for its students were not specified in the district sources \u2014 left successor unknown. Color detail: Charles Lindbergh photographed the school from the air on Oct. 2, 1926.",
+    "entity_type": "individual_school",
+    "reca_scope_status": "in_scope"
   },
   {
     "school_id": "ALL-311",
@@ -103,8 +107,9 @@
     "successor_school_id": "unknown",
     "successor_confidence": "unknown",
     "successor_citation": "",
-    "notes": "Seed confirmed on both dates by the district's history: the Midland site next to the original high school off Forest Avenue in Charlack 'was obtained in 1923 for $1. It was built in 1925 and closed in 1976. The school was demolished in 1991, with most of the site to be used by Ritenour Middle School for playground and recreational purposes.' Architect plans for Marion and Midland were commissioned September 1924 and the paired $70,000 bond passed Jan. 20, 1925 (narrative history). After closure the building was leased to the Special School District (summer 1976) before its 1991 demolition. Receiving elementary school(s) for its students are not documented in the district sources — successor left unknown. (Seed 'demolished 1991' confirmed.)",
-    "entity_type": "individual_school"
+    "notes": "Seed confirmed on both dates by the district's history: the Midland site next to the original high school off Forest Avenue in Charlack 'was obtained in 1923 for $1. It was built in 1925 and closed in 1976. The school was demolished in 1991, with most of the site to be used by Ritenour Middle School for playground and recreational purposes.' Architect plans for Marion and Midland were commissioned September 1924 and the paired $70,000 bond passed Jan. 20, 1925 (narrative history). After closure the building was leased to the Special School District (summer 1976) before its 1991 demolition. Receiving elementary school(s) for its students are not documented in the district sources \u2014 successor left unknown. (Seed 'demolished 1991' confirmed.)",
+    "entity_type": "individual_school",
+    "reca_scope_status": "in_scope"
   },
   {
     "school_id": "ALL-312",
@@ -124,8 +129,9 @@
     "successor_school_id": "none",
     "successor_confidence": "confirmed",
     "successor_citation": "",
-    "notes": "Seed's 1928 confirmed by the district's history: the school 'derived its name from the Marvin Park subdivision,' a February 1928 bond issue funded the site purchase, and 'it opened in 1928 with six teachers and 302 pupils.' A $37,000 addition bond passed Feb. 11, 1930; the site grew to ~10 acres (1956-67); the 1990 bond issue replaced the older portions with the current 1991 building ($3,102,000); a second gym was completed for the 2006 school year. School website is live — still a current Ritenour elementary.",
-    "entity_type": "individual_school"
+    "notes": "Seed's 1928 confirmed by the district's history: the school 'derived its name from the Marvin Park subdivision,' a February 1928 bond issue funded the site purchase, and 'it opened in 1928 with six teachers and 302 pupils.' A $37,000 addition bond passed Feb. 11, 1930; the site grew to ~10 acres (1956-67); the 1990 bond issue replaced the older portions with the current 1991 building ($3,102,000); a second gym was completed for the 2006 school year. School website is live \u2014 still a current Ritenour elementary.",
+    "entity_type": "individual_school",
+    "reca_scope_status": "in_scope"
   },
   {
     "school_id": "ALL-315",
@@ -145,8 +151,9 @@
     "successor_school_id": "ALL-314",
     "successor_confidence": "confirmed",
     "successor_citation": "https://www.ritenourschools.org/community/history-of-ritenour/100-facts",
-    "notes": "OPENING-YEAR CONFLICT: seed says 1936, and the district's own fact list says the portable 'housed grades 1-4 from 1936 to 1939' — but the district's narrative history says the portable (purchased 1922 for the Overland School site) 'was moved to a new location on Ashby Road' in September 1933 to temporarily meet the need for a school. The 1933 date is from board-minutes-derived narrative; 1936 may reflect when it first appears in the district's grade-level listings. Recorded 1933 probable with the conflict documented. CLOSURE CONFIRMED: the $39,073 contract for a permanent Ashby School was let in November 1938; the new building opened in September 1939 as Buder School (renamed for board president Hugo F. Buder, who died March 1939) 'north and east of the Ashby School,' and the portable was sold to St. Luke's AME Church in Elmwood for $400. Successor recorded as ALL-314 (Buder Elementary, the 63114 row) per the district's explicit 'replaced by Buder School.' NOTE: ALL-314's own seed row says Buder closed 1981 — Buder did close 1981 but reopened in 1986 and is operating today (district fact list); flag for that batch's worker. Buder also appears as ALL-261 in the 63074 rows — likely a duplicate of the same school.",
-    "entity_type": "individual_school"
+    "notes": "OPENING-YEAR CONFLICT: seed says 1936, and the district's own fact list says the portable 'housed grades 1-4 from 1936 to 1939' \u2014 but the district's narrative history says the portable (purchased 1922 for the Overland School site) 'was moved to a new location on Ashby Road' in September 1933 to temporarily meet the need for a school. The 1933 date is from board-minutes-derived narrative; 1936 may reflect when it first appears in the district's grade-level listings. Recorded 1933 probable with the conflict documented. CLOSURE CONFIRMED: the $39,073 contract for a permanent Ashby School was let in November 1938; the new building opened in September 1939 as Buder School (renamed for board president Hugo F. Buder, who died March 1939) 'north and east of the Ashby School,' and the portable was sold to St. Luke's AME Church in Elmwood for $400. Successor recorded as ALL-314 (Buder Elementary, the 63114 row) per the district's explicit 'replaced by Buder School.' NOTE: ALL-314's own seed row says Buder closed 1981 \u2014 Buder did close 1981 but reopened in 1986 and is operating today (district fact list); flag for that batch's worker. Buder also appears as ALL-261 in the 63074 rows \u2014 likely a duplicate of the same school.",
+    "entity_type": "individual_school",
+    "reca_scope_status": "out_of_scope_closed_before_1949"
   },
   {
     "school_id": "ALL-321",
@@ -168,8 +175,9 @@
     "successor_school_id": "ALL-309",
     "successor_confidence": "probable",
     "successor_citation": "https://www.ritenourschools.org/community/history-of-ritenour/100-facts",
-    "notes": "Seed note corroborated: in 1867 'Buck School and a temporary school for Negro children were joined to form the rural district of Ritenour' (district history PDF), making Ritenour the first St. Louis-area district to educate African-American children. The name honored landowner J.S. Ritenour (d. March 29, 1867). The school itself is older than the name — Buck School was a one-room log cabin built 1846 at Woodson/Lackland (site of today's Administrative Center); it burned Dec. 28, 1886 (flue defect, not the Christmas-tree legend) and was replaced by a four-room brick building. 'Ritenour School' in this seed row (1867-1907) is the same continuous school as ALL-309 'Overland School' — the 1907 date marks the eight-room replacement building on the same site, not a true closure, and board minutes keep calling the school 'Ritenour' well into the 1910s before 'Overland'/'Old Overland' usage takes over. Successor = ALL-309 (the same entity continued under the Overland School name until 1958). LINEAGE FLAG: rows ALL-321 and ALL-309 describe one school; kept separate per the no-silent-merge rule.",
-    "entity_type": "individual_school"
+    "notes": "Seed note corroborated: in 1867 'Buck School and a temporary school for Negro children were joined to form the rural district of Ritenour' (district history PDF), making Ritenour the first St. Louis-area district to educate African-American children. The name honored landowner J.S. Ritenour (d. March 29, 1867). The school itself is older than the name \u2014 Buck School was a one-room log cabin built 1846 at Woodson/Lackland (site of today's Administrative Center); it burned Dec. 28, 1886 (flue defect, not the Christmas-tree legend) and was replaced by a four-room brick building. 'Ritenour School' in this seed row (1867-1907) is the same continuous school as ALL-309 'Overland School' \u2014 the 1907 date marks the eight-room replacement building on the same site, not a true closure, and board minutes keep calling the school 'Ritenour' well into the 1910s before 'Overland'/'Old Overland' usage takes over. Successor = ALL-309 (the same entity continued under the Overland School name until 1958). LINEAGE FLAG: rows ALL-321 and ALL-309 describe one school; kept separate per the no-silent-merge rule.",
+    "entity_type": "individual_school",
+    "reca_scope_status": "out_of_scope_closed_before_1949"
   },
   {
     "school_id": "ALL-328",
@@ -189,8 +197,9 @@
     "successor_school_id": "none",
     "successor_confidence": "confirmed",
     "successor_citation": "",
-    "notes": "Seed's '1920s' resolved: the school's own site says it 'opened its doors for the 1923-24 school year' — voters approved a $200,000 bond in April 1924 (authorized 1922 per the State Historical Society of Missouri's S0326 finding aid) to buy the former Eden Seminary campus at Lucas & Hunt Rd / St. Charles Rock Rd, and the school shared the campus with the seminary during 1923-24 (~300 students, 13 teachers). It opened as a combined junior/senior high (grades 7-12); William B. Ittner designed the California-style campus, a vocational building and amphitheater gym were added 1929, a junior-high building was added on campus 1934, and a separate junior high opened ~1949 after a fire gutted the original seminary building. Still operating under Normandy Schools Collaborative (the district formed July 12, 1894; renamed/reorganized after losing accreditation in 2013-14). Actual address ZIP is 63133 (Wellston), not 63114 — included for community coverage. The seed's yearbook list (1931, 1933, 1935, etc.) is plausible; see ALL-329 for the pre-1923 predecessor high school.",
-    "entity_type": "individual_school"
+    "notes": "Seed's '1920s' resolved: the school's own site says it 'opened its doors for the 1923-24 school year' \u2014 voters approved a $200,000 bond in April 1924 (authorized 1922 per the State Historical Society of Missouri's S0326 finding aid) to buy the former Eden Seminary campus at Lucas & Hunt Rd / St. Charles Rock Rd, and the school shared the campus with the seminary during 1923-24 (~300 students, 13 teachers). It opened as a combined junior/senior high (grades 7-12); William B. Ittner designed the California-style campus, a vocational building and amphitheater gym were added 1929, a junior-high building was added on campus 1934, and a separate junior high opened ~1949 after a fire gutted the original seminary building. Still operating under Normandy Schools Collaborative (the district formed July 12, 1894; renamed/reorganized after losing accreditation in 2013-14). Actual address ZIP is 63133 (Wellston), not 63114 \u2014 included for community coverage. The seed's yearbook list (1931, 1933, 1935, etc.) is plausible; see ALL-329 for the pre-1923 predecessor high school.",
+    "entity_type": "individual_school",
+    "reca_scope_status": "in_scope"
   },
   {
     "school_id": "ALL-329",
@@ -210,8 +219,9 @@
     "successor_school_id": "ALL-328",
     "successor_confidence": "probable",
     "successor_citation": "http://files.shsmo.org/manuscripts/saint-louis/S0326.pdf",
-    "notes": "Interpreting this row as the pre-1923 Normandy high school (the seed asks to keep it separate because 'campus and institutional names changed'). The SHSMO Normandy School District Collection says the district's first high school classes were taught in 1907 in the old Washington School building on St. Charles Rock Road; the first class (4 students) graduated in 1911, and the high school 'could not meet accreditation requirements and was closed in the spring of 1912.' (Wikipedia says 'only one class graduated when the school closed in 1911' — one-year conflict noted; used 1912 from the archival finding aid.) Wikipedia also notes an even earlier, undated, sub-one-year high-school attempt at Lincoln Elementary in Pagedale. No high school existed in Normandy 1912-1923 — students attended neighboring districts' schools — until the Eden Seminary campus opened as ALL-328 in 1923, recorded as successor (the institutional continuation, though not a direct merger). LINEAGE FLAG: this is a predecessor-phase row for ALL-328, not a separate institution.",
-    "entity_type": "individual_school"
+    "notes": "Interpreting this row as the pre-1923 Normandy high school (the seed asks to keep it separate because 'campus and institutional names changed'). The SHSMO Normandy School District Collection says the district's first high school classes were taught in 1907 in the old Washington School building on St. Charles Rock Road; the first class (4 students) graduated in 1911, and the high school 'could not meet accreditation requirements and was closed in the spring of 1912.' (Wikipedia says 'only one class graduated when the school closed in 1911' \u2014 one-year conflict noted; used 1912 from the archival finding aid.) Wikipedia also notes an even earlier, undated, sub-one-year high-school attempt at Lincoln Elementary in Pagedale. No high school existed in Normandy 1912-1923 \u2014 students attended neighboring districts' schools \u2014 until the Eden Seminary campus opened as ALL-328 in 1923, recorded as successor (the institutional continuation, though not a direct merger). LINEAGE FLAG: this is a predecessor-phase row for ALL-328, not a separate institution.",
+    "entity_type": "individual_school",
+    "reca_scope_status": "out_of_scope_closed_before_1949"
   },
   {
     "school_id": "ALL-330",
@@ -233,8 +243,9 @@
     "successor_school_id": "ALL-343",
     "successor_confidence": "probable",
     "successor_citation": "https://www.normandysc.org/about-nsc",
-    "notes": "Junior-high instruction in Normandy began inside the high school — NHS opened as a combined junior/senior high in 1923, and a junior-high building was added to the high-school campus in 1934 (SHSMO S0326). As a standalone school, the district bought a 30-acre Natural Bridge Road tract from the Sisters of the Cenacle in 1947, began construction in 1948, and the separate junior high opened ~1949 (Wikipedia's building-year list gives 'Normandy Junior High School - 1949'; the school's 'NorJun' newsletter exists for 1960-61 in the SHSMO collection). The same Wikipedia list notes the school later operated as 'Normandy Junior High/Middle (and later 7th-8th Grade Center).' The 'Normandy Junior High' name/building's exact end date is not pinned down online: NSC's current middle school is Normandy Middle School at Lucas Crossing (7837 Natural Bridge Rd; Lucas Crossing complex built 2004 per its school page, which cites the site as the former district administration/Lucas-Hunt property), and NSC reconfigured to a grades 1-8 'EleMiddle' model in 2019-20 (normandysc.org). The NSC Early Learning Center at 7855 Natural Bridge Rd may occupy the old junior-high site — plausible but unverified. Successor recorded as ALL-343 (Normandy Middle School at Lucas Crossing) as the functional continuation of the district's middle grades; interestingly that row's own seed 'Opened' value is 1949, suggesting the seed already treats it as the NJH continuation.",
-    "entity_type": "individual_school"
+    "notes": "Junior-high instruction in Normandy began inside the high school \u2014 NHS opened as a combined junior/senior high in 1923, and a junior-high building was added to the high-school campus in 1934 (SHSMO S0326). As a standalone school, the district bought a 30-acre Natural Bridge Road tract from the Sisters of the Cenacle in 1947, began construction in 1948, and the separate junior high opened ~1949 (Wikipedia's building-year list gives 'Normandy Junior High School - 1949'; the school's 'NorJun' newsletter exists for 1960-61 in the SHSMO collection). The same Wikipedia list notes the school later operated as 'Normandy Junior High/Middle (and later 7th-8th Grade Center).' The 'Normandy Junior High' name/building's exact end date is not pinned down online: NSC's current middle school is Normandy Middle School at Lucas Crossing (7837 Natural Bridge Rd; Lucas Crossing complex built 2004 per its school page, which cites the site as the former district administration/Lucas-Hunt property), and NSC reconfigured to a grades 1-8 'EleMiddle' model in 2019-20 (normandysc.org). The NSC Early Learning Center at 7855 Natural Bridge Rd may occupy the old junior-high site \u2014 plausible but unverified. Successor recorded as ALL-343 (Normandy Middle School at Lucas Crossing) as the functional continuation of the district's middle grades; interestingly that row's own seed 'Opened' value is 1949, suggesting the seed already treats it as the NJH continuation.",
+    "entity_type": "individual_school",
+    "reca_scope_status": "unknown_insufficient_data"
   },
   {
     "school_id": "ALL-331",
@@ -254,8 +265,9 @@
     "successor_school_id": "none",
     "successor_confidence": "probable",
     "successor_citation": "",
-    "notes": "The City of Bel-Nor's official site says 'the Normandy School District officially opened Bel-Nor school in 1927' — Normandy's first fireproof grade school and first not named for a president (STLPR reported the building was 'built in 1926,' consistent with construction 1926 / opening 1927). CLOSED AND REOPENED: the board voted Oct. 24, 2013 to close Bel-Nor amid the district's financial collapse; its ~332 students left on Dec. 20, 2013 and were folded into two other Normandy elementaries (AP/St. Louis Post-Dispatch via tucson.com; Wikipedia records the closure as 2014). A 2015 plan repurposed the building for kindergarten, and the school is active again — the NSC site lists it as the district's only grades 1-5 school with ~300 students. Recorded closed_year n/a since it operates today, with the 2013-14 closure documented here. During the closure its students dispersed to other district elementaries, so successor is 'none' for the reopened entity. Actual address ZIP is 63121 (Bel-Nor).",
-    "entity_type": "individual_school"
+    "notes": "The City of Bel-Nor's official site says 'the Normandy School District officially opened Bel-Nor school in 1927' \u2014 Normandy's first fireproof grade school and first not named for a president (STLPR reported the building was 'built in 1926,' consistent with construction 1926 / opening 1927). CLOSED AND REOPENED: the board voted Oct. 24, 2013 to close Bel-Nor amid the district's financial collapse; its ~332 students left on Dec. 20, 2013 and were folded into two other Normandy elementaries (AP/St. Louis Post-Dispatch via tucson.com; Wikipedia records the closure as 2014). A 2015 plan repurposed the building for kindergarten, and the school is active again \u2014 the NSC site lists it as the district's only grades 1-5 school with ~300 students. Recorded closed_year n/a since it operates today, with the 2013-14 closure documented here. During the closure its students dispersed to other district elementaries, so successor is 'none' for the reopened entity. Actual address ZIP is 63121 (Bel-Nor).",
+    "entity_type": "individual_school",
+    "reca_scope_status": "in_scope"
   },
   {
     "school_id": "ALL-332",
@@ -276,8 +288,9 @@
     "successor_school_id": "unknown",
     "successor_confidence": "unknown",
     "successor_citation": "",
-    "notes": "Seed's unknowns resolved with secondary sources: Wikipedia's Normandy Schools Collaborative school list gives the Bel-Ridge School building year as 1953 (probable — no stronger source found online; SHSMO's S0326 finding aid confirms only that Bel-Ridge was one of four elementary schools added to the district over the ~1922-1952 expansion). Closure: Wikipedia says it 'closed in 2011'; publicschoolreview's NCES-derived profile labels it 'Closed 2012' with enrollment data ending in 2011 (the ~1-year skew pattern noted in the pilot notes), and STLPR's Oct. 2013 report already refers to Bel-Ridge as unused district property. Recorded 2011 probable. Which elementaries absorbed its students is not documented — successor unknown. The Missouri Historical Society genealogy photo index holds a 'Bel-Ridge Primary School' image, consistent with an early-grades configuration.",
-    "entity_type": "individual_school"
+    "notes": "Seed's unknowns resolved with secondary sources: Wikipedia's Normandy Schools Collaborative school list gives the Bel-Ridge School building year as 1953 (probable \u2014 no stronger source found online; SHSMO's S0326 finding aid confirms only that Bel-Ridge was one of four elementary schools added to the district over the ~1922-1952 expansion). Closure: Wikipedia says it 'closed in 2011'; publicschoolreview's NCES-derived profile labels it 'Closed 2012' with enrollment data ending in 2011 (the ~1-year skew pattern noted in the pilot notes), and STLPR's Oct. 2013 report already refers to Bel-Ridge as unused district property. Recorded 2011 probable. Which elementaries absorbed its students is not documented \u2014 successor unknown. The Missouri Historical Society genealogy photo index holds a 'Bel-Ridge Primary School' image, consistent with an early-grades configuration.",
+    "entity_type": "individual_school",
+    "reca_scope_status": "in_scope"
   },
   {
     "school_id": "ALL-333",
@@ -297,8 +310,9 @@
     "successor_school_id": "none",
     "successor_confidence": "confirmed",
     "successor_citation": "",
-    "notes": "The school's own About page says it 'began in 1976,' founded by parents seeking a faith-centered school; privateschoolreview (NCES-derived) likewise lists 'Year Founded 1976.' Still operating per the NCES Private School Universe Survey and its live site (~152 PK-12 students). SEED ADDRESS ERROR: seed lists '11050 Saint Charles Rock Road, St Ann MO 63074' — the school's actual address is 11050 N. Warson Rd, St. Louis MO 63114 (school site and NCES both), so the true ZIP is 63114, not 63074. NCES lists its affiliation as Church of Christ.",
-    "entity_type": "individual_school"
+    "notes": "The school's own About page says it 'began in 1976,' founded by parents seeking a faith-centered school; privateschoolreview (NCES-derived) likewise lists 'Year Founded 1976.' Still operating per the NCES Private School Universe Survey and its live site (~152 PK-12 students). SEED ADDRESS ERROR: seed lists '11050 Saint Charles Rock Road, St Ann MO 63074' \u2014 the school's actual address is 11050 N. Warson Rd, St. Louis MO 63114 (school site and NCES both), so the true ZIP is 63114, not 63074. NCES lists its affiliation as Church of Christ.",
+    "entity_type": "individual_school",
+    "reca_scope_status": "in_scope"
   },
   {
     "school_id": "ALL-334",
@@ -318,7 +332,8 @@
     "successor_school_id": "none",
     "successor_confidence": "confirmed",
     "successor_citation": "",
-    "notes": "Seed's 1932 confirmed by the school's own history page: the Sisters of Charity of the Incarnate Word bought the Lucas Estate land in Bel-Nor in 1921-22, Archbishop Glennon blessed the convent Oct. 28, 1928, and 'Incarnate Word Academy opened on September 6, 1932' in the convent facilities (35 students the first year per Wikipedia). Administration building added 1949, Chapel 1956, Centennial Hall 1969. Still operating — Catholic college-prep girls' high school at 2788 Normandy Dr. Actual ZIP is 63121 (Bel-Nor); the 63114 seed ZIP reflects community coverage.",
-    "entity_type": "individual_school"
+    "notes": "Seed's 1932 confirmed by the school's own history page: the Sisters of Charity of the Incarnate Word bought the Lucas Estate land in Bel-Nor in 1921-22, Archbishop Glennon blessed the convent Oct. 28, 1928, and 'Incarnate Word Academy opened on September 6, 1932' in the convent facilities (35 students the first year per Wikipedia). Administration building added 1949, Chapel 1956, Centennial Hall 1969. Still operating \u2014 Catholic college-prep girls' high school at 2788 Normandy Dr. Actual ZIP is 63121 (Bel-Nor); the 63114 seed ZIP reflects community coverage.",
+    "entity_type": "individual_school",
+    "reca_scope_status": "in_scope"
   }
 ]

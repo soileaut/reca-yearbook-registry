@@ -18,8 +18,9 @@
     "successor_school_id": "ALL-357",
     "successor_confidence": "confirmed",
     "successor_citation": "https://en.wikipedia.org/wiki/Pine_Lawn,_Missouri",
-    "notes": "Opened 1971 per the Normandy district chronology (Wikipedia/SHSMO-derived). Closed January 2011: STLPR (May 27, 2010) reported 'Next January, Garfield and Pine Lawn will close, with their 400 students moving into a new elementary school in Pine Lawn' — that new school is Barack Obama Elementary (ALL-357), a consolidation of Garfield and Pine Lawn. SEED ADDRESS ERROR: '6506 Wright Way' is the address of Garfield School, not Pine Lawn — the archived June 2003 Normandy district school list gives 'Garfield School 6506 Wright Way Northwoods, MO' and 'Pine Lawn School 2505 Kienlen Pine Lawn, MO'. Pine Lawn Elementary's actual address was 2505 Kienlen Ave.",
-    "entity_type": "individual_school"
+    "notes": "Opened 1971 per the Normandy district chronology (Wikipedia/SHSMO-derived). Closed January 2011: STLPR (May 27, 2010) reported 'Next January, Garfield and Pine Lawn will close, with their 400 students moving into a new elementary school in Pine Lawn' \u2014 that new school is Barack Obama Elementary (ALL-357), a consolidation of Garfield and Pine Lawn. SEED ADDRESS ERROR: '6506 Wright Way' is the address of Garfield School, not Pine Lawn \u2014 the archived June 2003 Normandy district school list gives 'Garfield School 6506 Wright Way Northwoods, MO' and 'Pine Lawn School 2505 Kienlen Pine Lawn, MO'. Pine Lawn Elementary's actual address was 2505 Kienlen Ave.",
+    "entity_type": "individual_school",
+    "reca_scope_status": "in_scope"
   },
   {
     "school_id": "ALL-357",
@@ -39,8 +40,9 @@
     "successor_school_id": "none",
     "successor_confidence": "confirmed",
     "successor_citation": "",
-    "notes": "New 65,000 sq ft building in Pine Lawn completed 2011 (Kwame Building Group project page), replacing Garfield Elementary and Pine Lawn Elementary (ALL-356), which closed January 2011 (STLPR, May 2010). School board voted to name it for President Obama in 2010; students at the two closing schools selected the name in a poll. Currently operating; NCES ID 292265003189 lists it as 'Barack Obama Elementary School' while the district brands it 'Barack Obama School' (barackobama.normandysc.org). Address 3883 Jennings Station Rd — physically in the City of Pine Lawn though the postal city is 'St. Louis'. Seed's historical-name alias 'Normandy Elementary' is unverified and likely a confusion with the historic Normandy School (est. 1897, a different entity).",
-    "entity_type": "individual_school"
+    "notes": "New 65,000 sq ft building in Pine Lawn completed 2011 (Kwame Building Group project page), replacing Garfield Elementary and Pine Lawn Elementary (ALL-356), which closed January 2011 (STLPR, May 2010). School board voted to name it for President Obama in 2010; students at the two closing schools selected the name in a poll. Currently operating; NCES ID 292265003189 lists it as 'Barack Obama Elementary School' while the district brands it 'Barack Obama School' (barackobama.normandysc.org). Address 3883 Jennings Station Rd \u2014 physically in the City of Pine Lawn though the postal city is 'St. Louis'. Seed's historical-name alias 'Normandy Elementary' is unverified and likely a confusion with the historic Normandy School (est. 1897, a different entity).",
+    "entity_type": "individual_school",
+    "reca_scope_status": "in_scope"
   },
   {
     "school_id": "ALL-358",
@@ -48,7 +50,7 @@
     "historical_names": [
       "Normandy Middle School",
       "Lucas Crossing School Complex",
-      "Barack Obama Middle School (seed name — see notes)"
+      "Barack Obama Middle School (seed name \u2014 see notes)"
     ],
     "zip": "63121",
     "district_operator": "Normandy School District / Normandy Schools Collaborative",
@@ -62,8 +64,9 @@
     "successor_school_id": "none",
     "successor_confidence": "confirmed",
     "successor_citation": "",
-    "notes": "PHANTOM NAME FLAG: no 'Barack Obama Middle School' exists or existed in the Normandy district — the only Obama-named school is Barack Obama Elementary (ALL-357). The seed's address (7855 Natural Bridge Rd) is the Lucas Crossing complex: current district materials give Normandy Middle School at Lucas Crossing at 7837 Natural Bridge Rd while older NCES/directory data list Normandy Middle at 7855 Natural Bridge Rd — same complex. The Lucas Crossing complex opened in 2001 (Normandy, MO Wikipedia, citing the archived district page 'Lucas Crossing Elementary School, scheduled to open in 2001'), taking students formerly at Harrison, Lincoln, and McKinley elementaries; the district chronology separately lists 'Lucas Crossing School Complex - 2004', so the middle-school phase may date to 2004. Row treated as the real middle school occupying the seed's address. Normandy's junior-high lineage began with the 1949 building on the 30-acre Natural Bridge Rd tract bought from the Sisters of the Cenacle in 1947 (SHSMO S0326) — whether that site is the same as today's Lucas Crossing complex is unverified.",
-    "entity_type": "individual_school"
+    "notes": "PHANTOM NAME FLAG: no 'Barack Obama Middle School' exists or existed in the Normandy district \u2014 the only Obama-named school is Barack Obama Elementary (ALL-357). The seed's address (7855 Natural Bridge Rd) is the Lucas Crossing complex: current district materials give Normandy Middle School at Lucas Crossing at 7837 Natural Bridge Rd while older NCES/directory data list Normandy Middle at 7855 Natural Bridge Rd \u2014 same complex. The Lucas Crossing complex opened in 2001 (Normandy, MO Wikipedia, citing the archived district page 'Lucas Crossing Elementary School, scheduled to open in 2001'), taking students formerly at Harrison, Lincoln, and McKinley elementaries; the district chronology separately lists 'Lucas Crossing School Complex - 2004', so the middle-school phase may date to 2004. Row treated as the real middle school occupying the seed's address. Normandy's junior-high lineage began with the 1949 building on the 30-acre Natural Bridge Rd tract bought from the Sisters of the Cenacle in 1947 (SHSMO S0326) \u2014 whether that site is the same as today's Lucas Crossing complex is unverified.",
+    "entity_type": "individual_school",
+    "reca_scope_status": "in_scope"
   },
   {
     "school_id": "ALL-361",
@@ -84,8 +87,9 @@
     "successor_school_id": "none",
     "successor_confidence": "confirmed",
     "successor_citation": "",
-    "notes": "Opened ~2019 per the district chronology ('Normandy Early Learning Center - 2019'). ADDRESS DISCREPANCY: the seed and the archived 2003 district list put it at 3417 St Thomas More Lane (which was then the 'Normandy Kindergarten Center', Bel-Nor postal address, physically in Bel-Ridge), while the district's current enrollment page lists the Early Learning Center at 7855 Natural Bridge Rd (the Lucas Crossing complex), and NCES shows 3101 Nordic Dr. The ELC appears to have relocated from the St. Thomas More Lane kindergarten building — the exact move is unresolved. A separate 'Normandy Early Childhood Center' operated at 7611 South Sunset, Pasadena Park (2003-era). Pre-K/K program only, so yearbook potential is low, but enrollment records could serve as residency evidence.",
-    "entity_type": "individual_school"
+    "notes": "Opened ~2019 per the district chronology ('Normandy Early Learning Center - 2019'). ADDRESS DISCREPANCY: the seed and the archived 2003 district list put it at 3417 St Thomas More Lane (which was then the 'Normandy Kindergarten Center', Bel-Nor postal address, physically in Bel-Ridge), while the district's current enrollment page lists the Early Learning Center at 7855 Natural Bridge Rd (the Lucas Crossing complex), and NCES shows 3101 Nordic Dr. The ELC appears to have relocated from the St. Thomas More Lane kindergarten building \u2014 the exact move is unresolved. A separate 'Normandy Early Childhood Center' operated at 7611 South Sunset, Pasadena Park (2003-era). Pre-K/K program only, so yearbook potential is low, but enrollment records could serve as residency evidence.",
+    "entity_type": "individual_school",
+    "reca_scope_status": "in_scope"
   },
   {
     "school_id": "ALL-362",
@@ -107,8 +111,9 @@
     "successor_school_id": "unknown",
     "successor_confidence": "unknown",
     "successor_citation": "",
-    "notes": "Real alternative-education program: business/directory records list 'Positive Alternative Learning', 6834 Normandale Dr, with principal Calvin Nicholas on the normandy.k12.mo.us domain, and STLPR (May 2010) names the PAL Center among schools getting new leadership. Founding year not found. CURRENT STATUS UNCERTAIN: the district's present alternative-education offering is branded 'C.A.S.A.' (Center for Academic & Social Advancement) per normandysc.org — the PAL name may have been retired or the program folded into the high school, so this may be a name that no longer appears in district directories. The 6834 Normandale Dr address is in the Velda City/Hillsdale area, consistent with the former McKinley Elementary site (McKinley School est. 1907, in Velda City; its students moved to Lucas Crossing Elementary in 2001) — probable but unverified building reuse matching the seed's 'McKinley School Annex' alias. Whether any yearbook-equivalent records exist is doubtful for an alternative program.",
-    "entity_type": "individual_school"
+    "notes": "Real alternative-education program: business/directory records list 'Positive Alternative Learning', 6834 Normandale Dr, with principal Calvin Nicholas on the normandy.k12.mo.us domain, and STLPR (May 2010) names the PAL Center among schools getting new leadership. Founding year not found. CURRENT STATUS UNCERTAIN: the district's present alternative-education offering is branded 'C.A.S.A.' (Center for Academic & Social Advancement) per normandysc.org \u2014 the PAL name may have been retired or the program folded into the high school, so this may be a name that no longer appears in district directories. The 6834 Normandale Dr address is in the Velda City/Hillsdale area, consistent with the former McKinley Elementary site (McKinley School est. 1907, in Velda City; its students moved to Lucas Crossing Elementary in 2001) \u2014 probable but unverified building reuse matching the seed's 'McKinley School Annex' alias. Whether any yearbook-equivalent records exist is doubtful for an alternative program.",
+    "entity_type": "individual_school",
+    "reca_scope_status": "unknown_insufficient_data"
   },
   {
     "school_id": "ALL-366",
@@ -131,8 +136,9 @@
     "successor_school_id": "none",
     "successor_confidence": "confirmed",
     "successor_citation": "",
-    "notes": "Founded as the German St. Vincent Orphan Association June 14, 1850 after the 1849 cholera epidemic; the home opened in 1851 at 1421 Hogan Street in the City of St. Louis. Relocated to its Normandy campus in 1914 (Riverfront Times) or 1916 (Archdiocese of St. Louis Catholic children's facilities history) — the Romanesque Revival building still stands. Not a conventional school, but it ran educational programming and continues to offer 'alternative special education' alongside residential treatment for up to ~150 children (UMSL Daily, 2010); still operating today. SEED OPERATOR ERROR: 'Daughters of Charity' is wrong — it was staffed by the Sisters of St. Joseph of Carondelet until 1888, then the Sisters of Christian Charity until lay administration took over in 1996. SEED ADDRESS NOTE: '7301 St Charles Rock Road' doesn't match the campus address (7401 Florissant Rd, Normandy), though a St. Vincent Community Center existed at 7335 St. Charles Rock Rd in Pagedale (2010) — the seed likely refers to the same institutional campus. Seed note says SHSMO holds St. Vincent Home yearbooks 1956-1965.",
-    "entity_type": "individual_school"
+    "notes": "Founded as the German St. Vincent Orphan Association June 14, 1850 after the 1849 cholera epidemic; the home opened in 1851 at 1421 Hogan Street in the City of St. Louis. Relocated to its Normandy campus in 1914 (Riverfront Times) or 1916 (Archdiocese of St. Louis Catholic children's facilities history) \u2014 the Romanesque Revival building still stands. Not a conventional school, but it ran educational programming and continues to offer 'alternative special education' alongside residential treatment for up to ~150 children (UMSL Daily, 2010); still operating today. SEED OPERATOR ERROR: 'Daughters of Charity' is wrong \u2014 it was staffed by the Sisters of St. Joseph of Carondelet until 1888, then the Sisters of Christian Charity until lay administration took over in 1996. SEED ADDRESS NOTE: '7301 St Charles Rock Road' doesn't match the campus address (7401 Florissant Rd, Normandy), though a St. Vincent Community Center existed at 7335 St. Charles Rock Rd in Pagedale (2010) \u2014 the seed likely refers to the same institutional campus. Seed note says SHSMO holds St. Vincent Home yearbooks 1956-1965.",
+    "entity_type": "individual_school",
+    "reca_scope_status": "in_scope"
   },
   {
     "school_id": "ALL-368",
@@ -140,7 +146,7 @@
     "historical_names": [
       "St. Ann of Normandy Catholic Elementary School",
       "St. Ann School",
-      "Normandy Catholic School (seed name — generic; see notes)"
+      "Normandy Catholic School (seed name \u2014 generic; see notes)"
     ],
     "zip": "63121",
     "district_operator": "St. Ann Parish / Archdiocese of St. Louis",
@@ -154,8 +160,9 @@
     "successor_school_id": "none",
     "successor_confidence": "confirmed",
     "successor_citation": "",
-    "notes": "IDENTIFICATION IS PROBABLE, NOT CONFIRMED: the seed's generic 'Normandy Catholic School' is assumed to be St. Ann Catholic School, 7532 Natural Bridge Rd, Normandy — the Catholic parish elementary school of Normandy and the only currently operating parish school there (still open; NCES PSS lists it; sacs-stl.org live). Parish history: Anne Lucas Hunt donated land/funds to the Jesuits in 1854 to 'open a school for the children'; the parish dates to 1856, and the parish's About page says 'In 1858, St. Ann Catholic School opened' while the school's own history page says the school began in 1856 in the frame church — opened_year recorded as 1858 with the 1856 variant noted. Sisters of Mercy were the first teachers; Sisters of Loretto served from September 1896; the current school building dates to 1926 (Saint Louis Patina). ALTERNATE REFERENT if the seed meant a secondary school: Incarnate Word Academy (girls' Catholic high school, founded 1932, in the Normandy/Bel-Nor area) — still open. Recommend the data steward confirm which entity the seed intended.",
-    "entity_type": "individual_school"
+    "notes": "IDENTIFICATION IS PROBABLE, NOT CONFIRMED: the seed's generic 'Normandy Catholic School' is assumed to be St. Ann Catholic School, 7532 Natural Bridge Rd, Normandy \u2014 the Catholic parish elementary school of Normandy and the only currently operating parish school there (still open; NCES PSS lists it; sacs-stl.org live). Parish history: Anne Lucas Hunt donated land/funds to the Jesuits in 1854 to 'open a school for the children'; the parish dates to 1856, and the parish's About page says 'In 1858, St. Ann Catholic School opened' while the school's own history page says the school began in 1856 in the frame church \u2014 opened_year recorded as 1858 with the 1856 variant noted. Sisters of Mercy were the first teachers; Sisters of Loretto served from September 1896; the current school building dates to 1926 (Saint Louis Patina). ALTERNATE REFERENT if the seed meant a secondary school: Incarnate Word Academy (girls' Catholic high school, founded 1932, in the Normandy/Bel-Nor area) \u2014 still open. Recommend the data steward confirm which entity the seed intended.",
+    "entity_type": "individual_school",
+    "reca_scope_status": "in_scope"
   },
   {
     "school_id": "ALL-370",
@@ -175,8 +182,9 @@
     "successor_school_id": "ALL-371",
     "successor_confidence": "confirmed",
     "successor_citation": "http://files.shsmo.org/manuscripts/saint-louis/S0326.pdf",
-    "notes": "One of three public schools already in operation when the Normandy district was formally organized July 12, 1894 (SHSMO Normandy School District Collection, S0326, historical note) — so the school predates the district and the seed's '1894' opening year actually reflects district formation, not the school's founding; true opening year unknown. The school was closed in 1895 when a new Washington School building was completed and its students transferred there (successor = ALL-371). No name or location for this school is documented in the finding aid; the collection's internal histories (f.1 'Normandy School District: The First One Hundred Years', 1994; f.13 Herbert Lee Green's 1937 history) may name it — recommended human follow-up at SHSMO-St. Louis or MoHistory.",
-    "entity_type": "individual_school"
+    "notes": "One of three public schools already in operation when the Normandy district was formally organized July 12, 1894 (SHSMO Normandy School District Collection, S0326, historical note) \u2014 so the school predates the district and the seed's '1894' opening year actually reflects district formation, not the school's founding; true opening year unknown. The school was closed in 1895 when a new Washington School building was completed and its students transferred there (successor = ALL-371). No name or location for this school is documented in the finding aid; the collection's internal histories (f.1 'Normandy School District: The First One Hundred Years', 1994; f.13 Herbert Lee Green's 1937 history) may name it \u2014 recommended human follow-up at SHSMO-St. Louis or MoHistory.",
+    "entity_type": "individual_school",
+    "reca_scope_status": "out_of_scope_closed_before_1949"
   },
   {
     "school_id": "ALL-371",
@@ -197,8 +205,9 @@
     "successor_school_id": "unknown",
     "successor_confidence": "unknown",
     "successor_citation": "",
-    "notes": "African American students moved into the new Washington School building in 1895 when the unnamed Black school (ALL-370) closed (SHSMO S0326). END DATE UNRESOLVED: no online source documents when this segregated department ceased. Hypotheses worth checking in the S0326/NAHA collections: Lincoln School (est. ~1900, in Pagedale — 'Lincoln' was the conventional name for Black schools) may have absorbed the AA enrollment; a second Washington School building opened in Vinita Park in 1930 and whether the AA department moved with it is unknown; the district was effectively all-white by the 1950s. NOTE: this row is a department within a school rather than a standalone building — kept as a distinct entity per the seed, which is reasonable for yearbook/records purposes since segregated-era records may be filed separately. Related dataset rows for the Washington School buildings themselves (ALL-344, -345, -346) are in other batches.",
-    "entity_type": "individual_school"
+    "notes": "African American students moved into the new Washington School building in 1895 when the unnamed Black school (ALL-370) closed (SHSMO S0326). END DATE UNRESOLVED: no online source documents when this segregated department ceased. Hypotheses worth checking in the S0326/NAHA collections: Lincoln School (est. ~1900, in Pagedale \u2014 'Lincoln' was the conventional name for Black schools) may have absorbed the AA enrollment; a second Washington School building opened in Vinita Park in 1930 and whether the AA department moved with it is unknown; the district was effectively all-white by the 1950s. NOTE: this row is a department within a school rather than a standalone building \u2014 kept as a distinct entity per the seed, which is reasonable for yearbook/records purposes since segregated-era records may be filed separately. Related dataset rows for the Washington School buildings themselves (ALL-344, -345, -346) are in other batches.",
+    "entity_type": "individual_school",
+    "reca_scope_status": "unknown_insufficient_data"
   },
   {
     "school_id": "ALL-372",
@@ -219,8 +228,9 @@
     "successor_school_id": "none",
     "successor_confidence": "confirmed",
     "successor_citation": "",
-    "notes": "ADMINISTRATIVE DISTRICT — not a single school; do not search for a yearbook directly. Formally organized July 12, 1894 (first board minutes; SHSMO S0326) as a three-director rural district with three operating schools (Washington, Normandy, and the unnamed African American school, ALL-370). Current member schools (per district enrollment page): Normandy High School (6701 St. Charles Rock Rd — other batches), Normandy Middle School at Lucas Crossing (ALL-358), Barack Obama Elementary (ALL-357), Bel-Nor Elementary, Jefferson Elementary (4315 Cardwell Dr), Washington Elementary (1730 N. Hanley Rd, 63114), Early Learning Center (ALL-361), plus the alternative program (ALL-362). Former member schools: Garfield, Pine Lawn (ALL-356), McKinley, Harrison, Lincoln, Bel-Ridge (closed 2011), Bel-Nor (closed/reopened), Lucas Crossing Elementary, Normandy Junior High, plus absorbed Wellston district schools 2010 (Bishop Middle, Eskridge HS — closed that year). The district lost accreditation 2013, was dissolved June 30, 2014 and reconstituted as the state-supervised Normandy Schools Collaborative (still its legal name — the Oct 2023 state-board decision 'does not change the name'); provisionally accredited 2017, fully accredited ~2023, and returned to a fully elected local board June 30, 2024. Row retained as the district-level entity; yearbook research should target member schools.",
-    "entity_type": "administrative_district_only"
+    "notes": "ADMINISTRATIVE DISTRICT \u2014 not a single school; do not search for a yearbook directly. Formally organized July 12, 1894 (first board minutes; SHSMO S0326) as a three-director rural district with three operating schools (Washington, Normandy, and the unnamed African American school, ALL-370). Current member schools (per district enrollment page): Normandy High School (6701 St. Charles Rock Rd \u2014 other batches), Normandy Middle School at Lucas Crossing (ALL-358), Barack Obama Elementary (ALL-357), Bel-Nor Elementary, Jefferson Elementary (4315 Cardwell Dr), Washington Elementary (1730 N. Hanley Rd, 63114), Early Learning Center (ALL-361), plus the alternative program (ALL-362). Former member schools: Garfield, Pine Lawn (ALL-356), McKinley, Harrison, Lincoln, Bel-Ridge (closed 2011), Bel-Nor (closed/reopened), Lucas Crossing Elementary, Normandy Junior High, plus absorbed Wellston district schools 2010 (Bishop Middle, Eskridge HS \u2014 closed that year). The district lost accreditation 2013, was dissolved June 30, 2014 and reconstituted as the state-supervised Normandy Schools Collaborative (still its legal name \u2014 the Oct 2023 state-board decision 'does not change the name'); provisionally accredited 2017, fully accredited ~2023, and returned to a fully elected local board June 30, 2024. Row retained as the district-level entity; yearbook research should target member schools.",
+    "entity_type": "administrative_district_only",
+    "reca_scope_status": "in_scope"
   },
   {
     "school_id": "ALL-374",
@@ -241,8 +251,9 @@
     "successor_school_id": "none",
     "successor_confidence": "confirmed",
     "successor_citation": "",
-    "notes": "ADMINISTRATIVE GROUPING — not a school at all: this row describes the wedge of the City of Normandy that lies inside the Ferguson-Florissant R-II School District (legal name 'Ferguson Reorganized School District R-2'; most of Normandy is in Normandy Schools Collaborative, 'a small portion is in the Ferguson-Florissant R-II School District' per Wikipedia). The identifiable FFSD member school physically in the Normandy area is Bermuda Elementary (ALL-375, 5835 Bermuda Dr). Context: a June 7, 1975 federal court order (United States v. Missouri, 388 F. Supp. 1058) directed FFSD to annex the Berkeley and Kinloch school districts — the source of FFSD's Berkeley/Kinloch territory and related campus rows in other batches (ALL-114, -379, -380, -381, -383). FFSD headquarters is in Ferguson (63135), outside this ZIP. Recommend Track B skip this row and research Bermuda Elementary plus other named FFSD rows directly.",
-    "entity_type": "administrative_district_only"
+    "notes": "ADMINISTRATIVE GROUPING \u2014 not a school at all: this row describes the wedge of the City of Normandy that lies inside the Ferguson-Florissant R-II School District (legal name 'Ferguson Reorganized School District R-2'; most of Normandy is in Normandy Schools Collaborative, 'a small portion is in the Ferguson-Florissant R-II School District' per Wikipedia). The identifiable FFSD member school physically in the Normandy area is Bermuda Elementary (ALL-375, 5835 Bermuda Dr). Context: a June 7, 1975 federal court order (United States v. Missouri, 388 F. Supp. 1058) directed FFSD to annex the Berkeley and Kinloch school districts \u2014 the source of FFSD's Berkeley/Kinloch territory and related campus rows in other batches (ALL-114, -379, -380, -381, -383). FFSD headquarters is in Ferguson (63135), outside this ZIP. Recommend Track B skip this row and research Bermuda Elementary plus other named FFSD rows directly.",
+    "entity_type": "administrative_district_only",
+    "reca_scope_status": "in_scope"
   },
   {
     "school_id": "ALL-375",
@@ -264,8 +275,9 @@
     "successor_school_id": "none",
     "successor_confidence": "confirmed",
     "successor_citation": "",
-    "notes": "Confirmed operating: NCES lists Bermuda Elementary, 5835 Bermuda Dr, St. Louis 63121 (in Normandy), currently a PK-2 'Bermuda Primary School' under FFSD's grade-band reconfiguration. SEED ADDRESS ERROR: '11600 Old Halls Ferry Road?' is wrong — that corridor is in Jennings/North County; the school is at 5835 Bermuda Dr. Opening year not found — publicschoolreview's enrollment series begins 1989 (the school clearly predates it; likely post-war suburban construction but no dated source surfaced), and hubbiz's 'established 1997' is unreliable. Recommend human follow-up in FFSD facility records or Normandy Area Historical Association/SHSMO materials for a build date.",
-    "entity_type": "individual_school"
+    "notes": "Confirmed operating: NCES lists Bermuda Elementary, 5835 Bermuda Dr, St. Louis 63121 (in Normandy), currently a PK-2 'Bermuda Primary School' under FFSD's grade-band reconfiguration. SEED ADDRESS ERROR: '11600 Old Halls Ferry Road?' is wrong \u2014 that corridor is in Jennings/North County; the school is at 5835 Bermuda Dr. Opening year not found \u2014 publicschoolreview's enrollment series begins 1989 (the school clearly predates it; likely post-war suburban construction but no dated source surfaced), and hubbiz's 'established 1997' is unreliable. Recommend human follow-up in FFSD facility records or Normandy Area Historical Association/SHSMO materials for a build date.",
+    "entity_type": "individual_school",
+    "reca_scope_status": "in_scope"
   },
   {
     "school_id": "ALL-376",
@@ -286,8 +298,9 @@
     "successor_school_id": "none",
     "successor_confidence": "confirmed",
     "successor_citation": "",
-    "notes": "Seed's '1920s' refined: the Art Deco building at 7401 Balson Ave was designed in 1928 by Trueblood & Graf and opened in 1930 (district's own history page; NRHP nomination for the University City Education District, listed 1985). The institution likely predates the building — the School District of University City was formally established February 1911 and ran earlier secondary grades — so 1930 is the building/campus opening. Still operating. SEED ZIP NOTE: the school is actually in University City, ZIP 63130; included in this batch because pre-1922 Normandy students attended surrounding districts' high schools before Normandy had an accredited high school (SHSMO S0326; Kinloch HS article similarly notes white Kinloch-area students attended Normandy/Ritenour/Ferguson high schools). Relevant as a pre-1922 (and later tuition/transfer) search target for Normandy-area claimants.",
-    "entity_type": "individual_school"
+    "notes": "Seed's '1920s' refined: the Art Deco building at 7401 Balson Ave was designed in 1928 by Trueblood & Graf and opened in 1930 (district's own history page; NRHP nomination for the University City Education District, listed 1985). The institution likely predates the building \u2014 the School District of University City was formally established February 1911 and ran earlier secondary grades \u2014 so 1930 is the building/campus opening. Still operating. SEED ZIP NOTE: the school is actually in University City, ZIP 63130; included in this batch because pre-1922 Normandy students attended surrounding districts' high schools before Normandy had an accredited high school (SHSMO S0326; Kinloch HS article similarly notes white Kinloch-area students attended Normandy/Ritenour/Ferguson high schools). Relevant as a pre-1922 (and later tuition/transfer) search target for Normandy-area claimants.",
+    "entity_type": "individual_school",
+    "reca_scope_status": "in_scope"
   },
   {
     "school_id": "ALL-377",
@@ -298,7 +311,7 @@
     ],
     "zip": "63121",
     "district_operator": "Local historical organization (nonprofit)",
-    "school_type": "Archive/Community Organization — NOT A SCHOOL",
+    "school_type": "Archive/Community Organization \u2014 NOT A SCHOOL",
     "opened_year": "1974",
     "opened_confidence": "confirmed",
     "opened_citation": "https://mohistory.mobiusconsortium.org/repositories/4/resources/634",
@@ -308,8 +321,9 @@
     "successor_school_id": "none",
     "successor_confidence": "probable",
     "successor_citation": "",
-    "notes": "DATA-QUALITY FLAG — NOT A SCHOOL: NAHA is the key Normandy-area historical society, established as a nonprofit in 1974 (Missouri Historical Society ArchivesSpace biographical note) after forming to save the Clark 'Minoma' house; it instead preserved the Hunt House/Shelter/Cenacle at 7717 Natural Bridge Rd as its longtime home. It documented the history of ~20 North County municipalities for over 30 years; its collections are now at the Missouri Historical Society (NAHA Collection — incl. 'Normandy School District History, presented by Fred Small, 1991') and SHSMO (S0420, records 1877-2008, incl. photographs and yearbooks per SHSMO's description — matching the seed's claim that it holds Normandy High yearbooks). No evidence found that it still operates as an active organization — the archival deposits suggest it is inactive or dissolved, date unfound. RECOMMENDATION: exclude from the schools table and carry it as an archive/holdings lead for Track B work (both its MoHistory and SHSMO deposits are directly relevant to the yearbook survey). entity_type set to ambiguous_unresolved only because the enum lacks a 'not_a_school' value.",
-    "entity_type": "ambiguous_unresolved"
+    "notes": "DATA-QUALITY FLAG \u2014 NOT A SCHOOL: NAHA is the key Normandy-area historical society, established as a nonprofit in 1974 (Missouri Historical Society ArchivesSpace biographical note) after forming to save the Clark 'Minoma' house; it instead preserved the Hunt House/Shelter/Cenacle at 7717 Natural Bridge Rd as its longtime home. It documented the history of ~20 North County municipalities for over 30 years; its collections are now at the Missouri Historical Society (NAHA Collection \u2014 incl. 'Normandy School District History, presented by Fred Small, 1991') and SHSMO (S0420, records 1877-2008, incl. photographs and yearbooks per SHSMO's description \u2014 matching the seed's claim that it holds Normandy High yearbooks). No evidence found that it still operates as an active organization \u2014 the archival deposits suggest it is inactive or dissolved, date unfound. RECOMMENDATION: exclude from the schools table and carry it as an archive/holdings lead for Track B work (both its MoHistory and SHSMO deposits are directly relevant to the yearbook survey). entity_type set to ambiguous_unresolved only because the enum lacks a 'not_a_school' value.",
+    "entity_type": "ambiguous_unresolved",
+    "reca_scope_status": "unknown_insufficient_data"
   },
   {
     "school_id": "ALL-379",
@@ -332,7 +346,8 @@
     "successor_school_id": "ALL-114",
     "successor_confidence": "probable",
     "successor_citation": "https://en.wikipedia.org/wiki/Berkeley,_Missouri",
-    "notes": "Campus-level row for Berkeley High School's original home at 5924 Hancock Ave, the 'Little Red Schoolhouse' — the building itself is much older than the seed's 1937: it was built in 1902-03 (cornerstone August 1902) as the Kinloch School District No. 5 school for white students, and it housed both elementary AND high-school classes by 1932-1935 (City of Berkeley history page; alumni reunion site). The 1937 date marks the Berkeley identity: the Berkeley School District formed in 1937 amid a segregation dispute (white residents drew the new City of Berkeley's boundaries to exclude Black families), and the district's 'white' Kinloch high school was renamed Berkeley High School (Wikipedia, Berkeley, MO + Kinloch HS articles). END OF HS USE AT HANCOCK UNRESOLVED — deliberately left 'unknown' rather than accepting the seed's 1947: the alumni site is titled 'BHS Reunion 1938-1960', which brackets the Hancock-era HS classes through ~1960 and conflicts with 1947; Wikipedia confirms 'a new Berkeley High School campus opened in a new location' at some later point but gives no date. The building continued as an elementary school afterward (survived the 2011 Good Friday tornado). Successor is the continuing institution Berkeley High School (dataset row ALL-114 — other campus rows ALL-380 Caroline Ave, ALL-381 Walter Ave are in other batches); the institution closed December 2003 (Lambert airport expansion) and was replaced by McCluer South-Berkeley HS (opened January 2004).",
-    "entity_type": "individual_school"
+    "notes": "Campus-level row for Berkeley High School's original home at 5924 Hancock Ave, the 'Little Red Schoolhouse' \u2014 the building itself is much older than the seed's 1937: it was built in 1902-03 (cornerstone August 1902) as the Kinloch School District No. 5 school for white students, and it housed both elementary AND high-school classes by 1932-1935 (City of Berkeley history page; alumni reunion site). The 1937 date marks the Berkeley identity: the Berkeley School District formed in 1937 amid a segregation dispute (white residents drew the new City of Berkeley's boundaries to exclude Black families), and the district's 'white' Kinloch high school was renamed Berkeley High School (Wikipedia, Berkeley, MO + Kinloch HS articles). END OF HS USE AT HANCOCK UNRESOLVED \u2014 deliberately left 'unknown' rather than accepting the seed's 1947: the alumni site is titled 'BHS Reunion 1938-1960', which brackets the Hancock-era HS classes through ~1960 and conflicts with 1947; Wikipedia confirms 'a new Berkeley High School campus opened in a new location' at some later point but gives no date. The building continued as an elementary school afterward (survived the 2011 Good Friday tornado). Successor is the continuing institution Berkeley High School (dataset row ALL-114 \u2014 other campus rows ALL-380 Caroline Ave, ALL-381 Walter Ave are in other batches); the institution closed December 2003 (Lambert airport expansion) and was replaced by McCluer South-Berkeley HS (opened January 2004).",
+    "entity_type": "individual_school",
+    "reca_scope_status": "unknown_insufficient_data"
   }
 ]

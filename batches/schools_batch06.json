@@ -18,8 +18,9 @@
     "successor_school_id": "ALL-420",
     "successor_confidence": "probable",
     "successor_citation": "https://en.wikipedia.org/wiki/McCluer_High_School",
-    "notes": "SEED CORRECTION: seed says closed '1950s' and places it in the 'Florissant area' (ZIP 63042) — the documented school is at 201 Wesley Ave, Ferguson 63135. 'Central High School' is best read as the high school program of Central School: the St. Louis County Landmarks page records that Ferguson School (built 1877-80) created a two-year high school program in 1896 and expanded it to one of the first accredited four-year public high schools in St. Louis County in 1903 (when the school was renamed Central School). High school students transferred to the new John M. Vogt High School when it opened in 1930; the Landmarks page dates Central School's reversion to elementary status to the new high school's construction in 1931 — the two sources differ by a year, so 1930-31 is the real window. Successor recorded as Vogt High School (seed row ALL-420); the lineage then ran Vogt HS (1930) -> Ferguson High School (1939, ALL-416/417). Row kept separate per no-silent-merge rule, but overlaps ALL-423 'Central School' and ALL-424 'Central School - Early Ferguson School' in the wider dataset — the building lineage is the same school.",
-    "entity_type": "individual_school"
+    "notes": "SEED CORRECTION: seed says closed '1950s' and places it in the 'Florissant area' (ZIP 63042) \u2014 the documented school is at 201 Wesley Ave, Ferguson 63135. 'Central High School' is best read as the high school program of Central School: the St. Louis County Landmarks page records that Ferguson School (built 1877-80) created a two-year high school program in 1896 and expanded it to one of the first accredited four-year public high schools in St. Louis County in 1903 (when the school was renamed Central School). High school students transferred to the new John M. Vogt High School when it opened in 1930; the Landmarks page dates Central School's reversion to elementary status to the new high school's construction in 1931 \u2014 the two sources differ by a year, so 1930-31 is the real window. Successor recorded as Vogt High School (seed row ALL-420); the lineage then ran Vogt HS (1930) -> Ferguson High School (1939, ALL-416/417). Row kept separate per no-silent-merge rule, but overlaps ALL-423 'Central School' and ALL-424 'Central School - Early Ferguson School' in the wider dataset \u2014 the building lineage is the same school.",
+    "entity_type": "individual_school",
+    "reca_scope_status": "out_of_scope_closed_before_1949"
   },
   {
     "school_id": "ALL-117",
@@ -41,8 +42,9 @@
     "successor_school_id": "none",
     "successor_confidence": "confirmed",
     "successor_citation": "",
-    "notes": "SEED ADDRESS ERROR: seed gives '12300 Old Halls Ferry Road' (63033); the actual school is Central Primary School (formerly Central Elementary) at 201 Wesley Ave, Ferguson 63135 — NCES CCD and the school's own site confirm. Old Halls Ferry addresses are Hazelwood/Florissant territory, not this school. Continuous operation since 1880 in the 1877-80 building (original Ferguson School, renamed Central School 1903; National Register-listed 1984, nomination NPS 84002706). STLPR (2017) documented that FFSD floated closing it. IMPORTANT FUTURE FLAG: FFSD's 2027-28 restructuring announcement states 'Central Primary will close' (fergflor.org board post) — planned closure, not yet in effect as of research date. Currently grades PK-2 paired with an intermediate school.",
-    "entity_type": "individual_school"
+    "notes": "SEED ADDRESS ERROR: seed gives '12300 Old Halls Ferry Road' (63033); the actual school is Central Primary School (formerly Central Elementary) at 201 Wesley Ave, Ferguson 63135 \u2014 NCES CCD and the school's own site confirm. Old Halls Ferry addresses are Hazelwood/Florissant territory, not this school. Continuous operation since 1880 in the 1877-80 building (original Ferguson School, renamed Central School 1903; National Register-listed 1984, nomination NPS 84002706). STLPR (2017) documented that FFSD floated closing it. IMPORTANT FUTURE FLAG: FFSD's 2027-28 restructuring announcement states 'Central Primary will close' (fergflor.org board post) \u2014 planned closure, not yet in effect as of research date. Currently grades PK-2 paired with an intermediate school.",
+    "entity_type": "individual_school",
+    "reca_scope_status": "in_scope"
   },
   {
     "school_id": "ALL-118",
@@ -63,7 +65,8 @@
     "successor_confidence": "unknown",
     "successor_citation": "",
     "notes": "NOT A SCHOOL: the seed itself describes this row as a 'placeholder category to be broken into individual historical schools after district consolidation records are mapped.' No researchable single entity exists. The intended referents are the Berkeley-area elementary feeders of McCluer South-Berkeley High School (opened 2004 on the Berkeley High School site after the 1975 court-ordered annexation of the Berkeley School District by Ferguson-Florissant; Berkeley HS closed 2004). Candidate member rows already in the seed dataset: ALL-385 Berkeley Elementary School, ALL-386 Berkeley Intermediate School, ALL-387/ALL-388 Holman Elementary/Holman School, ALL-408 Airport Elementary School - Berkeley Community Center, plus ALL-431 Holman Primary School. Recommend the coordinator treat this row as a reminder to verify coverage of those Berkeley feeders rather than as a school entity.",
-    "entity_type": "ambiguous_unresolved"
+    "entity_type": "ambiguous_unresolved",
+    "reca_scope_status": "unknown_insufficient_data"
   },
   {
     "school_id": "ALL-148",
@@ -84,7 +87,8 @@
     "successor_confidence": "confirmed",
     "successor_citation": "",
     "notes": "Seed data confirmed by the district's own history page: bond issue April 1934, construction began spring 1935, ~76 students moved into the new building at 11055 St. Charles Rock Road (Banks Rd & St. Charles Rock Rd) on March 17, 1936; first commencement June 18, 1937 (2 graduates). Fully NCA-accredited 1946. Relocated to the current campus at 2497 Creve Coeur Mill Road, Maryland Heights, in 1971 (formally dedicated Jan. 7, 1973); incorporated into Maryland Heights in Dec. 1994 after a boundary exchange with Champ. Yearbook name: Echo (per Wikipedia). Still operating. This row is the continuing school institution; ALL-149 is its original building and ALL-198 (another batch) is the current campus.",
-    "entity_type": "individual_school"
+    "entity_type": "individual_school",
+    "reca_scope_status": "in_scope"
   },
   {
     "school_id": "ALL-149",
@@ -104,8 +108,9 @@
     "successor_school_id": "ALL-148",
     "successor_confidence": "confirmed",
     "successor_citation": "https://www.psdr3.org/about/history",
-    "notes": "Building/campus row for the original PHS at 11055 St. Charles Rock Road, St. Ann (actual ZIP 63074, not 63043). Occupied March 17, 1936; ceased operating as the high school when the school relocated to Creve Coeur Mill Road in 1971. Yearbooks 1936-1970 should be searched under Pattonville High School — this is the same institution, not a successor school (successor_school_id points at the institution row ALL-148 for that reason). The site is now the Holman Middle School campus: Holman Junior High School opened at this address in 1956 while PHS still occupied it, and the Pattonville Learning Center (11097 St. Charles Rock Rd) was built in 1995 on the former football field (Chedester Field). The exact disposition of the 1936 building (demolished vs. incorporated) is not stated in district sources — possible human follow-up with district facilities records.",
-    "entity_type": "individual_school"
+    "notes": "Building/campus row for the original PHS at 11055 St. Charles Rock Road, St. Ann (actual ZIP 63074, not 63043). Occupied March 17, 1936; ceased operating as the high school when the school relocated to Creve Coeur Mill Road in 1971. Yearbooks 1936-1970 should be searched under Pattonville High School \u2014 this is the same institution, not a successor school (successor_school_id points at the institution row ALL-148 for that reason). The site is now the Holman Middle School campus: Holman Junior High School opened at this address in 1956 while PHS still occupied it, and the Pattonville Learning Center (11097 St. Charles Rock Rd) was built in 1995 on the former football field (Chedester Field). The exact disposition of the 1936 building (demolished vs. incorporated) is not stated in district sources \u2014 possible human follow-up with district facilities records.",
+    "entity_type": "individual_school",
+    "reca_scope_status": "in_scope"
   },
   {
     "school_id": "ALL-150",
@@ -129,7 +134,8 @@
     "successor_confidence": "confirmed",
     "successor_citation": "",
     "notes": "Seed confirmed by district history: opened October 1966 at 195 Fee Fee Road, Maryland Heights with 55 classrooms as a seventh/eighth grade facility (first principal Ken Buhlig); dedicated Nov. 9, 1967. Name combines 'Pattonville' and 'Maryland Heights'. In January 1967 it became the first school or college in Missouri with a planetarium/observatory in its building. Became a junior high when the new high school opened in 1971; became Pattonville Heights Middle School in 1982. Still operating.",
-    "entity_type": "individual_school"
+    "entity_type": "individual_school",
+    "reca_scope_status": "in_scope"
   },
   {
     "school_id": "ALL-151",
@@ -151,8 +157,9 @@
     "successor_school_id": "none",
     "successor_confidence": "confirmed",
     "successor_citation": "",
-    "notes": "Seed confirmed by district history: opened 1955 at 102 Fee Fee Road as Remington Elementary, built by the Maryland Heights School District (first principal Carroll E. Naves; named for teacher Mabel Brewster Remington, d. 1952). Continued as a Pattonville elementary after the Maryland Heights district merged into Pattonville in 1962. Became Remington Traditional School (K-8 school of choice) in 1982; renamed Academy of Innovation at Remington beginning 2024-25 to reflect a learner-centered model. Still operating — same school lineage throughout, name changes only.",
-    "entity_type": "individual_school"
+    "notes": "Seed confirmed by district history: opened 1955 at 102 Fee Fee Road as Remington Elementary, built by the Maryland Heights School District (first principal Carroll E. Naves; named for teacher Mabel Brewster Remington, d. 1952). Continued as a Pattonville elementary after the Maryland Heights district merged into Pattonville in 1962. Became Remington Traditional School (K-8 school of choice) in 1982; renamed Academy of Innovation at Remington beginning 2024-25 to reflect a learner-centered model. Still operating \u2014 same school lineage throughout, name changes only.",
+    "entity_type": "individual_school",
+    "reca_scope_status": "in_scope"
   },
   {
     "school_id": "ALL-154",
@@ -173,7 +180,8 @@
     "successor_confidence": "confirmed",
     "successor_citation": "",
     "notes": "Seed confirmed by district history: opened 1965 at 3199 Parkwood Lane, Maryland Heights; original facility had 19 classrooms serving K-6; dedicated Nov. 8, 1965; first principal James Burgess. Still operating.",
-    "entity_type": "individual_school"
+    "entity_type": "individual_school",
+    "reca_scope_status": "in_scope"
   },
   {
     "school_id": "ALL-155",
@@ -193,8 +201,9 @@
     "successor_school_id": "none",
     "successor_confidence": "confirmed",
     "successor_citation": "",
-    "notes": "Seed confirmed by district history: opened 1967 at 2905 Rose Acres Lane, Maryland Heights — a 28-room school built on 11 acres to serve new home construction and relieve crowding at Penn-Junction, Parkwood and Bridgeway elementaries; dedicated Jan. 15, 1968; first principal Wayne Cashion. Still operating.",
-    "entity_type": "individual_school"
+    "notes": "Seed confirmed by district history: opened 1967 at 2905 Rose Acres Lane, Maryland Heights \u2014 a 28-room school built on 11 acres to serve new home construction and relieve crowding at Penn-Junction, Parkwood and Bridgeway elementaries; dedicated Jan. 15, 1968; first principal Wayne Cashion. Still operating.",
+    "entity_type": "individual_school",
+    "reca_scope_status": "in_scope"
   },
   {
     "school_id": "ALL-156",
@@ -215,8 +224,9 @@
     "successor_school_id": "none",
     "successor_confidence": "confirmed",
     "successor_citation": "",
-    "notes": "Seed's 1964 founding (NCES-derived) is consistent with parish history but not directly cited: the campus at 3120 Parkwood Lane was St. Blaise Parish (founded 1961 per the St. Louis Genealogical Society closed-parishes list; church built 1962 per builtstlouis.net), so a 1964 school opening is plausible. In May 2004 St. Blaise merged with St. Lawrence the Martyr (Bridgeton) and St. Mary's (Bridgeton) to form Holy Spirit Parish, which occupies the former St. Blaise site at 3130 Parkwood Lane — the school then took the Holy Spirit name. St. Jude (Overland) parishioners were absorbed later under 'All Things New'. Still operating, ~219 students PK-8 per NCES PSS. Recommended human follow-up: Archdiocese of St. Louis archives could confirm whether the school building dates to St. Blaise's 1961-62 founding or later.",
-    "entity_type": "individual_school"
+    "notes": "Seed's 1964 founding (NCES-derived) is consistent with parish history but not directly cited: the campus at 3120 Parkwood Lane was St. Blaise Parish (founded 1961 per the St. Louis Genealogical Society closed-parishes list; church built 1962 per builtstlouis.net), so a 1964 school opening is plausible. In May 2004 St. Blaise merged with St. Lawrence the Martyr (Bridgeton) and St. Mary's (Bridgeton) to form Holy Spirit Parish, which occupies the former St. Blaise site at 3130 Parkwood Lane \u2014 the school then took the Holy Spirit name. St. Jude (Overland) parishioners were absorbed later under 'All Things New'. Still operating, ~219 students PK-8 per NCES PSS. Recommended human follow-up: Archdiocese of St. Louis archives could confirm whether the school building dates to St. Blaise's 1961-62 founding or later.",
+    "entity_type": "individual_school",
+    "reca_scope_status": "in_scope"
   },
   {
     "school_id": "ALL-157",
@@ -238,7 +248,8 @@
     "successor_confidence": "confirmed",
     "successor_citation": "",
     "notes": "Resolved seed's 'Unknown': the school's own history page states DaySpring Arts and Education was created in September 1993 by a group of artists, beginning with ~30 students; incorporated as a tax-exempt nonprofit in 1998 (ProPublica: Dayspring School Of The Arts, tax-exempt since March 1998); leased its first dedicated facility Jan. 1999-July 2015; now at 2500 Metro Blvd, Maryland Heights. ISACS-accredited for both the Academy and arts programs. ~750 students per the Maryland Heights CVB. Still operating.",
-    "entity_type": "individual_school"
+    "entity_type": "individual_school",
+    "reca_scope_status": "in_scope"
   },
   {
     "school_id": "ALL-158",
@@ -258,8 +269,9 @@
     "successor_school_id": "ALL-159",
     "successor_confidence": "probable",
     "successor_citation": "https://nces.ed.gov/ccd/schoolsearch/school_detail.asp?ID=292358001391&Search=1",
-    "notes": "Resolved seed's 'Unknown': GBIG building record lists year constructed 1966 for 1751 McKelvey Road, and the school hosted a 'McKelvey's 50th Anniversary' booklet (mckelveyprimary.parkwayschools.net) consistent with a 1966 founding — probable pending a district dedication record. Closure is a renaming/restructuring rather than a true closure: per West Newsmagazine (Dec. 2019), Parkway built a new McKelvey Primary (K-2) at 12657 Fee Fee Rd and converted the existing McKelvey Elementary into a grades 3-5 school; by the 2021-22 year NCES and district directories list 'McKelvey Intermediate' at 1751 McKelvey Rd and 'McKelvey Primary' at the new site — no school named McKelvey Elementary operates there now. Successor recorded as ALL-159 (same building, continued operation); McKelvey Primary is a separate new entity not in this batch.",
-    "entity_type": "individual_school"
+    "notes": "Resolved seed's 'Unknown': GBIG building record lists year constructed 1966 for 1751 McKelvey Road, and the school hosted a 'McKelvey's 50th Anniversary' booklet (mckelveyprimary.parkwayschools.net) consistent with a 1966 founding \u2014 probable pending a district dedication record. Closure is a renaming/restructuring rather than a true closure: per West Newsmagazine (Dec. 2019), Parkway built a new McKelvey Primary (K-2) at 12657 Fee Fee Rd and converted the existing McKelvey Elementary into a grades 3-5 school; by the 2021-22 year NCES and district directories list 'McKelvey Intermediate' at 1751 McKelvey Rd and 'McKelvey Primary' at the new site \u2014 no school named McKelvey Elementary operates there now. Successor recorded as ALL-159 (same building, continued operation); McKelvey Primary is a separate new entity not in this batch.",
+    "entity_type": "individual_school",
+    "reca_scope_status": "in_scope"
   },
   {
     "school_id": "ALL-159",
@@ -280,8 +292,9 @@
     "successor_school_id": "none",
     "successor_confidence": "confirmed",
     "successor_citation": "",
-    "notes": "Resolved seed's 'Unknown': created when Parkway split McKelvey Elementary (K-5) into two schools — a new McKelvey Primary building at 12657 Fee Fee Rd (K-2, groundbreaking Dec. 2019) and the existing 1966 building at 1751 McKelvey Rd, which took the name McKelvey Intermediate (grades 3-5, NCES shows 2-5). Both names appear in Parkway's 2021 salary data, so the split took effect by the 2021-22 school year. Relationship to ALL-158: same building and continuing student body — this is a rename + grade-band reconfiguration, not a new school. Still operating.",
-    "entity_type": "individual_school"
+    "notes": "Resolved seed's 'Unknown': created when Parkway split McKelvey Elementary (K-5) into two schools \u2014 a new McKelvey Primary building at 12657 Fee Fee Rd (K-2, groundbreaking Dec. 2019) and the existing 1966 building at 1751 McKelvey Rd, which took the name McKelvey Intermediate (grades 3-5, NCES shows 2-5). Both names appear in Parkway's 2021 salary data, so the split took effect by the 2021-22 school year. Relationship to ALL-158: same building and continuing student body \u2014 this is a rename + grade-band reconfiguration, not a new school. Still operating.",
+    "entity_type": "individual_school",
+    "reca_scope_status": "in_scope"
   },
   {
     "school_id": "ALL-161",
@@ -302,8 +315,9 @@
     "successor_school_id": "none",
     "successor_confidence": "confirmed",
     "successor_citation": "",
-    "notes": "Seed confirmed by district history: opened in the 1981-82 school year (124 students, 9 staff; first principal George Ruh) as an alternative school to prevent dropouts. POSITIVE = 'Pattonville Occupational School Including Technical Individualized Vocational Education'. Began at the high school, moved in 1982 to the former Penn-Junction Elementary building (closed 1982-83; sold to Grace World Outreach May 1985), and is now housed in a wing of Pattonville High School — the PHS administration page currently lists an assistant principal for Positive School. Not a degree-granting separate campus; likely produces no standalone yearbook — search under Pattonville High School materials.",
-    "entity_type": "individual_school"
+    "notes": "Seed confirmed by district history: opened in the 1981-82 school year (124 students, 9 staff; first principal George Ruh) as an alternative school to prevent dropouts. POSITIVE = 'Pattonville Occupational School Including Technical Individualized Vocational Education'. Began at the high school, moved in 1982 to the former Penn-Junction Elementary building (closed 1982-83; sold to Grace World Outreach May 1985), and is now housed in a wing of Pattonville High School \u2014 the PHS administration page currently lists an assistant principal for Positive School. Not a degree-granting separate campus; likely produces no standalone yearbook \u2014 search under Pattonville High School materials.",
+    "entity_type": "individual_school",
+    "reca_scope_status": "in_scope"
   },
   {
     "school_id": "ALL-162",
@@ -324,7 +338,8 @@
     "successor_school_id": "ALL-148",
     "successor_confidence": "confirmed",
     "successor_citation": "https://sites.google.com/psdr3.org/pattonvillehistory/home/evolution-of-pattonville",
-    "notes": "Seed confirmed by Pattonville district history: designed by Joseph Senne, built by Daly for $20,000, dedicated September 1924 at 115 Harding, Maryland Heights — six rooms, four teachers, 140 students. The building became Maryland Heights High School. After voters twice rejected it, the Maryland Heights School District merged into Pattonville in 1962; the district at merger consisted of this high school plus Remington Elementary and Carver Elementary (a segregated Negro school, discontinued at merger). Per district history, Maryland Heights high school students 'began attending Pattonville High School' — hence successor ALL-148; elementary continuity runs through Remington (ALL-151). The 115 Harding building became the Pattonville Administration Building until the Learning Center opened in 1995. A March 1939 'Maryland Hi-Lites' school newsletter exists in the Missouri Historical Society Schools Collection (Box 3) — useful human follow-up for yearbook-era documentation.",
-    "entity_type": "individual_school"
+    "notes": "Seed confirmed by Pattonville district history: designed by Joseph Senne, built by Daly for $20,000, dedicated September 1924 at 115 Harding, Maryland Heights \u2014 six rooms, four teachers, 140 students. The building became Maryland Heights High School. After voters twice rejected it, the Maryland Heights School District merged into Pattonville in 1962; the district at merger consisted of this high school plus Remington Elementary and Carver Elementary (a segregated Negro school, discontinued at merger). Per district history, Maryland Heights high school students 'began attending Pattonville High School' \u2014 hence successor ALL-148; elementary continuity runs through Remington (ALL-151). The 115 Harding building became the Pattonville Administration Building until the Learning Center opened in 1995. A March 1939 'Maryland Hi-Lites' school newsletter exists in the Missouri Historical Society Schools Collection (Box 3) \u2014 useful human follow-up for yearbook-era documentation.",
+    "entity_type": "individual_school",
+    "reca_scope_status": "in_scope"
   }
 ]
