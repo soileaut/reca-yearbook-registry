@@ -59,7 +59,8 @@ though `school_id` is the permanent identifier going forward).
 | `school_id` | string | Stable ID, e.g. `63147-01`. Carried over from seed `pilot_row_id` for the pilot. |
 | `name` | string | Current/primary name. |
 | `historical_names` | string[] | All known former names. |
-| `zip` | string | |
+| `zip` | string | The school's actual/home ZIP (where it's physically located). |
+| `also_relevant_to_zips` | string[] | Other RECA-impacted ZIPs this school is relevant to because it served students from that community (even though it isn't physically located there) — e.g. a high school outside the ZIP that neighborhood kids attended. Empty list if none. |
 | `district_operator` | string | |
 | `school_type` | string | |
 | `opened_year` | string | Year or `unknown`. |
@@ -108,6 +109,32 @@ Each Devin session should produce:
 
 Where `<scope>` identifies the task, e.g. `63147` for the ZIP 63147 pilot,
 or `slcl` for the St. Louis County Library survey.
+
+## Cross-ZIP school deduplication (`schools_master.json`)
+
+A school that "serves" a community (e.g. the area high school) is often
+included in multiple ZIP-scoped seed files — the same real-world school,
+but potentially researched independently by separate Track A sessions,
+creating duplicate `school_id`s for the same institution.
+
+**Before starting any new Track A task, run:**
+```
+python3 merge_schools.py                              # refresh the master
+python3 find_potential_duplicates.py <new_seed_file>   # check for overlaps
+```
+
+For any school the script flags as a likely match to an existing entry in
+`schools_master.json`, tell the new Track A session explicitly in its task
+prompt: *"School X already exists as `<school_id>` — do not create a new
+entry. Instead, add this ZIP to its `also_relevant_to_zips` list, and only
+research it further if the existing entry has unresolved
+gaps (`unknown` fields) you can fill."*
+
+This is a fuzzy-match tool, not an auto-merger — always have a human
+confirm a flagged match is actually the same school before instructing an
+agent to treat it as such, since similarly-named but distinct schools
+exist (see the pilot's "Lutheran High School" / "North High School" decoy
+collisions).
 
 ## Cross-institution deduplication (`yearbook_registry_master.json`)
 
