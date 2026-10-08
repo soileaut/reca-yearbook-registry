@@ -112,17 +112,16 @@ full dataset. See `pilot/` for the original task prompts and output.
 - **Pilot complete and merged to `main`:** 12 schools (ZIP 63147) fully
   researched (Track A) and surveyed against St. Louis County Library
   (Track B). See `pilot/`.
-- **Full dataset deduplicated and ready for scale-up:**
-  - `data/all_schools_seed.json` — the raw 650-row source.
-  - `data/remaining_schools_seed.json` — 626 rows after excluding the 12
-    pilot schools and 12 more repeat appearances of them elsewhere.
-  - `data/schools_seed_deduped.json` — **325 unique schools**, the actual
-    work list for the next Track A scale-up pass.
-  - `data/schools_seed_deduped_review_needed.json` — 63 rows flagged as
-    ambiguous (fuzzy-similar or same-name-different-campus) — kept
-    separate by default, pending human/future-research confirmation.
-- **Not yet started:** the scaled-up Track A pass (partitioning the 325
-  schools into batches and running the coordinator), and any Track B
+- **Track A scale-up complete and merged to `main` (PR #3):** the
+  remaining 325 deduplicated schools were researched via a coordinator
+  Devin session that partitioned the work into 22 batches and ran them
+  through Agent Fan-Out. `schools_master.json`/`.csv` now cover all
+  **337 schools** (12 pilot + 325 scale-up). See
+  `batches/track_a_scaleup_summary.md` for the aggregated data-quality
+  findings (phantom-row flags, cross-batch duplicate candidates, seed
+  data errors) carried forward from all 22 batches.
+- **Not yet started:** resolving the flagged ambiguous-duplicate/phantom
+  rows surfaced by the scale-up (see `NEXT_STEPS.md`), and any Track B
   survey beyond St. Louis County Library.
 
 ## Repo map
@@ -147,7 +146,13 @@ pilot/                          -- the ZIP 63147 pilot (Track A + Track B), comp
   yearbook_registry_slcl_63147.json -- Track B output (SLCL survey)
   track_b_notes.md
 
-track_a_coordinator_prompt.md   -- task spec for the next Track A scale-up session
+batches/                        -- Track A scale-up output (22 batches), completed
+  schools_seed_batchNN.json      -- per-batch input (subset of schools_seed_deduped.json)
+  schools_batchNN.json           -- per-batch Track A output
+  track_a_notes_batchNN.md       -- per-batch process notes
+  track_a_scaleup_summary.md    -- coordinator's aggregated findings across all 22 batches
+
+track_a_coordinator_prompt.md   -- task spec used for the Track A scale-up (completed; kept as a reusable template)
 
 schools_master.json             -- merged schools table across all completed work
 yearbook_registry_master.json   -- merged yearbook registry across all completed work

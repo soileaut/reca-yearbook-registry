@@ -1,5 +1,11 @@
 # Track A Coordinator — Scale-Up Data Cleanup (All Remaining Schools)
 
+**Status: COMPLETED (merged via PR #3, Oct 2026).** Kept here for
+provenance/reuse as a template for future similar fan-out tasks (e.g.
+scaling Track B). See `DATA_PIPELINE.md` and `NEXT_STEPS.md` for current
+status — there is no pending Track A scale-up work left to run from this
+file as written.
+
 ## Context
 
 You are the coordinator session for a research project supporting a
