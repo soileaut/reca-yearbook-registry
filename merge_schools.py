@@ -18,7 +18,7 @@ MASTER_OUT = ROOT / "schools_master.json"
 def main():
     rows = []
     for path in sorted(ROOT.rglob("schools_*.json")):
-        if path.name == MASTER_OUT.name:
+        if path.name == MASTER_OUT.name or "seed" in path.name:
             continue
         with open(path, encoding="utf-8") as f:
             data = json.load(f)
