@@ -359,7 +359,7 @@
       "archive_id": "concordia_hist",
       "short_name": "Concordia Historical Institute",
       "coverage_status": "index_enumerated (School yearbooks subject index fully enumerated 2026-10-12 — 7 series, 3 Missouri; Missouri geographic collection top-level indexes pulled; deeper series expansion blocked by ArchivesSpace /tree 500s)",
-      "covered_schools": ["ALL-651"],
+      "covered_schools": ["ALL-651", "ALL-652", "ALL-653"],
       "authority_tier": 2,
       "name": "Concordia Historical Institute (LCMS archives, Clayton MO)",
       "type": "religious_archive",

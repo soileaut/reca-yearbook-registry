@@ -65,6 +65,16 @@ Date: 2026-10-12 · Worker: track-b-concordia_hist · Branch: track-b/concordia_
   also exist (resources 477, 2394, 2906, 2907, 3335, 3975). Recommend the coordinator add seed
   rows for the three LAHE high schools; if added, the South (30 vols) and Central (15 vols)
   series listed in `data/archive_indexes/concordia_hist.json` become immediately row-able.
+
+### Resolution (2026-10-12, integration pass)
+
+Resolved per the project's keep-everything rule: real `schools` rows were minted for all three
+LAHE high schools in `schools_lutheran_hs.json` — `ALL-651` = LHS North (1965–, 63121),
+`ALL-652` = LHS South (1957–, 63123), `ALL-653` = LHS Central (1946–1965, 63108; successor
+`ALL-651`). 43 registry rows were appended to `yearbook_registry_concordia_hist.json`: 13 for
+Central (catalog's explicit per-year list, `confirmed`) and 30 for South (1960–1989 "complete
+run" span, `probable` per-year). The 7 pre-existing `ALL-651` rows' stale dangling-id note was
+updated.
 - All elementary seed schools check out as congregational-records-only at CHI; LCMS grade
   schools of this era rarely published yearbooks, so `not_found` here is expected, not a gap.
 
