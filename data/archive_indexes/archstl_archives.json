@@ -1,0 +1,152 @@
+{
+  "surface_id": "archstl_archives",
+  "surface_name": "Archdiocese of St. Louis — Office of Archives and Records (knowledge-base finding aids, archstl.capacity.com; same content mirrored at resources.archstl.org)",
+  "enumerated_by": "track-b-archstl_archives",
+  "enumerated_date": "2026-10-12",
+  "enumeration_method": "browse_index",
+  "source_url": "https://archstl.capacity.com/article/929015/schools-and-seminaries",
+  "enumeration_notes": "Complete published school-holdings inventory. The archives' 'Archival Materials' article states: 'Finding aids are posted online as they are created. Please contact the office to discuss materials not listed here.' — i.e. every published school/parish/agency finding aid appears as a named item on the Archives folder's nine articles; there is no deeper per-school index online. Items below are the full set of school-relevant collections found across the Schools and Seminaries, Parishes, and Agencies articles (other articles cover bishops, clergy, newspapers — not schools). The archives' own generic statement: it 'holds the records from closed archdiocesan elementary and high schools, including transcripts, yearbooks, photographs, etc. The extent of materials varies widely for each school.' — so real per-school holdings exist but are only visible through a records request, not the public index.",
+  "items": [
+    {
+      "title": "Office of Catholic Education Records, 1886-2018",
+      "kind": "records_group_finding_aid",
+      "record_group": "RG 05 B 01",
+      "source_article": "https://archstl.capacity.com/article/929015/schools-and-seminaries",
+      "url": "https://public.files.capacity.com/b74c60b2-5d6b-4369-ae6a-8eed6e9bbb22/89aad74e-3873-488e-81c7-9e1dfe686cc9?FU=1720509074",
+      "note": "51-pp box-level inventory; contains per-school administrative files (correspondence, school-history clippings, enrollment books 1886-1971 for city schools, NCEA statistical raw data) — itemized hits for several seed schools but no yearbook volumes"
+    },
+    {
+      "title": "McBride High School Alumni Club Collection, circa 1915-2002",
+      "kind": "collection_finding_aid",
+      "source_article": "https://archstl.capacity.com/article/929015/schools-and-seminaries",
+      "url": "https://pdf-viewer.capacity.com/?fileId=b74c60b2-5d6b-4369-ae6a-8eed6e9bbb22/aeee8e98-9b61-4ab8-ac5d-3f412f8db1cf",
+      "note": "McBride was a PUBLIC St. Louis city high school — alumni club records, not a seed school"
+    },
+    {
+      "title": "Interactive Map of Catholic High Schools in the Archdiocese of St. Louis, 1818-Present",
+      "kind": "reference_map",
+      "source_article": "https://archstl.capacity.com/article/929015/schools-and-seminaries",
+      "url": "https://www.google.com/maps/d/viewer?mid=1-KVxSs4pFidpcyw6vces5oxspo5VWZCi",
+      "note": "Google MyMaps of all Catholic high schools (locations/dates), not holdings"
+    },
+    {
+      "title": "Mercy High School Alumni 1951-1985",
+      "kind": "alumni_directory",
+      "source_article": "https://archstl.capacity.com/article/929015/schools-and-seminaries",
+      "url": "https://public.files.capacity.com/b74c60b2-5d6b-4369-ae6a-8eed6e9bbb22/5ab1ca76-e011-4203-9529-089131c5b891?FU=1720508749",
+      "note": "class rosters; predecessor school of ALL-449 Trinity Catholic (merged 1985 into St. Thomas Aquinas-Mercy)"
+    },
+    {
+      "title": "Rosary High School Alumni 1965-2003",
+      "kind": "alumni_directory",
+      "source_article": "https://archstl.capacity.com/article/929015/schools-and-seminaries",
+      "url": "https://public.files.capacity.com/b74c60b2-5d6b-4369-ae6a-8eed6e9bbb22/cd2b89e9-6205-4ff4-9eca-1eb5a013b7d3?FU=1720508735",
+      "note": "class rosters; predecessor school of ALL-449 (merged 2003 into Trinity Catholic)"
+    },
+    {
+      "title": "St. Thomas Aquinas High School Alumni 1960-1985",
+      "kind": "alumni_directory",
+      "source_article": "https://archstl.capacity.com/article/929015/schools-and-seminaries",
+      "url": "https://public.files.capacity.com/b74c60b2-5d6b-4369-ae6a-8eed6e9bbb22/3a940527-9e67-4a52-a628-de363dfeb17b?FU=1720508699",
+      "note": "class rosters; predecessor school of ALL-449"
+    },
+    {
+      "title": "St. Thomas Aquinas-Mercy High School Alumni 1986-2003",
+      "kind": "alumni_directory",
+      "source_article": "https://archstl.capacity.com/article/929015/schools-and-seminaries",
+      "url": "https://public.files.capacity.com/b74c60b2-5d6b-4369-ae6a-8eed6e9bbb22/eec33146-cdff-4c87-843f-02de92acf8ba?FU=1720508720",
+      "note": "class rosters; predecessor school of ALL-449"
+    },
+    {
+      "title": "Trinity Catholic High School 2004-2018",
+      "kind": "alumni_directory",
+      "source_article": "https://archstl.capacity.com/article/929015/schools-and-seminaries",
+      "url": "https://public.files.capacity.com/b74c60b2-5d6b-4369-ae6a-8eed6e9bbb22/ae6fee8c-4a78-4791-b765-e67d714d11c6?FU=1720508674",
+      "note": "MATCHES seed ALL-449. 16-pp PDF of per-class-year alumni rosters (web-page capture from trinitycatholichigh.org), not yearbooks"
+    },
+    {
+      "title": "Kenrick Glennon Seminary 1850-2016",
+      "kind": "collection_finding_aid",
+      "source_article": "https://archstl.capacity.com/article/929015/schools-and-seminaries",
+      "url": "https://public.files.capacity.com/b74c60b2-5d6b-4369-ae6a-8eed6e9bbb22/06244873-ade4-4b01-b407-b515189056b8?FU=1720508939",
+      "note": "archdiocesan major seminary; no seed-school match"
+    },
+    {
+      "title": "Cardinal Glennon College Records 1948-2008",
+      "kind": "collection_finding_aid",
+      "source_article": "https://archstl.capacity.com/article/929015/schools-and-seminaries",
+      "url": "https://public.files.capacity.com/b74c60b2-5d6b-4369-ae6a-8eed6e9bbb22/13e26715-1aeb-4881-aa8e-fe534dbf4cb3?FU=1720508969",
+      "note": "seminary college; no seed-school match"
+    },
+    {
+      "title": "St. Louis Preparatory Seminary South Records 1900-1991",
+      "kind": "collection_finding_aid",
+      "source_article": "https://archstl.capacity.com/article/929015/schools-and-seminaries",
+      "url": "https://public.files.capacity.com/b74c60b2-5d6b-4369-ae6a-8eed6e9bbb22/a6b8df42-3c0e-48e6-9302-72e0c9f8f262?FU=1720508986",
+      "note": "minor seminary HS program; no seed-school match"
+    },
+    {
+      "title": "St. Louis Preparatory Seminary North Records 1960-1989",
+      "kind": "collection_finding_aid",
+      "source_article": "https://archstl.capacity.com/article/929015/schools-and-seminaries",
+      "url": "https://public.files.capacity.com/b74c60b2-5d6b-4369-ae6a-8eed6e9bbb22/77349ce4-fbad-4fe6-ba52-e2e109eab0b6?FU=1720509003",
+      "note": "minor seminary (north county); no seed-school match"
+    },
+    {
+      "title": "Cathedral Latin School Records 1931-1947",
+      "kind": "collection_finding_aid",
+      "source_article": "https://archstl.capacity.com/article/929015/schools-and-seminaries",
+      "url": "https://public.files.capacity.com/b74c60b2-5d6b-4369-ae6a-8eed6e9bbb22/b3810e69-8e8a-43ca-916f-38636fd56f65?FU=1720509023",
+      "note": "pre-seminary school, closed 1947; no seed-school match"
+    },
+    {
+      "title": "Archbishops' Seminary Files 1821-2002",
+      "kind": "collection_finding_aid",
+      "source_article": "https://archstl.capacity.com/article/929015/schools-and-seminaries",
+      "url": "https://public.files.capacity.com/b74c60b2-5d6b-4369-ae6a-8eed6e9bbb22/3ec170b6-a3b6-4c4f-bf43-fb57b5fcba5b?FU=1720509052",
+      "note": "seminary admin records; no seed-school match"
+    },
+    {
+      "title": "St. Mary's College Records 1892-1989",
+      "kind": "collection_finding_aid",
+      "source_article": "https://archstl.capacity.com/article/929015/schools-and-seminaries",
+      "url": "https://public.files.capacity.com/b74c60b2-5d6b-4369-ae6a-8eed6e9bbb22/7ba1f485-a3a2-40c2-8f57-84cbe1f88ab8?FU=1720509090",
+      "note": "Sisters of the Most Precious Blood college, O'Fallon MO; acquired 2021; transcripts via St. Charles Community College; no seed-school match"
+    },
+    {
+      "title": "St. Mary's Academy in O'Fallon, Missouri Records 1964-2013",
+      "kind": "collection_finding_aid",
+      "source_article": "https://archstl.capacity.com/article/929015/schools-and-seminaries",
+      "url": "https://public.files.capacity.com/b74c60b2-5d6b-4369-ae6a-8eed6e9bbb22/963d3ed1-1e15-4bb1-9476-a570afc6e2f2?FU=1720509059",
+      "note": "includes a full yearbook run per digital_archives.json note; not a seed school"
+    },
+    {
+      "title": "Chancery Parish Files (per-parish files, bulk 1940s+)",
+      "kind": "records_group_described_not_indexed",
+      "source_article": "https://archstl.capacity.com/article/373446/parishes",
+      "url": "https://archstl.capacity.com/article/373446/parishes",
+      "note": "correspondence/photos/parish histories for every parish — exists but not itemized online; only Basilica of St. Louis King of France + Cathedral Basilica have published finding aids"
+    },
+    {
+      "title": "Closed-parish records (records of suppressed parishes incl. 'school information')",
+      "kind": "records_group_described_not_indexed",
+      "source_article": "https://archstl.capacity.com/article/373446/parishes",
+      "url": "https://public.files.capacity.com/b74c60b2-5d6b-4369-ae6a-8eed6e9bbb22/09dac8fb-8710-4c74-96a7-fe9c940e9898?FU=1788372889",
+      "note": "the Closed Parish List PDF documents ~90 closed parishes 1883-present; their records (incl. school material) went to the archives, contents unpublished"
+    },
+    {
+      "title": "African American Parishes and Institutions in the Archdiocese of St. Louis, 1832-1951",
+      "kind": "reference_handout",
+      "source_article": "https://archstl.capacity.com/article/373446/parishes",
+      "url": "https://public.files.capacity.com/b74c60b2-5d6b-4369-ae6a-8eed6e9bbb22/9c52f08d-53d7-4e33-a17a-19f4193fb1d3?FU=1720508464",
+      "note": "covers segregated parish schools incl. ALL-398 Our Lady of the Angels (Kinloch)"
+    },
+    {
+      "title": "Brief Histories of Catholic Orphanages and Child Care Centers in St. Louis 1827-Present",
+      "kind": "reference_handout",
+      "source_article": "https://archstl.capacity.com/article/292118/archdiocesan-agencies--insitutions--and-catholic-organizations",
+      "url": "https://public.files.capacity.com/b74c60b2-5d6b-4369-ae6a-8eed6e9bbb22/ec71ef9d-a4a2-4a7e-b4a0-c21ba9b37c24?FU=1744389707",
+      "note": "institution histories covering ALL-366 St. Vincent Home for Children and ALL-018 Marygrove"
+    }
+  ]
+}
