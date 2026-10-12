@@ -1,0 +1,935 @@
+{
+  "archive_id": "slcl_digital",
+  "enumerated_by": "track-b-slcl_digital",
+  "enumeration_date": "2026-10-12",
+  "method": "Recollect CMS browse endpoint https://slcl.recollectcms.com/nodes/search?bid=<collection_node_id>&orderby=node_title&order=asc&page=<n> \u2014 server-rendered result lists, paginated 24/page. School-level subcollections enumerated in full.",
+  "collections": [
+    {
+      "node_id": 1267,
+      "title": "St. Louis Yearbooks",
+      "browse_url": "https://slcl.recollectcms.com/nodes/search?bid=1267&orderby=node_title&order=asc",
+      "reported_count": 92,
+      "enumerated_count": 92
+    },
+    {
+      "node_id": 1268,
+      "title": "Other Missouri Yearbooks",
+      "browse_url": "https://slcl.recollectcms.com/nodes/search?bid=1268&orderby=node_title&order=asc",
+      "reported_count": 22,
+      "enumerated_count": 22
+    },
+    {
+      "node_id": 1266,
+      "title": "Other State Yearbooks",
+      "browse_url": "https://slcl.recollectcms.com/nodes/search?bid=1266&orderby=node_title&order=asc",
+      "reported_count": 23,
+      "enumerated_count": 23
+    },
+    {
+      "node_id": 8232,
+      "title": "RECA Impacted High Schools (curated subject grouping of collections above)",
+      "browse_url": "https://slcl.recollectcms.com/nodes/search?bid=8232&orderby=node_title&order=asc",
+      "reported_count": 18,
+      "enumerated_count": 18
+    }
+  ],
+  "subcollections": [
+    {
+      "node_id": 392,
+      "title": "Academy of the Visitation Yearbooks",
+      "collection": "St. Louis Yearbooks (node 1267)",
+      "url": "https://slcl.recollectcms.com/nodes/view/392"
+    },
+    {
+      "node_id": 8,
+      "title": "Affton High School Yearbooks",
+      "collection": "St. Louis Yearbooks (node 1267)",
+      "url": "https://slcl.recollectcms.com/nodes/view/8"
+    },
+    {
+      "node_id": 4140,
+      "title": "Arkansas Yearbooks",
+      "collection": "Other State Yearbooks (node 1266)",
+      "url": "https://slcl.recollectcms.com/nodes/view/4140"
+    },
+    {
+      "node_id": 382,
+      "title": "Augusta High School Yearbooks",
+      "collection": "Other Missouri Yearbooks (node 1268)",
+      "url": "https://slcl.recollectcms.com/nodes/view/382"
+    },
+    {
+      "node_id": 388,
+      "title": "Augustinian Academy Yearbooks",
+      "collection": "St. Louis Yearbooks (node 1267)",
+      "url": "https://slcl.recollectcms.com/nodes/view/388"
+    },
+    {
+      "node_id": 3307,
+      "title": "Bayless High School Yearbooks",
+      "collection": "St. Louis Yearbooks (node 1267)",
+      "url": "https://slcl.recollectcms.com/nodes/view/3307"
+    },
+    {
+      "node_id": 1027,
+      "title": "Beaumont High School Yearbooks",
+      "collection": "St. Louis Yearbooks (node 1267)",
+      "url": "https://slcl.recollectcms.com/nodes/view/1027"
+    },
+    {
+      "node_id": 7594,
+      "title": "Berkeley High School Yearbooks",
+      "collection": "St. Louis Yearbooks (node 1267)",
+      "url": "https://slcl.recollectcms.com/nodes/view/7594"
+    },
+    {
+      "node_id": 1137,
+      "title": "Bishop Dubourg High School Yearbooks",
+      "collection": "St. Louis Yearbooks (node 1267)",
+      "url": "https://slcl.recollectcms.com/nodes/view/1137"
+    },
+    {
+      "node_id": 1872,
+      "title": "Bismarck High School Yearbooks",
+      "collection": "Other Missouri Yearbooks (node 1268)",
+      "url": "https://slcl.recollectcms.com/nodes/view/1872"
+    },
+    {
+      "node_id": 451,
+      "title": "Blewett High School Yearbooks",
+      "collection": "St. Louis Yearbooks (node 1267)",
+      "url": "https://slcl.recollectcms.com/nodes/view/451"
+    },
+    {
+      "node_id": 1879,
+      "title": "Brentwood High School Yearbooks",
+      "collection": "St. Louis Yearbooks (node 1267)",
+      "url": "https://slcl.recollectcms.com/nodes/view/1879"
+    },
+    {
+      "node_id": 1279,
+      "title": "Caledonia High School Yearbooks",
+      "collection": "Other Missouri Yearbooks (node 1268)",
+      "url": "https://slcl.recollectcms.com/nodes/view/1279"
+    },
+    {
+      "node_id": 4133,
+      "title": "California Yearbooks",
+      "collection": "Other State Yearbooks (node 1266)",
+      "url": "https://slcl.recollectcms.com/nodes/view/4133"
+    },
+    {
+      "node_id": 1882,
+      "title": "Cardinal Ritter College Prep High School Yearbooks",
+      "collection": "St. Louis Yearbooks (node 1267)",
+      "url": "https://slcl.recollectcms.com/nodes/view/1882"
+    },
+    {
+      "node_id": 475,
+      "title": "Central High School Yearbooks",
+      "collection": "St. Louis Yearbooks (node 1267)",
+      "url": "https://slcl.recollectcms.com/nodes/view/475"
+    },
+    {
+      "node_id": 1282,
+      "title": "Central High School Yearbooks (Cape Girardeau)",
+      "collection": "Other Missouri Yearbooks (node 1268)",
+      "url": "https://slcl.recollectcms.com/nodes/view/1282"
+    },
+    {
+      "node_id": 1893,
+      "title": "Chaminade College Preparatory School Yearbooks",
+      "collection": "St. Louis Yearbooks (node 1267)",
+      "url": "https://slcl.recollectcms.com/nodes/view/1893"
+    },
+    {
+      "node_id": 1270,
+      "title": "Charleston High School Yearbooks",
+      "collection": "Other Missouri Yearbooks (node 1268)",
+      "url": "https://slcl.recollectcms.com/nodes/view/1270"
+    },
+    {
+      "node_id": 517,
+      "title": "Christian Brothers College Yearbooks",
+      "collection": "St. Louis Yearbooks (node 1267)",
+      "url": "https://slcl.recollectcms.com/nodes/view/517"
+    },
+    {
+      "node_id": 516,
+      "title": "Clayton High School Yearbooks",
+      "collection": "St. Louis Yearbooks (node 1267)",
+      "url": "https://slcl.recollectcms.com/nodes/view/516"
+    },
+    {
+      "node_id": 7582,
+      "title": "Cor Jesu Academy Yearbooks",
+      "collection": "St. Louis Yearbooks (node 1267)",
+      "url": "https://slcl.recollectcms.com/nodes/view/7582"
+    },
+    {
+      "node_id": 1271,
+      "title": "Crystal City High School Yearbooks",
+      "collection": "Other Missouri Yearbooks (node 1268)",
+      "url": "https://slcl.recollectcms.com/nodes/view/1271"
+    },
+    {
+      "node_id": 1274,
+      "title": "De Andreis High School Yearbooks",
+      "collection": "St. Louis Yearbooks (node 1267)",
+      "url": "https://slcl.recollectcms.com/nodes/view/1274"
+    },
+    {
+      "node_id": 1908,
+      "title": "De Smet Jesuit High School Yearbooks",
+      "collection": "St. Louis Yearbooks (node 1267)",
+      "url": "https://slcl.recollectcms.com/nodes/view/1908"
+    },
+    {
+      "node_id": 7583,
+      "title": "De Soto High School Yearbooks",
+      "collection": "Other Missouri Yearbooks (node 1268)",
+      "url": "https://slcl.recollectcms.com/nodes/view/7583"
+    },
+    {
+      "node_id": 1154,
+      "title": "Eureka High School Yearbooks",
+      "collection": "St. Louis Yearbooks (node 1267)",
+      "url": "https://slcl.recollectcms.com/nodes/view/1154"
+    },
+    {
+      "node_id": 5377,
+      "title": "Fairview High School Yearbooks",
+      "collection": "St. Louis Yearbooks (node 1267)",
+      "url": "https://slcl.recollectcms.com/nodes/view/5377"
+    },
+    {
+      "node_id": 1182,
+      "title": "Ferguson High School Yearbooks",
+      "collection": "St. Louis Yearbooks (node 1267)",
+      "url": "https://slcl.recollectcms.com/nodes/view/1182"
+    },
+    {
+      "node_id": 4138,
+      "title": "Florida Yearbooks",
+      "collection": "Other State Yearbooks (node 1266)",
+      "url": "https://slcl.recollectcms.com/nodes/view/4138"
+    },
+    {
+      "node_id": 7764,
+      "title": "Francis Howell High School Yearbooks",
+      "collection": "Other Missouri Yearbooks (node 1268)",
+      "url": "https://slcl.recollectcms.com/nodes/view/7764"
+    },
+    {
+      "node_id": 1911,
+      "title": "Francis Howell North High School Yearbooks",
+      "collection": "Other Missouri Yearbooks (node 1268)",
+      "url": "https://slcl.recollectcms.com/nodes/view/1911"
+    },
+    {
+      "node_id": 1138,
+      "title": "Grover Cleveland High School Yearbooks",
+      "collection": "St. Louis Yearbooks (node 1267)",
+      "url": "https://slcl.recollectcms.com/nodes/view/1138"
+    },
+    {
+      "node_id": 1190,
+      "title": "Hadley Technical High School Yearbooks",
+      "collection": "St. Louis Yearbooks (node 1267)",
+      "url": "https://slcl.recollectcms.com/nodes/view/1190"
+    },
+    {
+      "node_id": 4854,
+      "title": "Hancock High School Yearbooks",
+      "collection": "St. Louis Yearbooks (node 1267)",
+      "url": "https://slcl.recollectcms.com/nodes/view/4854"
+    },
+    {
+      "node_id": 3308,
+      "title": "Hazelwood Central High School Yearbooks",
+      "collection": "St. Louis Yearbooks (node 1267)",
+      "url": "https://slcl.recollectcms.com/nodes/view/3308"
+    },
+    {
+      "node_id": 1924,
+      "title": "Hazelwood East High School Yearbooks",
+      "collection": "St. Louis Yearbooks (node 1267)",
+      "url": "https://slcl.recollectcms.com/nodes/view/1924"
+    },
+    {
+      "node_id": 4849,
+      "title": "Hazelwood High School Yearbooks",
+      "collection": "St. Louis Yearbooks (node 1267)",
+      "url": "https://slcl.recollectcms.com/nodes/view/4849"
+    },
+    {
+      "node_id": 1923,
+      "title": "Hazelwood West High School Yearbooks",
+      "collection": "St. Louis Yearbooks (node 1267)",
+      "url": "https://slcl.recollectcms.com/nodes/view/1923"
+    },
+    {
+      "node_id": 1929,
+      "title": "Hickman High School Yearbooks",
+      "collection": "Other Missouri Yearbooks (node 1268)",
+      "url": "https://slcl.recollectcms.com/nodes/view/1929"
+    },
+    {
+      "node_id": 4149,
+      "title": "Idaho Yearbooks",
+      "collection": "Other State Yearbooks (node 1266)",
+      "url": "https://slcl.recollectcms.com/nodes/view/4149"
+    },
+    {
+      "node_id": 4131,
+      "title": "Illinois Yearbooks",
+      "collection": "Other State Yearbooks (node 1266)",
+      "url": "https://slcl.recollectcms.com/nodes/view/4131"
+    },
+    {
+      "node_id": 1244,
+      "title": "Incarnate Word Academy Yearbooks",
+      "collection": "St. Louis Yearbooks (node 1267)",
+      "url": "https://slcl.recollectcms.com/nodes/view/1244"
+    },
+    {
+      "node_id": 4132,
+      "title": "Indiana Yearbooks",
+      "collection": "Other State Yearbooks (node 1266)",
+      "url": "https://slcl.recollectcms.com/nodes/view/4132"
+    },
+    {
+      "node_id": 4144,
+      "title": "Iowa Yearbooks",
+      "collection": "Other State Yearbooks (node 1266)",
+      "url": "https://slcl.recollectcms.com/nodes/view/4144"
+    },
+    {
+      "node_id": 4289,
+      "title": "Ironton High School Yearbooks",
+      "collection": "Other Missouri Yearbooks (node 1268)",
+      "url": "https://slcl.recollectcms.com/nodes/view/4289"
+    },
+    {
+      "node_id": 1214,
+      "title": "Jefferson City Ernst Simonsen High School Yearbooks",
+      "collection": "Other Missouri Yearbooks (node 1268)",
+      "url": "https://slcl.recollectcms.com/nodes/view/1214"
+    },
+    {
+      "node_id": 1237,
+      "title": "John Burroughs School Yearbooks",
+      "collection": "St. Louis Yearbooks (node 1267)",
+      "url": "https://slcl.recollectcms.com/nodes/view/1237"
+    },
+    {
+      "node_id": 4135,
+      "title": "Kansas Yearbooks",
+      "collection": "Other State Yearbooks (node 1266)",
+      "url": "https://slcl.recollectcms.com/nodes/view/4135"
+    },
+    {
+      "node_id": 1243,
+      "title": "Kennett High School Yearbooks",
+      "collection": "Other Missouri Yearbooks (node 1268)",
+      "url": "https://slcl.recollectcms.com/nodes/view/1243"
+    },
+    {
+      "node_id": 1263,
+      "title": "Kirkwood High School Yearbooks",
+      "collection": "St. Louis Yearbooks (node 1267)",
+      "url": "https://slcl.recollectcms.com/nodes/view/1263"
+    },
+    {
+      "node_id": 1286,
+      "title": "Labour\u00e9 High School Yearbooks",
+      "collection": "St. Louis Yearbooks (node 1267)",
+      "url": "https://slcl.recollectcms.com/nodes/view/1286"
+    },
+    {
+      "node_id": 1294,
+      "title": "Ladue Horton Watkins High School Yearbooks",
+      "collection": "St. Louis Yearbooks (node 1267)",
+      "url": "https://slcl.recollectcms.com/nodes/view/1294"
+    },
+    {
+      "node_id": 1938,
+      "title": "Lafayette High School Yearbooks",
+      "collection": "St. Louis Yearbooks (node 1267)",
+      "url": "https://slcl.recollectcms.com/nodes/view/1938"
+    },
+    {
+      "node_id": 1316,
+      "title": "Lindbergh High School Yearbooks",
+      "collection": "St. Louis Yearbooks (node 1267)",
+      "url": "https://slcl.recollectcms.com/nodes/view/1316"
+    },
+    {
+      "node_id": 1322,
+      "title": "Lutheran High School South Yearbooks",
+      "collection": "St. Louis Yearbooks (node 1267)",
+      "url": "https://slcl.recollectcms.com/nodes/view/1322"
+    },
+    {
+      "node_id": 1325,
+      "title": "Lutheran High School Yearbooks",
+      "collection": "St. Louis Yearbooks (node 1267)",
+      "url": "https://slcl.recollectcms.com/nodes/view/1325"
+    },
+    {
+      "node_id": 1333,
+      "title": "Maplewood-Richmond Heights High School Yearbooks",
+      "collection": "St. Louis Yearbooks (node 1267)",
+      "url": "https://slcl.recollectcms.com/nodes/view/1333"
+    },
+    {
+      "node_id": 1591,
+      "title": "Mary Institute Yearbooks",
+      "collection": "St. Louis Yearbooks (node 1267)",
+      "url": "https://slcl.recollectcms.com/nodes/view/1591"
+    },
+    {
+      "node_id": 1371,
+      "title": "Mary Institute and Country Day School Yearbooks",
+      "collection": "St. Louis Yearbooks (node 1267)",
+      "url": "https://slcl.recollectcms.com/nodes/view/1371"
+    },
+    {
+      "node_id": 4150,
+      "title": "Massachusetts Yearbooks",
+      "collection": "Other State Yearbooks (node 1266)",
+      "url": "https://slcl.recollectcms.com/nodes/view/4150"
+    },
+    {
+      "node_id": 1393,
+      "title": "McCluer High School Yearbooks",
+      "collection": "St. Louis Yearbooks (node 1267)",
+      "url": "https://slcl.recollectcms.com/nodes/view/1393"
+    },
+    {
+      "node_id": 1400,
+      "title": "McCluer North High School Yearbooks",
+      "collection": "St. Louis Yearbooks (node 1267)",
+      "url": "https://slcl.recollectcms.com/nodes/view/1400"
+    },
+    {
+      "node_id": 1424,
+      "title": "McKinley High School Yearbooks",
+      "collection": "St. Louis Yearbooks (node 1267)",
+      "url": "https://slcl.recollectcms.com/nodes/view/1424"
+    },
+    {
+      "node_id": 1446,
+      "title": "Mehlville High School Yearbooks",
+      "collection": "St. Louis Yearbooks (node 1267)",
+      "url": "https://slcl.recollectcms.com/nodes/view/1446"
+    },
+    {
+      "node_id": 1463,
+      "title": "Mercy High School Yearbooks",
+      "collection": "St. Louis Yearbooks (node 1267)",
+      "url": "https://slcl.recollectcms.com/nodes/view/1463"
+    },
+    {
+      "node_id": 1941,
+      "title": "Metro Academic & Classical High School Yearbooks",
+      "collection": "St. Louis Yearbooks (node 1267)",
+      "url": "https://slcl.recollectcms.com/nodes/view/1941"
+    },
+    {
+      "node_id": 4151,
+      "title": "Minnesota Yearbooks",
+      "collection": "Other State Yearbooks (node 1266)",
+      "url": "https://slcl.recollectcms.com/nodes/view/4151"
+    },
+    {
+      "node_id": 1467,
+      "title": "Moberly High School Yearbooks",
+      "collection": "Other Missouri Yearbooks (node 1268)",
+      "url": "https://slcl.recollectcms.com/nodes/view/1467"
+    },
+    {
+      "node_id": 1470,
+      "title": "Mountain Grove High School Yearbooks",
+      "collection": "Other Missouri Yearbooks (node 1268)",
+      "url": "https://slcl.recollectcms.com/nodes/view/1470"
+    },
+    {
+      "node_id": 4146,
+      "title": "Nebraska Yearbooks",
+      "collection": "Other State Yearbooks (node 1266)",
+      "url": "https://slcl.recollectcms.com/nodes/view/4146"
+    },
+    {
+      "node_id": 1475,
+      "title": "Nerinx Hall Yearbooks",
+      "collection": "St. Louis Yearbooks (node 1267)",
+      "url": "https://slcl.recollectcms.com/nodes/view/1475"
+    },
+    {
+      "node_id": 4147,
+      "title": "New Hampshire Yearbooks",
+      "collection": "Other State Yearbooks (node 1266)",
+      "url": "https://slcl.recollectcms.com/nodes/view/4147"
+    },
+    {
+      "node_id": 4136,
+      "title": "New Jersey Yearbooks",
+      "collection": "Other State Yearbooks (node 1266)",
+      "url": "https://slcl.recollectcms.com/nodes/view/4136"
+    },
+    {
+      "node_id": 4141,
+      "title": "New York Yearbooks",
+      "collection": "Other State Yearbooks (node 1266)",
+      "url": "https://slcl.recollectcms.com/nodes/view/4141"
+    },
+    {
+      "node_id": 1507,
+      "title": "Normandy High School Yearbooks",
+      "collection": "St. Louis Yearbooks (node 1267)",
+      "url": "https://slcl.recollectcms.com/nodes/view/1507"
+    },
+    {
+      "node_id": 3309,
+      "title": "North County Technical School Yearbooks",
+      "collection": "St. Louis Yearbooks (node 1267)",
+      "url": "https://slcl.recollectcms.com/nodes/view/3309"
+    },
+    {
+      "node_id": 1509,
+      "title": "North Side Catholic High School Yearbooks",
+      "collection": "St. Louis Yearbooks (node 1267)",
+      "url": "https://slcl.recollectcms.com/nodes/view/1509"
+    },
+    {
+      "node_id": 1518,
+      "title": "Notre Dame High School Yearbooks",
+      "collection": "St. Louis Yearbooks (node 1267)",
+      "url": "https://slcl.recollectcms.com/nodes/view/1518"
+    },
+    {
+      "node_id": 1521,
+      "title": "Oakville Senior High School Yearbooks",
+      "collection": "St. Louis Yearbooks (node 1267)",
+      "url": "https://slcl.recollectcms.com/nodes/view/1521"
+    },
+    {
+      "node_id": 4134,
+      "title": "Ohio Yearbooks",
+      "collection": "Other State Yearbooks (node 1266)",
+      "url": "https://slcl.recollectcms.com/nodes/view/4134"
+    },
+    {
+      "node_id": 4137,
+      "title": "Oklahoma Yearbooks",
+      "collection": "Other State Yearbooks (node 1266)",
+      "url": "https://slcl.recollectcms.com/nodes/view/4137"
+    },
+    {
+      "node_id": 4148,
+      "title": "Oregon Yearbooks",
+      "collection": "Other State Yearbooks (node 1266)",
+      "url": "https://slcl.recollectcms.com/nodes/view/4148"
+    },
+    {
+      "node_id": 1531,
+      "title": "Parkway Central High School Yearbooks",
+      "collection": "St. Louis Yearbooks (node 1267)",
+      "url": "https://slcl.recollectcms.com/nodes/view/1531"
+    },
+    {
+      "node_id": 1008,
+      "title": "Parkway North High School Yearbooks",
+      "collection": "St. Louis Yearbooks (node 1267)",
+      "url": "https://slcl.recollectcms.com/nodes/view/1008"
+    },
+    {
+      "node_id": 1543,
+      "title": "Parkway West High School Yearbooks",
+      "collection": "St. Louis Yearbooks (node 1267)",
+      "url": "https://slcl.recollectcms.com/nodes/view/1543"
+    },
+    {
+      "node_id": 1547,
+      "title": "Pattonville High School Yearbooks",
+      "collection": "St. Louis Yearbooks (node 1267)",
+      "url": "https://slcl.recollectcms.com/nodes/view/1547"
+    },
+    {
+      "node_id": 4145,
+      "title": "Pennsylvania Yearbooks",
+      "collection": "Other State Yearbooks (node 1266)",
+      "url": "https://slcl.recollectcms.com/nodes/view/4145"
+    },
+    {
+      "node_id": 1554,
+      "title": "Principia High School Yearbooks",
+      "collection": "St. Louis Yearbooks (node 1267)",
+      "url": "https://slcl.recollectcms.com/nodes/view/1554"
+    },
+    {
+      "node_id": 1559,
+      "title": "Ritenour Senior High School Yearbooks",
+      "collection": "St. Louis Yearbooks (node 1267)",
+      "url": "https://slcl.recollectcms.com/nodes/view/1559"
+    },
+    {
+      "node_id": 1573,
+      "title": "Riverview Gardens Senior High School Yearbooks",
+      "collection": "St. Louis Yearbooks (node 1267)",
+      "url": "https://slcl.recollectcms.com/nodes/view/1573"
+    },
+    {
+      "node_id": 1009,
+      "title": "Roosevelt High School Yearbooks",
+      "collection": "St. Louis Yearbooks (node 1267)",
+      "url": "https://slcl.recollectcms.com/nodes/view/1009"
+    },
+    {
+      "node_id": 1584,
+      "title": "Rosary High School Yearbooks",
+      "collection": "St. Louis Yearbooks (node 1267)",
+      "url": "https://slcl.recollectcms.com/nodes/view/1584"
+    },
+    {
+      "node_id": 1590,
+      "title": "Rosati-Kain High School Yearbooks",
+      "collection": "St. Louis Yearbooks (node 1267)",
+      "url": "https://slcl.recollectcms.com/nodes/view/1590"
+    },
+    {
+      "node_id": 1647,
+      "title": "Russellville High School Yearbooks",
+      "collection": "Other Missouri Yearbooks (node 1268)",
+      "url": "https://slcl.recollectcms.com/nodes/view/1647"
+    },
+    {
+      "node_id": 8657,
+      "title": "Samuel M. Kennard School Yearbooks",
+      "collection": "St. Louis Yearbooks (node 1267)",
+      "url": "https://slcl.recollectcms.com/nodes/view/8657"
+    },
+    {
+      "node_id": 1656,
+      "title": "Sedalia High School Yearbooks",
+      "collection": "Other Missouri Yearbooks (node 1268)",
+      "url": "https://slcl.recollectcms.com/nodes/view/1656"
+    },
+    {
+      "node_id": 1169,
+      "title": "Soldan High School Yearbooks",
+      "collection": "St. Louis Yearbooks (node 1267)",
+      "url": "https://slcl.recollectcms.com/nodes/view/1169"
+    },
+    {
+      "node_id": 6201,
+      "title": "Soldan-Blewett High School Yearbooks",
+      "collection": "St. Louis Yearbooks (node 1267)",
+      "url": "https://slcl.recollectcms.com/nodes/view/6201"
+    },
+    {
+      "node_id": 1706,
+      "title": "Southwest High School Yearbooks",
+      "collection": "St. Louis Yearbooks (node 1267)",
+      "url": "https://slcl.recollectcms.com/nodes/view/1706"
+    },
+    {
+      "node_id": 1716,
+      "title": "St. Alphonsus Rock High School Yearbooks",
+      "collection": "St. Louis Yearbooks (node 1267)",
+      "url": "https://slcl.recollectcms.com/nodes/view/1716"
+    },
+    {
+      "node_id": 7580,
+      "title": "St. Anthony High School Yearbooks",
+      "collection": "St. Louis Yearbooks (node 1267)",
+      "url": "https://slcl.recollectcms.com/nodes/view/7580"
+    },
+    {
+      "node_id": 3311,
+      "title": "St. Charles High School Yearbooks",
+      "collection": "Other Missouri Yearbooks (node 1268)",
+      "url": "https://slcl.recollectcms.com/nodes/view/3311"
+    },
+    {
+      "node_id": 1720,
+      "title": "St. Elizabeth Academy Yearbooks",
+      "collection": "St. Louis Yearbooks (node 1267)",
+      "url": "https://slcl.recollectcms.com/nodes/view/1720"
+    },
+    {
+      "node_id": 1722,
+      "title": "St. Francis Borgia High School Yearbooks",
+      "collection": "Other Missouri Yearbooks (node 1268)",
+      "url": "https://slcl.recollectcms.com/nodes/view/1722"
+    },
+    {
+      "node_id": 1731,
+      "title": "St. Francis De Sales High School Yearbooks",
+      "collection": "St. Louis Yearbooks (node 1267)",
+      "url": "https://slcl.recollectcms.com/nodes/view/1731"
+    },
+    {
+      "node_id": 1738,
+      "title": "St. John's High School Yearbooks",
+      "collection": "St. Louis Yearbooks (node 1267)",
+      "url": "https://slcl.recollectcms.com/nodes/view/1738"
+    },
+    {
+      "node_id": 1752,
+      "title": "St. Joseph's Academy Yearbooks",
+      "collection": "St. Louis Yearbooks (node 1267)",
+      "url": "https://slcl.recollectcms.com/nodes/view/1752"
+    },
+    {
+      "node_id": 1642,
+      "title": "St. Louis Country Day School Yearbooks",
+      "collection": "St. Louis Yearbooks (node 1267)",
+      "url": "https://slcl.recollectcms.com/nodes/view/1642"
+    },
+    {
+      "node_id": 1756,
+      "title": "St. Louis High School Yearbooks",
+      "collection": "St. Louis Yearbooks (node 1267)",
+      "url": "https://slcl.recollectcms.com/nodes/view/1756"
+    },
+    {
+      "node_id": 3312,
+      "title": "St. Louis Preparatory Seminary Yearbooks",
+      "collection": "St. Louis Yearbooks (node 1267)",
+      "url": "https://slcl.recollectcms.com/nodes/view/3312"
+    },
+    {
+      "node_id": 1773,
+      "title": "St. Louis University High School",
+      "collection": "St. Louis Yearbooks (node 1267)",
+      "url": "https://slcl.recollectcms.com/nodes/view/1773"
+    },
+    {
+      "node_id": 3313,
+      "title": "St. Mark's High School Yearbooks",
+      "collection": "St. Louis Yearbooks (node 1267)",
+      "url": "https://slcl.recollectcms.com/nodes/view/3313"
+    },
+    {
+      "node_id": 7345,
+      "title": "St. Mary's Academy Yearbooks",
+      "collection": "Other Missouri Yearbooks (node 1268)",
+      "url": "https://slcl.recollectcms.com/nodes/view/7345"
+    },
+    {
+      "node_id": 3314,
+      "title": "St. Mary's High School Yearbooks",
+      "collection": "St. Louis Yearbooks (node 1267)",
+      "url": "https://slcl.recollectcms.com/nodes/view/3314"
+    },
+    {
+      "node_id": 1797,
+      "title": "St. Thomas Aquinas High School Yearbooks",
+      "collection": "St. Louis Yearbooks (node 1267)",
+      "url": "https://slcl.recollectcms.com/nodes/view/1797"
+    },
+    {
+      "node_id": 7585,
+      "title": "St. Thomas Aquinas-Mercy High School Yearbooks",
+      "collection": "St. Louis Yearbooks (node 1267)",
+      "url": "https://slcl.recollectcms.com/nodes/view/7585"
+    },
+    {
+      "node_id": 2540,
+      "title": "Sumner High School Yearbooks",
+      "collection": "St. Louis Yearbooks (node 1267)",
+      "url": "https://slcl.recollectcms.com/nodes/view/2540"
+    },
+    {
+      "node_id": 4142,
+      "title": "Texas Yearbooks",
+      "collection": "Other State Yearbooks (node 1266)",
+      "url": "https://slcl.recollectcms.com/nodes/view/4142"
+    },
+    {
+      "node_id": 1811,
+      "title": "Trinity Catholic High School Yearbooks",
+      "collection": "St. Louis Yearbooks (node 1267)",
+      "url": "https://slcl.recollectcms.com/nodes/view/1811"
+    },
+    {
+      "node_id": 1275,
+      "title": "University City High School Yearbooks",
+      "collection": "St. Louis Yearbooks (node 1267)",
+      "url": "https://slcl.recollectcms.com/nodes/view/1275"
+    },
+    {
+      "node_id": 10953,
+      "title": "Ursuline Academy Yearbooks",
+      "collection": "St. Louis Yearbooks (node 1267)",
+      "url": "https://slcl.recollectcms.com/nodes/view/10953"
+    },
+    {
+      "node_id": 1819,
+      "title": "Valle High School Yearbooks",
+      "collection": "Other Missouri Yearbooks (node 1268)",
+      "url": "https://slcl.recollectcms.com/nodes/view/1819"
+    },
+    {
+      "node_id": 1823,
+      "title": "Valley Park High School Yearbooks",
+      "collection": "St. Louis Yearbooks (node 1267)",
+      "url": "https://slcl.recollectcms.com/nodes/view/1823"
+    },
+    {
+      "node_id": 1827,
+      "title": "Vianney High School Yearbooks",
+      "collection": "St. Louis Yearbooks (node 1267)",
+      "url": "https://slcl.recollectcms.com/nodes/view/1827"
+    },
+    {
+      "node_id": 1954,
+      "title": "Villa Duchesne Yearbooks",
+      "collection": "St. Louis Yearbooks (node 1267)",
+      "url": "https://slcl.recollectcms.com/nodes/view/1954"
+    },
+    {
+      "node_id": 4139,
+      "title": "Virginia Yearbooks",
+      "collection": "Other State Yearbooks (node 1266)",
+      "url": "https://slcl.recollectcms.com/nodes/view/4139"
+    },
+    {
+      "node_id": 3315,
+      "title": "W. F. Gaunt High School Yearbooks",
+      "collection": "St. Louis Yearbooks (node 1267)",
+      "url": "https://slcl.recollectcms.com/nodes/view/3315"
+    },
+    {
+      "node_id": 4152,
+      "title": "Washington Yearbooks",
+      "collection": "Other State Yearbooks (node 1266)",
+      "url": "https://slcl.recollectcms.com/nodes/view/4152"
+    },
+    {
+      "node_id": 1026,
+      "title": "Webster Groves High School Yearbooks",
+      "collection": "St. Louis Yearbooks (node 1267)",
+      "url": "https://slcl.recollectcms.com/nodes/view/1026"
+    },
+    {
+      "node_id": 9544,
+      "title": "Wellston High School Yearbooks",
+      "collection": "St. Louis Yearbooks (node 1267)",
+      "url": "https://slcl.recollectcms.com/nodes/view/9544"
+    },
+    {
+      "node_id": 1973,
+      "title": "Wentzville High School Yearbooks",
+      "collection": "Other Missouri Yearbooks (node 1268)",
+      "url": "https://slcl.recollectcms.com/nodes/view/1973"
+    },
+    {
+      "node_id": 4153,
+      "title": "West Virginia Yearbooks",
+      "collection": "Other State Yearbooks (node 1266)",
+      "url": "https://slcl.recollectcms.com/nodes/view/4153"
+    },
+    {
+      "node_id": 1979,
+      "title": "Whitfield School Yearbooks",
+      "collection": "St. Louis Yearbooks (node 1267)",
+      "url": "https://slcl.recollectcms.com/nodes/view/1979"
+    },
+    {
+      "node_id": 1986,
+      "title": "William Cullen McBride High School Yearbooks",
+      "collection": "St. Louis Yearbooks (node 1267)",
+      "url": "https://slcl.recollectcms.com/nodes/view/1986"
+    },
+    {
+      "node_id": 4143,
+      "title": "Wisconsin Yearbooks",
+      "collection": "Other State Yearbooks (node 1266)",
+      "url": "https://slcl.recollectcms.com/nodes/view/4143"
+    },
+    {
+      "node_id": 1991,
+      "title": "Yeatman High School Yearbooks",
+      "collection": "St. Louis Yearbooks (node 1267)",
+      "url": "https://slcl.recollectcms.com/nodes/view/1991"
+    }
+  ],
+  "reca_impacted_grouping": [
+    {
+      "node_id": 7594,
+      "title": "Berkeley High School Yearbooks"
+    },
+    {
+      "node_id": 7764,
+      "title": "Francis Howell High School Yearbooks"
+    },
+    {
+      "node_id": 3308,
+      "title": "Hazelwood Central High School Yearbooks"
+    },
+    {
+      "node_id": 1924,
+      "title": "Hazelwood East High School Yearbooks"
+    },
+    {
+      "node_id": 4849,
+      "title": "Hazelwood High School Yearbooks"
+    },
+    {
+      "node_id": 1923,
+      "title": "Hazelwood West High School Yearbooks"
+    },
+    {
+      "node_id": 1244,
+      "title": "Incarnate Word Academy Yearbooks"
+    },
+    {
+      "node_id": 1325,
+      "title": "Lutheran High School Yearbooks"
+    },
+    {
+      "node_id": 1393,
+      "title": "McCluer High School Yearbooks"
+    },
+    {
+      "node_id": 1400,
+      "title": "McCluer North High School Yearbooks"
+    },
+    {
+      "node_id": 3309,
+      "title": "North County Technical School Yearbooks"
+    },
+    {
+      "node_id": 1547,
+      "title": "Pattonville High School Yearbooks"
+    },
+    {
+      "node_id": 1559,
+      "title": "Ritenour Senior High School Yearbooks"
+    },
+    {
+      "node_id": 1584,
+      "title": "Rosary High School Yearbooks"
+    },
+    {
+      "node_id": 3312,
+      "title": "St. Louis Preparatory Seminary Yearbooks"
+    },
+    {
+      "node_id": 1797,
+      "title": "St. Thomas Aquinas High School Yearbooks"
+    },
+    {
+      "node_id": 7585,
+      "title": "St. Thomas Aquinas-Mercy High School Yearbooks"
+    },
+    {
+      "node_id": 1811,
+      "title": "Trinity Catholic High School Yearbooks"
+    }
+  ],
+  "notes": "Other State Yearbooks contains one subcollection per US state (school-level items inside, not enumerated \u2014 no schools_master.json rows are located outside Missouri). Trinity Catholic High School Yearbooks (node 1811) returns 0 public items: its collection description states it holds yearbooks published after 1990 that are 'for in-library use only' \u2014 items exist but are not publicly enumerable."
+}
