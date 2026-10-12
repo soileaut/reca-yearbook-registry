@@ -120,20 +120,31 @@ full dataset. See `pilot/` for the original task prompts and output.
   `batches/track_a_scaleup_summary.md` for the aggregated data-quality
   findings (phantom-row flags, cross-batch duplicate candidates, seed
   data errors) carried forward from all 22 batches.
-- **Track B fan-out designed and ready to run (not yet executed):**
-  `track_b_fanout_prompt.md` partitions the remaining archive survey into
-  7 named surfaces (Archdiocese of St. Louis, Concordia Historical
-  Institute, SHSMO/WHMC, St. Charles Co. Historical Society, SLCL Digital
-  full scale-up, SLCL Physical full scale-up, north county municipal
-  libraries) to run via Agent Fan-Out, same pattern as Track A. Includes
-  `data/digital_archives.json` (archive inventory: authority tiers,
-  short display names, coverage status per institution) and
-  `flatten_registry.py` (cross-institution reconciliation: rolls up a
-  `scan_status` verdict per school/year across every institution that was
-  checked, and flags citation collisions for review).
+- **Track B round-1 fan-out complete and merged to `main` (PR #4, 2026-10-12):**
+  `track_b_fanout_prompt.md` partitioned the archive survey into 7 named
+  surfaces (Archdiocese of St. Louis, Concordia Historical Institute,
+  SHSMO/WHMC, St. Charles Co. Historical Society, SLCL Digital full
+  scale-up, SLCL Physical full scale-up, north county municipal
+  libraries), run via Agent Fan-Out, same pattern as Track A.
+  `yearbook_registry_master.json` now has **1,235 rows** across 8
+  sources; `flat_yearbook_registry.csv` covers 779 school-years (319
+  `digitally_secured`, 137 `physical_only_known`, 280 `needs_scan`, rest
+  unverdicted). Per-surface notes are in `track_b_notes_*.md`; raw
+  enumerated indexes in `data/archive_indexes/`.
+- **Round-1 reconciliation fix (same PR):** the fan-out prompt and
+  `concordia_hist` rows referenced a phantom `ALL-651` (LHS North — no
+  seed row ever existed). Resolved additively: `schools_lutheran_hs.json`
+  minted real cited rows for ALL-651/652/653 (LHS North/South/Central),
+  +43 registry rows for the Central and South CHI holdings.
+  `schools_master.json` now covers **340 schools**.
+- **Track B round-2 fan-out designed and ready to run (not yet executed):**
+  `track_b_round2_prompt.md` covers the remaining surfaces —
+  `archive_org`, `mohistory`, `mercantile_umsl`, `stcharles_lib`,
+  `school_self_hosted` (tier 1, splittable by district), plus full-index
+  surveys of `slu`/`wustl`/`umsl`/`stlcc` (+optional `lindenwood`).
 - **Not yet started:** resolving the flagged ambiguous-duplicate/phantom
   rows surfaced by the scale-up (see `NEXT_STEPS.md`), and actually
-  running the Track B fan-out above.
+  running the Track B round-2 fan-out above.
 
 ## Repo map
 
