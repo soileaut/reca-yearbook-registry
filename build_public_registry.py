@@ -24,7 +24,15 @@ Grid rules:
 
 scan_status values reuse flatten_registry.py's verdicts
 (digitally_secured / rescan_recommended / physical_only_known /
-needs_scan), plus not_yet_checked for grid cells with no registry rows.
+needs_scan), plus:
+- digital_in_library_only -- a DIGITAL copy exists but is access-
+  restricted (e.g. SLCL "in-library use only" volumes): no public link,
+  so it does NOT suppress the scan target, but the location is known.
+- not_yet_checked -- grid cells with no registry rows at all.
+
+Per the project policy only a freely-accessible institutional scan fully
+secures a (school, year); restricted digital copies are surfaced in the
+digital_in_library column and still count as scan targets.
 
 Usage:
     python3 build_public_registry.py [schools] [registry] [archives] [out.csv]
@@ -52,6 +60,22 @@ CURRENT_YEAR = 2026
 YEAR_RANGE_4 = re.compile(r"^(\d{4})\s*-\s*(\d{4})$")
 YEAR_RANGE_2 = re.compile(r"^(\d{4})\s*-\s*(\d{2})$")
 YEAR_SINGLE = re.compile(r"^\s*(\d{4})\s*$")
+YEAR_ANYWHERE = re.compile(r"(\d{4})")
+
+# Phrases meaning a digitized copy is NOT freely accessible online
+# (viewable only on the institution's premises/network). Soft hedges like
+# "may be viewable in-branch only" are NOT matched -- those rows keep a
+# working item-page link and the caveat stays visible in the cell text.
+RESTRICTED_RE = re.compile(
+    r"in-library use only|in-library only|not publicly|0 visible items",
+    re.IGNORECASE,
+)
+
+
+def is_restricted_digital(row):
+    return bool(RESTRICTED_RE.search(
+        f"{row.get('access_info','')} {row.get('holding_format','')}"
+    ))
 
 
 def parse_year(value):
@@ -74,17 +98,24 @@ def normalize_registry_year(value):
     if m:
         return int(m.group(1)[:2] + m.group(2))
     m = YEAR_SINGLE.match(v)
+    if m:
+        return int(m.group(1))
+    m = YEAR_ANYWHERE.search(v)
     return int(m.group(1)) if m else None
 
 
 def compute_scan_status(rows, tier_map):
-    """Mirror of flatten_registry.compute_scan_status -- keep in sync."""
-    has_tier12 = has_tier3 = has_physical = False
+    """Extension of flatten_registry.compute_scan_status: digitized rows
+    whose access is restricted (in-library only) do not count as a free
+    copy -- they yield digital_in_library_only, still a scan target."""
+    has_tier12 = has_tier3 = has_restricted = has_physical = False
     for row in rows:
         status = row.get("digitized_status")
         tier = tier_map.get(row.get("source_archive_id"))
         if status == "digitized":
-            if tier in (1, 2):
+            if is_restricted_digital(row):
+                has_restricted = True
+            elif tier in (1, 2):
                 has_tier12 = True
             else:
                 has_tier3 = True
@@ -94,6 +125,8 @@ def compute_scan_status(rows, tier_map):
         return "digitally_secured"
     if has_tier3:
         return "rescan_recommended"
+    if has_restricted:
+        return "digital_in_library_only"
     if has_physical:
         return "physical_only_known"
     return "needs_scan"
@@ -155,10 +188,13 @@ def main():
         for year in range(start, end + 1):
             rows = per_year.get((sid, year), []) + all_years.get(sid, [])
             if not rows:
-                status, where, dloc, ploc, checked = "not_yet_checked", "", "", "", ""
+                status, where, dloc, rloc, ploc, checked = \
+                    "not_yet_checked", "", "", "", "", ""
             else:
                 status = compute_scan_status(rows, tier_map)
                 digitized = [r for r in rows if r.get("digitized_status") == "digitized"]
+                free_digital = [r for r in digitized if not is_restricted_digital(r)]
+                restricted = [r for r in digitized if is_restricted_digital(r)]
                 physical = [r for r in rows if r.get("digitized_status") == "physical_only"]
                 holders = []
                 for r in digitized + physical:
@@ -171,7 +207,8 @@ def main():
                     if n not in checked_list:
                         checked_list.append(n)
                 where = "; ".join(holders)
-                dloc = " | ".join(location_str(r) for r in digitized)
+                dloc = " | ".join(location_str(r) for r in free_digital)
+                rloc = " | ".join(location_str(r) for r in restricted)
                 ploc = " | ".join(location_str(r) for r in physical)
                 checked = "; ".join(checked_list)
             rows_out.append({
@@ -183,6 +220,7 @@ def main():
                 "scan_status": status,
                 "where_located": where,
                 "view_online": dloc,
+                "digital_in_library": rloc,
                 "physical_location": ploc,
                 "checked_at": checked,
             })
@@ -192,7 +230,7 @@ def main():
         writer = csv.DictWriter(f, fieldnames=[
             "school_name", "school_id", "zip", "district_operator", "year",
             "scan_status", "where_located", "view_online",
-            "physical_location", "checked_at",
+            "digital_in_library", "physical_location", "checked_at",
         ])
         writer.writeheader()
         writer.writerows(rows_out)
