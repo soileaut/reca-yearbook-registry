@@ -127,6 +127,47 @@ in this table yet, rather than appearing with hollow `unknown` values.
 | `citation_url` | string | Source for this specific row's claim. |
 | `last_verified_date` | string | ISO date you did this research. |
 | `verified_by` | string | Which task/session produced this row, e.g. `pilot-track-b-slcl`. |
+| `source_archive_id` | string | FK to an `archive_id` in `data/digital_archives.json`, when this row came from a cataloged archive in that inventory (`unknown`/omit otherwise). Used by `flatten_registry.py` to look up `authority_tier` and `short_name`, and to roll up a cross-institution scan-necessity verdict for each `(school_id, year)` — see "Cross-institution reconciliation" below. |
+
+Every entry in `data/digital_archives.json` also has a `short_name` (e.g.
+"SLCL Digital Archives", "Archdiocese of St. Louis Archives") — a clean,
+human-readable label distinct from the long descriptive `name` field. This
+is what gets surfaced as its own filterable column in the published CSV
+(`flatten_registry.py`'s `digital_sources`/`physical_sources` columns) so a
+reader can filter/group by institution without parsing a full citation
+string.
+
+### Cross-institution reconciliation (parent/coordinator responsibility, not children)
+
+Multiple institutions can hold the same `(school_id, year)` — a child only
+ever sees its own assigned archive, so it must never try to decide whether a
+copy is "good enough" relative to what some other surface might also hold.
+That decision is made once, by the parent, **after all children have
+reported and their output is merged**, the same way `reca_scope_status` is
+computed centrally rather than by individual Track A children:
+
+- Group all `yearbook_registry_*` rows across every surface by
+  `(school_id, year)`.
+- If **any** row in the group is `digitized_status: digitized` with
+  `source_archive_id` pointing to an `authority_tier` 1 or 2 archive
+  (school/district self-hosted, or institutional custody) — that
+  `(school_id, year)` is considered digitally secured. Any *other* row in
+  the same group that is `digitized` but only from a tier-3
+  (aggregator/weak-provenance) archive should NOT independently carry
+  `rescan_recommended` once a tier 1/2 copy exists elsewhere for the same
+  `(school_id, year)` — suppress it at rollup time.
+- If the only `digitized` row(s) in the group are tier-3, keep
+  `rescan_recommended`.
+- If no row in the group is `digitized` anywhere, but at least one is
+  `physical_only`, the group is physical-only-known.
+- If every row in the group is `not_found`/`unknown`, or no row exists at
+  all, the `(school_id, year)` remains an open scan target.
+- **Conflict check:** if the same `citation_url` appears across rows with
+  two different `school_id`s, that's a sign one child matched a decoy —
+  flag both rows for human review rather than silently accepting either.
+
+`flatten_registry.py` implements this rollup automatically; run it after
+`merge_registry.py` any time new Track B output is merged.
 
 ---
 
