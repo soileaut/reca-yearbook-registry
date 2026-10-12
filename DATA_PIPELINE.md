@@ -1,5 +1,10 @@
 # RECA Yearbook Registry — Data Pipeline
 
+> Working history of how this project was built — written for contributors
+> and the curious. For the searchable public registry itself, see the
+> project's GitHub Pages site. Spot an error in the data? Please report it
+> via the site's form — corrections are the point of publishing it.
+
 A research pipeline to identify every school impacted by RECA (Radiation
 Exposure Compensation Act) in the St. Louis, Missouri area, verify their
 history, and locate which of their yearbooks already exist — digitized or
@@ -35,9 +40,10 @@ Track B — to validate the schema and guardrails before committing to the
 full dataset. See `pilot/` for the original task prompts and output.
 
 **What the pilot caught, that justified doing it this way:**
-- The seed data itself contains phantom entities (`Baden High School`
-  appears to never have existed) and unresolved identities (`North High
-  School` doesn't match any real SLPS school).
+- The seed data itself contains entries no independent source confirms —
+  e.g. `Baden High School` has no evidence it ever existed, and
+  `North High School` doesn't match any real SLPS school. These stay
+  flagged as unverified rather than silently dropped.
 - The "~92 yearbooks" figure initially assumed for St. Louis County
   Library was wrong — SLCL's actual digitized collection is ~90
   school-level collections totaling ~1,400 volumes.
@@ -65,10 +71,10 @@ full dataset. See `pilot/` for the original task prompts and output.
 5. **ZIP tracking was dropped from the schema entirely.** Initially the
    schema tracked which ZIP(s) each school was relevant to
    (`also_relevant_to_zips`), to support ZIP-based ZIP-matching for
-   claimants. This was removed once it was confirmed the downstream app
-   doesn't match claimants to schools by ZIP at all — it just offers
-   whichever yearbooks are undigitized, regardless of ZIP. Schools are
-   simply a flat list of "impacted schools."
+   claimants. This was removed once it was confirmed the research schema
+   didn't need it — schools are simply a flat list of "impacted schools."
+   (The public site does still offer ZIP search for visitors, but that
+   reads the school's own ZIP field rather than a served-ZIP mapping.)
 6. **Two separate dedup problems, two separate tools:**
    - `yearbook_registry_master.json` + `merge_registry.py` — once a
      yearbook is confirmed digitized at one institution, future
@@ -142,9 +148,29 @@ full dataset. See `pilot/` for the original task prompts and output.
   `archive_org`, `mohistory`, `mercantile_umsl`, `stcharles_lib`,
   `school_self_hosted` (tier 1, splittable by district), plus full-index
   surveys of `slu`/`wustl`/`umsl`/`stlcc` (+optional `lindenwood`).
-- **Not yet started:** resolving the flagged ambiguous-duplicate/phantom
-  rows surfaced by the scale-up (see `NEXT_STEPS.md`), and actually
-  running the Track B round-2 fan-out above.
+- **Publication layer built:** `build_public_registry.py` generates
+  `publish/public_yearbook_registry.csv` — an expanded claimant-facing
+  grid of **14,406 rows** (every in-scope school × every school-year it
+  operated from 1949 on, including unsearched years, so missing years are
+  visible rather than omitted; 291 schools, 49 excluded as
+  closed-pre-1949/admin-district-only). Rows roll up the same
+  `scan_status` semantics as the flat file plus `where_located`,
+  `view_online`, `digital_in_library`, `physical_location`, and
+  `also_known_as` (historical names for alias search). A "digitized but
+  in-library-only" access phrase does **not** mark a year secured — it
+  gets `digital_in_library_only` and remains a scan target.
+- **Public site built (`docs/`, GitHub Pages source):** a self-contained
+  static page serving the public CSV with combobox pickers (school name
+  with historical-name matching, or ZIP code — one or the other), a year
+  selector, a live-computed status summary line, paginated results with
+  clickable source links, CSV download, and calls-to-action to two
+  Google Forms: a report form (yearbook leads + corrections) and a
+  testimonials form (consent-checked stories for the planned Substack
+  article). Enabling Pages is a repo Settings toggle; the live URL will
+  be `soileaut.github.io/reca-yearbook-registry`.
+- **Not yet started:** enabling GitHub Pages, resolving the flagged
+  ambiguous-duplicate/phantom rows surfaced by the scale-up (see
+  `NEXT_STEPS.md`), and actually running the Track B round-2 fan-out above.
 
 ## Repo map
 
@@ -179,8 +205,12 @@ batches/                        -- Track A scale-up output (22 batches), complet
 
 track_a_coordinator_prompt.md   -- task spec used for the Track A scale-up (completed; kept as a reusable template)
 
-track_b_fanout_prompt.md       -- task spec for the Track B archive survey fan-out (ready to run)
+track_b_fanout_prompt.md       -- task spec for the Track B round-1 fan-out (completed)
+track_b_round2_prompt.md       -- task spec for the Track B round-2 fan-out (ready to run)
+track_b_notes_*.md             -- per-surface process notes from Track B workers
 
+schools_lutheran_hs.json       -- seed-style rows minted during round-1 reconciliation
+                                    (ALL-651/652/653 Lutheran HS North/South/Central)
 schools_master.json             -- merged schools table across all completed work
 yearbook_registry_master.json   -- merged yearbook registry across all completed work
 flat_yearbook_registry.csv      -- pivoted, human/publish-ready view (one row per school+year,
@@ -188,9 +218,17 @@ flat_yearbook_registry.csv      -- pivoted, human/publish-ready view (one row pe
 citation_collisions.json        -- flatten_registry.py output: citation_urls reused across
                                     different school_ids, needs human review if non-empty
 
+publish/
+  public_yearbook_registry.csv -- expanded public grid: every in-scope school x year (1949+),
+                                    incl. unsearched years -- regenerate via build_public_registry.py
+docs/                          -- GitHub Pages site (static, no dependencies)
+  index.html                   -- combobox search UI over the public CSV + form links
+  public_yearbook_registry.csv -- copy of publish/ output; copy again whenever it regenerates
+
 merge_schools.py                -- regenerates schools_master.json
 merge_registry.py               -- regenerates yearbook_registry_master.json
 flatten_registry.py             -- regenerates flat_yearbook_registry.csv + citation_collisions.json
+build_public_registry.py        -- regenerates publish/public_yearbook_registry.csv
 find_potential_duplicates.py    -- flags new rows that match already-researched schools
 dedupe_seed.py                  -- self-deduplicates raw seed rows (exact-match only, safe)
 compute_reca_scope.py           -- deterministically computes reca_scope_status

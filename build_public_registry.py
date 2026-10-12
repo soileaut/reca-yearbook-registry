@@ -213,6 +213,7 @@ def main():
                 checked = "; ".join(checked_list)
             rows_out.append({
                 "school_name": s.get("name", ""),
+                "also_known_as": "; ".join(s.get("historical_names", [])),
                 "school_id": sid,
                 "zip": s.get("zip", ""),
                 "district_operator": s.get("district_operator", ""),
@@ -228,7 +229,7 @@ def main():
     Path(OUTPUT_FILE).parent.mkdir(parents=True, exist_ok=True)
     with open(OUTPUT_FILE, "w", newline="") as f:
         writer = csv.DictWriter(f, fieldnames=[
-            "school_name", "school_id", "zip", "district_operator", "year",
+            "school_name", "also_known_as", "school_id", "zip", "district_operator", "year",
             "scan_status", "where_located", "view_online",
             "digital_in_library", "physical_location", "checked_at",
         ])
