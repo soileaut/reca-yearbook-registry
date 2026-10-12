@@ -1,0 +1,1598 @@
+{
+ "archive_id": "scchs",
+ "source_url": "https://scchs.pastperfectonline.com/",
+ "enumerated_date": "2026-10-12",
+ "method": "Keyword enumeration of the PastPerfect public catalog (global /Search covers Object, Photo, Archive, Library, and Container List records). Primary pass: search_criteria=yearbook (82 records). Supplemental passes: 'classbook', 'annual', 'Charlemo'/'Charmelo', and ~60 per-school/district/parish-name queries covering the 52 in-scope St. Charles County seed rows (all run against the same full-text index, capped at 60 results per noisy term). NOTE: the keyword index is not exhaustive of Scope&Content text \u2014 the Assumption HS yearbook record (2021.05.16) was found only via the per-school query, not the 'yearbook' query. Advanced Search field-specific queries (Object Name/Title/Description) return no results via plain GET \u2014 they may require the site's JS/session flow.",
+ "record_count": 227,
+ "records": [
+  {
+   "title": "View Full Record",
+   "desc": "Leistner, Frederick W.",
+   "rtype": "Library",
+   "url": "https://scchs.pastperfectonline.com/library/A9BA35E8-2260-48A4-8C89-215201309493",
+   "found_via_query": "yearbook"
+  },
+  {
+   "title": "2007.039.013 - Yearbook",
+   "desc": "Missouri River Otters 1999-2000 Yearbook.",
+   "rtype": "Archive",
+   "url": "https://scchs.pastperfectonline.com/archive/7B653E75-12A5-420E-A32C-819215573261",
+   "found_via_query": "yearbook"
+  },
+  {
+   "title": "2007.039.014 - Yearbook",
+   "desc": "Missouri River Otters 2002-2003 Yearbook.",
+   "rtype": "Archive",
+   "url": "https://scchs.pastperfectonline.com/archive/D89EC3FC-3AF9-4745-A5EF-092412937578",
+   "found_via_query": "yearbook"
+  },
+  {
+   "title": "2007.039.015 - Yearbook",
+   "desc": "Missouri River Otters 2003-2004 Yearbook.",
+   "rtype": "Archive",
+   "url": "https://scchs.pastperfectonline.com/archive/EFFFCDAC-EF19-4B6D-8FC0-736605348524",
+   "found_via_query": "yearbook"
+  },
+  {
+   "title": "2007.041.01 - Yearbook",
+   "desc": "",
+   "rtype": "Archive",
+   "url": "https://scchs.pastperfectonline.com/archive/37727CA8-0CC4-4134-B8C0-436465165161",
+   "found_via_query": "yearbook"
+  },
+  {
+   "title": "2017.009.001 - Yearbook",
+   "desc": "Charlemo yearbook from 1972.",
+   "rtype": "Archive",
+   "url": "https://scchs.pastperfectonline.com/archive/1C5CF530-FC33-42C6-9F75-168758317839",
+   "found_via_query": "yearbook"
+  },
+  {
+   "title": "2017.009.002 - Yearbook",
+   "desc": "Charlemo yearbook from 1973.",
+   "rtype": "Archive",
+   "url": "https://scchs.pastperfectonline.com/archive/719BEA5F-4D18-4FD7-A4EE-251504965513",
+   "found_via_query": "yearbook"
+  },
+  {
+   "title": "2017.009.003 - Yearbook",
+   "desc": "Charlemo yearbook from 1981.",
+   "rtype": "Archive",
+   "url": "https://scchs.pastperfectonline.com/archive/43BFD269-E176-47C9-9795-456873673482",
+   "found_via_query": "yearbook"
+  },
+  {
+   "title": "2017.009.004 - Yearbook",
+   "desc": "Charlemo yearbook from 1982.",
+   "rtype": "Archive",
+   "url": "https://scchs.pastperfectonline.com/archive/00BCCDA4-6FC1-4355-8732-102916805775",
+   "found_via_query": "yearbook"
+  },
+  {
+   "title": "2017.009.005 - Yearbook",
+   "desc": "Charlemo yearbook from 1983.",
+   "rtype": "Archive",
+   "url": "https://scchs.pastperfectonline.com/archive/B35874F6-EA9E-4567-8671-253636052218",
+   "found_via_query": "yearbook"
+  },
+  {
+   "title": "2017.009.006 - Yearbook",
+   "desc": "Charlemo yearbook from 1986.",
+   "rtype": "Archive",
+   "url": "https://scchs.pastperfectonline.com/archive/91C01532-4B8E-48A2-9AD2-953583270375",
+   "found_via_query": "yearbook"
+  },
+  {
+   "title": "2017.009.007 - Yearbook",
+   "desc": "Charlemo yearbook from 1989.",
+   "rtype": "Archive",
+   "url": "https://scchs.pastperfectonline.com/archive/3BBBF281-3DB5-465F-9663-148952969250",
+   "found_via_query": "yearbook"
+  },
+  {
+   "title": "2017.009.008 - Yearbook",
+   "desc": "Charlemo yearbook from 1990.",
+   "rtype": "Archive",
+   "url": "https://scchs.pastperfectonline.com/archive/0F3C3D50-7111-4239-A2B8-680161172987",
+   "found_via_query": "yearbook"
+  },
+  {
+   "title": "2017.009.009 - Yearbook",
+   "desc": "Charlemo yearbook from 1991.",
+   "rtype": "Archive",
+   "url": "https://scchs.pastperfectonline.com/archive/DBDC0BDA-9685-41CF-B6BD-142113211040",
+   "found_via_query": "yearbook"
+  },
+  {
+   "title": "2017.009.010 - Yearbook",
+   "desc": "Charlemo yearbook from 1996.",
+   "rtype": "Archive",
+   "url": "https://scchs.pastperfectonline.com/archive/534D1B43-B538-44E4-B94F-829982910409",
+   "found_via_query": "yearbook"
+  },
+  {
+   "title": "2017.009.011 - Yearbook",
+   "desc": "Charlemo yearbook from 1998.",
+   "rtype": "Archive",
+   "url": "https://scchs.pastperfectonline.com/archive/8489A834-EBC2-4D2D-979A-592839765654",
+   "found_via_query": "yearbook"
+  },
+  {
+   "title": "2017.009.012 - Yearbook",
+   "desc": "Charlemo yearbook from 2008.",
+   "rtype": "Archive",
+   "url": "https://scchs.pastperfectonline.com/archive/11F3F4C2-C9C4-4A7B-9BC7-174331805536",
+   "found_via_query": "yearbook"
+  },
+  {
+   "title": "2017.009.013 - Yearbook",
+   "desc": "Charlemo yearbook from 2009.",
+   "rtype": "Archive",
+   "url": "https://scchs.pastperfectonline.com/archive/A44CE606-61C8-4B22-9417-466651421790",
+   "found_via_query": "yearbook"
+  },
+  {
+   "title": "2018.008.001 - Yearbook",
+   "desc": "St. Charles High yearbooks for 1951.",
+   "rtype": "Archive",
+   "url": "https://scchs.pastperfectonline.com/archive/309409FB-F3F2-422B-958D-707209664895",
+   "found_via_query": "yearbook"
+  },
+  {
+   "title": "2018.008.002 - Yearbook",
+   "desc": "St. Charles High yearbook for 1952.",
+   "rtype": "Archive",
+   "url": "https://scchs.pastperfectonline.com/archive/277656B2-C3EE-4CB4-9335-551208199608",
+   "found_via_query": "yearbook"
+  },
+  {
+   "title": "2018.008.003 - Yearbook",
+   "desc": "St. Charles High yearbook for 1953.",
+   "rtype": "Archive",
+   "url": "https://scchs.pastperfectonline.com/archive/AA19047A-71FA-4BB8-B99A-524758763143",
+   "found_via_query": "yearbook"
+  },
+  {
+   "title": "2018.008.004 - Yearbook",
+   "desc": "St. Charles High yearbook for 1954.",
+   "rtype": "Archive",
+   "url": "https://scchs.pastperfectonline.com/archive/5DE1F8C8-2DEB-43E5-96D9-951919342446",
+   "found_via_query": "yearbook"
+  },
+  {
+   "title": "2018.008.005 - Yearbook",
+   "desc": "St. Charles High yearbook for 1955.",
+   "rtype": "Archive",
+   "url": "https://scchs.pastperfectonline.com/archive/A78CB1E1-6E26-4DE9-8641-475139195553",
+   "found_via_query": "yearbook"
+  },
+  {
+   "title": "2021.18.01 - Yearbook",
+   "desc": "St Charles High Yearbook",
+   "rtype": "Archive",
+   "url": "https://scchs.pastperfectonline.com/archive/65FE7686-C734-4538-B051-185705742951",
+   "found_via_query": "yearbook"
+  },
+  {
+   "title": "2023.33.005 - Document",
+   "desc": "Classroom Photo\nYearbook Photos\nFranklin HS Class Photos 1952-53\nFranklin HS Class Photos 1954-55\nFranklin HS Extracurriculars",
+   "rtype": "Archive",
+   "url": "https://scchs.pastperfectonline.com/archive/54A2E0BB-7C66-4854-902A-236712384476",
+   "found_via_query": "yearbook"
+  },
+  {
+   "title": "2023.33.006.4 - Document",
+   "desc": "Yearbook Photos of Melvin 1949\nLater Photos of Melvin",
+   "rtype": "Archive",
+   "url": "https://scchs.pastperfectonline.com/archive/985716BE-D745-4AEB-9F95-403367866245",
+   "found_via_query": "yearbook"
+  },
+  {
+   "title": "2024.17.121 - Book",
+   "desc": "The Charlemo Yearbook from St. Charles High School in 1921. It is the first yearbook from the high school. Inside has some signatures from classmates, and is signed by Alice Sendon on the inside of the front cover.",
+   "rtype": "Archive",
+   "url": "https://scchs.pastperfectonline.com/archive/B2739106-8772-4EEA-A184-426050059857",
+   "found_via_query": "yearbook"
+  },
+  {
+   "title": "2024.17.122 - Book",
+   "desc": "The Charlemo Yearbook from St. Charles High School in 1922. The inside of the front cover has a painted name plate for Alice Senden. Inside are autographs from other students.",
+   "rtype": "Archive",
+   "url": "https://scchs.pastperfectonline.com/archive/61E71E03-B428-490E-8A88-260561521610",
+   "found_via_query": "yearbook"
+  },
+  {
+   "title": "2024.17.123 - Book",
+   "desc": "The Charlemo Yearbook from St. Charles High School in 1923. Inside the front cover is signed by Alice Senden, and there are autographs from other students throughout the pages.",
+   "rtype": "Archive",
+   "url": "https://scchs.pastperfectonline.com/archive/99FDAD32-BDED-410D-858D-912059091167",
+   "found_via_query": "yearbook"
+  },
+  {
+   "title": "2024.17.126 - Book",
+   "desc": "The Charlemo Yearbook from St. Charles High School in 1953. Inside is signed by Joan Broeckelmann. Throughout are signatures from various classmates.",
+   "rtype": "Archive",
+   "url": "https://scchs.pastperfectonline.com/archive/FFB5A2A0-7F8A-44B6-B80C-454817143886",
+   "found_via_query": "yearbook"
+  },
+  {
+   "title": "2024.17.127 - Book",
+   "desc": "The Charlemo Yearbook from St. Charles High School in 1954. Inside are many autographs and messages from various classmates and friends.",
+   "rtype": "Archive",
+   "url": "https://scchs.pastperfectonline.com/archive/1C5BE667-2FD1-45CE-ACDA-351159884101",
+   "found_via_query": "yearbook"
+  },
+  {
+   "title": "2024.21.008 - Yearbook",
+   "desc": "Yearbook of \"The Charlemo\" St. Charles High School class of 1927.\nList of all students in class of 1927 in 1977. The Wherebouts and condition of all classmates.\nNewspaper cliping of the 50th reunion celebration \nPhotograpehd in newspaper: Mrs. Ethel Chrismer Walton, Mrs. Orville Denning, Orville DEnning, Mrs. Edna Corrigan, Clarence Corrigan, Mrs. Anita Beumer",
+   "rtype": "Archive",
+   "url": "https://scchs.pastperfectonline.com/archive/AC7CEAE9-04DC-407D-972F-503786294802",
+   "found_via_query": "yearbook"
+  },
+  {
+   "title": "2024.21.018 - Yearbook",
+   "desc": "Yearbook for the year 1980-1981",
+   "rtype": "Archive",
+   "url": "https://scchs.pastperfectonline.com/archive/0DFED13F-2997-45BD-8A67-285534672020",
+   "found_via_query": "yearbook"
+  },
+  {
+   "title": "2024.21.019 - Yearbook",
+   "desc": "Yearbook for Lincoln elementary for years 1977-1978",
+   "rtype": "Archive",
+   "url": "https://scchs.pastperfectonline.com/archive/714AE499-1877-4788-A7B3-895110654470",
+   "found_via_query": "yearbook"
+  },
+  {
+   "title": "2024.21.020 - Yearbook",
+   "desc": "Personal directory for the the school district of the city of St. Charles for the years 1980-1981",
+   "rtype": "Archive",
+   "url": "https://scchs.pastperfectonline.com/archive/68DE1332-1A91-4BDC-BB93-506177377800",
+   "found_via_query": "yearbook"
+  },
+  {
+   "title": "2024.21.022 - Yearbook",
+   "desc": "Classbook for the Lincoln school for the years of 1966-1967",
+   "rtype": "Archive",
+   "url": "https://scchs.pastperfectonline.com/archive/17289017-9745-4153-B014-939289871189",
+   "found_via_query": "yearbook"
+  },
+  {
+   "title": "2024.21.023 - Yearbook",
+   "desc": "Classbook for the Lincoln school for the year 1969",
+   "rtype": "Archive",
+   "url": "https://scchs.pastperfectonline.com/archive/45FFF981-5D65-408B-BBDF-103029132456",
+   "found_via_query": "yearbook"
+  },
+  {
+   "title": "2024.21.024 - Yearbook",
+   "desc": "Classbook for the Lincoln school for the years of 1970-1971",
+   "rtype": "Archive",
+   "url": "https://scchs.pastperfectonline.com/archive/5A4A2911-8B18-4B11-B267-196973334403",
+   "found_via_query": "yearbook"
+  },
+  {
+   "title": "2024.21.025 - Yearbook",
+   "desc": "Classbook for the Lincoln school for th eyears of 1971-1972",
+   "rtype": "Archive",
+   "url": "https://scchs.pastperfectonline.com/archive/9B52BB6A-435F-48D5-937E-711833364605",
+   "found_via_query": "yearbook"
+  },
+  {
+   "title": "2024.21.026 - Yearbook",
+   "desc": "Classbookfor the Lincoln school for th eyears between 1972-1973",
+   "rtype": "Archive",
+   "url": "https://scchs.pastperfectonline.com/archive/A9384F2D-0349-444F-9406-219181011636",
+   "found_via_query": "yearbook"
+  },
+  {
+   "title": "2024.21.027 - Yearbook",
+   "desc": "Classbook for the Lincoln school for the years between 1973-1974",
+   "rtype": "Archive",
+   "url": "https://scchs.pastperfectonline.com/archive/3D1D57A1-A9CC-4970-A830-932129794900",
+   "found_via_query": "yearbook"
+  },
+  {
+   "title": "2024.21.028 - Yearbook",
+   "desc": "Classbook for the Lincoln school for the years between 1974 - 1975",
+   "rtype": "Archive",
+   "url": "https://scchs.pastperfectonline.com/archive/A1DD73CD-4BE8-4D91-A43C-422468652779",
+   "found_via_query": "yearbook"
+  },
+  {
+   "title": "2024.21.029 - Yearbook",
+   "desc": "Classbook for th eLincoln school for the year of 1976",
+   "rtype": "Archive",
+   "url": "https://scchs.pastperfectonline.com/archive/C406C9F5-DE36-4647-87F5-400824751209",
+   "found_via_query": "yearbook"
+  },
+  {
+   "title": "2024.21.030 - Yearbook",
+   "desc": "Classbook for the Lincoln school between the years of 1976-1977",
+   "rtype": "Archive",
+   "url": "https://scchs.pastperfectonline.com/archive/A73538C8-18B7-4A4B-AD38-293435542828",
+   "found_via_query": "yearbook"
+  },
+  {
+   "title": "2025.12.005 - Yearbook",
+   "desc": "A yearbook of the 1943 Liberty Grove Extension Club and their meets.",
+   "rtype": "Archive",
+   "url": "https://scchs.pastperfectonline.com/archive/683C5082-3956-4956-87A7-252454736830",
+   "found_via_query": "yearbook"
+  },
+  {
+   "title": "2025.12.006 - Yearbook",
+   "desc": "A 1944 yearbook from the Liberty Grove Extension Club.",
+   "rtype": "Archive",
+   "url": "https://scchs.pastperfectonline.com/archive/8060E1E5-0AED-480C-A3C1-733227585393",
+   "found_via_query": "yearbook"
+  },
+  {
+   "title": "2025.12.008 - Yearbook",
+   "desc": "The Liberty Grove Extension Club Yearbook from 1945",
+   "rtype": "Archive",
+   "url": "https://scchs.pastperfectonline.com/archive/666E0FE8-F5C3-464C-9E7B-864420752030",
+   "found_via_query": "yearbook"
+  },
+  {
+   "title": "2025.12.009 - Yearbook",
+   "desc": "The Liberty Grove Extension Club Yearbook from 1946.",
+   "rtype": "Archive",
+   "url": "https://scchs.pastperfectonline.com/archive/2CDEEC31-62B2-4B4F-803F-555806068022",
+   "found_via_query": "yearbook"
+  },
+  {
+   "title": "2025.12.010 - Yearbook",
+   "desc": "The Liberty Grove Extension Yearbook from 1947.",
+   "rtype": "Archive",
+   "url": "https://scchs.pastperfectonline.com/archive/5725A20B-E073-48C0-BCEF-206737839185",
+   "found_via_query": "yearbook"
+  },
+  {
+   "title": "2025.12.011 - Yearbook",
+   "desc": "The Liberty Grove Extension Club from 1948.",
+   "rtype": "Archive",
+   "url": "https://scchs.pastperfectonline.com/archive/B76C31DA-C1EF-4148-9B7B-021072101641",
+   "found_via_query": "yearbook"
+  },
+  {
+   "title": "2025.12.012 - Yearbook",
+   "desc": "The Liberty Grove Extension Club Yearbook from 1949.",
+   "rtype": "Archive",
+   "url": "https://scchs.pastperfectonline.com/archive/730A9813-97E2-4AAF-832E-733578932707",
+   "found_via_query": "yearbook"
+  },
+  {
+   "title": "2025.12.013 - Record Book",
+   "desc": "The Liberty Grove Extension Club Yearbook from 1950.",
+   "rtype": "Archive",
+   "url": "https://scchs.pastperfectonline.com/archive/2C39F3E6-325A-45C1-8918-518796883533",
+   "found_via_query": "yearbook"
+  },
+  {
+   "title": "2025.12.015 - Record Book",
+   "desc": "The Liberty Grove Extension Club Yearbook from 1951.",
+   "rtype": "Archive",
+   "url": "https://scchs.pastperfectonline.com/archive/F85846F9-8CBB-46CA-89C0-002526269425",
+   "found_via_query": "yearbook"
+  },
+  {
+   "title": "2025.12.016 - Record Book",
+   "desc": "The Liberty Grove Extension Club Yearbook from 1952.",
+   "rtype": "Archive",
+   "url": "https://scchs.pastperfectonline.com/archive/2CB70515-FA6D-4E0E-916C-403143314788",
+   "found_via_query": "yearbook"
+  },
+  {
+   "title": "2025.12.060 - Book",
+   "desc": "1989-1990 Yearbook from the St. Charles County Extension Club.",
+   "rtype": "Archive",
+   "url": "https://scchs.pastperfectonline.com/archive/DBDF931B-2FF3-4A93-83B2-549953378340",
+   "found_via_query": "yearbook"
+  },
+  {
+   "title": "2025.12.064 - Yearbook",
+   "desc": "1990-91 Extension club Yearbook, images from the year.",
+   "rtype": "Archive",
+   "url": "https://scchs.pastperfectonline.com/archive/BFD73868-85CC-4D38-AB6E-383093335768",
+   "found_via_query": "yearbook"
+  },
+  {
+   "title": "226.001.015 - Book",
+   "desc": "Charmelo- 1934\n\nA yearbook titled \"The Charmelo 1934\" for St. Charles High School. The book belonged to and is signed by Mary Louise and contains many notes from classmates. Dated 1934.",
+   "rtype": "Archive",
+   "url": "https://scchs.pastperfectonline.com/archive/E4DB0F6F-7805-4E94-B9D7-285789333310",
+   "found_via_query": "yearbook"
+  },
+  {
+   "title": "313.001.001 - Documents",
+   "desc": "St. Charles Military College Yearbook 1904",
+   "rtype": "Archive",
+   "url": "https://scchs.pastperfectonline.com/archive/32FF796B-1D34-4406-9710-145043417510",
+   "found_via_query": "yearbook"
+  },
+  {
+   "title": "313.001.002 - Documents",
+   "desc": "St. Charles Military College Yearbook 1905",
+   "rtype": "Archive",
+   "url": "https://scchs.pastperfectonline.com/archive/8004030A-D1E1-4D0E-8C16-324518022016",
+   "found_via_query": "yearbook"
+  },
+  {
+   "title": "313.001.003 - Documents",
+   "desc": "St. Charles Military College Yearbook 1906 (2 copies)",
+   "rtype": "Archive",
+   "url": "https://scchs.pastperfectonline.com/archive/7B56CA40-52D4-4A51-8DFF-759336661199",
+   "found_via_query": "yearbook"
+  },
+  {
+   "title": "313.001.006 - Documents",
+   "desc": "St. Charles Military College Yearbook 1907 (2 copies)",
+   "rtype": "Archive",
+   "url": "https://scchs.pastperfectonline.com/archive/44FF9ED0-8F8A-4E08-856F-485372248519",
+   "found_via_query": "yearbook"
+  },
+  {
+   "title": "367.001.001 - Documents",
+   "desc": "Box 1: \n1997 Scrapbook- contains meeting notices, programs, photos, \"Canoneer\"\n1999 Scrapbook0 contains meeting notices, programs, photos, membership roster\n2000-2001 Scrapbook- contains meeting notices, officers, State Conventions, activities & awards, photos\n2002-2003 Scrapbook- contains meeting notices, programs, photos\n2003-2004 Scrapbook- contains meeting notices, programs, photos\n2004 Yearbook\n1997-2000 Binder containing \"Canoneer,\" ...",
+   "rtype": "Archive",
+   "url": "https://scchs.pastperfectonline.com/archive/779969C5-B943-4E8A-83FC-312320704514",
+   "found_via_query": "yearbook"
+  },
+  {
+   "title": "900.0002.068 - Vertical Files",
+   "desc": "Original program of 1952 commencement\n\nOriginal newspaper articles from unidentified newspapers, St. Louis Post-Dispatch, St. Charles Journal, St. Louis Globe-Democrat\n\nPhotocopy of program for \"Cinderella and the Glass Slipper\" (1935)\n\nPhotocopy of program for 1945 commencement\n\nNewspaper reprint of a photograph of the 1941 basketball team\n\nPhotocopies of newspaper articles from unidentified newspapers, St. Charles Journal, St. Louis P...",
+   "rtype": "Archive",
+   "url": "https://scchs.pastperfectonline.com/archive/5FC43D41-9E04-4146-B0AB-350855523298",
+   "found_via_query": "yearbook"
+  },
+  {
+   "title": "900.0002.069 - Vertical Files",
+   "desc": "Includes special folder containing information on Franklin School Bridgebuilders Society, as well as copies of the 1947 Franklin School yearbook",
+   "rtype": "Archive",
+   "url": "https://scchs.pastperfectonline.com/archive/DC2AC555-B9C8-43A6-8DDA-612145363990",
+   "found_via_query": "yearbook"
+  },
+  {
+   "title": "900.0002.199 - Vertical Files",
+   "desc": "Original newspaper articles from the St. Louis Post-Dispatch, St. Charles Journal, St. Charles Banner-News, St. Peters Times, St. Charles Daily News, St. Louis Marketplace, St. Charles Post\n\nOriginal 1967 yearbook\n\nOriginal invitation to a Thanksgiving mass",
+   "rtype": "Archive",
+   "url": "https://scchs.pastperfectonline.com/archive/54B24BA7-72B3-4868-9E7A-870499349680",
+   "found_via_query": "yearbook"
+  },
+  {
+   "title": "A University City Album - 977.865",
+   "desc": "Longo, Jim",
+   "rtype": "Library",
+   "url": "https://scchs.pastperfectonline.com/library/0FAAE6CD-3488-4E7A-897F-422771547417",
+   "found_via_query": "yearbook"
+  },
+  {
+   "title": "Department of Superintendence Fourth Yearbook - 371.3",
+   "desc": "The Department of Superintendence",
+   "rtype": "Library",
+   "url": "https://scchs.pastperfectonline.com/library/2ACD1F9B-3612-4EB3-9FFD-754009440110",
+   "found_via_query": "yearbook"
+  },
+  {
+   "title": "Depicts unidentified smiling woman on the left and unidentified smiling man on the right. Appears to be from a yearbook portrait. - Dr. Dan Brown Collection",
+   "desc": "",
+   "rtype": "Photo",
+   "url": "https://scchs.pastperfectonline.com/photo/2AE65049-096C-4917-A72A-931484647010",
+   "found_via_query": "yearbook"
+  },
+  {
+   "title": "Ragout of 1944 - 378.77828",
+   "desc": "Central College",
+   "rtype": "Library",
+   "url": "https://scchs.pastperfectonline.com/library/085E266D-38F2-46AA-91E9-203872494661",
+   "found_via_query": "yearbook"
+  },
+  {
+   "title": "Schucks 1916",
+   "desc": "School of Agriculture of Nebraska",
+   "rtype": "Library",
+   "url": "https://scchs.pastperfectonline.com/library/8C22FD37-B304-46E1-A8C3-186833360840",
+   "found_via_query": "yearbook"
+  },
+  {
+   "title": "Shucks 1916 - 338.1071",
+   "desc": "School of Agriculture of Nebraska",
+   "rtype": "Library",
+   "url": "https://scchs.pastperfectonline.com/library/CB3F1450-BC7D-4287-A99F-682205276267",
+   "found_via_query": "yearbook"
+  },
+  {
+   "title": "St. Brendan Parish\n\nMexico, Missouri - 977.8332",
+   "desc": "Walsworth Publishers",
+   "rtype": "Library",
+   "url": "https://scchs.pastperfectonline.com/library/A007742D-9518-4BF1-851C-751131686498",
+   "found_via_query": "yearbook"
+  },
+  {
+   "title": "St. Louis Memories - 977.86",
+   "desc": "Tettaton, Lonnie",
+   "rtype": "Library",
+   "url": "https://scchs.pastperfectonline.com/library/86B17E14-D12B-4130-AB84-272935903600",
+   "found_via_query": "yearbook"
+  },
+  {
+   "title": "The 50's In St. Louis - 977.8043",
+   "desc": "Tettaton, Lonnie",
+   "rtype": "Library",
+   "url": "https://scchs.pastperfectonline.com/library/9703B685-7013-49CD-B87B-171389801339",
+   "found_via_query": "yearbook"
+  },
+  {
+   "title": "The Archive - 378.04097",
+   "desc": "St. Louis University",
+   "rtype": "Library",
+   "url": "https://scchs.pastperfectonline.com/library/1356EBE1-78AC-4F1C-B52F-224026380799",
+   "found_via_query": "yearbook"
+  },
+  {
+   "title": "The Hatchet - 378.0097",
+   "desc": "Washington University",
+   "rtype": "Library",
+   "url": "https://scchs.pastperfectonline.com/library/E29732F5-C57F-47BD-A367-458534734551",
+   "found_via_query": "yearbook"
+  },
+  {
+   "title": "The Pulse",
+   "desc": "Central Weslayan College",
+   "rtype": "Library",
+   "url": "https://scchs.pastperfectonline.com/library/9F42A3E8-A4BC-4FF0-9820-271840404428",
+   "found_via_query": "yearbook"
+  },
+  {
+   "title": "The Pulse",
+   "desc": "Central Weslayan College",
+   "rtype": "Library",
+   "url": "https://scchs.pastperfectonline.com/library/DBB15CF9-7609-4738-9AC8-334935514804",
+   "found_via_query": "yearbook"
+  },
+  {
+   "title": "The Pulse",
+   "desc": "Central Weslayan University",
+   "rtype": "Library",
+   "url": "https://scchs.pastperfectonline.com/library/DF01CEBD-26BD-441C-A3CE-814037813481",
+   "found_via_query": "yearbook"
+  },
+  {
+   "title": "The Pulse",
+   "desc": "Student Body of Central Weslayan College",
+   "rtype": "Library",
+   "url": "https://scchs.pastperfectonline.com/library/2111F637-3627-48C8-B887-340362508338",
+   "found_via_query": "yearbook"
+  },
+  {
+   "title": "The Pulse - 977.8386",
+   "desc": "Central Wesleyan College",
+   "rtype": "Library",
+   "url": "https://scchs.pastperfectonline.com/library/34DCD014-A8C0-49C6-A99D-121721566472",
+   "found_via_query": "yearbook"
+  },
+  {
+   "title": "Washington, Missouri 1839-1989 - 977.863",
+   "desc": "Washington Historical Society",
+   "rtype": "Library",
+   "url": "https://scchs.pastperfectonline.com/library/51167A62-C8A0-4B99-B60A-330181219935",
+   "found_via_query": "yearbook"
+  },
+  {
+   "title": "2011.013.14 - Graduation Announcement",
+   "desc": "Graduation announcent for the 1955 Assumption High School Senior Class with calling car for Patricia Louise Saali",
+   "rtype": "Archive",
+   "url": "https://scchs.pastperfectonline.com/archive/B0716845-A50D-4258-ADB1-382796726415",
+   "found_via_query": "Assumption"
+  },
+  {
+   "title": "2021.05.01 - Announcement, Graduation",
+   "desc": "Graduation pamphlet for Anthony Kochanski's graduation from assumption High School in 1949. Contains address to the graduates and autographs.",
+   "rtype": "Archive",
+   "url": "https://scchs.pastperfectonline.com/archive/4E1082A5-50FF-4CDE-B589-533304812215",
+   "found_via_query": "Assumption"
+  },
+  {
+   "title": "2021.05.15 - Print",
+   "desc": "A clipping of printed and official papers. the printed papers are advertisements for the 50th, 51st, and 60th class reunion of Anthony Kochanski's graduation class from Assumption High School. Included are details about the lives of the graduates after school.\nNext is a series of offical papers and notices regarding the will of Emil B. Ohley, and listing the heirs, including Anthony Kochanski Jr.",
+   "rtype": "Archive",
+   "url": "https://scchs.pastperfectonline.com/archive/DCE238A1-4E50-4B08-95B2-466954450570",
+   "found_via_query": "Assumption"
+  },
+  {
+   "title": "2021.05.16 - Book",
+   "desc": "Four yearbooks, covering 1950 to 1953, from Assumption High School, O'Fallon, Missouri. Titled \"The Clarion.\" Each contain pictures of the staff and students of that year; Seniors, Juniors, Sophmores, and Freshmen. The yearbooks also include descriptions of activities from the past school year and autographs.",
+   "rtype": "Archive",
+   "url": "https://scchs.pastperfectonline.com/archive/FE6FAA58-2B12-49CD-900F-836242234700",
+   "found_via_query": "Assumption"
+  },
+  {
+   "title": "2023.06.004 - Print, photographic",
+   "desc": "O'Fallon History: Churches and Religion\n-Assumption School - History\n-Assumption School - News Articles\n--1958 Assumption High School Graduating Class (Photo)\n--Assumption High School (Photo)\n-Assumption School - Misc. Documents\n-Assumption School - Alumni Communion Breakfast Speaches",
+   "rtype": "Archive",
+   "url": "https://scchs.pastperfectonline.com/archive/90FD070B-16AE-42A4-A002-655613949794",
+   "found_via_query": "Assumption"
+  },
+  {
+   "title": "2023.06.069 - Newspaper Article",
+   "desc": "O'Fallon History: Historic Buildings\n-News articles on historic buildings\n--Assumption High School; Mill Pond",
+   "rtype": "Archive",
+   "url": "https://scchs.pastperfectonline.com/archive/B0988755-ABF4-4E72-AAB6-962413208539",
+   "found_via_query": "Assumption"
+  },
+  {
+   "title": "328.001.001 - Documents",
+   "desc": "File 1:  Directory of school personnel of St. Charles and St. Louis Counties, 1959-1960; Reflections on a Heritage:  The German Americans in Southwestern Indiana; A Historical Guide of the St. Louis Union Station; Good Citizen- The Rights and Duties of An American; Directory of St. Charles Borromeo Catholic Church.",
+   "rtype": "Archive",
+   "url": "https://scchs.pastperfectonline.com/archive/802861A9-C944-4A5A-88A2-134973289573",
+   "found_via_query": "Borromeo"
+  },
+  {
+   "title": "900.0002.017 - Vertical Files",
+   "desc": "Catholic School\n\nOriginal newspaper articles from St. Charles Banner-News, St. Louis Post-Dispatch, St. Charles Cosmos-Monitor, St. Charles Journal, St. Charles Post\n\nOriginal pamphlet \"Dedication of 'Saint Charles Borromeo Dyer Memorial Center'\" (26 Sept. 1979)\n\nPhotocopies of newspaper articles from St. Charles Banner-News",
+   "rtype": "Archive",
+   "url": "https://scchs.pastperfectonline.com/archive/77725AC8-D465-423D-B962-976509381540",
+   "found_via_query": "Borromeo"
+  },
+  {
+   "title": "Borromeo School and Priests' Rectory Building, Fifth and Lewis Street, ca 1900 - Thomas J. Campbell Collection",
+   "desc": "7 1/2\" x 9 1/2\"",
+   "rtype": "Photo",
+   "url": "https://scchs.pastperfectonline.com/photo/B42FA001-9151-433B-A6EC-631483622362",
+   "found_via_query": "Borromeo"
+  },
+  {
+   "title": "Borromeo School, ca 1925 - Thomas J. Campbell Collection",
+   "desc": "3 1/2\" x 5 1/2\"",
+   "rtype": "Photo",
+   "url": "https://scchs.pastperfectonline.com/photo/58E0AAA1-29C0-4295-AAD7-469542871423",
+   "found_via_query": "Borromeo"
+  },
+  {
+   "title": "Brick school, ca 1940s - St. Charles Borromeo Collection",
+   "desc": "4\" x 6\"",
+   "rtype": "Photo",
+   "url": "https://scchs.pastperfectonline.com/photo/A6D42D3E-2D20-4EFB-AF87-925128557828",
+   "found_via_query": "Borromeo"
+  },
+  {
+   "title": "Cornerstone ceremony at new school, ca 1958 - St. Charles Borromeo Collection",
+   "desc": "4\" x 6\"",
+   "rtype": "Photo",
+   "url": "https://scchs.pastperfectonline.com/photo/7CC4B4EE-DA2E-4DC3-A285-943634411463",
+   "found_via_query": "Borromeo"
+  },
+  {
+   "title": "900.0002.019 - Vertical Files",
+   "desc": "Francis Howell District\n\nFull name: Mary Emily Bryan Middle School\n\nOriginal articles from St. Charles Journal, St. Charles Post",
+   "rtype": "Archive",
+   "url": "https://scchs.pastperfectonline.com/archive/DEEAB7C6-AC61-435F-9E4C-709940898052",
+   "found_via_query": "Bryan"
+  },
+  {
+   "title": "900.0003.251 - Walker Burying Ground",
+   "desc": "Location: High School grounds, Wentzville, Cuivre Township\n\nSee also: Cemeteries of St. Charles County, Vol. 5\n\nFolder contains: Further information on location, list of people buried at site, description of several tombstones, original newspaper articles from the St. Charles Post, invitation to site dedication from Daughters of the American Revolution",
+   "rtype": "Archive",
+   "url": "https://scchs.pastperfectonline.com/archive/DDC4B455-3190-4EF4-8C89-279600382860",
+   "found_via_query": "Castlio"
+  },
+  {
+   "title": "2024.17.125 - Newspaper Article",
+   "desc": "The Blue and White Newspaper from St. Charles High School, Seniors Edition. Published on June 15, 1923. This newspaper includes news about festivities surrounding the graduation. It includes the Senior Prophecy, the Senior Poem, the Senior Class Will, Characted Sketches, and a letter to the faculty. \n\nFound inside Alice Senden's copy of the 1923 Charlemo.",
+   "rtype": "Archive",
+   "url": "https://scchs.pastperfectonline.com/archive/EB50F6E0-8EE7-4A44-BCDD-315806034650",
+   "found_via_query": "Charlemo"
+  },
+  {
+   "title": "Charlemo - 373.0977",
+   "desc": "St. Charles City High School",
+   "rtype": "Library",
+   "url": "https://scchs.pastperfectonline.com/library/3743108E-28A9-435F-930E-655418599380",
+   "found_via_query": "Charlemo"
+  },
+  {
+   "title": "2023.06.006 - Print, photographic",
+   "desc": "O'Fallon History: Churches and Religion\n--Presbyterian Churches Dr. Kinneson\n--Dardenne Prebyterian (Photo)\n--\"Heritage and Promise\" by Elizabeth Audrain Watson\n---Audrain, Schools, Doctors, Mills, O'Fallon (Coffins, Presbyterian Church), Zumwalt, McCluer, [McCleur, Arthur], [McCleur, Dr. Robert], [McClear, Oscar], Civil War, Mount Zion, Methodists, Lamb, [Currier, Dr. Marion]",
+   "rtype": "Archive",
+   "url": "https://scchs.pastperfectonline.com/archive/640A3A0F-3A02-40DB-839D-124229990061",
+   "found_via_query": "Dardenne"
+  },
+  {
+   "title": "417.001.001 - Documents",
+   "desc": "Box 1:  newspaper articles and pictures are attached to heavy card stock.  All Saints, St. Peters, 3rd and 4th grades, 1915-1916; All Saints School, St. Peters, 5th and 6th grades, 1915-1916; All Saints School, St. Peters, 1919; American Legion Post #313- 3 pages; Joseph and Gertrude Auchley family- 3 pages; Charles Bernard; Theodore and Philomena Rothenburg Bethman family- 3 pages; Peter Boersig- 4 pages; Edward and Caroline Boschert Stuckey; Ne...",
+   "rtype": "Archive",
+   "url": "https://scchs.pastperfectonline.com/archive/2122F472-3C2E-41EE-8974-935381802870",
+   "found_via_query": "Dardenne"
+  },
+  {
+   "title": "226.001.009 - Documents",
+   "desc": "1934 Class Reunion\n\nTwo name tag pins for Mary Louise Denker Becker and John Becker for the 50 year reunion for the St. Charles High School Class of 1934. Dated 1984.\n\nA letter written on a note card to Mary Lou from Margaret (last name not written). The letter discusses the success of the class reunion and the hope to have another reunion in five years, as well as gathering \"the Committee\" at Margaret's home. Dated 1984.\n\nA letter written ...",
+   "rtype": "Archive",
+   "url": "https://scchs.pastperfectonline.com/archive/FE32732D-1501-4B87-B21E-855791574850",
+   "found_via_query": "Defiance"
+  },
+  {
+   "title": "Defiance School Record",
+   "desc": "",
+   "rtype": "Library",
+   "url": "https://scchs.pastperfectonline.com/library/C7B3088E-E842-4244-A655-654619353770",
+   "found_via_query": "Defiance"
+  },
+  {
+   "title": "Defiance School Record",
+   "desc": "",
+   "rtype": "Library",
+   "url": "https://scchs.pastperfectonline.com/library/5957A43E-F916-456A-8CB4-443360083149",
+   "found_via_query": "Defiance"
+  },
+  {
+   "title": "2023.06.160 - Newspaper Article",
+   "desc": "O'Fallon City Services: Schooling\n-Fort Zumwalt Cool Springs School\n-Dyer Colored School\n-Fort Zumwalt Elementary School\n--Molly Hitch\n-Fort Zumwalt Junior High\n--Delmar C. Emge\n--Joe Mudd\n-Fort Zumwalt Lea Ridge School\n--McCleur\n-Fort Zumwalt Mt. Hope School\n--Westhoff\n--Feldewert\n--Sheppard\n-Fort Zumwalt Public School\n--Minnie Henry",
+   "rtype": "Archive",
+   "url": "https://scchs.pastperfectonline.com/archive/8E74E3E0-CABC-497B-BA04-158307773878",
+   "found_via_query": "Discovery_Ridge"
+  },
+  {
+   "title": "2023.06.338 - Documents",
+   "desc": "O'Fallon Community\n-Spencer School\n-Union School\n-Cool Springs\n-Oak Ridge\n-Maple Lake\n-Star of Prairie",
+   "rtype": "Archive",
+   "url": "https://scchs.pastperfectonline.com/archive/A94E87C9-8D83-446D-AB42-155924075352",
+   "found_via_query": "Discovery_Ridge"
+  },
+  {
+   "title": "Booneslick Marker - Gills Tavern at Lea Ridge School, D.A.R., St. Charles (now:  Highway N at McClure Road - 3 Mar 2003).  School teacher and pupils standing around the marker. - McElhiney Collection",
+   "desc": "2 3/4\" x 4 3/4\"",
+   "rtype": "Photo",
+   "url": "https://scchs.pastperfectonline.com/photo/87F1EF9E-85BE-4DFE-852C-316899804081",
+   "found_via_query": "Discovery_Ridge"
+  },
+  {
+   "title": "Lea Ridge School, Dardenne Prairie, St. Charles County, MO.  Dr. Ben Wilson land (see family surname file) - More Topics",
+   "desc": "4\" x 6\"",
+   "rtype": "Photo",
+   "url": "https://scchs.pastperfectonline.com/photo/6DA0B755-FA57-4333-9B82-851422659718",
+   "found_via_query": "Discovery_Ridge"
+  },
+  {
+   "title": "2023.06.121 - Family History",
+   "desc": "O'Fallon Families and People: Names - M\n-Maher\n-Mangold\n--Dr. Harold A. Mangold\n-Maurer\n--Mauer, Sister Adele (Sisters of the Most Precious Blood)\n-Menne\n--Gentemann\n-Mispagel\n-Molitor\n--Halter\n-Moorhead\n--Moorhead Memorial\n--Williams United Methodist Church\n--Barebo\n--Emge\n-Mudd\n--Ft. Zumwalt School District\n--Joseph \"Joe\" Mudd\n-Muschaun\n--John Muschaun",
+   "rtype": "Archive",
+   "url": "https://scchs.pastperfectonline.com/archive/687AD282-EADE-4839-9B81-498626573173",
+   "found_via_query": "Emge"
+  },
+  {
+   "title": "2023.06.157 - Newspaper Article",
+   "desc": "O'Fallon Services: Schooling\n-O'Fallon School Board\n--City Council Emge\n--Fort Zumwalt School District (Emge, Magnah, Dickherber, Feldewert, Stuckey, Hancock)\n--Elections, Brock, Stuckey, Frizell, Burkemper\n--Stroud, Schuette, Fort Zumwalt School District\n--Fort Zumwalt School District, Mudd, Taylor, Sheppard, Goddard\n--Fort Zumwalt School District, Feldewert, Mudd\n--Fort Zumwalt School District, Bonner\n--Bank of O'Fallon\n--Fort Zumwalt...",
+   "rtype": "Archive",
+   "url": "https://scchs.pastperfectonline.com/archive/17292D93-DB9C-4224-929C-916757983773",
+   "found_via_query": "Emge"
+  },
+  {
+   "title": "2023.06.161 - Newspaper Article",
+   "desc": "O'Fallon City Services: Schooling\n-Fort Zumwalt R - 2 Public School\n--Fort Zumwalt School District, Feldewert, Kapfer\n--Mudd, Sheppard\n-Fort Zumwalt Kindgarten\n-Fort Zumwalt High\n--Kapfer\n--Taylor\n--Mudd, Emge, Goddard",
+   "rtype": "Archive",
+   "url": "https://scchs.pastperfectonline.com/archive/4989F9FE-DB29-41B2-BDCD-171609471134",
+   "found_via_query": "Emge"
+  },
+  {
+   "title": "8th grade graduation, Borromeo School June 1942. \nFirst Row:  Conrad Kluettenkemper; Betty Jean Limpert; Irvin Stephens; Father Hamilton, S.J.; flower girl Emma Vogt; Father William B. Sommerhauser, S.J.; flower boy Robert McMenamy; Father Fallon, S.J.; John C. Potts; Muriel Hunter; Fred Fiellner, Jr.;\nSecond Row:  Charles Silverberg; Mathilda Veighe; John Trask; Velma Ziegemeier; Marvin Westman; Mary Elizabeth Wernart; Robert Powel; Virginia Kruetzer; Norbert Vogt;\nThird Row:  Jerry Beilsmith; Martha McMenamy; Jacob Fishbach; Lucy Heck; Leroy Cleary; Catherine Koch; Hubert Kister; \nFourth Row:  Agnes LaBarge; Lorraine Heckmann; Martha Lenz; Beatrice Slattery; Marjory Bernhoester - St. Charles Borromeo Collection",
+   "desc": "6\" x 4\"",
+   "rtype": "Photo",
+   "url": "https://scchs.pastperfectonline.com/photo/FD9B2CA1-6027-4D22-9DDE-793620016678",
+   "found_via_query": "Fallon"
+  },
+  {
+   "title": "02.2.024 - Postcard",
+   "desc": "St. Francis Catholic School, Portage des Sioux, MO., Graduation Class postcard.",
+   "rtype": "Archive",
+   "url": "https://scchs.pastperfectonline.com/archive/3BD90BBD-03F6-45AB-B3BB-986209021542",
+   "found_via_query": "Francis_Howell"
+  },
+  {
+   "title": "2023.33.001 - Document",
+   "desc": "Memorial and Presentation Services Program\nCorrespondence to Franklin High School Reunion Association\nRemembering Franklin High School Speech\nFranklin HIgh School Reunion Association mailing list",
+   "rtype": "Archive",
+   "url": "https://scchs.pastperfectonline.com/archive/4B7CDED2-02BA-40F1-ACAC-514087900182",
+   "found_via_query": "Franklin"
+  },
+  {
+   "title": "2023.33.002.2 - Document",
+   "desc": "Foundation Board Members\nSchool District of the City of St. Charles Foundation Edition",
+   "rtype": "Archive",
+   "url": "https://scchs.pastperfectonline.com/archive/43F861C9-23CB-42B9-B741-448086689570",
+   "found_via_query": "Franklin"
+  },
+  {
+   "title": "2023.33.003 - Document",
+   "desc": "Franklin School Historic Redevelopment Project Pamphlet\nFranklin School Preservation Group Agenda for 3/27/23\nEmail from Franklin School Preservation Group Regarding Meeting\nPreposed Blueprint and Images \nLetter Requesting Funding from City Council Members",
+   "rtype": "Archive",
+   "url": "https://scchs.pastperfectonline.com/archive/3A490DA3-03F7-4176-A542-409558933964",
+   "found_via_query": "Franklin"
+  },
+  {
+   "title": "2023.33.004 - Document",
+   "desc": "Graduating Class Photos\nGraduation Speech\nGraduation Pamphlets",
+   "rtype": "Archive",
+   "url": "https://scchs.pastperfectonline.com/archive/F6D22872-93F7-4540-856D-786618751463",
+   "found_via_query": "Franklin"
+  },
+  {
+   "title": "2023.33.006.1 - Document",
+   "desc": "Funeral Handout\nSpeech From Melvin\nRemembering Franklin High School Flyer",
+   "rtype": "Archive",
+   "url": "https://scchs.pastperfectonline.com/archive/A27D53F7-7D23-4A35-9D4E-167210373081",
+   "found_via_query": "Franklin"
+  },
+  {
+   "title": "2023.33.006.2 - Document",
+   "desc": "Invitation to \"50 Years Laer: A Tribute to Melvin Washington and Franklin School\"\nNews Paper Clippings\n\"50 Years Laer: A Tribute to Melvin Washington and Franklin School\" Event Handouts\nSumner High School Hall of Fame Nomination\nTribute Dinner and Program for Mr. Melvin Anderson Washington\nKappa Alpha Psi Fraternity Certificate of Achievement\nCertificate of Appreciation from City of St. Charles\nDistinguished Service Award \nRememberence Sp...",
+   "rtype": "Archive",
+   "url": "https://scchs.pastperfectonline.com/archive/D2C91CA3-ADA7-4C7D-AFD0-431363713437",
+   "found_via_query": "Franklin"
+  },
+  {
+   "title": "2023.33.006.3 - Document",
+   "desc": "Eagle Scout Ceremony Photos\nEagle Scout Ceremony Newspaper Clippings\nFuneral Handout for Charles F. Bowden\nSt. Charles High School Graduation Handout\nSt. Louis Area Council 60 Years of Silver Beavers\nSaint Johns African Methodist Episcopal Church",
+   "rtype": "Archive",
+   "url": "https://scchs.pastperfectonline.com/archive/4BECA021-ADEF-4622-962C-211740358460",
+   "found_via_query": "Franklin"
+  },
+  {
+   "title": "2023.33.008 - Document",
+   "desc": "Franklin Basketball 50 Year State Champs Anniversiry Newspaper\nJim Pendleton Newspaper Clipping\nFranklin King of the Basketball Court\nNewspaper Photo 1940 Class B State Champs Players Names\nStatistics from Other High SChool Basketball teams\nBasketball Tournement Bracket\n1940 Official Basket Ball Score Book",
+   "rtype": "Archive",
+   "url": "https://scchs.pastperfectonline.com/archive/6F5FCAE3-7732-4945-9EDD-629176021189",
+   "found_via_query": "Franklin"
+  },
+  {
+   "title": "2023.33.009 - Document",
+   "desc": "Franklin High School Reunion Assocoation 2013 Callender",
+   "rtype": "Archive",
+   "url": "https://scchs.pastperfectonline.com/archive/56904A0E-C0C2-47A6-8FAC-406276603421",
+   "found_via_query": "Franklin"
+  },
+  {
+   "title": "2023.33.010.1 - Document",
+   "desc": "6th Annual Franklin High School Reunion Assocoation",
+   "rtype": "Archive",
+   "url": "https://scchs.pastperfectonline.com/archive/6E6A50D7-5721-4399-8D23-381436952924",
+   "found_via_query": "Franklin"
+  },
+  {
+   "title": "2023.33.010.10 - Document",
+   "desc": "Franklin High School Reunion Association Twenty-Fourth Anniversary",
+   "rtype": "Archive",
+   "url": "https://scchs.pastperfectonline.com/archive/38214E34-8182-454E-AE10-955270455610",
+   "found_via_query": "Franklin"
+  },
+  {
+   "title": "2023.33.010.11 - Document",
+   "desc": "Franklin High School Reunion Association Twenty-Third Anniversary",
+   "rtype": "Archive",
+   "url": "https://scchs.pastperfectonline.com/archive/0A734813-4B22-43BE-B65B-071377620178",
+   "found_via_query": "Franklin"
+  },
+  {
+   "title": "2023.33.010.12 - Document",
+   "desc": "Franklin High School Reunion Association Twenty First Anniversary",
+   "rtype": "Archive",
+   "url": "https://scchs.pastperfectonline.com/archive/0F399A3E-13DE-42A6-9E58-148800629967",
+   "found_via_query": "Franklin"
+  },
+  {
+   "title": "2023.33.010.13 - Document",
+   "desc": "Franklin High School Reunion Association Twentieth Anniversary",
+   "rtype": "Archive",
+   "url": "https://scchs.pastperfectonline.com/archive/D0726883-506A-4837-B64C-935886060519",
+   "found_via_query": "Franklin"
+  },
+  {
+   "title": "2023.33.010.14 - Document",
+   "desc": "Franklin High School Reunion Association Eighteenth Anniversary",
+   "rtype": "Archive",
+   "url": "https://scchs.pastperfectonline.com/archive/79D3E781-BF9A-430E-9AA3-545469546263",
+   "found_via_query": "Franklin"
+  },
+  {
+   "title": "2023.33.010.2 - Document",
+   "desc": "Annual Franklin High School Reunion 1987",
+   "rtype": "Archive",
+   "url": "https://scchs.pastperfectonline.com/archive/3CE8F657-CB6A-4E43-80FD-152618571650",
+   "found_via_query": "Franklin"
+  },
+  {
+   "title": "2023.33.010.2.1 - Document",
+   "desc": "Annual Franklin High School Reunion 1987",
+   "rtype": "Archive",
+   "url": "https://scchs.pastperfectonline.com/archive/8DA8F0E3-D19D-45B5-8A9C-063390269737",
+   "found_via_query": "Franklin"
+  },
+  {
+   "title": "2023.33.010.3 - Document",
+   "desc": "Franklin High School Reunion Association 1983",
+   "rtype": "Archive",
+   "url": "https://scchs.pastperfectonline.com/archive/C5CF835B-B2B4-4ACF-9239-461265534562",
+   "found_via_query": "Franklin"
+  },
+  {
+   "title": "2023.33.010.3.1 - Document",
+   "desc": "Franklin High School Reunion Association 1983",
+   "rtype": "Archive",
+   "url": "https://scchs.pastperfectonline.com/archive/9F054F7A-E7D9-4798-A8E8-024872747815",
+   "found_via_query": "Franklin"
+  },
+  {
+   "title": "2023.33.010.4 - Document",
+   "desc": "Franklin High School Reunion Association Thirtieth Anniversary",
+   "rtype": "Archive",
+   "url": "https://scchs.pastperfectonline.com/archive/55ACD611-8074-442B-B6A9-714296801181",
+   "found_via_query": "Franklin"
+  },
+  {
+   "title": "2023.33.010.5 - Document",
+   "desc": "Franklin High School Reunion Association Twenty-Ninth Anniversary",
+   "rtype": "Archive",
+   "url": "https://scchs.pastperfectonline.com/archive/3DB46DA1-9C04-406F-AD66-534570188687",
+   "found_via_query": "Franklin"
+  },
+  {
+   "title": "2023.33.010.6 - Document",
+   "desc": "Franklin High School Reunion Association Twenty-Eigth Anniversary",
+   "rtype": "Archive",
+   "url": "https://scchs.pastperfectonline.com/archive/C3EE30D2-C4AB-4B5D-AF1D-021908237045",
+   "found_via_query": "Franklin"
+  },
+  {
+   "title": "2023.33.010.6.1 - Document",
+   "desc": "Franklin High School Reunion Association Twenty-Eigth Anniversary",
+   "rtype": "Archive",
+   "url": "https://scchs.pastperfectonline.com/archive/7E1CA081-AC66-4862-99AE-263010266530",
+   "found_via_query": "Franklin"
+  },
+  {
+   "title": "2023.33.010.7 - Document",
+   "desc": "Franklin High School Reunion Association Twenty-Seventh Anniversary",
+   "rtype": "Archive",
+   "url": "https://scchs.pastperfectonline.com/archive/58987910-F619-454C-81C4-036357254235",
+   "found_via_query": "Franklin"
+  },
+  {
+   "title": "2023.33.010.8 - Document",
+   "desc": "Franklin High School Reunion Association Twenty-Sixth Anniversary",
+   "rtype": "Archive",
+   "url": "https://scchs.pastperfectonline.com/archive/22662326-7869-4CFB-9A0F-271782356090",
+   "found_via_query": "Franklin"
+  },
+  {
+   "title": "2023.33.010.9 - Document",
+   "desc": "Franklin High School Reunion Association Twenty-Fifth Anniversary",
+   "rtype": "Archive",
+   "url": "https://scchs.pastperfectonline.com/archive/0F8A96A3-C6F3-4A0E-9190-537981726740",
+   "found_via_query": "Franklin"
+  },
+  {
+   "title": "250.001.028 - Documents",
+   "desc": "1900-1971 High School Commencement\n\nFranklin High School Commencement Exercises 1935-1955\n1955 - 100 Years of Negro Education",
+   "rtype": "Archive",
+   "url": "https://scchs.pastperfectonline.com/archive/DB64D267-15BF-46F0-90FD-164989290460",
+   "found_via_query": "Franklin"
+  },
+  {
+   "title": "2024.20.005 - Letter",
+   "desc": "Letter addressed to Mr. C. Fred Hollenbeck. Contains third-year high school transcript of David William Hollenbeck.",
+   "rtype": "Archive",
+   "url": "https://scchs.pastperfectonline.com/archive/E7EEFF2F-712B-4852-AFC9-782572494933",
+   "found_via_query": "Hollenbeck"
+  },
+  {
+   "title": "900.0002.063 - Vertical Files",
+   "desc": "Francis Howell District\n\nOriginal newspaper articles from the Wentzville Union, St. Louis Post-Dispatch, St. Charles Journal, St. Charles Cosmos-Monitor, St. Charles Banner-News, St. Charles Post, Francis Howell School District Newsletter, St. Louis Globe-Democrat\n\nSeveral correspondences between C. Fred Hollenbeck and Sara Elizabeth Edwards\n\nPhotocopies of newspaper articles from St. Charles Journal",
+   "rtype": "Archive",
+   "url": "https://scchs.pastperfectonline.com/archive/65A7E77E-8931-4644-98F4-885619141893",
+   "found_via_query": "Hollenbeck"
+  },
+  {
+   "title": "B/W photo of Class of 1929 Montgomery City High School. Hazel Hollenbeck fourth from left first row - Dr. Dan Brown Collection",
+   "desc": "",
+   "rtype": "Photo",
+   "url": "https://scchs.pastperfectonline.com/photo/457CC8B7-9ECC-4556-BFD2-243020689330",
+   "found_via_query": "Hollenbeck"
+  },
+  {
+   "title": "Color Photograph of hollenbeck campus with schoolbus in front.Undated - Dr. Dan Brown Collection",
+   "desc": "",
+   "rtype": "Photo",
+   "url": "https://scchs.pastperfectonline.com/photo/A6588D86-D6D2-40B7-93C2-890530072029",
+   "found_via_query": "Hollenbeck"
+  },
+  {
+   "title": "Color photo of the Hollenbeck front, with schoolbus. No date - Dr. Dan Brown Collection",
+   "desc": "",
+   "rtype": "Photo",
+   "url": "https://scchs.pastperfectonline.com/photo/1FE1D0E9-F7B3-452A-827F-426041797272",
+   "found_via_query": "Hollenbeck"
+  },
+  {
+   "title": "Color photo of the sign with an address: 4550 Central School Rd. - Dr. Dan Brown Collection",
+   "desc": "",
+   "rtype": "Photo",
+   "url": "https://scchs.pastperfectonline.com/photo/C65EEA19-3F79-4A0D-A24F-387133497559",
+   "found_via_query": "Hollenbeck"
+  },
+  {
+   "title": "Photo of the dedication for Hollenbeck MS. \"A dream...in action\" C. Fred Hollenbeck JR High School 1972-1973. B/W - Dr. Dan Brown Collection",
+   "desc": "",
+   "rtype": "Photo",
+   "url": "https://scchs.pastperfectonline.com/photo/A371A745-C48F-4D8B-A664-029349414700",
+   "found_via_query": "Hollenbeck"
+  },
+  {
+   "title": "b/w photograph of David as a child. On back: \"David Hollenbeck, son of C. Fred Hollebeck (Superintendent of schools: FHSD, Orchard Farm, St. Charles County), Becky-David school named after him\" - Dr. Dan Brown Collection",
+   "desc": "",
+   "rtype": "Photo",
+   "url": "https://scchs.pastperfectonline.com/photo/94352F96-6B93-4516-83ED-232396155166",
+   "found_via_query": "Hollenbeck"
+  },
+  {
+   "title": "Doeblin School Left to Right:  Emily Stratmann Brakensiek (b. 16 Dec 1919), Clara Wildschuetz Holt, Catherine Roche St. Clair, and Erna Wildschuetz Kops",
+   "desc": "",
+   "rtype": "Photo",
+   "url": "https://scchs.pastperfectonline.com/photo/3522E209-2EAD-46F2-A171-634909908344",
+   "found_via_query": "Holt"
+  },
+  {
+   "title": "Doeblin School, Miss Charlotte Foster, teacher.  \nFront:  Hattie Brakensiek Busdieker, Mabel Freese Busdieker, Ruby Brakensiek Shelton, Chester Hoefner, Erich Brakensiek\n2nd Row:  Grace Freese Twiehaus (b. 4 Nov 1925), twins Laura Joerling Becker and Lawrence Joerling, Warren Nieweg\n3rd Row:  Raymond Brakensiek, James Freese, Omar Willis, Sam Joerling, Charlotte Foster\nMiss Foster was from Warrensburg, boarded with Albert Stratmann who lived in \"Holt's Town\" west side of where Ramey's lived off Holt Road across creek.",
+   "desc": "",
+   "rtype": "Photo",
+   "url": "https://scchs.pastperfectonline.com/photo/B517F82B-17A0-41FA-9D73-175579465920",
+   "found_via_query": "Holt"
+  },
+  {
+   "title": "Doeblin School\nClara Wildschuetz Holt, Louis Brakensiek, Catherine Roche St. Clair, Emmet Wildschuetz, Emily Stratmann Brakensiek.  Teacher was Mary Roche Dosenbach, sister to Catherine Roche St. Clair.  Mary taught school in Warren County, her first year being 1926, she was 17 and her oldest pupil was 14.  In 1927 she taught this group. This was also the school that Mary's mother, one of 11, Ella Auf der Masch Roach attended. Along with other family members, one being Elsie Auf der Masch Freese. (Picture from Emily Stratmann Bakensiek)",
+   "desc": "",
+   "rtype": "Photo",
+   "url": "https://scchs.pastperfectonline.com/photo/B9144DA2-691A-4F4A-8E37-693403901246",
+   "found_via_query": "Holt"
+  },
+  {
+   "title": "Meridian School Dist. 47 & 37 (1920-1928) Folders all follow general file - Back to Front.\nDistrict No's 47 & 37\n 1923 -(2) -Estimates - District  37, Warren County - District 4, St. Charles County from Dist. Clerk,- H. P. Pringle to be filed w/the County Superintendent on or before May 15.\n1920 - Report of  District Clerk to County Clerk..\n1920 - Teacher's contract signed Sept. 10, 1923, Nell Auckley, teacher, C. W. Hess Pres. of Board, H. P. Pringle, Dist. Clerk.\n1924 - March & Oct. statement of the County Treasurer, Edw. H. Hollrah to Dist. Clerk, H. P. Pringle, Dist 47..\nMonthly report (3) Sept., Oct., Dec. No. of pupils 15.  Lillian Holt teacher,  to District Clerk H. P. Pringle, Warren & St. Charles Counties, Dist. 37, Dist. 47.\n1925 - October statement of the County Treasurer & the County Clerk, Herbert C. Sandfort, to Dist. Clerk No. 47, H. P. Pringle.\n1925  - Credit slip from Clerk of the County to School Dist. No. 47.\n1925 -  Teacher's monthly report (2) to Dist. Clerk, H. P. Pringle..\n1925 - Teachers' monthly report (form l) to Dist. Clerk Mr. P. Pringle to Secretary of School Board.\n1925 - (3) Sept. Oct. Nov. , & Dec., Oct..- Nov. no. of pupils 15.  Nora Lane teacher.\n1926 - Incorrect statement (Oct.) Treasurer, Edw. H. Hollrah. to Dist. Clerk , H. P. Pringle.\n1927 (1 only) Teachers monthly report\nTeacher's term report.",
+   "desc": "",
+   "rtype": "Photo",
+   "url": "https://scchs.pastperfectonline.com/photo/17AE49B0-9448-4B7B-A40F-478395553470",
+   "found_via_query": "Holt"
+  },
+  {
+   "title": "School in Augusta, MO, Highway 94, six miles east of Augusta.  On back:  \"Original Salem school (one room) on Hwy. 94 between Matson & Klondike.  Later used as a weekend home by Ollie Thilking (?) & Hyman Holt; then sold to Arthur Haferkamp for income property.\"  1976 - City and County Sites",
+   "desc": "3 1/2\" x 5\"",
+   "rtype": "Photo",
+   "url": "https://scchs.pastperfectonline.com/photo/876A316E-E235-4B30-A609-421351043815",
+   "found_via_query": "Holt"
+  },
+  {
+   "title": "2023.06.158 - Documents",
+   "desc": "O'Fallon Services: Schooling\n--\"Small Glories: A Memoir of Southern St. Charles County and the Formation of the Francis Howell School District\" by Daniel T. Brown, Ph.D.",
+   "rtype": "Archive",
+   "url": "https://scchs.pastperfectonline.com/archive/F646311A-8936-4AE2-9C47-435755305779",
+   "found_via_query": "Howell"
+  },
+  {
+   "title": "2024.20.004 - Graduation Announcement",
+   "desc": "Francis Howell High School Class of 1925 announces commencement exercises on May 21st.",
+   "rtype": "Archive",
+   "url": "https://scchs.pastperfectonline.com/archive/9EE61F82-4B77-4423-8816-430283552922",
+   "found_via_query": "Howell"
+  },
+  {
+   "title": "2024.20.006 - Graduation Announcement",
+   "desc": "Francis Howell High Class of 1939 graduation announcement. Includes envelope",
+   "rtype": "Archive",
+   "url": "https://scchs.pastperfectonline.com/archive/5FDDA7BF-CC6B-4586-8E28-010686362900",
+   "found_via_query": "Howell"
+  },
+  {
+   "title": "2024.20.007 - Graduation Announcement",
+   "desc": "Francis Howell High Class of 1940 graduation announcement. Includes envelope",
+   "rtype": "Archive",
+   "url": "https://scchs.pastperfectonline.com/archive/D499B51B-75E0-4D2C-A627-635576823548",
+   "found_via_query": "Howell"
+  },
+  {
+   "title": "2024.20.008 - Graduation Announcement",
+   "desc": "Francis Howell High Class of 1941 graduation announcement. Includes envelope",
+   "rtype": "Archive",
+   "url": "https://scchs.pastperfectonline.com/archive/3CF7CE07-7CD1-4313-852C-277751284170",
+   "found_via_query": "Howell"
+  },
+  {
+   "title": "2024.20.009 - Graduation Announcement",
+   "desc": "Francis Howell High Class of 1942 graduation announcement. Includes envelope",
+   "rtype": "Archive",
+   "url": "https://scchs.pastperfectonline.com/archive/71085BB2-939C-4271-8355-013952221402",
+   "found_via_query": "Howell"
+  },
+  {
+   "title": "2024.20.010 - Graduation Announcement",
+   "desc": "Francis Howell High Class of 1943 graduation announcement. Includes envelope",
+   "rtype": "Archive",
+   "url": "https://scchs.pastperfectonline.com/archive/3FF87C7C-1137-4AD8-891D-655339618755",
+   "found_via_query": "Howell"
+  },
+  {
+   "title": "2024.20.011 - Graduation Announcement",
+   "desc": "Francis Howell High Class of 1946 graduation announcement. Includes envelope",
+   "rtype": "Archive",
+   "url": "https://scchs.pastperfectonline.com/archive/484841B0-39F4-4144-9C1C-311828835447",
+   "found_via_query": "Howell"
+  },
+  {
+   "title": "2024.20.012 - Graduation Announcement",
+   "desc": "Francis Howell High Class of 1947 graduation announcement. Includes envelope",
+   "rtype": "Archive",
+   "url": "https://scchs.pastperfectonline.com/archive/AE27D3E0-FA14-4549-AE62-636341338400",
+   "found_via_query": "Howell"
+  },
+  {
+   "title": "2024.20.013 - Graduation Announcement",
+   "desc": "Francis Howell High Class of 1948 graduation announcement. Includes envelope",
+   "rtype": "Archive",
+   "url": "https://scchs.pastperfectonline.com/archive/CB639845-D477-4405-B674-262760220420",
+   "found_via_query": "Howell"
+  },
+  {
+   "title": "2024.20.014 - Graduation Announcement",
+   "desc": "Francis Howell High Class of 1949 graduation announcement. Includes envelope",
+   "rtype": "Archive",
+   "url": "https://scchs.pastperfectonline.com/archive/616F09CC-F5CB-451D-B66F-216317976818",
+   "found_via_query": "Howell"
+  },
+  {
+   "title": "2024.20.015 - Graduation Announcement",
+   "desc": "SAME as 2024.20.014: Francis Howell High Class of 1949 Graduation invite. Includes envelope.",
+   "rtype": "Archive",
+   "url": "https://scchs.pastperfectonline.com/archive/A2C2F477-096E-40B8-BD25-109304152025",
+   "found_via_query": "Howell"
+  },
+  {
+   "title": "2024.20.019 - Pamphlet",
+   "desc": "Farm Bureau flyer. Two sides with text, front with drawing of urban versus rural school buildings. Back with drawing of a boy fishing with his dog. \n\nFrancis Howell, Augusta",
+   "rtype": "Archive",
+   "url": "https://scchs.pastperfectonline.com/archive/BD78A02B-09E2-4C3E-B3DF-671675918398",
+   "found_via_query": "Howell"
+  },
+  {
+   "title": "2024.20.020 - Newspaper",
+   "desc": "Know our high school edition, 3 pages, written by students, Francis Howell",
+   "rtype": "Archive",
+   "url": "https://scchs.pastperfectonline.com/archive/73973D0D-FD9A-4E70-9DC0-545608624300",
+   "found_via_query": "Howell"
+  },
+  {
+   "title": "2024.20.021 - Handbook",
+   "desc": "Stapled, typed copy of the FHHS handbook. Includes history of Francis Howell, transportation details, Grades, Activities [gym, class subjects, theater]. End includes letter from Principal chronicling purpose of the document (educating students on FHHS school policies)\n\nAlso handwritten: \"C. C. Randall\" \"Reorganization- New Melle. in 1952-53 Miller School was reopened with grades 7 & 8\"",
+   "rtype": "Archive",
+   "url": "https://scchs.pastperfectonline.com/archive/9241FB36-0001-4B64-85ED-191667354222",
+   "found_via_query": "Howell"
+  },
+  {
+   "title": "2024.20.023 - document",
+   "desc": "Handwritten on stationary. Mentions Francis Howell School District history from early 1800s to 1950s. Includes enrollment numbers, growth in St. Charles County",
+   "rtype": "Archive",
+   "url": "https://scchs.pastperfectonline.com/archive/932C4293-6B23-45F2-94FB-812115060280",
+   "found_via_query": "Howell"
+  },
+  {
+   "title": "2024.20.024 - Minutes, Meetings",
+   "desc": "Handwritten in a spiral notebook. Minutes detail elected officials, bills, and plans for Francis Howell High School\nMentions: Otto Schneider",
+   "rtype": "Archive",
+   "url": "https://scchs.pastperfectonline.com/archive/35ECD67A-BE0F-40CD-979E-508343441770",
+   "found_via_query": "Howell"
+  },
+  {
+   "title": "2024.20.026 - Newspaper Article",
+   "desc": "Printout, in protective sleeve. Two photos, both courtesy of Mrs. A. Ray Oliver. Francis Howell High School, Howell Institute. Clipped from newspaper (unknown publication)",
+   "rtype": "Archive",
+   "url": "https://scchs.pastperfectonline.com/archive/FAA430C3-841C-4327-824D-766650203133",
+   "found_via_query": "Howell"
+  },
+  {
+   "title": "2024.20.057 - Pamphlet",
+   "desc": "Includes map of Francis Howell School District on Back. Inside: Advantages of teaching in FHSD, Housing, History, and Attractions nearby.",
+   "rtype": "Archive",
+   "url": "https://scchs.pastperfectonline.com/archive/6A985CD2-2CCD-49D3-A313-559321891819",
+   "found_via_query": "Howell"
+  },
+  {
+   "title": "2024.20.268 - Article",
+   "desc": "Scanned and printed article. Pg 2 of 3 pages. Discusses Fairmount School Dedication Set. Francis Howell, Howell Institute",
+   "rtype": "Archive",
+   "url": "https://scchs.pastperfectonline.com/archive/63B4A8EA-6A65-4D97-A6A4-458559211043",
+   "found_via_query": "Howell"
+  },
+  {
+   "title": "2024.20.269 - Article",
+   "desc": "Scanned and printed article. Pg 3 of 3 pages. Discusses the dedication ceremony for Fairmount Elementary School. Joins Francis Howell School District",
+   "rtype": "Archive",
+   "url": "https://scchs.pastperfectonline.com/archive/4817B229-B393-4028-9D2A-170839705937",
+   "found_via_query": "Howell"
+  },
+  {
+   "title": "600.001.883 - Map",
+   "desc": "Copy of Weldon Springs area map with details of pipeline proposal and cemetery locations circled in red. Mentions Francis Howell School land acquired.",
+   "rtype": "Archive",
+   "url": "https://scchs.pastperfectonline.com/archive/9F837921-D74D-4F7A-ADD9-512692863734",
+   "found_via_query": "Howell"
+  },
+  {
+   "title": "900.0002.094 - Vertical Files",
+   "desc": "Catholic school\n\nIncludes copy of \"St. Francis School & Immaculate Conception School: Our Histories\"",
+   "rtype": "Archive",
+   "url": "https://scchs.pastperfectonline.com/archive/A7A3F763-0B98-4F08-BF61-833353493683",
+   "found_via_query": "Immaculate"
+  },
+  {
+   "title": "The Dickhaus Home Augusta, Missouri later home of Allie Wilcox, until he went to nursing home. Originally used to house teachers of New Hope School next to Immaculate Conception Church. - Topical Photos",
+   "desc": "3 1/2\" x 5\"",
+   "rtype": "Photo",
+   "url": "https://scchs.pastperfectonline.com/photo/C82A440C-793A-488B-B83B-850752880194",
+   "found_via_query": "Immaculate"
+  },
+  {
+   "title": "900.0003.248 - Vierling Cemetery",
+   "desc": "Location: Near Independence School, Dardenne Township\n\nSee also: Cemeteries of St. Charles County, Vol. 5",
+   "rtype": "Archive",
+   "url": "https://scchs.pastperfectonline.com/archive/00484A80-FAC1-445C-9AC5-242647863337",
+   "found_via_query": "Independence"
+  },
+  {
+   "title": "Independence School Record",
+   "desc": "",
+   "rtype": "Library",
+   "url": "https://scchs.pastperfectonline.com/library/2D6527BF-7ABA-4881-AE33-441068252837",
+   "found_via_query": "Independence"
+  },
+  {
+   "title": "One Room Brick School House.  Independence School, 5516 Independence Road, Weldon Spring. - Topical Photos",
+   "desc": "3 1/2\" x 5\"",
+   "rtype": "Photo",
+   "url": "https://scchs.pastperfectonline.com/photo/415A4003-CBA2-45E2-B64E-301251995258",
+   "found_via_query": "Independence"
+  },
+  {
+   "title": "900.0002.142 - Vertical Files",
+   "desc": "Orchard Farm School District\n\nOriginal newspaper articles from the St. Charles Journal, St. Louis Post-Dispatch\n\nPhotocopies of newspaper articles from the St. Charles Post, St. Charles Journal",
+   "rtype": "Archive",
+   "url": "https://scchs.pastperfectonline.com/archive/DF5B0EE4-7793-4FB5-895D-432685484301",
+   "found_via_query": "Orchard_Farm"
+  },
+  {
+   "title": "900.0002.143 - Vertical Files",
+   "desc": "Orchard Farm School District\n\nOriginal newspaper articles from St. Charles Banner-News, St. Charles Journal, St. Charles Post\n\nPhotocopies of newspaper articles from St. Charles Journal\n\nSeveral dates missing",
+   "rtype": "Archive",
+   "url": "https://scchs.pastperfectonline.com/archive/33C14E4C-8756-406C-A6ED-310612826020",
+   "found_via_query": "Orchard_Farm"
+  },
+  {
+   "title": "900.0002.144 - Vertical Files",
+   "desc": "Orchard Farm School District\n\nOne original article from the St. Charles Journal titled \"Orchard Farm Teacher has malice of absence\"",
+   "rtype": "Archive",
+   "url": "https://scchs.pastperfectonline.com/archive/04C2FC61-80B8-4164-8508-585787724170",
+   "found_via_query": "Orchard_Farm"
+  },
+  {
+   "title": "900.0002.145 - Vertical Files",
+   "desc": "Orchard Farm School District\n\nEmpty placeholder file",
+   "rtype": "Archive",
+   "url": "https://scchs.pastperfectonline.com/archive/A4CE399C-1565-4067-93E0-270045441921",
+   "found_via_query": "Orchard_Farm"
+  },
+  {
+   "title": "Black Walnut School portrait, October 1925.  Amanda Ostmann (Grandma), nee' Scholle (circled in blue).\n\nPhoto is bady damaged. - Moeller Collection",
+   "desc": "5\" x 7\"",
+   "rtype": "Photo",
+   "url": "https://scchs.pastperfectonline.com/photo/5C7EF6E2-F6B2-4DE8-98F0-117444531910",
+   "found_via_query": "Ostmann"
+  },
+  {
+   "title": "Black Walnut School with teacher and pupils - Moeller Collection",
+   "desc": "5 x 7",
+   "rtype": "Photo",
+   "url": "https://scchs.pastperfectonline.com/photo/CEB2F095-0CBE-4BA0-BCB2-610044705490",
+   "found_via_query": "Ostmann"
+  },
+  {
+   "title": "900.0002.152 - Vertical Files",
+   "desc": "Fort Zumwalt School District\n\nOne article from the St. Charles Journal titled \"School is named Pheasant Point\"",
+   "rtype": "Archive",
+   "url": "https://scchs.pastperfectonline.com/archive/197D3BE4-5ED2-4904-BE88-207660535856",
+   "found_via_query": "Pheasant"
+  },
+  {
+   "title": "2007.033.01 - Record Book",
+   "desc": "Teachers Daily Register Point Prairie School",
+   "rtype": "Archive",
+   "url": "https://scchs.pastperfectonline.com/archive/1CAC24AE-AFC9-4501-8693-134078897584",
+   "found_via_query": "Prairie_View"
+  },
+  {
+   "title": "2007.033.02 - Record Book",
+   "desc": "Teachers Daily Register - Point Prairie School",
+   "rtype": "Archive",
+   "url": "https://scchs.pastperfectonline.com/archive/28738029-2C55-4CB3-BA68-639395881030",
+   "found_via_query": "Prairie_View"
+  },
+  {
+   "title": "2007.033.03 - Record Book",
+   "desc": "Teachers Daily Register - Point Prairie School",
+   "rtype": "Archive",
+   "url": "https://scchs.pastperfectonline.com/archive/5456CC37-2431-45D3-8115-507760231203",
+   "found_via_query": "Prairie_View"
+  },
+  {
+   "title": "2007.033.04 - Record Book",
+   "desc": "Teachers Daily Register - Point Prairie School",
+   "rtype": "Archive",
+   "url": "https://scchs.pastperfectonline.com/archive/31CD8C23-CE9A-406C-8346-192055770235",
+   "found_via_query": "Prairie_View"
+  },
+  {
+   "title": "2007.033.05 - Record Book",
+   "desc": "Teachers Daily Register - Point Prairie School",
+   "rtype": "Archive",
+   "url": "https://scchs.pastperfectonline.com/archive/671EE754-7F22-4451-9C1E-852308361650",
+   "found_via_query": "Prairie_View"
+  },
+  {
+   "title": "2007.033.06 - Record Book",
+   "desc": "Teachers Daily Register - Point Prairie School",
+   "rtype": "Archive",
+   "url": "https://scchs.pastperfectonline.com/archive/81BD18A9-FD85-4861-B96C-805582511407",
+   "found_via_query": "Prairie_View"
+  },
+  {
+   "title": "2007.033.07 - Record Book",
+   "desc": "Teachers Daily Register - Point Prairie School",
+   "rtype": "Archive",
+   "url": "https://scchs.pastperfectonline.com/archive/89A4DDE5-8A93-4F16-AE4F-631620827457",
+   "found_via_query": "Prairie_View"
+  },
+  {
+   "title": "2023.16 - Program",
+   "desc": "Program for the Class pf '51 St. Peter's High School 25th Reunion on June 5, 1976 at the Golf View Inn, St. Charles, MO\nNote attached to item:\n\"My, aunt, Joan Billing, pased away in late March and I found this among her things.:",
+   "rtype": "Archive",
+   "url": "https://scchs.pastperfectonline.com/archive/9F2EA78C-A502-447A-A411-488774493480",
+   "found_via_query": "Prairie_View"
+  },
+  {
+   "title": "2025.15.001 - Graduation Announcement",
+   "desc": "Items A-C\nA: Graduation Invitation for the Class of 1913 from St. Charles High School. The Ceremony was listed as beginning at 8:00 on June 13, 1913 in the Opera House. The front cover specifically mentions to not bring flowers, and has an embossed seal at the top. Inside the invitation is the class roll. \n\nClass roll: Margaret Kirin Gatzweiler, Lois Ely, Stella Marie Nagel, Leona M. Moehlenkamp, Clara Waye, Emma Mueller, Irene. W.C. Hafer, Ju...",
+   "rtype": "Archive",
+   "url": "https://scchs.pastperfectonline.com/archive/0FC12EC0-60DF-49CD-BE2F-517123624000",
+   "found_via_query": "Saeger"
+  },
+  {
+   "title": "Friedens School Record",
+   "desc": "",
+   "rtype": "Library",
+   "url": "https://scchs.pastperfectonline.com/library/312500C1-DC88-4B2F-8A98-400465255012",
+   "found_via_query": "Saeger"
+  },
+  {
+   "title": "Friedens School Record",
+   "desc": "",
+   "rtype": "Library",
+   "url": "https://scchs.pastperfectonline.com/library/0FF4E025-DCD1-468B-89A2-082427595530",
+   "found_via_query": "Saeger"
+  },
+  {
+   "title": "Union School Dist. No. 55.  Mr. Albert Saeger Teacher 1915.  Located at corner of Greensbottom and Amrein roads.\n\n2nd from right, 2nd row is Esther Amrein; front left, lst row is Willie Amrein.",
+   "desc": "5 x 7",
+   "rtype": "Photo",
+   "url": "https://scchs.pastperfectonline.com/photo/D9215902-C78D-4871-8FC3-931843360018",
+   "found_via_query": "Saeger"
+  },
+  {
+   "title": "Doeblin School Located West side of \"Mill Rd\" now known as Oberhelmann\nFront:  Erich Brakensiek, Hatti Brakensiek Busdieker, Grace Freese Twiehaus, Laura Joerling Becker\n2nd Row:  Warren Nieweg, Sam Joerling, Raymond Brakensiek,  Lawrence (Boots) Joerling (Twin to Laura. His dad, John Joerling said that he liked to ride on his \"boots\" like a \"horsey ride\" and thereby ended up with taht nick-name - told to Alice Freese Molitor)\n3rd Row: Omar Willis, James Freese, Cllarence (Pete) Joerling, Leroy Richards, Emily Stratmann Brakensiek",
+   "desc": "",
+   "rtype": "Photo",
+   "url": "https://scchs.pastperfectonline.com/photo/EE312B83-28C3-41FC-90AE-336120654271",
+   "found_via_query": "Twin_Chimneys"
+  },
+  {
+   "title": "Mrs. Alice Lena (Reed) King in 1932 at White Church.  Sunday school teacher holding a Beginner;s pendant.  Seven children in front:  Elmer Patterson Jr., Lula Belle, Junior and\nDoyal Barnes.  Also, Ada Bell's nephew and twin sister visiting from California.  Automobile is in background. - Barwise Family Collection",
+   "desc": "4\" x 6\"",
+   "rtype": "Photo",
+   "url": "https://scchs.pastperfectonline.com/photo/6BCE8F2A-5837-45D6-AD0D-352773261891",
+   "found_via_query": "Twin_Chimneys"
+  },
+  {
+   "title": "B/W print, depicts Miller School from left angle. Three cars in front, a few people at bottom left of composition - Dr. Dan Brown Collection",
+   "desc": "",
+   "rtype": "Photo",
+   "url": "https://scchs.pastperfectonline.com/photo/1D939ED1-E1F9-4CB1-9BCA-209885529970",
+   "found_via_query": "Weldon"
+  },
+  {
+   "title": "Black and white photo showing a school performance. Photo printed by Bilmag Press OK PRINTING. On back: Mrs. Landon Schlueters - Dr. Dan Brown Collection",
+   "desc": "",
+   "rtype": "Photo",
+   "url": "https://scchs.pastperfectonline.com/photo/C21A8AC5-A733-4E0C-9B21-105531635314",
+   "found_via_query": "Weldon"
+  },
+  {
+   "title": "Class photo of grades 2-3 1953-54 at Weldon Spring School. - Dr. Dan Brown Collection",
+   "desc": "",
+   "rtype": "Photo",
+   "url": "https://scchs.pastperfectonline.com/photo/90D4B1BB-D259-477B-9DEC-157768690900",
+   "found_via_query": "Weldon"
+  },
+  {
+   "title": "Color photograph of the front of Miller School. Flagpole, three cars in front. - Dr. Dan Brown Collection",
+   "desc": "",
+   "rtype": "Photo",
+   "url": "https://scchs.pastperfectonline.com/photo/5E2B44AF-D20B-4B44-BA82-045268914160",
+   "found_via_query": "Weldon"
+  },
+  {
+   "title": "Depicts five cars in parking lot outside Miller School. Black and white - Dr. Dan Brown Collection",
+   "desc": "",
+   "rtype": "Photo",
+   "url": "https://scchs.pastperfectonline.com/photo/F7455302-DD12-41AA-95F4-658643940040",
+   "found_via_query": "Weldon"
+  },
+  {
+   "title": "Enterprise School in Weldon Springs with teacher Mabel Tarbell and students. - Topical Photos",
+   "desc": "5 x 6",
+   "rtype": "Photo",
+   "url": "https://scchs.pastperfectonline.com/photo/088187AE-51C1-4805-8140-468353533230",
+   "found_via_query": "Weldon"
+  },
+  {
+   "title": "Miller grade school grades 3-5 class photo of 1948-49. - Dr. Dan Brown Collection",
+   "desc": "",
+   "rtype": "Photo",
+   "url": "https://scchs.pastperfectonline.com/photo/09B883CC-8165-439C-9484-745113618443",
+   "found_via_query": "Weldon"
+  },
+  {
+   "title": "900.0002.074 - Vertical Files",
+   "desc": "Wentzville School District\n\nOriginal newspaper articles from St. Charles Post, St. Charles Journal",
+   "rtype": "Archive",
+   "url": "https://scchs.pastperfectonline.com/archive/E611420B-F968-4601-B7C9-763611428320",
+   "found_via_query": "Wentzville"
+  },
+  {
+   "title": "900.0002.085 - Vertical Files",
+   "desc": "Wentzville School District\n\nEmpty placeholder file",
+   "rtype": "Archive",
+   "url": "https://scchs.pastperfectonline.com/archive/13B1A1FF-0069-435D-95DA-383181409601",
+   "found_via_query": "Wentzville"
+  },
+  {
+   "title": "900.0002.087 - Vertical Files",
+   "desc": "Wentzville School District\n\nEmpty placeholder file",
+   "rtype": "Archive",
+   "url": "https://scchs.pastperfectonline.com/archive/A6E641EF-8A4B-4510-8442-994127760270",
+   "found_via_query": "Wentzville"
+  },
+  {
+   "title": "900.0002.091 - Vertical Files",
+   "desc": "Wentzville School District\n\nSee also: Wentzville High School\n\nOriginal newspaper articles from the St. Charles Journal, St. Charles Post",
+   "rtype": "Archive",
+   "url": "https://scchs.pastperfectonline.com/archive/D1D34264-B727-4D03-97AF-063752583080",
+   "found_via_query": "Wentzville"
+  },
+  {
+   "title": "900.0002.106 - Vertical Files",
+   "desc": "Wentzville School District\n\nEmpty placeholder file",
+   "rtype": "Archive",
+   "url": "https://scchs.pastperfectonline.com/archive/FC076743-830D-4E36-A10F-694708192039",
+   "found_via_query": "Wentzville"
+  },
+  {
+   "title": "900.0002.110 - Vertical Files",
+   "desc": "St. Charles School District\n\nPreviously known as Lewis and Clark Vocational Technical School\n\nOriginal newspaper articles from St. Charles Journal, Wentzville Union, St. Charles Post",
+   "rtype": "Archive",
+   "url": "https://scchs.pastperfectonline.com/archive/B2D760F0-4363-48B2-92FB-566089787055",
+   "found_via_query": "Wentzville"
+  },
+  {
+   "title": "900.0002.149 - Vertical Files",
+   "desc": "Wentzville School District\n\nEmpty placeholder file",
+   "rtype": "Archive",
+   "url": "https://scchs.pastperfectonline.com/archive/F5B2F8EB-A736-4DD6-A10A-299418152112",
+   "found_via_query": "Wentzville"
+  },
+  {
+   "title": "2008.012.01 - Magazine",
+   "desc": "Commencement and Academy Edition",
+   "rtype": "Archive",
+   "url": "https://scchs.pastperfectonline.com/archive/F1C9E388-157A-475A-999D-801042405907",
+   "found_via_query": "academy"
+  },
+  {
+   "title": "2025.15.024 - Postcard",
+   "desc": "Set of four postcards showing Sibley Hall, Jubilee Hall, Margaret Hall, and Butler Hall at Lindenwood College in St. Charles, MO. Only the back of the top postcard has space for any text and a stamp. The next two postcards talk about the history of Lindenwood and St. Charles. The last postcard simply has a picture of Benton School, St. Charles, MO. This set of postcards was made by R. Goebel, St. Charles, MO. and is No. 1856.\n\nText from the sec...",
+   "rtype": "Archive",
+   "url": "https://scchs.pastperfectonline.com/archive/0D747A91-173C-4344-B35B-837746865743",
+   "found_via_query": "academy"
+  },
+  {
+   "title": "Academy of the Sacred Heart School Grounds - Topical Photos",
+   "desc": "6 x 8",
+   "rtype": "Photo",
+   "url": "https://scchs.pastperfectonline.com/photo/281F416F-F8A4-4071-8FB8-204910359335",
+   "found_via_query": "academy"
+  },
+  {
+   "title": "Academy of the Sacred Heart School grounds - Topical Photos",
+   "desc": "8 x 10",
+   "rtype": "Photo",
+   "url": "https://scchs.pastperfectonline.com/photo/3B8D114D-1880-43C5-BD73-365109152524",
+   "found_via_query": "academy"
+  },
+  {
+   "title": "Academy of the Sacred Heart The old Convent School\nHalf of a Stereoscopic card - Topical Photos",
+   "desc": "3 x 3",
+   "rtype": "Photo",
+   "url": "https://scchs.pastperfectonline.com/photo/61221F7B-2962-4E5C-96DF-204555172483",
+   "found_via_query": "academy"
+  },
+  {
+   "title": "Old Military Academy on High School grounds, used by high school after Jefferson Street High School burned, evacuated Jan 1924. - Topical Photos",
+   "desc": "3 1/2 x 2",
+   "rtype": "Photo",
+   "url": "https://scchs.pastperfectonline.com/photo/446C5892-D9FD-4AED-AE48-976876162064",
+   "found_via_query": "academy"
+  },
+  {
+   "title": "Sacred Heart Academy and Parish School for Girls, circa 1900.\n\n2 copies - St. Charles Borromeo Collection",
+   "desc": "4\" x 6\"",
+   "rtype": "Photo",
+   "url": "https://scchs.pastperfectonline.com/photo/AB571072-B2F4-494A-B191-335938809678",
+   "found_via_query": "academy"
+  },
+  {
+   "title": "2024.17.037 - program",
+   "desc": "Items A-C\nProgram for the Commencement Events at Lindenwood College May 23-30, 1958. The events include the Annual Art Exhibit, held May 23-30, the Baccalaureate Service held May 23 at seven-thirty in the evening at the Lindenwood College Chapel, the President's Reception on friday, May 23 at eight forty-five in the evening at the President's Home, the Senior Prayer Meeting on May 24 at seven-fifteen in the morning at the Little Chapel, the Brea...",
+   "rtype": "Archive",
+   "url": "https://scchs.pastperfectonline.com/archive/605C10B9-0A73-4FE7-9AF1-685423328072",
+   "found_via_query": "annual"
+  },
+  {
+   "title": "413.009 - Folder",
+   "desc": "Meridian School (1942-1943) Folders all follow general file - Back to Front.  \n1.   Estimate - to be filed w/the County Superintendent to be filed St. Charles and Warren County May 15.\n2.   District Clerk's report - to County Superintendent to be filed St. Charles and Warren County July 1.\n3.   District Clerk's report to County Clerk to be filed not later than June 30.\n4.  Monthly statements of the County Treasurer and the County Clerk - to t...",
+   "rtype": "Archive",
+   "url": "https://scchs.pastperfectonline.com/archive/4D5EB1C7-7053-4D23-81A5-455180905831",
+   "found_via_query": "annual"
+  },
+  {
+   "title": "900.0002.040 - Vertical Files",
+   "desc": "Catholic School\n\nOriginal newspaper articles from St. Charles Banner-News, St. Charles Journal, St. Charles Post\n\nOriginal commencment notice 1969\n\nOriginal copy of Duchesne High School Annual Report 1987-1988\n\nOriginal copy of Duchesne Alumi Pioneer (1988)\n\nOriginal copies of Duchese Leaves\n\nCopy of a picture \"New Addition to Duchesne High School, St. Charles, MO\" 1965\n\nPhotocopies of newspaper articles from St. Charles Banner-News...",
+   "rtype": "Archive",
+   "url": "https://scchs.pastperfectonline.com/archive/1F17BC78-3598-44F1-AD43-156949082905",
+   "found_via_query": "annual"
+  },
+  {
+   "title": "Eighty-Fourth Report of the Public Schools of the State of Missouri - 371.017",
+   "desc": "Lee, Chas.",
+   "rtype": "Library",
+   "url": "https://scchs.pastperfectonline.com/library/D5B43720-D20F-4DAD-83F5-861631144242",
+   "found_via_query": "annual"
+  },
+  {
+   "title": "Eighty-Second Report of the Public Schools of the State of Missouri - 371.017",
+   "desc": "Lee, Chas.",
+   "rtype": "Library",
+   "url": "https://scchs.pastperfectonline.com/library/AEF6B753-8C62-44A1-99C0-866733387449",
+   "found_via_query": "annual"
+  },
+  {
+   "title": "2010.010.01 - program",
+   "desc": "Program of events associated with Commencement at Lindenwood College 1938",
+   "rtype": "Archive",
+   "url": "https://scchs.pastperfectonline.com/archive/FA05F353-FA78-4DB9-AB8B-776769152921",
+   "found_via_query": "community_college"
+  }
+ ]
+}
