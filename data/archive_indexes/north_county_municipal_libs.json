@@ -1,0 +1,136 @@
+{
+  "surface": "north_county_municipal_libs",
+  "enumerated_at": "2026-10-12",
+  "orientation_result": {
+    "method": "Compared assigned north-county municipalities against the Municipal Library Consortium of St. Louis County roster (the 9 independent municipal library districts in St. Louis County) and the SLCL branch map.",
+    "independent_library_roster_source": "https://mlc-stl.org/find-your-library/ (Municipal Library Consortium: Brentwood, Ferguson, Kirkwood, Maplewood, Richmond Heights, Rock Hill, University City, Valley Park, Webster Groves)",
+    "municipality_verdicts": [
+      {
+        "municipality": "Ferguson",
+        "independent_library": true,
+        "library": "Ferguson Municipal Public Library District (35 N. Florissant Rd., Ferguson MO 63135); MLC member 'MLC-FE'; catalog = shared MLC Aspen Discovery (mlc-fe.modiscovery.org)"
+      },
+      {
+        "municipality": "Florissant",
+        "independent_library": false,
+        "served_by": "SLCL Florissant Valley / Jamestown Bluffs branches"
+      },
+      {
+        "municipality": "Berkeley",
+        "independent_library": false,
+        "served_by": "SLCL (nearest Natural Bridge / Florissant Valley branches)"
+      },
+      {
+        "municipality": "Jennings",
+        "independent_library": false,
+        "served_by": "SLCL Jennings branch"
+      },
+      {
+        "municipality": "Normandy",
+        "independent_library": false,
+        "served_by": "SLCL Natural Bridge branch"
+      },
+      {
+        "municipality": "Bellefontaine Neighbors",
+        "independent_library": false,
+        "served_by": "SLCL (Jamestown Bluffs / Lewis & Clark branches)"
+      },
+      {
+        "municipality": "Black Jack",
+        "independent_library": false,
+        "served_by": "SLCL Jamestown Bluffs branch"
+      },
+      {
+        "municipality": "Spanish Lake",
+        "independent_library": false,
+        "served_by": "SLCL Prairie Commons / Jamestown Bluffs branches (unincorporated area)"
+      },
+      {
+        "municipality": "Kinloch",
+        "independent_library": false,
+        "served_by": "SLCL (no branch in city; county service)"
+      },
+      {
+        "municipality": "Wellston",
+        "independent_library": false,
+        "served_by": "none (0 libraries per SLCL homefacts; SLPS-area city, county service nominal)"
+      },
+      {
+        "municipality": "Pine Lawn",
+        "independent_library": false,
+        "served_by": "SLCL (no branch; county service)"
+      },
+      {
+        "municipality": "Moline Acres",
+        "independent_library": false,
+        "served_by": "SLCL Lewis & Clark branch"
+      },
+      {
+        "municipality": "Riverview",
+        "independent_library": false,
+        "served_by": "SLCL Lewis & Clark branch"
+      }
+    ]
+  },
+  "ferguson_catalog_enumeration": {
+    "catalog": "Aspen Discovery shared MLC union catalog, scoped to Ferguson-held copies via available_at facet 'MLC - Ferguson Municipal Public Library District'",
+    "base_url": "https://mlc-fe.modiscovery.org",
+    "queries": [
+      {
+        "searchIndex": "Subject",
+        "lookfor": "yearbooks",
+        "result_count": 1,
+        "titles": [
+          "Yearbook (novel by Allyson Condie)"
+        ],
+        "verdict": "no school yearbooks"
+      },
+      {
+        "searchIndex": "Keyword",
+        "lookfor": "yearbook",
+        "result_count": 16,
+        "titles": [
+          "Yearbook",
+          "Gotham Academy: Volume 3, Yearbook",
+          "African American yearbook",
+          "Bakuman: 5, Yearbook and photobook",
+          "Good riddance",
+          "Let's go cruizin' again: remembering more North County \"happy days\" : 1950s-1970s, featuring Florissant, Ferguson & high school memories",
+          "Project (un)popular",
+          "Entertainment weekly [DT]",
+          "Crew",
+          "Too bright to see",
+          "Creep: a love story",
+          "Parkland: birth of a movement",
+          "Forget me Nat",
+          "Big Nate: Prank you very much",
+          "Reagan, in his own hand",
+          "Consumer Reports"
+        ],
+        "verdict": "all fiction/media; zero school yearbooks"
+      },
+      {
+        "searchIndex": "LocalCallNumber",
+        "lookfor": "yearbook",
+        "result_count": 16,
+        "verdict": "same 16 non-school items as keyword search"
+      },
+      {
+        "searchIndex": "Keyword",
+        "lookfor": "McCluer OR Ferguson yearbook",
+        "result_count": 16,
+        "verdict": "same non-school items; no McCluer/Ferguson HS yearbooks"
+      },
+      {
+        "searchIndex": "Subject",
+        "lookfor": "Ferguson (Mo.)",
+        "result_count": 27,
+        "titles_summary": "city histories, charters, budgets, zoning, memoirs (e.g. 'Ferguson: a city remembered', 'A history of Ferguson, Missouri, 1855-1918'); no school yearbooks or school district publications",
+        "verdict": "no yearbooks"
+      }
+    ],
+    "school_name_searches": "McCluer High School, Ferguson High School, Ferguson Middle/Junior High, Vogt Junior High, Normandy High School - zero yearbook holdings",
+    "site_check": "Ferguson PL site pages (/fedigital, /feresearch, /feservices, /ferc, /feabout) show no local-history or yearbook collection; only cardholder genealogy databases (Ancestry in-library, etc. - out of scope per policy).",
+    "blockers": "ferguson.lib.mo.us and mlc-fe.modiscovery.org sit behind Anubis proof-of-work anti-bot - plain HTTP blocked; enumeration performed through real browser."
+  }
+}
