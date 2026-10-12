@@ -4,7 +4,8 @@ See `DATA_PIPELINE.md` for full background and how we got here.
 
 **Done:** Pilot (12 schools) and the Track A scale-up (325 more schools,
 PR #3) are both complete and merged to `main`. `schools_master.json`/`.csv`
-now cover all 337 schools.
+now cover all 337 schools. `track_b_fanout_prompt.md` is written and ready
+to run (not yet executed) — see item 2 below.
 
 ## 1. Resolve flagged ambiguous/phantom rows
 
@@ -30,15 +31,23 @@ of just names:
   `schools_master.json` by the batch workers; no action needed unless
   auditing.
 
-## 2. Scale Track B (archive surveys)
+## 2. Run the Track B fan-out (archive surveys) — ready, not yet started
 
-Repeat the Track B pattern (see `pilot/track_b_prompt.md`) against
-additional institutions — SLU, WashU, UMSL, Mizzou, Missouri History
-Museum, etc. Each survey must check `yearbook_registry_master.json` first
-and skip re-searching for yearbooks already confirmed digitized
-elsewhere. Given the scale (337 schools x N institutions), this is
-likely its own coordinator + Agent Fan-Out pass, following the same
-pattern as `track_a_coordinator_prompt.md`.
+`track_b_fanout_prompt.md` is written and ready to hand to a coordinator
+Devin session: it partitions the remaining archive survey into 7 named
+surfaces (Archdiocese of St. Louis, Concordia Historical Institute,
+SHSMO/WHMC, St. Charles Co. Historical Society, SLCL Digital full
+scale-up, SLCL Physical full scale-up, north county municipal libraries),
+each run via Agent Fan-Out, same pattern as `track_a_coordinator_prompt.md`.
+Each child tags its rows with `source_archive_id`; after merging,
+`flatten_registry.py` rolls up a `scan_status` verdict per school/year
+across every institution and flags any citation collisions for review
+before the PR is opened.
+
+Remaining institutions not yet covered by a named surface above (SLU,
+WashU, UMSL, Mizzou, Missouri History Museum, etc. — see
+`data/digital_archives.json` for the full inventory and `coverage_status`
+per institution) would be a follow-up fan-out using the same pattern.
 
 ## 3. Repo housekeeping (optional, low priority)
 

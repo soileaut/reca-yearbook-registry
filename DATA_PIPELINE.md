@@ -120,9 +120,20 @@ full dataset. See `pilot/` for the original task prompts and output.
   `batches/track_a_scaleup_summary.md` for the aggregated data-quality
   findings (phantom-row flags, cross-batch duplicate candidates, seed
   data errors) carried forward from all 22 batches.
+- **Track B fan-out designed and ready to run (not yet executed):**
+  `track_b_fanout_prompt.md` partitions the remaining archive survey into
+  7 named surfaces (Archdiocese of St. Louis, Concordia Historical
+  Institute, SHSMO/WHMC, St. Charles Co. Historical Society, SLCL Digital
+  full scale-up, SLCL Physical full scale-up, north county municipal
+  libraries) to run via Agent Fan-Out, same pattern as Track A. Includes
+  `data/digital_archives.json` (archive inventory: authority tiers,
+  short display names, coverage status per institution) and
+  `flatten_registry.py` (cross-institution reconciliation: rolls up a
+  `scan_status` verdict per school/year across every institution that was
+  checked, and flags citation collisions for review).
 - **Not yet started:** resolving the flagged ambiguous-duplicate/phantom
-  rows surfaced by the scale-up (see `NEXT_STEPS.md`), and any Track B
-  survey beyond St. Louis County Library.
+  rows surfaced by the scale-up (see `NEXT_STEPS.md`), and actually
+  running the Track B fan-out above.
 
 ## Repo map
 
@@ -137,6 +148,9 @@ data/
   remaining_schools_seed.json    -- all_schools_seed minus already-researched rows
   schools_seed_deduped.json      -- deduplicated work list (325 unique schools)
   schools_seed_deduped_review_needed.json -- ambiguous dedup cases, flagged not resolved
+  digital_archives.json          -- Track B archive inventory: authority tiers, short display
+                                     names, per-archive coverage_status/covered_schools
+  archive_indexes/               -- raw enumerated per-archive listings (Track B fan-out output)
 
 pilot/                          -- the ZIP 63147 pilot (Track A + Track B), completed
   pilot_seed_63147.json/.csv
@@ -154,11 +168,18 @@ batches/                        -- Track A scale-up output (22 batches), complet
 
 track_a_coordinator_prompt.md   -- task spec used for the Track A scale-up (completed; kept as a reusable template)
 
+track_b_fanout_prompt.md       -- task spec for the Track B archive survey fan-out (ready to run)
+
 schools_master.json             -- merged schools table across all completed work
 yearbook_registry_master.json   -- merged yearbook registry across all completed work
+flat_yearbook_registry.csv      -- pivoted, human/publish-ready view (one row per school+year,
+                                    with scan_status rollup) -- regenerate via flatten_registry.py
+citation_collisions.json        -- flatten_registry.py output: citation_urls reused across
+                                    different school_ids, needs human review if non-empty
 
 merge_schools.py                -- regenerates schools_master.json
 merge_registry.py               -- regenerates yearbook_registry_master.json
+flatten_registry.py             -- regenerates flat_yearbook_registry.csv + citation_collisions.json
 find_potential_duplicates.py    -- flags new rows that match already-researched schools
 dedupe_seed.py                  -- self-deduplicates raw seed rows (exact-match only, safe)
 compute_reca_scope.py           -- deterministically computes reca_scope_status
