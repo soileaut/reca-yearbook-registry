@@ -1,0 +1,54 @@
+{
+  "archive_id": "concordia_hist",
+  "archive_name": "Concordia Historical Institute (Lutheran Church-Missouri Synod Archives), Saint Louis, MO",
+  "catalog_url": "https://concordiahistoricalinstitute.libraryhost.com/",
+  "enumeration_method": "browse_index",
+  "enumerated_date": "2026-10-12",
+  "enumerated_by": "track-b-concordia_hist",
+  "notes": "ArchivesSpace public interface. Enumerated (a) the 'School yearbooks' subject index (/subjects/960) - the authoritative list of all yearbook-holding series; (b) the top-level children of the two Missouri geographic collections (resources/3340 Saint Louis, 97 nodes; resources/3339 Missouri, 92 nodes) via /tree/root JSON; (c) targeted keyword/title searches per seed school. ArchivesSpace /tree/node and /tree/waypoint endpoints return HTTP 500 server-side, so deeper series expansion was not possible; per-school keyword searches were run as a compensating sweep.",
+  "indexes": [
+    {
+      "name": "Subject: School yearbooks (subjects/960) - all yearbook-holding series in repository",
+      "source_url": "https://concordiahistoricalinstitute.libraryhost.com/subjects/960",
+      "entries": [
+        {"title": "Lutheran High School (Saint Louis, Missouri). The Crusader (yearbook), 1949-1964", "uri": "/repositories/2/archival_objects/62754", "parent": "Library. Geographic Collection. Missouri. Saint Louis / Lutheran High School Association (LAHE)", "years_held": "1949, 1951-1957 (2 copies each), 1959, 1960, 1962, 1963, 1964", "seed_match": false, "note": "Original Lutheran High School ('LHS Central'), St. Louis city. NOT in schools_master.json - no seed row exists."},
+        {"title": "Lutheran High School North (Saint Louis, Missouri). The Crusader (yearbook), 1965-1974", "uri": "/repositories/2/archival_objects/62755", "parent": "Library. Geographic Collection. Missouri. Saint Louis / Lutheran High School Association (LAHE)", "years_held": "1965, 1967, 1968, 1969, 1970, 1972, 1974", "seed_match": true, "seed_school_id": "ALL-651", "note": "LHS North campus (Spanish Lake area). Coordinator-assigned school_id ALL-651, but no such row exists in schools_master.json (max ALL id = 650)."},
+        {"title": "Lutheran High School South (Saint Louis, Missouri). The Lance (yearbook), 1960-1989", "uri": "/repositories/2/archival_objects/62756", "parent": "Library. Geographic Collection. Missouri. Saint Louis / Lutheran High School Association (LAHE)", "years_held": "complete run 1960-1989 per catalog", "seed_match": false, "note": "LHS South campus (Tesson Ferry Rd, Lemay/Affton area). NOT in schools_master.json - no seed row exists."},
+        {"title": "Luther Institute (Chicago, Illinois). Blue and Gold Annual, 1918-1950", "uri": "/repositories/2/archival_objects/102586", "parent": "Geographic Collection. Illinois / Chicago / Luther Institute", "seed_match": false, "note": "DECOY - Chicago IL, not Missouri."},
+        {"title": "The Shield (yearbook), 1954-1982", "uri": "/repositories/2/archival_objects/3175", "parent": "Geographic Collection / Chicago / Lutheran High School", "seed_match": false, "note": "DECOY - Chicago IL, not Missouri."},
+        {"title": "The Citadel (yearbook), 1958-1973", "uri": "/repositories/2/archival_objects/9706", "parent": "Geographic Collection / Racine / Lutheran High School", "seed_match": false, "note": "DECOY - Racine WI."},
+        {"title": "The Pioneer and The Concordian - Yearbooks, 1915-1956", "uri": "/repositories/2/archival_objects/5137", "parent": "Geographic Collection / Fort Wayne. Concordia College", "seed_match": false, "note": "DECOY - Fort Wayne IN college."}
+      ]
+    },
+    {
+      "name": "Seed-school-relevant deposits (no yearbooks) found in enumerated Missouri geographic collections + targeted searches",
+      "entries": [
+        {"title": "River Roads Lutheran School Records", "uri": "/repositories/2/resources/2166", "seed_school_id": "63147-04", "contents": "0.21 lin ft, 1980-1989: correspondence, financial records, minutes, printed material. No yearbooks."},
+        {"title": "River Road Lutheran School, 1994 (single brochure)", "uri": "/repositories/2/archival_objects/55138", "seed_school_id": "63147-04", "contents": "Single brochure, not a yearbook."},
+        {"title": "Salem Lutheran Church (Florissant [Black Jack], Missouri) Records", "uri": "/repositories/2/resources/2546", "seed_school_id": "ALL-051/ALL-052", "contents": "1850-1999, 2.43 lin ft + 3 microfilm reels; series 'Print Records' (ao 90286) and 'Microfilm Records' (ao 90287) - congregational records, no school yearbook titles visible."},
+        {"title": "Black Jack (Florissant). Salem Lutheran Church (geographic series)", "uri": "/repositories/2/archival_objects/5953", "seed_school_id": "ALL-051/ALL-052", "contents": "child_count 0 - empty series node."},
+        {"title": "Grace Lutheran Chapel (Saint Louis, Missouri) Records", "uri": "/repositories/2/resources/3238", "seed_school_id": "ALL-484", "contents": "1889-1994, microfilm + 4.51GB memory stick; children are 'Official Acts' nodes. Congregation moved to Bellefontaine Neighbors 1963. No yearbooks."},
+        {"title": "Bellefontaine Neighbors (geographic series)", "uri": "/repositories/2/archival_objects/5952", "seed_school_id": "ALL-484", "contents": "1 child node (not expandable - tree API 500)."},
+        {"title": "Saint Ann (geographic series) - Hope Lutheran Church, St. Ann materials", "uri": "/repositories/2/archival_objects/59642", "seed_school_id": "ALL-295", "contents": "Congregational items: histories (2004), bulletins, dedication (1959), 25th/35th anniversary items, constitution, building plans. No school yearbook."},
+        {"title": "New Melle. Saint Paul Lutheran Church (geographic series)", "uri": "/repositories/2/archival_objects/6023", "seed_school_id": "ALL-596/ALL-598", "contents": "6 children: 150th-anniversary item (ao 110123), museum artifacts (glass cases, chalice aos 77469-77470, 76796), etc. No school yearbook."},
+        {"title": "Saint Paul Lutheran (New Melle, Missouri) Sunday School Maps", "uri": "/repositories/2/accessions/1766", "seed_school_id": "ALL-596/ALL-598", "contents": "Unprocessed accession: 21 Sunday School maps. Needs staff appraisal; not yearbooks."},
+        {"title": "Lutheran High School (Saint Charles, Missouri) Records", "uri": "/repositories/2/resources/477", "seed_match": false, "contents": "Administrative records of the separate Lutheran High School of St. Charles County (founded 1975). No seed row exists for this school."},
+        {"title": "Lutheran High School of Saint Charles County Records", "uri": "/repositories/2/resources/3975", "seed_match": false, "contents": "Administrative records."},
+        {"title": "Lutheran High School (Saint Charles, Missouri) Permanent Student Records", "uri": "/repositories/2/resources/3335", "seed_match": false, "contents": "Student records, not yearbooks."},
+        {"title": "Lutheran High School of Saint Charles County Student Records", "uri": "/repositories/2/resources/2907", "seed_match": false, "contents": "Student records, not yearbooks."},
+        {"title": "Saint Louis Lutheran High School (Saint Louis, Missouri) Records", "uri": "/repositories/2/resources/2394", "seed_match": false, "contents": "Administrative records of the LAHE / city Lutheran High School."},
+        {"title": "Lutheran High School Building Fund Campaign (Saint Louis, Missouri)", "uri": "/repositories/2/resources/2906", "seed_match": false, "contents": "Fundraising records."},
+        {"title": "Messiah Lutheran Church (Saint Louis, Missouri)", "uri": "/repositories/2/resources/4065", "seed_school_id": "ALL-575", "contents": "1 GB flash drive, 1908-2000 - a Saint Louis CITY Messiah congregation (1908-2000 dates). Seed school ALL-575 is sponsored by Messiah Lutheran Church, Weldon Spring (St. Charles County); no Weldon Spring deposit exists in catalog ('Weldon' keyword search = 6 irrelevant hits). Treated as different congregation / no match."},
+        {"title": "Emmaus Lutheran Church - 'Yearbook' (single folder)", "uri": "/repositories/2/archival_objects/13280", "seed_match": false, "contents": "Congregational yearbook under Emmaus Lutheran Church series (St. Louis geo collection), not a school yearbook. No seed match."},
+        {"title": "Atonement Lutheran Church objects", "uri": "/repositories/2/archival_objects/19724 (and 18071, 16312, 19020, 70362, 97140)", "seed_school_id": "ALL-016", "contents": "DECOYS - verified 19724 is Racine, Wisconsin; other bare 'Atonement' nodes are non-MO geographic/museum entries. No Florissant Atonement deposit (also, seed school's congregation is ELCA, not LCMS)."}
+      ]
+    },
+    {
+      "name": "Geographic collection top-level indexes pulled via /tree/root",
+      "entries": [
+        {"title": "Library. Geographic Collection. Missouri. Saint Louis (Library-Saint Louis)", "uri": "/repositories/2/resources/3340", "children_count": 97, "seed_relevant_children": ["archival_objects/51026 Lutheran High School Association (LAHE) - 7 children", "archival_objects/6695 Hope Lutheran Church - 21 children", "archival_objects/6680 Ebenezer Lutheran Church", "archival_objects/6842 Saint Paul Lutheran (city)", "archival_objects/6959 Zion Lutheran Church"]},
+        {"title": "Library. Geographic Collection. Missouri (Library-Missouri)", "uri": "/repositories/2/resources/3339", "children_count": 92, "seed_relevant_children": ["archival_objects/5944 Affton", "archival_objects/5952 Bellefontaine Neighbors - 1 child", "archival_objects/5953 Black Jack (Florissant). Salem Lutheran Church - 0", "archival_objects/5990 Florissant - 7 children", "archival_objects/6023 New Melle. Saint Paul Lutheran Church - 6 children", "archival_objects/59642 Saint Ann - 0", "archival_objects/6037 Saint Charles - 8 children", "archival_objects/6056 W - Z - 14 children"]}
+      ]
+    }
+  ]
+}
