@@ -8,7 +8,8 @@
       "predecessor_districts lists districts that merged INTO this district (and were dissolved by it)",
       "types: public | parish_system | private_operator | county_special | state_agency | higher_ed"
     ],
-    "records_office_added": "Track C addendum (Q4) 2026-10-14: records_office blocks added to all 70 entries. confidence=confirmed means the office/custodian was verified on the organization's public site; probable means custody is derived from successor_district_id under Missouri DESE guidance (closed-school records go to the district now serving the area) or from operator policy (e.g. open archdiocesan schools hold their own records; closed ones go to the Archdiocesan Archives). Parish schools are covered by DIST-401: closed parish/archdiocesan school records are held by the Archdiocese of St. Louis Archives (20 Archbishop May Dr), NOT the parish. The chain endpoint for a dissolved district is its successor's office — mirrored here."
+    "records_office_added": "Track C addendum (Q4) 2026-10-14: records_office blocks added to all 70 entries. confidence=confirmed means the office/custodian was verified on the organization's public site; probable means custody is derived from successor_district_id under Missouri DESE guidance (closed-school records go to the district now serving the area) or from operator policy (e.g. open archdiocesan schools hold their own records; closed ones go to the Archdiocesan Archives). Parish schools are covered by DIST-401: closed parish/archdiocesan school records are held by the Archdiocese of St. Louis Archives (20 Archbishop May Dr), NOT the parish. The chain endpoint for a dissolved district is its successor's office — mirrored here.",
+    "reca_request_added": "Track C addendum 2 (2026-10-14): reca_request blocks added to all entries. documented=true only where a page/form/statement explicitly references RECA or the federal radiation-exposure compensation program (verified at Hazelwood, Pattonville, Ritenour, Parkway, FHSD, FFSD, and the Archdiocese of St. Louis); dissolved districts inherit their successor's entry, prefixed with a custody sentence, at confidence probable. display_text is written for verbatim rendering on the public site."
   },
   "districts": [
     {
@@ -57,6 +58,14 @@
         "confidence": "confirmed",
         "citation": "https://www.hazelwoodschools.org/departments/student-enrollment/transcripts",
         "notes": "Alumni transcripts via Transcript Request Form emailed to transcripts@hazelwoodschools.org (photo ID required; 3-5 business days). Sunshine custodian of records: Kristina Allen, kallen2@hazelwoodschools.org (https://www.hazelwoodschools.org/about-us/board-of-education/open-recordssunshine-requests). Custodian for the 13 rural predecessor districts (DIST-121..133) — their school records live here."
+      },
+      "reca_request": {
+        "documented": true,
+        "display_text": "Use the district's RECA Record Request form on this page to ask for student records that can document school attendance in an eligible ZIP code; the Enrollment Department locates and processes the records. Former students, family members, survivors, or authorized representatives may submit the form — the district does not determine RECA eligibility; that decision is made by the U.S. Department of Justice.",
+        "url": "https://www.hazelwoodschools.org/about-us/board-of-education/reca",
+        "as_of": "2026-10-14",
+        "confidence": "confirmed",
+        "citation": "https://www.hazelwoodschools.org/about-us/board-of-education/reca"
       }
     },
     {
@@ -96,6 +105,14 @@
         "confidence": "confirmed",
         "citation": "https://www.fergflor.org/families/alumni",
         "notes": "Alumni transcript requests via the district's Families > Alumni page (Transcripts link). District office 1005 Waterford Dr per NCES/needmytranscript. Custodian for the dissolved Berkeley, Kinloch, Robertson, Scudder, Ferguson Public, and Florissant districts (all records inherited at the 1952 merger and 1975 federal annexation)."
+      },
+      "reca_request": {
+        "documented": true,
+        "display_text": "The district has hosted a RECA informational event where attendees could get help with applications and request required documents, but no standing RECA-specific form is published — request transcripts through the district's alumni transcript request on the Families > Alumni page.",
+        "url": "https://www.fergflor.org/families/alumni",
+        "as_of": "2026-10-14",
+        "confidence": "probable",
+        "citation": "https://events.humanitix.com/ffsdreca2"
       }
     },
     {
@@ -134,6 +151,14 @@
         "confidence": "confirmed",
         "citation": "https://www.psdr3.org/community",
         "notes": "District maintains a dedicated RECA Record Requests section on its Community page with Student Form and Staff Form — the single best-documented RECA endpoint in the region. PHS Registrar Lesley Gray, (314) 213-8051, grayl01@psdr3.org for alumni transcripts. Custodian for all dissolved Pattonville-feeder districts (Bridgeton, Maryland Heights, Mount Pleasant, Penn-Junction, Fee Fee No.16, St. Ann, School District of Pattonville)."
+      },
+      "reca_request": {
+        "documented": true,
+        "display_text": "Fill out the district's RECA Record Request form on this page — separate Student and Staff forms are provided — and the appropriate department will follow up with the requested information. For Pattonville High School yearbooks, check the St. Louis County Library archives first; the library is digitizing that collection and volumes from 2000 onward can only be viewed in person at the Clark Family Branch.",
+        "url": "https://www.psdr3.org/community",
+        "as_of": "2026-10-14",
+        "confidence": "confirmed",
+        "citation": "https://www.psdr3.org/community"
       }
     },
     {
@@ -166,6 +191,14 @@
         "confidence": "confirmed",
         "citation": "https://www.ritenourschools.org/community/alumni/request-a-transcript",
         "notes": "Alumni transcripts via Parchment ($4.50, processed Tuesdays); registrar Reauna Dodds doddsr@ritenourschools.org. Custodian of records district-wide: Assistant to the Superintendent of Student Services. Custodian for dissolved Ritenour-feeder districts (Overland, Ritenour, Elmwood Park)."
+      },
+      "reca_request": {
+        "documented": true,
+        "display_text": "Submit the district's RECA Information Request form on this page and allow 4–6 weeks for processing. A valid photo ID is required before records are released — shown in person or emailed — and a request for a deceased person's records may require a death certificate, with additional documentation possible if you are representing a family member. A dedicated RECA phone line (314-493-6017) and email (reca@ritenourschools.org) are published; the page also links the St. Louis County Library Ritenour yearbook archive.",
+        "url": "https://www.ritenourschools.org/community/reca-information-request",
+        "as_of": "2026-10-14",
+        "confidence": "confirmed",
+        "citation": "https://www.ritenourschools.org/community/reca-information-request"
       }
     },
     {
@@ -192,6 +225,14 @@
         "confidence": "confirmed",
         "citation": "https://www.normandysc.org/about-nsc/open-recordssunshine-requests",
         "notes": "HS transcripts via Parchment; attendance/verification requests to Natessa Montgomery nmontgomery@normandysc.org. Sunshine custodian: Cecelia M. Rigsby, Executive Board Secretary, crigsby@normandysc.org, fax 314-385-3511. Custodian for Wellston School District records (2010 annexation) and the dissolved Normandy School District."
+      },
+      "reca_request": {
+        "documented": false,
+        "display_text": "Order a high-school transcript online through Parchment; attendance and verification requests go to the district registrar contact listed on the page (Natessa Montgomery, nmontgomery@normandysc.org). Public-records requests under the Sunshine Law go in writing to the custodian of records at 3855 Lucas and Hunt Road, Normandy, MO 63121 (fax 314-385-3511).",
+        "url": "https://normandyhighschool.normandysc.org/registrar-office-transcripts-student-records",
+        "as_of": "2026-10-14",
+        "confidence": "confirmed",
+        "citation": "https://normandyhighschool.normandysc.org/registrar-office-transcripts-student-records"
       }
     },
     {
@@ -221,6 +262,14 @@
         "confidence": "confirmed",
         "citation": "https://www.civicplus.com/case-studies/rr/riverview-gardens-school-district-enhances-records-management-nextrequest/",
         "notes": "Custodian of Records: Sha Fields, Coordinator of Board Governance; district processes records requests through the NextRequest public-records portal (implemented May 2023). Custodian for Science Hill District #20 and Moline predecessor districts."
+      },
+      "reca_request": {
+        "documented": false,
+        "display_text": "Submit a records request through the district's online records-request portal or write to the Custodian of Records (Coordinator of Board Governance) at the district office, 1370 Northumberland Dr, St. Louis, MO 63137, 314-869-2505.",
+        "url": "https://www.riverviewgardens.org/",
+        "as_of": "2026-10-14",
+        "confidence": "probable",
+        "citation": "https://www.civicplus.com/case-studies/rr/riverview-gardens-school-district-enhances-records-management-nextrequest/"
       }
     },
     {
@@ -247,6 +296,14 @@
         "confidence": "confirmed",
         "citation": "https://www.ucityschools.org/departments/communications/sunshine-information-requests",
         "notes": "Lakesha Boyce, Executive Manager for the Superintendent & Board of Education, is Custodian of Records (lboyce@ucityschools.org). Student education records requests go to the school principal per FERPA notice; alumni transcripts handled at U. City HS."
+      },
+      "reca_request": {
+        "documented": false,
+        "display_text": "Submit a written request to the Custodian of Records at 7700 Olive Blvd, University City, MO 63130 (email lboyce@ucityschools.org, phone 314-290-4002); Sunshine responses come within three business days and fees may apply. Alumni transcripts are handled by University City High School.",
+        "url": "https://www.ucityschools.org/departments/communications/sunshine-information-requests",
+        "as_of": "2026-10-14",
+        "confidence": "confirmed",
+        "citation": "https://www.ucityschools.org/departments/communications/sunshine-information-requests"
       }
     },
     {
@@ -275,6 +332,14 @@
         "confidence": "confirmed",
         "citation": "https://www.slps.org/community/student-transcripts",
         "notes": "Central records office for all SLPS current/former student records incl. elementary records ($3), HS transcripts ($3), genealogy searches ($10). Email SLPSTRANSCRIPTS@SLPS.ORG, fax 314-633-5230. Sunshine custodian: Kim Dutch, SAR@slps.org. Custodian for the Baden local district (DIST-134) schools absorbed in 1876 and for closed city schools (e.g. Beaumont, Baden Elementary)."
+      },
+      "reca_request": {
+        "documented": false,
+        "display_text": "Former students download the Student Transcript Request Form, attach a copy of photo ID, and email it to SLPSTRANSCRIPTS@SLPS.ORG or mail it to the Student Transcript Office, 801 N. 11th Street, St. Louis, MO 63101 (314-645-2648, fax 314-633-5230); walk-in requests are accepted weekdays 8:00 a.m.–4:30 p.m. Fees: $3 per transcript or elementary record, $5 per graduation class list, $10 per genealogy search — cash, money order, or cashier's check only.",
+        "url": "https://www.slps.org/community/student-transcripts",
+        "as_of": "2026-10-14",
+        "confidence": "confirmed",
+        "citation": "https://www.slps.org/community/student-transcripts"
       }
     },
     {
@@ -305,6 +370,14 @@
         "confidence": "confirmed",
         "citation": "https://www.parkwayschools.net/contact/departments/student-services/data-management-research-and-enrollment/student-records-and-transcripts",
         "notes": "Student Records office maintains education/health records for ALL former Parkway students (records held at school of last attendance for only 1 year). Contact Kami Kruger, Student Records Specialist, kkruger@parkwayschools.net. Sunshine custodian: Elisa Tomich, chief communications officer. NOTE: special-education records custodian is Special School District (DIST-301) for this and all STL County districts. Custodian for Fern Ridge, Mason Ridge C-2, and Weber predecessor records (1954 C-2 merger)."
+      },
+      "reca_request": {
+        "documented": true,
+        "display_text": "Fill out the RECA Records Request form on this page; responses are routed to the appropriate department, which follows up with the requested information. A RECA hotline is listed at (202) 228-4388. For special-education records, requests go instead to the Special School District of St. Louis County, which is the custodian of those records for Parkway and every other St. Louis County district.",
+        "url": "https://www.parkwayschools.net/contact/requests-for-information",
+        "as_of": "2026-10-14",
+        "confidence": "confirmed",
+        "citation": "https://www.parkwayschools.net/contact/requests-for-information"
       }
     },
     {
@@ -331,6 +404,14 @@
         "confidence": "probable",
         "citation": "https://dese.mo.gov/transcripts-and-diplomas",
         "notes": "District dissolved 1952; student records are presumed held by successor district Ferguson-Florissant School District per Missouri DESE guidance (closed-school records go to the superintendent's office of the district now serving the area). Contact shown is the successor district's records office."
+      },
+      "reca_request": {
+        "documented": true,
+        "display_text": "This district is dissolved; records are presumed held by its successor, Ferguson-Florissant School District. The district has hosted a RECA informational event where attendees could get help with applications and request required documents, but no standing RECA-specific form is published — request transcripts through the district's alumni transcript request on the Families > Alumni page.",
+        "url": "https://www.fergflor.org/families/alumni",
+        "as_of": "2026-10-14",
+        "confidence": "probable",
+        "citation": "https://events.humanitix.com/ffsdreca2"
       }
     },
     {
@@ -357,6 +438,14 @@
         "confidence": "probable",
         "citation": "https://dese.mo.gov/transcripts-and-diplomas",
         "notes": "District dissolved 1952; student records are presumed held by successor district Ferguson-Florissant School District per Missouri DESE guidance (closed-school records go to the superintendent's office of the district now serving the area). Contact shown is the successor district's records office."
+      },
+      "reca_request": {
+        "documented": true,
+        "display_text": "This district is dissolved; records are presumed held by its successor, Ferguson-Florissant School District. The district has hosted a RECA informational event where attendees could get help with applications and request required documents, but no standing RECA-specific form is published — request transcripts through the district's alumni transcript request on the Families > Alumni page.",
+        "url": "https://www.fergflor.org/families/alumni",
+        "as_of": "2026-10-14",
+        "confidence": "probable",
+        "citation": "https://events.humanitix.com/ffsdreca2"
       }
     },
     {
@@ -391,6 +480,14 @@
         "confidence": "probable",
         "citation": "https://dese.mo.gov/transcripts-and-diplomas",
         "notes": "District dissolved 1975; student records are presumed held by successor district Ferguson-Florissant School District per Missouri DESE guidance (closed-school records go to the superintendent's office of the district now serving the area). Contact shown is the successor district's records office."
+      },
+      "reca_request": {
+        "documented": true,
+        "display_text": "This district is dissolved; records are presumed held by its successor, Ferguson-Florissant School District. The district has hosted a RECA informational event where attendees could get help with applications and request required documents, but no standing RECA-specific form is published — request transcripts through the district's alumni transcript request on the Families > Alumni page.",
+        "url": "https://www.fergflor.org/families/alumni",
+        "as_of": "2026-10-14",
+        "confidence": "probable",
+        "citation": "https://events.humanitix.com/ffsdreca2"
       }
     },
     {
@@ -419,6 +516,14 @@
         "confidence": "probable",
         "citation": "https://dese.mo.gov/transcripts-and-diplomas",
         "notes": "District dissolved 1975; student records are presumed held by successor district Ferguson-Florissant School District per Missouri DESE guidance (closed-school records go to the superintendent's office of the district now serving the area). Contact shown is the successor district's records office."
+      },
+      "reca_request": {
+        "documented": true,
+        "display_text": "This district is dissolved; records are presumed held by its successor, Ferguson-Florissant School District. The district has hosted a RECA informational event where attendees could get help with applications and request required documents, but no standing RECA-specific form is published — request transcripts through the district's alumni transcript request on the Families > Alumni page.",
+        "url": "https://www.fergflor.org/families/alumni",
+        "as_of": "2026-10-14",
+        "confidence": "probable",
+        "citation": "https://events.humanitix.com/ffsdreca2"
       }
     },
     {
@@ -445,6 +550,14 @@
         "confidence": "probable",
         "citation": "https://dese.mo.gov/transcripts-and-diplomas",
         "notes": "District split 1937 into the Berkeley and Kinloch districts; BOTH were annexed to Ferguson-Florissant effective Feb 1, 1975 (388 F.Supp. 1058), so FFSD is the presumed custodian of any surviving records per Missouri DESE guidance. Contact shown is the successor district's records office."
+      },
+      "reca_request": {
+        "documented": true,
+        "display_text": "This district split in 1937 into the Berkeley and Kinloch districts, both of which were annexed to Ferguson-Florissant effective February 1, 1975 — its records are presumed held by FFSD. The district has hosted a RECA informational event where attendees could get help with applications and request required documents, but no standing RECA-specific form is published — request transcripts through the district's alumni transcript request on the Families > Alumni page.",
+        "url": "https://www.fergflor.org/families/alumni",
+        "as_of": "2026-10-14",
+        "confidence": "probable",
+        "citation": "https://events.humanitix.com/ffsdreca2"
       }
     },
     {
@@ -473,6 +586,14 @@
         "confidence": "probable",
         "citation": "https://dese.mo.gov/transcripts-and-diplomas",
         "notes": "District dissolved 2014; student records are presumed held by successor district Normandy Schools Collaborative per Missouri DESE guidance (closed-school records go to the superintendent's office of the district now serving the area). Contact shown is the successor district's records office."
+      },
+      "reca_request": {
+        "documented": true,
+        "display_text": "This district is dissolved; records are presumed held by its successor, Normandy Schools Collaborative. Submit the district's RECA Information Request form on this page and allow 4–6 weeks for processing. A valid photo ID is required before records are released — shown in person or emailed — and a request for a deceased person's records may require a death certificate, with additional documentation possible if you are representing a family member. A dedicated RECA phone line (314-493-6017) and email (reca@ritenourschools.org) are published; the page also links the St. Louis County Library Ritenour yearbook archive.",
+        "url": "https://www.ritenourschools.org/community/reca-information-request",
+        "as_of": "2026-10-14",
+        "confidence": "probable",
+        "citation": "https://www.ritenourschools.org/community/reca-information-request"
       }
     },
     {
@@ -499,6 +620,14 @@
         "confidence": "probable",
         "citation": "https://dese.mo.gov/transcripts-and-diplomas",
         "notes": "District dissolved 1960; student records are presumed held by successor district Berkeley School District per Missouri DESE guidance (closed-school records go to the superintendent's office of the district now serving the area). Contact shown is the successor district's records office."
+      },
+      "reca_request": {
+        "documented": true,
+        "display_text": "This district is dissolved; records are presumed held by its successor, Berkeley School District. The district has hosted a RECA informational event where attendees could get help with applications and request required documents, but no standing RECA-specific form is published — request transcripts through the district's alumni transcript request on the Families > Alumni page.",
+        "url": "https://www.fergflor.org/families/alumni",
+        "as_of": "2026-10-14",
+        "confidence": "probable",
+        "citation": "https://events.humanitix.com/ffsdreca2"
       }
     },
     {
@@ -525,6 +654,14 @@
         "confidence": "probable",
         "citation": "https://dese.mo.gov/transcripts-and-diplomas",
         "notes": "District dissolved 1964; student records are presumed held by successor district Berkeley School District per Missouri DESE guidance (closed-school records go to the superintendent's office of the district now serving the area). Contact shown is the successor district's records office."
+      },
+      "reca_request": {
+        "documented": true,
+        "display_text": "This district is dissolved; records are presumed held by its successor, Berkeley School District. The district has hosted a RECA informational event where attendees could get help with applications and request required documents, but no standing RECA-specific form is published — request transcripts through the district's alumni transcript request on the Families > Alumni page.",
+        "url": "https://www.fergflor.org/families/alumni",
+        "as_of": "2026-10-14",
+        "confidence": "probable",
+        "citation": "https://events.humanitix.com/ffsdreca2"
       }
     },
     {
@@ -551,6 +688,14 @@
         "confidence": "probable",
         "citation": "https://dese.mo.gov/transcripts-and-diplomas",
         "notes": "District dissolved 1962; student records are presumed held by successor district Pattonville R-III School District per Missouri DESE guidance (closed-school records go to the superintendent's office of the district now serving the area). Contact shown is the successor district's records office."
+      },
+      "reca_request": {
+        "documented": true,
+        "display_text": "This district is dissolved; records are presumed held by its successor, Pattonville R-III School District. Fill out the district's RECA Record Request form on this page — separate Student and Staff forms are provided — and the appropriate department will follow up with the requested information. For Pattonville High School yearbooks, check the St. Louis County Library archives first; the library is digitizing that collection and volumes from 2000 onward can only be viewed in person at the Clark Family Branch.",
+        "url": "https://www.psdr3.org/community",
+        "as_of": "2026-10-14",
+        "confidence": "probable",
+        "citation": "https://www.psdr3.org/community"
       }
     },
     {
@@ -577,6 +722,14 @@
         "confidence": "probable",
         "citation": "https://dese.mo.gov/transcripts-and-diplomas",
         "notes": "District dissolved 1950; student records are presumed held by successor district Pattonville R-III School District per Missouri DESE guidance (closed-school records go to the superintendent's office of the district now serving the area). Contact shown is the successor district's records office."
+      },
+      "reca_request": {
+        "documented": true,
+        "display_text": "This district is dissolved; records are presumed held by its successor, Pattonville R-III School District. Fill out the district's RECA Record Request form on this page — separate Student and Staff forms are provided — and the appropriate department will follow up with the requested information. For Pattonville High School yearbooks, check the St. Louis County Library archives first; the library is digitizing that collection and volumes from 2000 onward can only be viewed in person at the Clark Family Branch.",
+        "url": "https://www.psdr3.org/community",
+        "as_of": "2026-10-14",
+        "confidence": "probable",
+        "citation": "https://www.psdr3.org/community"
       }
     },
     {
@@ -603,6 +756,14 @@
         "confidence": "probable",
         "citation": "https://dese.mo.gov/transcripts-and-diplomas",
         "notes": "District dissolved 1951; student records are presumed held by successor district Pattonville R-III School District per Missouri DESE guidance (closed-school records go to the superintendent's office of the district now serving the area). Contact shown is the successor district's records office."
+      },
+      "reca_request": {
+        "documented": true,
+        "display_text": "This district is dissolved; records are presumed held by its successor, Pattonville R-III School District. Fill out the district's RECA Record Request form on this page — separate Student and Staff forms are provided — and the appropriate department will follow up with the requested information. For Pattonville High School yearbooks, check the St. Louis County Library archives first; the library is digitizing that collection and volumes from 2000 onward can only be viewed in person at the Clark Family Branch.",
+        "url": "https://www.psdr3.org/community",
+        "as_of": "2026-10-14",
+        "confidence": "probable",
+        "citation": "https://www.psdr3.org/community"
       }
     },
     {
@@ -632,6 +793,14 @@
         "confidence": "probable",
         "citation": "https://dese.mo.gov/transcripts-and-diplomas",
         "notes": "District dissolved 1950; student records are presumed held by successor district Pattonville R-III School District per Missouri DESE guidance (closed-school records go to the superintendent's office of the district now serving the area). Contact shown is the successor district's records office."
+      },
+      "reca_request": {
+        "documented": true,
+        "display_text": "This district is dissolved; records are presumed held by its successor, Pattonville R-III School District. Fill out the district's RECA Record Request form on this page — separate Student and Staff forms are provided — and the appropriate department will follow up with the requested information. For Pattonville High School yearbooks, check the St. Louis County Library archives first; the library is digitizing that collection and volumes from 2000 onward can only be viewed in person at the Clark Family Branch.",
+        "url": "https://www.psdr3.org/community",
+        "as_of": "2026-10-14",
+        "confidence": "probable",
+        "citation": "https://www.psdr3.org/community"
       }
     },
     {
@@ -658,6 +827,14 @@
         "confidence": "probable",
         "citation": "https://dese.mo.gov/transcripts-and-diplomas",
         "notes": "District dissolved unknown; student records are presumed held by successor district Penn-Junction School District per Missouri DESE guidance (closed-school records go to the superintendent's office of the district now serving the area). Contact shown is the successor district's records office."
+      },
+      "reca_request": {
+        "documented": true,
+        "display_text": "This district is dissolved; records are presumed held by its successor, Penn-Junction School District. Fill out the district's RECA Record Request form on this page — separate Student and Staff forms are provided — and the appropriate department will follow up with the requested information. For Pattonville High School yearbooks, check the St. Louis County Library archives first; the library is digitizing that collection and volumes from 2000 onward can only be viewed in person at the Clark Family Branch.",
+        "url": "https://www.psdr3.org/community",
+        "as_of": "2026-10-14",
+        "confidence": "probable",
+        "citation": "https://www.psdr3.org/community"
       }
     },
     {
@@ -684,6 +861,14 @@
         "confidence": "probable",
         "citation": "https://dese.mo.gov/transcripts-and-diplomas",
         "notes": "District dissolved unknown; student records are presumed held by successor district Penn-Junction School District per Missouri DESE guidance (closed-school records go to the superintendent's office of the district now serving the area). Contact shown is the successor district's records office."
+      },
+      "reca_request": {
+        "documented": true,
+        "display_text": "This district is dissolved; records are presumed held by its successor, Penn-Junction School District. Fill out the district's RECA Record Request form on this page — separate Student and Staff forms are provided — and the appropriate department will follow up with the requested information. For Pattonville High School yearbooks, check the St. Louis County Library archives first; the library is digitizing that collection and volumes from 2000 onward can only be viewed in person at the Clark Family Branch.",
+        "url": "https://www.psdr3.org/community",
+        "as_of": "2026-10-14",
+        "confidence": "probable",
+        "citation": "https://www.psdr3.org/community"
       }
     },
     {
@@ -710,6 +895,14 @@
         "confidence": "probable",
         "citation": "https://dese.mo.gov/transcripts-and-diplomas",
         "notes": "District dissolved; student records presumed held by successor district School District of Pattonville per Missouri DESE guidance. Contact shown is the successor's records office."
+      },
+      "reca_request": {
+        "documented": true,
+        "display_text": "This district is dissolved; records are presumed held by its successor, School District of Pattonville. Fill out the district's RECA Record Request form on this page — separate Student and Staff forms are provided — and the appropriate department will follow up with the requested information. For Pattonville High School yearbooks, check the St. Louis County Library archives first; the library is digitizing that collection and volumes from 2000 onward can only be viewed in person at the Clark Family Branch.",
+        "url": "https://www.psdr3.org/community",
+        "as_of": "2026-10-14",
+        "confidence": "probable",
+        "citation": "https://www.psdr3.org/community"
       }
     },
     {
@@ -738,6 +931,14 @@
         "confidence": "probable",
         "citation": "https://dese.mo.gov/transcripts-and-diplomas",
         "notes": "District dissolved 1951; student records are presumed held by successor district Pattonville R-III School District per Missouri DESE guidance (closed-school records go to the superintendent's office of the district now serving the area). Contact shown is the successor district's records office."
+      },
+      "reca_request": {
+        "documented": true,
+        "display_text": "This district is dissolved; records are presumed held by its successor, Pattonville R-III School District. Fill out the district's RECA Record Request form on this page — separate Student and Staff forms are provided — and the appropriate department will follow up with the requested information. For Pattonville High School yearbooks, check the St. Louis County Library archives first; the library is digitizing that collection and volumes from 2000 onward can only be viewed in person at the Clark Family Branch.",
+        "url": "https://www.psdr3.org/community",
+        "as_of": "2026-10-14",
+        "confidence": "probable",
+        "citation": "https://www.psdr3.org/community"
       }
     },
     {
@@ -764,6 +965,14 @@
         "confidence": "probable",
         "citation": "https://dese.mo.gov/transcripts-and-diplomas",
         "notes": "District dissolved unknown; student records are presumed held by successor district Pattonville R-III School District per Missouri DESE guidance (closed-school records go to the superintendent's office of the district now serving the area). Contact shown is the successor district's records office."
+      },
+      "reca_request": {
+        "documented": true,
+        "display_text": "This district is dissolved; records are presumed held by its successor, Pattonville R-III School District. Fill out the district's RECA Record Request form on this page — separate Student and Staff forms are provided — and the appropriate department will follow up with the requested information. For Pattonville High School yearbooks, check the St. Louis County Library archives first; the library is digitizing that collection and volumes from 2000 onward can only be viewed in person at the Clark Family Branch.",
+        "url": "https://www.psdr3.org/community",
+        "as_of": "2026-10-14",
+        "confidence": "probable",
+        "citation": "https://www.psdr3.org/community"
       }
     },
     {
@@ -790,6 +999,14 @@
         "confidence": "probable",
         "citation": "https://dese.mo.gov/transcripts-and-diplomas",
         "notes": "District dissolved unknown; student records are presumed held by successor district Riverview Gardens School District per Missouri DESE guidance (closed-school records go to the superintendent's office of the district now serving the area). Contact shown is the successor district's records office."
+      },
+      "reca_request": {
+        "documented": false,
+        "display_text": "This district is dissolved; records are presumed held by its successor, Riverview Gardens School District. Submit a records request through the district's online records-request portal or write to the Custodian of Records (Coordinator of Board Governance) at the district office, 1370 Northumberland Dr, St. Louis, MO 63137, 314-869-2505.",
+        "url": "https://www.riverviewgardens.org/",
+        "as_of": "2026-10-14",
+        "confidence": "probable",
+        "citation": "https://www.civicplus.com/case-studies/rr/riverview-gardens-school-district-enhances-records-management-nextrequest/"
       }
     },
     {
@@ -816,6 +1033,14 @@
         "confidence": "probable",
         "citation": "https://dese.mo.gov/transcripts-and-diplomas",
         "notes": "District dissolved 2010; student records are presumed held by successor district Normandy School District per Missouri DESE guidance (closed-school records go to the superintendent's office of the district now serving the area). Contact shown is the successor district's records office."
+      },
+      "reca_request": {
+        "documented": true,
+        "display_text": "This district is dissolved; records are presumed held by its successor, Normandy School District. Submit the district's RECA Information Request form on this page and allow 4–6 weeks for processing. A valid photo ID is required before records are released — shown in person or emailed — and a request for a deceased person's records may require a death certificate, with additional documentation possible if you are representing a family member. A dedicated RECA phone line (314-493-6017) and email (reca@ritenourschools.org) are published; the page also links the St. Louis County Library Ritenour yearbook archive.",
+        "url": "https://www.ritenourschools.org/community/reca-information-request",
+        "as_of": "2026-10-14",
+        "confidence": "probable",
+        "citation": "https://www.ritenourschools.org/community/reca-information-request"
       }
     },
     {
@@ -837,6 +1062,14 @@
         "confidence": "unknown",
         "citation": "https://dese.mo.gov/transcripts-and-diplomas",
         "notes": "No successor district recorded or successor custodian unverified. Per Missouri DESE, records of a closed school/district go to the superintendent's office of the district now serving the area; pre-consolidation common-district records may also be held by SHSMO or county historical societies."
+      },
+      "reca_request": {
+        "documented": "unknown",
+        "display_text": "No successor district is recorded for this district. Missouri DESE advises that records of a closed school go to the superintendent's office of the district now serving that area; pre-consolidation records may also be held by the State Historical Society of Missouri or a county historical society.",
+        "url": "https://dese.mo.gov/transcripts-and-diplomas",
+        "as_of": "2026-10-14",
+        "confidence": "unknown",
+        "citation": "https://dese.mo.gov/transcripts-and-diplomas"
       }
     },
     {
@@ -863,6 +1096,14 @@
         "confidence": "probable",
         "citation": "https://dese.mo.gov/transcripts-and-diplomas",
         "notes": "District dissolved 1950; student records are presumed held by successor district Hazelwood School District per Missouri DESE guidance (closed-school records go to the superintendent's office of the district now serving the area). Contact shown is the successor district's records office."
+      },
+      "reca_request": {
+        "documented": true,
+        "display_text": "This district is dissolved; records are presumed held by its successor, Hazelwood School District. Use the district's RECA Record Request form on this page to ask for student records that can document school attendance in an eligible ZIP code; the Enrollment Department locates and processes the records. Former students, family members, survivors, or authorized representatives may submit the form — the district does not determine RECA eligibility; that decision is made by the U.S. Department of Justice.",
+        "url": "https://www.hazelwoodschools.org/about-us/board-of-education/reca",
+        "as_of": "2026-10-14",
+        "confidence": "probable",
+        "citation": "https://www.hazelwoodschools.org/about-us/board-of-education/reca"
       }
     },
     {
@@ -889,6 +1130,14 @@
         "confidence": "probable",
         "citation": "https://dese.mo.gov/transcripts-and-diplomas",
         "notes": "District dissolved 1954; student records are presumed held by successor district Hazelwood School District per Missouri DESE guidance (closed-school records go to the superintendent's office of the district now serving the area). Contact shown is the successor district's records office."
+      },
+      "reca_request": {
+        "documented": true,
+        "display_text": "This district is dissolved; records are presumed held by its successor, Hazelwood School District. Use the district's RECA Record Request form on this page to ask for student records that can document school attendance in an eligible ZIP code; the Enrollment Department locates and processes the records. Former students, family members, survivors, or authorized representatives may submit the form — the district does not determine RECA eligibility; that decision is made by the U.S. Department of Justice.",
+        "url": "https://www.hazelwoodschools.org/about-us/board-of-education/reca",
+        "as_of": "2026-10-14",
+        "confidence": "probable",
+        "citation": "https://www.hazelwoodschools.org/about-us/board-of-education/reca"
       }
     },
     {
@@ -915,6 +1164,14 @@
         "confidence": "probable",
         "citation": "https://dese.mo.gov/transcripts-and-diplomas",
         "notes": "District dissolved 1951; student records are presumed held by successor district Hazelwood School District per Missouri DESE guidance (closed-school records go to the superintendent's office of the district now serving the area). Contact shown is the successor district's records office."
+      },
+      "reca_request": {
+        "documented": true,
+        "display_text": "This district is dissolved; records are presumed held by its successor, Hazelwood School District. Use the district's RECA Record Request form on this page to ask for student records that can document school attendance in an eligible ZIP code; the Enrollment Department locates and processes the records. Former students, family members, survivors, or authorized representatives may submit the form — the district does not determine RECA eligibility; that decision is made by the U.S. Department of Justice.",
+        "url": "https://www.hazelwoodschools.org/about-us/board-of-education/reca",
+        "as_of": "2026-10-14",
+        "confidence": "probable",
+        "citation": "https://www.hazelwoodschools.org/about-us/board-of-education/reca"
       }
     },
     {
@@ -941,6 +1198,14 @@
         "confidence": "probable",
         "citation": "https://dese.mo.gov/transcripts-and-diplomas",
         "notes": "District dissolved 1951; student records are presumed held by successor district Hazelwood School District per Missouri DESE guidance (closed-school records go to the superintendent's office of the district now serving the area). Contact shown is the successor district's records office."
+      },
+      "reca_request": {
+        "documented": true,
+        "display_text": "This district is dissolved; records are presumed held by its successor, Hazelwood School District. Use the district's RECA Record Request form on this page to ask for student records that can document school attendance in an eligible ZIP code; the Enrollment Department locates and processes the records. Former students, family members, survivors, or authorized representatives may submit the form — the district does not determine RECA eligibility; that decision is made by the U.S. Department of Justice.",
+        "url": "https://www.hazelwoodschools.org/about-us/board-of-education/reca",
+        "as_of": "2026-10-14",
+        "confidence": "probable",
+        "citation": "https://www.hazelwoodschools.org/about-us/board-of-education/reca"
       }
     },
     {
@@ -971,6 +1236,14 @@
         "confidence": "probable",
         "citation": "https://dese.mo.gov/transcripts-and-diplomas",
         "notes": "District dissolved 1952; student records are presumed held by successor district Hazelwood School District per Missouri DESE guidance (closed-school records go to the superintendent's office of the district now serving the area). Contact shown is the successor district's records office."
+      },
+      "reca_request": {
+        "documented": true,
+        "display_text": "This district is dissolved; records are presumed held by its successor, Hazelwood School District. Use the district's RECA Record Request form on this page to ask for student records that can document school attendance in an eligible ZIP code; the Enrollment Department locates and processes the records. Former students, family members, survivors, or authorized representatives may submit the form — the district does not determine RECA eligibility; that decision is made by the U.S. Department of Justice.",
+        "url": "https://www.hazelwoodschools.org/about-us/board-of-education/reca",
+        "as_of": "2026-10-14",
+        "confidence": "probable",
+        "citation": "https://www.hazelwoodschools.org/about-us/board-of-education/reca"
       }
     },
     {
@@ -997,6 +1270,14 @@
         "confidence": "probable",
         "citation": "https://dese.mo.gov/transcripts-and-diplomas",
         "notes": "District dissolved 1951; student records are presumed held by successor district Hazelwood School District per Missouri DESE guidance (closed-school records go to the superintendent's office of the district now serving the area). Contact shown is the successor district's records office."
+      },
+      "reca_request": {
+        "documented": true,
+        "display_text": "This district is dissolved; records are presumed held by its successor, Hazelwood School District. Use the district's RECA Record Request form on this page to ask for student records that can document school attendance in an eligible ZIP code; the Enrollment Department locates and processes the records. Former students, family members, survivors, or authorized representatives may submit the form — the district does not determine RECA eligibility; that decision is made by the U.S. Department of Justice.",
+        "url": "https://www.hazelwoodschools.org/about-us/board-of-education/reca",
+        "as_of": "2026-10-14",
+        "confidence": "probable",
+        "citation": "https://www.hazelwoodschools.org/about-us/board-of-education/reca"
       }
     },
     {
@@ -1023,6 +1304,14 @@
         "confidence": "probable",
         "citation": "https://dese.mo.gov/transcripts-and-diplomas",
         "notes": "District dissolved 1951; student records are presumed held by successor district Hazelwood School District per Missouri DESE guidance (closed-school records go to the superintendent's office of the district now serving the area). Contact shown is the successor district's records office."
+      },
+      "reca_request": {
+        "documented": true,
+        "display_text": "This district is dissolved; records are presumed held by its successor, Hazelwood School District. Use the district's RECA Record Request form on this page to ask for student records that can document school attendance in an eligible ZIP code; the Enrollment Department locates and processes the records. Former students, family members, survivors, or authorized representatives may submit the form — the district does not determine RECA eligibility; that decision is made by the U.S. Department of Justice.",
+        "url": "https://www.hazelwoodschools.org/about-us/board-of-education/reca",
+        "as_of": "2026-10-14",
+        "confidence": "probable",
+        "citation": "https://www.hazelwoodschools.org/about-us/board-of-education/reca"
       }
     },
     {
@@ -1049,6 +1338,14 @@
         "confidence": "probable",
         "citation": "https://dese.mo.gov/transcripts-and-diplomas",
         "notes": "District dissolved 1951; student records are presumed held by successor district Hazelwood School District per Missouri DESE guidance (closed-school records go to the superintendent's office of the district now serving the area). Contact shown is the successor district's records office."
+      },
+      "reca_request": {
+        "documented": true,
+        "display_text": "This district is dissolved; records are presumed held by its successor, Hazelwood School District. Use the district's RECA Record Request form on this page to ask for student records that can document school attendance in an eligible ZIP code; the Enrollment Department locates and processes the records. Former students, family members, survivors, or authorized representatives may submit the form — the district does not determine RECA eligibility; that decision is made by the U.S. Department of Justice.",
+        "url": "https://www.hazelwoodschools.org/about-us/board-of-education/reca",
+        "as_of": "2026-10-14",
+        "confidence": "probable",
+        "citation": "https://www.hazelwoodschools.org/about-us/board-of-education/reca"
       }
     },
     {
@@ -1075,6 +1372,14 @@
         "confidence": "probable",
         "citation": "https://dese.mo.gov/transcripts-and-diplomas",
         "notes": "District dissolved 1951; student records are presumed held by successor district Hazelwood School District per Missouri DESE guidance (closed-school records go to the superintendent's office of the district now serving the area). Contact shown is the successor district's records office."
+      },
+      "reca_request": {
+        "documented": true,
+        "display_text": "This district is dissolved; records are presumed held by its successor, Hazelwood School District. Use the district's RECA Record Request form on this page to ask for student records that can document school attendance in an eligible ZIP code; the Enrollment Department locates and processes the records. Former students, family members, survivors, or authorized representatives may submit the form — the district does not determine RECA eligibility; that decision is made by the U.S. Department of Justice.",
+        "url": "https://www.hazelwoodschools.org/about-us/board-of-education/reca",
+        "as_of": "2026-10-14",
+        "confidence": "probable",
+        "citation": "https://www.hazelwoodschools.org/about-us/board-of-education/reca"
       }
     },
     {
@@ -1101,6 +1406,14 @@
         "confidence": "probable",
         "citation": "https://dese.mo.gov/transcripts-and-diplomas",
         "notes": "District dissolved 1951; student records are presumed held by successor district Hazelwood School District per Missouri DESE guidance (closed-school records go to the superintendent's office of the district now serving the area). Contact shown is the successor district's records office."
+      },
+      "reca_request": {
+        "documented": true,
+        "display_text": "This district is dissolved; records are presumed held by its successor, Hazelwood School District. Use the district's RECA Record Request form on this page to ask for student records that can document school attendance in an eligible ZIP code; the Enrollment Department locates and processes the records. Former students, family members, survivors, or authorized representatives may submit the form — the district does not determine RECA eligibility; that decision is made by the U.S. Department of Justice.",
+        "url": "https://www.hazelwoodschools.org/about-us/board-of-education/reca",
+        "as_of": "2026-10-14",
+        "confidence": "probable",
+        "citation": "https://www.hazelwoodschools.org/about-us/board-of-education/reca"
       }
     },
     {
@@ -1127,6 +1440,14 @@
         "confidence": "probable",
         "citation": "https://dese.mo.gov/transcripts-and-diplomas",
         "notes": "District dissolved 1951; student records are presumed held by successor district Hazelwood School District per Missouri DESE guidance (closed-school records go to the superintendent's office of the district now serving the area). Contact shown is the successor district's records office."
+      },
+      "reca_request": {
+        "documented": true,
+        "display_text": "This district is dissolved; records are presumed held by its successor, Hazelwood School District. Use the district's RECA Record Request form on this page to ask for student records that can document school attendance in an eligible ZIP code; the Enrollment Department locates and processes the records. Former students, family members, survivors, or authorized representatives may submit the form — the district does not determine RECA eligibility; that decision is made by the U.S. Department of Justice.",
+        "url": "https://www.hazelwoodschools.org/about-us/board-of-education/reca",
+        "as_of": "2026-10-14",
+        "confidence": "probable",
+        "citation": "https://www.hazelwoodschools.org/about-us/board-of-education/reca"
       }
     },
     {
@@ -1153,6 +1474,14 @@
         "confidence": "probable",
         "citation": "https://dese.mo.gov/transcripts-and-diplomas",
         "notes": "District dissolved 1951; student records are presumed held by successor district Hazelwood School District per Missouri DESE guidance (closed-school records go to the superintendent's office of the district now serving the area). Contact shown is the successor district's records office."
+      },
+      "reca_request": {
+        "documented": true,
+        "display_text": "This district is dissolved; records are presumed held by its successor, Hazelwood School District. Use the district's RECA Record Request form on this page to ask for student records that can document school attendance in an eligible ZIP code; the Enrollment Department locates and processes the records. Former students, family members, survivors, or authorized representatives may submit the form — the district does not determine RECA eligibility; that decision is made by the U.S. Department of Justice.",
+        "url": "https://www.hazelwoodschools.org/about-us/board-of-education/reca",
+        "as_of": "2026-10-14",
+        "confidence": "probable",
+        "citation": "https://www.hazelwoodschools.org/about-us/board-of-education/reca"
       }
     },
     {
@@ -1179,6 +1508,14 @@
         "confidence": "probable",
         "citation": "https://dese.mo.gov/transcripts-and-diplomas",
         "notes": "District dissolved 1951; student records are presumed held by successor district Hazelwood School District per Missouri DESE guidance (closed-school records go to the superintendent's office of the district now serving the area). Contact shown is the successor district's records office."
+      },
+      "reca_request": {
+        "documented": true,
+        "display_text": "This district is dissolved; records are presumed held by its successor, Hazelwood School District. Use the district's RECA Record Request form on this page to ask for student records that can document school attendance in an eligible ZIP code; the Enrollment Department locates and processes the records. Former students, family members, survivors, or authorized representatives may submit the form — the district does not determine RECA eligibility; that decision is made by the U.S. Department of Justice.",
+        "url": "https://www.hazelwoodschools.org/about-us/board-of-education/reca",
+        "as_of": "2026-10-14",
+        "confidence": "probable",
+        "citation": "https://www.hazelwoodschools.org/about-us/board-of-education/reca"
       }
     },
     {
@@ -1205,6 +1542,14 @@
         "confidence": "probable",
         "citation": "https://dese.mo.gov/transcripts-and-diplomas",
         "notes": "District dissolved 1876; student records are presumed held by successor district St. Louis Public Schools per Missouri DESE guidance (closed-school records go to the superintendent's office of the district now serving the area). Contact shown is the successor district's records office."
+      },
+      "reca_request": {
+        "documented": false,
+        "display_text": "This district is dissolved; records are presumed held by its successor, St. Louis Public Schools. Former students download the Student Transcript Request Form, attach a copy of photo ID, and email it to SLPSTRANSCRIPTS@SLPS.ORG or mail it to the Student Transcript Office, 801 N. 11th Street, St. Louis, MO 63101 (314-645-2648, fax 314-633-5230); walk-in requests are accepted weekdays 8:00 a.m.–4:30 p.m. Fees: $3 per transcript or elementary record, $5 per graduation class list, $10 per genealogy search — cash, money order, or cashier's check only.",
+        "url": "https://www.slps.org/community/student-transcripts",
+        "as_of": "2026-10-14",
+        "confidence": "probable",
+        "citation": "https://www.slps.org/community/student-transcripts"
       }
     },
     {
@@ -1231,6 +1576,14 @@
         "confidence": "probable",
         "citation": "https://dese.mo.gov/transcripts-and-diplomas",
         "notes": "District dissolved unknown; student records are presumed held by successor district Riverview Gardens School District per Missouri DESE guidance (closed-school records go to the superintendent's office of the district now serving the area). Contact shown is the successor district's records office."
+      },
+      "reca_request": {
+        "documented": false,
+        "display_text": "This district is dissolved; records are presumed held by its successor, Riverview Gardens School District. Submit a records request through the district's online records-request portal or write to the Custodian of Records (Coordinator of Board Governance) at the district office, 1370 Northumberland Dr, St. Louis, MO 63137, 314-869-2505.",
+        "url": "https://www.riverviewgardens.org/",
+        "as_of": "2026-10-14",
+        "confidence": "probable",
+        "citation": "https://www.civicplus.com/case-studies/rr/riverview-gardens-school-district-enhances-records-management-nextrequest/"
       }
     },
     {
@@ -1257,6 +1610,14 @@
         "confidence": "probable",
         "citation": "https://dese.mo.gov/transcripts-and-diplomas",
         "notes": "District dissolved 1954; student records are presumed held by successor district Parkway C-2 School District per Missouri DESE guidance (closed-school records go to the superintendent's office of the district now serving the area). Contact shown is the successor district's records office."
+      },
+      "reca_request": {
+        "documented": true,
+        "display_text": "This district is dissolved; records are presumed held by its successor, Parkway C-2 School District. Fill out the RECA Records Request form on this page; responses are routed to the appropriate department, which follows up with the requested information. A RECA hotline is listed at (202) 228-4388. For special-education records, requests go instead to the Special School District of St. Louis County, which is the custodian of those records for Parkway and every other St. Louis County district.",
+        "url": "https://www.parkwayschools.net/contact/requests-for-information",
+        "as_of": "2026-10-14",
+        "confidence": "probable",
+        "citation": "https://www.parkwayschools.net/contact/requests-for-information"
       }
     },
     {
@@ -1283,6 +1644,14 @@
         "confidence": "probable",
         "citation": "https://dese.mo.gov/transcripts-and-diplomas",
         "notes": "District dissolved 1954; student records are presumed held by successor district Parkway C-2 School District per Missouri DESE guidance (closed-school records go to the superintendent's office of the district now serving the area). Contact shown is the successor district's records office."
+      },
+      "reca_request": {
+        "documented": true,
+        "display_text": "This district is dissolved; records are presumed held by its successor, Parkway C-2 School District. Fill out the RECA Records Request form on this page; responses are routed to the appropriate department, which follows up with the requested information. A RECA hotline is listed at (202) 228-4388. For special-education records, requests go instead to the Special School District of St. Louis County, which is the custodian of those records for Parkway and every other St. Louis County district.",
+        "url": "https://www.parkwayschools.net/contact/requests-for-information",
+        "as_of": "2026-10-14",
+        "confidence": "probable",
+        "citation": "https://www.parkwayschools.net/contact/requests-for-information"
       }
     },
     {
@@ -1309,6 +1678,14 @@
         "confidence": "probable",
         "citation": "https://dese.mo.gov/transcripts-and-diplomas",
         "notes": "District dissolved 1954; student records are presumed held by successor district Parkway C-2 School District per Missouri DESE guidance (closed-school records go to the superintendent's office of the district now serving the area). Contact shown is the successor district's records office."
+      },
+      "reca_request": {
+        "documented": true,
+        "display_text": "This district is dissolved; records are presumed held by its successor, Parkway C-2 School District. Fill out the RECA Records Request form on this page; responses are routed to the appropriate department, which follows up with the requested information. A RECA hotline is listed at (202) 228-4388. For special-education records, requests go instead to the Special School District of St. Louis County, which is the custodian of those records for Parkway and every other St. Louis County district.",
+        "url": "https://www.parkwayschools.net/contact/requests-for-information",
+        "as_of": "2026-10-14",
+        "confidence": "probable",
+        "citation": "https://www.parkwayschools.net/contact/requests-for-information"
       }
     },
     {
@@ -1339,6 +1716,14 @@
         "confidence": "confirmed",
         "citation": "https://www.wentzville.k12.mo.us/academics/transcript-requests",
         "notes": "Transcripts handled per high school registrar (Holt, Liberty, North Point, Timberland) — mailed/emailed form or Parchment ($3.50). Pre-1950s Wentzville R-IV predecessor records presumed held by district."
+      },
+      "reca_request": {
+        "documented": false,
+        "display_text": "Request transcripts through the registrar of the high school attended (Holt, Liberty, North Point, or Timberland) using that school's transcript request form, or order electronically through Parchment ($3.50).",
+        "url": "https://www.wentzville.k12.mo.us/academics/transcript-requests",
+        "as_of": "2026-10-14",
+        "confidence": "confirmed",
+        "citation": "https://www.wentzville.k12.mo.us/academics/transcript-requests"
       }
     },
     {
@@ -1367,6 +1752,14 @@
         "confidence": "confirmed",
         "citation": "https://www.fz.k12.mo.us/page/alumni",
         "notes": "District office per site footer; alumni/transcript resources on the Alumni page. Custodian for Central School District R-II (1949 consolidation) and its 12 feeder-district records."
+      },
+      "reca_request": {
+        "documented": false,
+        "display_text": "Contact the district office at 555 E. Terra Lane, O'Fallon, MO 63366 (636-240-2072) or use the alumni page links; high-school registrars handle transcript requests.",
+        "url": "https://www.fz.k12.mo.us/page/alumni",
+        "as_of": "2026-10-14",
+        "confidence": "confirmed",
+        "citation": "https://www.fz.k12.mo.us/page/alumni"
       }
     },
     {
@@ -1395,6 +1788,14 @@
         "confidence": "confirmed",
         "citation": "https://fhhs.fhsdschools.org/academics/resources-supports",
         "notes": "Past-graduate transcripts via online request form on each HS guidance page; FHHS page explicitly lists a \"Transcript request for RRECA\" option — an existing RECA workflow. Contact Lori Riley Lori.Riley@Fhsdschools.org (FHHS guidance). Custodian for Consolidated School District No. 2 (1915) predecessor records."
+      },
+      "reca_request": {
+        "documented": true,
+        "display_text": "Past graduates use the district's online transcript request — the high-school guidance pages include a dedicated \"Transcript request for RRECA\" option; questions go to the counseling office (Lori Riley, Lori.Riley@Fhsdschools.org at Francis Howell High School).",
+        "url": "https://fhhs.fhsdschools.org/academics/resources-supports",
+        "as_of": "2026-10-14",
+        "confidence": "confirmed",
+        "citation": "https://fhhs.fhsdschools.org/academics/resources-supports"
       }
     },
     {
@@ -1421,6 +1822,14 @@
         "confidence": "probable",
         "citation": "https://dese.mo.gov/transcripts-and-diplomas",
         "notes": "District dissolved 1949; student records are presumed held by successor district Central School District R-II per Missouri DESE guidance (closed-school records go to the superintendent's office of the district now serving the area). Contact shown is the successor district's records office."
+      },
+      "reca_request": {
+        "documented": true,
+        "display_text": "This district is dissolved; records are presumed held by its successor, Central School District R-II. Past graduates use the district's online transcript request — the high-school guidance pages include a dedicated \"Transcript request for RRECA\" option; questions go to the counseling office (Lori Riley, Lori.Riley@Fhsdschools.org at Francis Howell High School).",
+        "url": "https://fhhs.fhsdschools.org/academics/resources-supports",
+        "as_of": "2026-10-14",
+        "confidence": "probable",
+        "citation": "https://fhhs.fhsdschools.org/academics/resources-supports"
       }
     },
     {
@@ -1449,6 +1858,14 @@
         "confidence": "probable",
         "citation": "https://dese.mo.gov/transcripts-and-diplomas",
         "notes": "District dissolved in the noted year; student records are presumed held by successor district Central School District R-II per Missouri DESE guidance (closed-school records go to the superintendent's office of the district now serving the area). Contact shown is the successor district's records office."
+      },
+      "reca_request": {
+        "documented": true,
+        "display_text": "This district is dissolved; records are presumed held by its successor, Central School District R-II. Past graduates use the district's online transcript request — the high-school guidance pages include a dedicated \"Transcript request for RRECA\" option; questions go to the counseling office (Lori Riley, Lori.Riley@Fhsdschools.org at Francis Howell High School).",
+        "url": "https://fhhs.fhsdschools.org/academics/resources-supports",
+        "as_of": "2026-10-14",
+        "confidence": "probable",
+        "citation": "https://fhhs.fhsdschools.org/academics/resources-supports"
       }
     },
     {
@@ -1475,6 +1892,14 @@
         "confidence": "probable",
         "citation": "https://dese.mo.gov/transcripts-and-diplomas",
         "notes": "District dissolved 1966; student records are presumed held by successor district Francis Howell R-III School District per Missouri DESE guidance (closed-school records go to the superintendent's office of the district now serving the area). Contact shown is the successor district's records office."
+      },
+      "reca_request": {
+        "documented": true,
+        "display_text": "This district is dissolved; records are presumed held by its successor, Francis Howell R-III School District. Past graduates use the district's online transcript request — the high-school guidance pages include a dedicated \"Transcript request for RRECA\" option; questions go to the counseling office (Lori Riley, Lori.Riley@Fhsdschools.org at Francis Howell High School).",
+        "url": "https://fhhs.fhsdschools.org/academics/resources-supports",
+        "as_of": "2026-10-14",
+        "confidence": "probable",
+        "citation": "https://fhhs.fhsdschools.org/academics/resources-supports"
       }
     },
     {
@@ -1496,6 +1921,14 @@
         "confidence": "probable",
         "citation": "https://dese.mo.gov/transcripts-and-diplomas",
         "notes": "District dissolved 1949; student records are presumed held by successor district Francis Howell R-III School District per Missouri DESE guidance (closed-school records go to the superintendent's office of the district now serving the area). Contact shown is the successor district's records office."
+      },
+      "reca_request": {
+        "documented": true,
+        "display_text": "This district is dissolved; records are presumed held by its successor, Francis Howell R-III School District. Past graduates use the district's online transcript request — the high-school guidance pages include a dedicated \"Transcript request for RRECA\" option; questions go to the counseling office (Lori Riley, Lori.Riley@Fhsdschools.org at Francis Howell High School).",
+        "url": "https://fhhs.fhsdschools.org/academics/resources-supports",
+        "as_of": "2026-10-14",
+        "confidence": "probable",
+        "citation": "https://fhhs.fhsdschools.org/academics/resources-supports"
       }
     },
     {
@@ -1517,6 +1950,14 @@
         "confidence": "unknown",
         "citation": "https://dese.mo.gov/transcripts-and-diplomas",
         "notes": "No successor district recorded or successor custodian unverified. Per Missouri DESE, records of a closed school/district go to the superintendent's office of the district now serving the area; pre-consolidation common-district records may also be held by SHSMO or county historical societies."
+      },
+      "reca_request": {
+        "documented": "unknown",
+        "display_text": "No successor district is recorded for this district. Missouri DESE advises that records of a closed school go to the superintendent's office of the district now serving that area; pre-consolidation records may also be held by the State Historical Society of Missouri or a county historical society.",
+        "url": "https://dese.mo.gov/transcripts-and-diplomas",
+        "as_of": "2026-10-14",
+        "confidence": "unknown",
+        "citation": "https://dese.mo.gov/transcripts-and-diplomas"
       }
     },
     {
@@ -1543,6 +1984,14 @@
         "confidence": "confirmed",
         "citation": "https://whs.washington.k12.mo.us/72834_2",
         "notes": "Former students request transcripts from the WHS Counseling Office (phone/email/in person; 2 business days): Rachel Hart, rachel.hart@sdowmo.org. District office PO Box 357 per NCES."
+      },
+      "reca_request": {
+        "documented": false,
+        "display_text": "Former students request transcripts from the Washington High School Counseling Office by phone, email (rachel.hart@sdowmo.org), or in person — provide your name at graduation, graduation year, date of birth, and where the transcript should go; allow two business days plus mailing.",
+        "url": "https://whs.washington.k12.mo.us/72834_2",
+        "as_of": "2026-10-14",
+        "confidence": "confirmed",
+        "citation": "https://whs.washington.k12.mo.us/72834_2"
       }
     },
     {
@@ -1569,6 +2018,14 @@
         "confidence": "confirmed",
         "citation": "https://www.ssdmo.org/our-story/public-notices/family-educational-rights-and-privacy-act-ferpa",
         "notes": "Student Records dept processes/maintains all SSD student records: requests to e-records@ssdmo.org or fax 314-989-8170 (districts), Manager of Student Records is custodian per FERPA notice; general line 314-989-8100. Custodian of SPECIAL-EDUCATION records for every St. Louis County public district — relevant because many RECA-era students received SPED services. Sunshine requests via district form."
+      },
+      "reca_request": {
+        "documented": false,
+        "display_text": "Email e-records@ssdmo.org or fax 314-989-8170 for student records (other districts use district letterhead); this office is the custodian of special-education records for every St. Louis County public district, so former students of any county district with IEP or evaluation records request them here. Mailing address: 12110 Clayton Road, Town & Country, MO 63131; general line 314-989-8100.",
+        "url": "https://www.ssdmo.org/departments/communications/mo-sunshine-law",
+        "as_of": "2026-10-14",
+        "confidence": "confirmed",
+        "citation": "https://www.ssdmo.org/our-story/public-notices/family-educational-rights-and-privacy-act-ferpa"
       }
     },
     {
@@ -1595,6 +2052,14 @@
         "confidence": "confirmed",
         "citation": "https://www.law.cornell.edu/regulations/missouri/13-CSR-110-2-140",
         "notes": "Case records confidential (13 CSR 110-2.140): formerly-committed youth 18+ may request own records in writing w/ photo ID or notarized request; parents/guardians entitled to full disclosure. Email AskDYS@dss.mo.gov. Education records for DYS schools (e.g. Fort Bellefontaine) route through DYS."
+      },
+      "reca_request": {
+        "documented": false,
+        "display_text": "Youth records are confidential by state regulation: a person formerly committed to the division who is now 18 or older may request a copy of their own records in writing with photo ID or a notarized request, and parents or legal guardians of a committed youth are entitled to full disclosure. Contact the Division of Youth Services at 573-751-3324 or AskDYS@dss.mo.gov.",
+        "url": "https://dss.mo.gov/dys/educational-services",
+        "as_of": "2026-10-14",
+        "confidence": "confirmed",
+        "citation": "https://www.law.cornell.edu/regulations/missouri/13-CSR-110-2-140"
       }
     },
     {
@@ -1621,6 +2086,14 @@
         "confidence": "confirmed",
         "citation": "https://stlcc.edu/office-of-the-registrar/",
         "notes": "Transcripts via National Student Clearinghouse ($11); registrar@stlcc.edu. Holds records for the Junior College District incl. its early junior-college campuses (Forest Park, Meramec, Florissant Valley) — successor custodian for St. Louis Junior College-era records."
+      },
+      "reca_request": {
+        "documented": false,
+        "display_text": "Order an official transcript through the National Student Clearinghouse ($11 per copy) or in person at the Registrar's Office, STLCC-Forest Park Student Center, 5600 Oakland Ave, St. Louis, MO 63110 (registrar@stlcc.edu, 314-539-5159, Mon–Fri 8 a.m.–4 p.m.).",
+        "url": "https://stlcc.edu/office-of-the-registrar/",
+        "as_of": "2026-10-14",
+        "confidence": "confirmed",
+        "citation": "https://stlcc.edu/office-of-the-registrar/"
       }
     },
     {
@@ -1647,6 +2120,14 @@
         "confidence": "confirmed",
         "citation": "https://catalog.stchas.edu/content.php?catoid=12&navoid=808",
         "notes": "Transcripts via www.GetMyTranscript.org or in person at the Office of Admissions, Registration and Records; transcript evaluator at Enrollment Services Department."
+      },
+      "reca_request": {
+        "documented": false,
+        "display_text": "Request an official transcript online at www.GetMyTranscript.org or in person at the Office of Admissions, Registration and Records, 4601 Mid Rivers Mall Drive, Cottleville, MO 63376-2865.",
+        "url": "https://www.stchas.edu/academics/grades-transcripts-records/",
+        "as_of": "2026-10-14",
+        "confidence": "confirmed",
+        "citation": "https://catalog.stchas.edu/content.php?catoid=12&navoid=808"
       }
     },
     {
@@ -1673,6 +2154,14 @@
         "confidence": "confirmed",
         "citation": "https://www.archstl.org/about/offices-and-agencies/archives-archdiocesan/transcripts/",
         "notes": "Official repository for records of CLOSED archdiocesan schools and closed parishes only (transcripts, yearbooks, photographs). Open schools hold their own records — contact the school directly. Third-party requests fax 314-792-7029; email archives@archstl.org. $10 per transcript; photo ID required. Has a dedicated RECA page at https://www.archstl.org/reca."
+      },
+      "reca_request": {
+        "documented": true,
+        "display_text": "A dedicated RECA program page walks through records requests: if the school or parish is CLOSED, submit the Student Transcript Request form ($10 per transcript, a copy of photo ID required) and note that the request supports a RECA claim — the Office of Archives and Records holds records only for closed archdiocesan schools and closed or subsumed parishes. If the school is still open, contact the school directly. The archdiocese cannot advise what the RECA program accepts as proof; eligibility questions go to the U.S. Department of Justice.",
+        "url": "https://www.archstl.org/radiation-exposure-compensation-act-reca-program/",
+        "as_of": "2026-10-14",
+        "confidence": "confirmed",
+        "citation": "https://www.archstl.org/radiation-exposure-compensation-act-reca-program/"
       }
     },
     {
@@ -1699,6 +2188,14 @@
         "confidence": "confirmed",
         "citation": "https://www.archstl.org/about/offices-and-agencies/archives-archdiocesan/transcripts/",
         "notes": "All Saints Academy closed 2023 (parish-school consolidation); its records went to the Office of Archives and Records, which holds all closed archdiocesan school records. archives@archstl.org."
+      },
+      "reca_request": {
+        "documented": true,
+        "display_text": "The academy's records are held by the Archdiocese of St. Louis Office of Archives and Records: submit the Student Transcript Request form ($10 per transcript, photo ID required) and note the RECA purpose; the archives' dedicated RECA program page has full instructions.",
+        "url": "https://www.archstl.org/radiation-exposure-compensation-act-reca-program/",
+        "as_of": "2026-10-14",
+        "confidence": "confirmed",
+        "citation": "https://www.archstl.org/radiation-exposure-compensation-act-reca-program/"
       }
     },
     {
@@ -1725,6 +2222,14 @@
         "confidence": "confirmed",
         "citation": "https://www.lslancers.org/academics/academic-and-college-counseling",
         "notes": "Alumni transcripts: Marci Belval, Office Manager, 314-833-1082; Registrar Robert Ladage 314-833-1086 (LHS South). LHSA records stay with the Association (lhsastl.org — Cheryl Ehrhard, alumni relations, cehrhard@lhsastl.org). Custodian for Lutheran HS Central (closed 1971) and all LHSA campus records."
+      },
+      "reca_request": {
+        "documented": false,
+        "display_text": "Alumni request transcripts through the school office — contact the Office Manager (Marci Belval, 314-833-1082) or the registrar (Robert Ladage, 314-833-1086) at Lutheran High School South; alumni-relations questions go to the Association's coordinator (cehrhard@lhsastl.org).",
+        "url": "https://www.lslancers.org/academics/academic-and-college-counseling",
+        "as_of": "2026-10-14",
+        "confidence": "confirmed",
+        "citation": "https://www.lslancers.org/academics/academic-and-college-counseling"
       }
     },
     {
@@ -1751,6 +2256,14 @@
         "confidence": "confirmed",
         "citation": "https://www.lorettocommunity.org/about/motherhouse/heritage-center-archives/",
         "notes": "Reba Weatherford, Director of Archives; lorarchives@lorettocommunity.org. Loretto records (incl. Loretto Academy, St. Louis — closed ~1952) stayed with the order, NOT the Archdiocese of St. Louis. Appointments available; email/phone for less extensive requests. Post-1952 Nerinx Hall records held by Nerinx Hall registrar (a separate entity no longer Loretto-operated)."
+      },
+      "reca_request": {
+        "documented": false,
+        "display_text": "Research requests for schools run by the Sisters of Loretto (including St. Louis's Loretto Academy, closed about 1952) go to the order's own Heritage Center Archives at 515 Nerinx Road, Nerinx, KY 40049 — call (270) 431-0096 or email lorarchives@lorettocommunity.org; staff handle modest requests by phone or email and appointments are available for in-person research.",
+        "url": "https://www.lorettocommunity.org/about/motherhouse/heritage-center-archives/",
+        "as_of": "2026-10-14",
+        "confidence": "confirmed",
+        "citation": "https://www.lorettocommunity.org/about/motherhouse/heritage-center-archives/"
       }
     },
     {
@@ -1777,6 +2290,14 @@
         "confidence": "confirmed",
         "citation": "https://www.lindenwood.edu/academics/support-resources/registrar/",
         "notes": "Transcripts via Parchment ($9.50); registrar@lindenwood.edu."
+      },
+      "reca_request": {
+        "documented": false,
+        "display_text": "Order transcripts through Parchment ($9.50 per copy) or contact the Office of the Registrar, 209 S. Kingshighway St., Saint Charles, MO 63301 (636-949-4954, registrar@lindenwood.edu).",
+        "url": "https://www.lindenwood.edu/academics/support-resources/registrar/",
+        "as_of": "2026-10-14",
+        "confidence": "confirmed",
+        "citation": "https://www.lindenwood.edu/academics/support-resources/registrar/"
       }
     },
     {
@@ -1803,6 +2324,14 @@
         "confidence": "confirmed",
         "citation": "https://www.slu.edu/registrar/contact-us.php",
         "notes": "Transcripts via National Student Clearinghouse ordering center; registrar@slu.edu; fax 314-977-3447."
+      },
+      "reca_request": {
+        "documented": false,
+        "display_text": "Order transcripts through the university's online ordering center (National Student Clearinghouse) or contact the Office of the University Registrar, DuBourg Hall Room 22, One North Grand Blvd., St. Louis, MO 63103 (314-977-2269, registrar@slu.edu).",
+        "url": "https://www.slu.edu/registrar/",
+        "as_of": "2026-10-14",
+        "confidence": "confirmed",
+        "citation": "https://www.slu.edu/registrar/contact-us.php"
       }
     },
     {
@@ -1829,6 +2358,14 @@
         "confidence": "confirmed",
         "citation": "https://registrar.washu.edu/student-records-resources/transcripts/",
         "notes": "Transcripts via Parchment; registrar@wustl.edu; fax 314-935-4268."
+      },
+      "reca_request": {
+        "documented": false,
+        "display_text": "Current students and alumni order transcripts through Parchment; questions go to the Office of the University Registrar, Women's Building Suite 10, One Brookings Drive, St. Louis, MO 63130-4899 (314-935-5959, registrar@wustl.edu).",
+        "url": "https://registrar.washu.edu/student-records-resources/transcripts/",
+        "as_of": "2026-10-14",
+        "confidence": "confirmed",
+        "citation": "https://registrar.washu.edu/student-records-resources/transcripts/"
       }
     },
     {
@@ -1850,6 +2387,14 @@
         "confidence": "probable",
         "citation": "https://www.incarnatewordacademy.org/",
         "notes": "School is OPEN — its own registrar holds student records (per Archdiocese policy, open schools keep their records). Congregation-level historical records of the Sisters of Charity of the Incarnate Word are held at the order archives in San Antonio, TX."
+      },
+      "reca_request": {
+        "documented": false,
+        "display_text": "The school is still open, so its own registrar holds student records — contact Incarnate Word Academy, 2788 Normandy Drive, Bel-Nor, MO 63121 (314-725-5850). Congregation-level historical records of the Sisters of Charity of the Incarnate Word are held at the order's archives in San Antonio, Texas.",
+        "url": "https://www.incarnatewordacademy.org/",
+        "as_of": "2026-10-14",
+        "confidence": "probable",
+        "citation": "https://www.incarnatewordacademy.org/"
       }
     },
     {
@@ -1871,6 +2416,14 @@
         "confidence": "unknown",
         "citation": "",
         "notes": "No public records office identified for this small private operator; if the entity is defunct, records may be at the Missouri Dept. of Higher Education closed-school repository or the State Historical Society of Missouri."
+      },
+      "reca_request": {
+        "documented": false,
+        "display_text": "No public records office or request path was found for this operator — if the institution is defunct, try the Missouri Department of Higher Education (573-751-2361), which fields transcript questions for closed institutions.",
+        "url": "https://dese.mo.gov/transcripts-and-diplomas",
+        "as_of": "2026-10-14",
+        "confidence": "unknown",
+        "citation": "https://dese.mo.gov/transcripts-and-diplomas"
       }
     },
     {
@@ -1897,6 +2450,14 @@
         "confidence": "confirmed",
         "citation": "https://www.umsl.edu/registration/contact-us.html",
         "notes": "UMSL campus registrar (relevant UM-System entity in registry). Transcripts via National Student Clearinghouse; registration@umsl.edu / onlinetranscript@umsl.edu; fax 314-516-7096."
+      },
+      "reca_request": {
+        "documented": false,
+        "display_text": "Order transcripts through the National Student Clearinghouse via the UMSL transcript-request page, or contact the Office of the Registrar, 269 Millennium Student Center, One University Blvd., St. Louis, MO 63121-4400 (314-516-5545, registration@umsl.edu).",
+        "url": "https://www.umsl.edu/registration/transcript-request.html",
+        "as_of": "2026-10-14",
+        "confidence": "confirmed",
+        "citation": "https://www.umsl.edu/registration/contact-us.html"
       }
     }
   ]

@@ -139,3 +139,66 @@ custodian for transcripts and administrative files.
   custody undocumented; SHSMO / St. Charles County Historical Society plausible.
 - DIST-409 Olivet University — small private operator, no public records office
   found; MDHE closed-school repository is the fallback if defunct.
+
+---
+
+## Addendum 2 — RECA-specific request procedures (`reca_request` blocks)
+
+Every `districts_master.json` entry now carries a `reca_request` block:
+`{"documented","display_text","url","as_of","confidence","citation"}`.
+`display_text` is written for verbatim rendering — plain instructions, no
+office-name or "as of" preamble. Result: **46 documented RECA paths
+(7 verified districts + dissolved districts inheriting a documented
+successor path), 22 generic-only, 2 unknown.**
+
+### Districts with an explicitly documented RECA path (2026-10-14)
+
+- **Hazelwood SD** — dedicated "RECA Record Request" page + form; Enrollment
+  Department locates/processes records; former students, family, survivors,
+  and authorized reps may file. (hazelwoodschools.org/about-us/board-of-education/reca)
+- **Pattonville R-III** — RECA Record Requests section (Student + Staff forms)
+  on the Community page; notes SLCL is digitizing PHS yearbooks, with 2000+
+  volumes viewable only in person at the Clark Family Branch.
+- **Ritenour SD** — dedicated RECA Information Request page: 4–6 week
+  processing, photo ID required (in person or email), death certificate may be
+  required for a deceased person's records, dedicated RECA line 314-493-6017
+  and reca@ritenourschools.org.
+- **Parkway Schools** — "RECA Records Requests" section with a dedicated form
+  and a published RECA hotline, (202) 228-4388.
+- **Francis Howell SD** — HS guidance pages offer a dedicated
+  "Transcript request for RRECA" option for past graduates.
+- **Ferguson-Florissant SD** — hosted a RECA informational event (with the
+  Pink Angels Foundation) where attendees could get application help and
+  request required documents; no standing RECA form published — generic
+  alumni transcript path is the standing channel.
+- **Archdiocese of St. Louis** — dedicated RECA program page
+  (archstl.org/radiation-exposure-compensation-act-reca-program/): closed
+  schools/parishes → Student Transcript Request form ($10, photo ID);
+  open schools → contact the school directly; the Archdiocese explicitly
+  cannot advise what DOJ accepts as proof.
+
+### Generic-path entries
+
+All others get the verified generic records path (Parchment/NSC links,
+registrar contacts, fees, ID requirements, mail/online/phone details as
+published). Dissolved districts inherit the successor's block prefixed with
+a one-sentence custody explanation — e.g. Kinloch No. 18 → FFSD, Wellston →
+Normandy SC, Baden SD → SLPS.
+
+### News-documented friction noted
+
+- First Alert 4 (2026-07-15): a North County claimant's RECA filing stalled
+  ~10 months on a Social Security earnings transcript — the documented
+  bottleneck is SSA, not the districts.
+- SLCL's RECA residency lookup service warns of 2–3 week turnaround and
+  "influx of requests" — relevant context for claimants assembling residency
+  proof outside the school system.
+- Missouri RECA context per First Alert 4 (2026-02-12): 907 claims approved,
+  6,433 pending, 100% approval of decided claims; filing deadline Dec 31 2027;
+  FFSD hosted a public help session at Westview Middle School.
+
+### Unknown
+
+- DIST-120 Melrose No. 57 (receiving district undocumented) and DIST-208
+  St. Charles County common districts (pre-consolidation custody undocumented)
+  remain `documented: unknown` with the DESE fallback guidance text.
