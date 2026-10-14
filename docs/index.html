@@ -49,6 +49,24 @@
   .report-btn:hover { background:#163f75; }
   .report-btn.story { background:#fff; color:#1d4f91; border:1px solid #1d4f91; margin-left:8px; }
   .report-btn.story:hover { background:#eef3fa; }
+  /* lineage strip */
+  #lineage { margin:16px 0 4px; }
+  .lrow { display:flex; align-items:center; flex-wrap:wrap; gap:4px 0; }
+  .lbox { display:inline-block; border:1px solid var(--bd); border-radius:8px; background:#fff;
+    padding:8px 12px; margin:4px; font-size:13px; }
+  .lbox b { display:block; font-size:14px; }
+  .lbox .lyrs { color:var(--mut); font-size:12px; }
+  .lbox.deadend { border-style:dashed; color:var(--mut); }
+  .larrow { display:inline-block; position:relative; padding:0 14px; color:var(--mut);
+    font-size:18px; }
+  .larrow .lbl { position:absolute; top:-11px; left:50%; transform:translateX(-50%);
+    font-size:10.5px; white-space:nowrap; }
+  .larrow.weak { opacity:.55; }
+  .larrow.weak::after { content:""; }
+  #records { margin:14px 0 0; padding:14px 16px; background:#fdf6e8;
+    border:1px solid #e6d9b0; border-radius:8px; max-width:80ch; font-size:14px; }
+  #records .rhead { font-weight:700; margin-bottom:4px; }
+  #records a { color:#1d4f91; }
   footer { max-width:1200px; margin:auto; padding:0 20px 40px; color:var(--mut); font-size:12.5px; }
 </style>
 </head>
@@ -91,6 +109,8 @@
     Typing shows only real options — select one from the list.<br><br>
     Holding a yearbook we don't have digitized, or spotted a mistake?
     <a href="https://docs.google.com/forms/d/e/1FAIpQLSf3J7oBgEQ2HGDsYyY-O-mTn9YrOchSUjq_Z7Tl55gZLg_x4g/viewform" target="_blank" rel="noopener">Report it here</a>.</div>
+  <div id="lineage" style="display:none"></div>
+  <div id="records" style="display:none"></div>
   <div class="pager" id="pager" style="display:none">
     <button id="prev">&larr; Prev</button>
     <button id="next">Next &rarr;</button>
@@ -112,7 +132,7 @@
 </footer>
 <script>
 const PAGE = 250;
-let rows = [], schools = [], zips = [], filtered = [], page = 0;
+let rows = [], schools = [], zips = [], filtered = [], page = 0, lineage = {};
 const sel = { schoolId: null, zip: null };
 
 function parseCSV(text) {
@@ -173,9 +193,11 @@ function combo(inputEl, dropEl, options, onPick) {
 }
 
 /* ---- data ---- */
-fetch("public_yearbook_registry.csv")
-  .then(r => r.text())
-  .then(t => {
+Promise.all([
+  fetch("public_yearbook_registry.csv").then(r => r.text()),
+  fetch("school_lineage.json").then(r => r.json()).catch(() => ({})),
+]).then(([t, lin]) => {
+    lineage = lin;
     rows = parseCSV(t);
     const smap = new Map(), zset = new Set(), yset = new Set();
     for (const r of rows) {
@@ -207,22 +229,73 @@ fetch("public_yearbook_registry.csv")
   })
   .catch(e => { document.getElementById("stats").textContent = "failed to load CSV: " + e; });
 
+/* ---- lineage strip + records box ---- */
+function span(n) {
+  const o = n.opened && n.opened !== "n/a" ? n.opened : "?";
+  const c = n.closed && n.closed !== "n/a" ? n.closed : "open";
+  return `${o}–${c}`;
+}
+function lineageHTML(node, parentClosed) {
+  const dead = /^(\(ALL-|not yet)/.test(node.name);
+  let h = `<span class="lbox${dead ? " deadend" : ""}"><b>${esc(node.name)}</b>` +
+          `<span class="lyrs">${esc(span(node))}</span></span>`;
+  for (const c of node.children) {
+    const weak = c.conf && c.conf !== "confirmed" ? " weak" : "";
+    const lbl = c.conf === "probable" ? "likely" : c.conf === "unknown" ? "unverified" : "";
+    const yr = parentClosed && parentClosed !== "n/a" ? parentClosed : "";
+    h += `<span class="larrow${weak}"><span class="lbl">${esc([yr, lbl].filter(Boolean).join(" · "))}</span>→</span>` +
+         `<span class="lrow">${lineageHTML(c, node.closed)}</span>`;
+  }
+  return h;
+}
+function terminals(node, acc = []) {
+  if (!node.children.length) acc.push(node);
+  node.children.forEach(c => terminals(c, acc));
+  return acc;
+}
+function showLineage(sid) {
+  const el = document.getElementById("lineage"),
+        rec = document.getElementById("records");
+  const node = lineage[sid];
+  if (!node) { el.style.display = rec.style.display = "none"; return; }
+  el.innerHTML = `<div class="lrow">${lineageHTML(node, null)}</div>`;
+  el.style.display = "";
+  const recs = terminals(node).filter(t => t.records);
+  if (!recs.length) { rec.style.display = "none"; return; }
+  rec.innerHTML = recs.map(t => {
+    const r = t.records;
+    const src = r.url
+      ? `<a href="${esc(r.url)}" target="_blank" rel="noopener">${esc(r.office_name)}</a>`
+      : esc(r.office_name);
+    const asof = r.as_of ? `, as of ${esc(r.as_of)}` : "";
+    const badge = r.reca_documented === true
+      ? ` <span class="chip s-digitally_secured">RECA-specific process documented</span>` : "";
+    return `<div class="rhead">Records for ${esc(t.name)}: ${src}${asof}${badge}</div>` +
+           `<div>${linkify(r.display_text)}</div>`;
+  }).join('<hr style="border:none;border-top:1px solid #e6d9b0;margin:10px 0">');
+  rec.style.display = "";
+}
+function hideLineage() {
+  document.getElementById("lineage").style.display = "none";
+  document.getElementById("records").style.display = "none";
+}
+
 function wire() {
   const sIn = document.getElementById("school"), zIn = document.getElementById("zip");
 
   combo(sIn, document.getElementById("schoolDrop"), schools, o => {
     sel.schoolId = o ? o.id : null;
-    if (o) { sIn.value = o.name; zIn.value = o.zip; zIn.disabled = true; }
-    else { zIn.disabled = false; }
+    if (o) { sIn.value = o.name; zIn.value = o.zip; zIn.disabled = true; showLineage(o.id); }
+    else { zIn.disabled = false; hideLineage(); }
     apply();
   });
   combo(zIn, document.getElementById("zipDrop"), zips, o => {
     sel.zip = o ? o.zip : null;
-    if (o) { zIn.value = o.zip; sIn.disabled = true; }
+    if (o) { zIn.value = o.zip; sIn.disabled = true; hideLineage(); }
     else { sIn.disabled = false; }
     apply();
   });
-  sIn.addEventListener("input", () => { if (!sIn.value) { sel.schoolId = null; zIn.disabled = false; zIn.value = sel.zip ?? zIn.value; apply(); } });
+  sIn.addEventListener("input", () => { if (!sIn.value) { sel.schoolId = null; zIn.disabled = false; zIn.value = sel.zip ?? zIn.value; hideLineage(); apply(); } });
   zIn.addEventListener("input", () => { if (!zIn.value) { sel.zip = null; sIn.disabled = false; apply(); } });
 
   document.getElementById("year").addEventListener("change", apply);
@@ -230,6 +303,7 @@ function wire() {
     sel.schoolId = sel.zip = null;
     sIn.value = zIn.value = ""; sIn.disabled = zIn.disabled = false;
     document.getElementById("year").value = "";
+    hideLineage();
     apply();
   };
   document.getElementById("prev").onclick = () => { page--; render(); window.scrollTo(0,0); };
