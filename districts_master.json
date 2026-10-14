@@ -7,7 +7,8 @@
       "successor_district_id: 'none' = still operating / no successor; 'unknown' = unresolved",
       "predecessor_districts lists districts that merged INTO this district (and were dissolved by it)",
       "types: public | parish_system | private_operator | county_special | state_agency | higher_ed"
-    ]
+    ],
+    "records_office_added": "Track C addendum (Q4) 2026-10-14: records_office blocks added to all 70 entries. confidence=confirmed means the office/custodian was verified on the organization's public site; probable means custody is derived from successor_district_id under Missouri DESE guidance (closed-school records go to the district now serving the area) or from operator policy (e.g. open archdiocesan schools hold their own records; closed ones go to the Archdiocesan Archives). Parish schools are covered by DIST-401: closed parish/archdiocesan school records are held by the Archdiocese of St. Louis Archives (20 Archbishop May Dr), NOT the parish. The chain endpoint for a dissolved district is its successor's office — mirrored here."
   },
   "districts": [
     {
@@ -16,15 +17,47 @@
       "type": "public",
       "formed_year": "1949",
       "dissolved_year": null,
-      "predecessor_districts": ["DIST-121", "DIST-122", "DIST-123", "DIST-124", "DIST-125", "DIST-126", "DIST-127", "DIST-128", "DIST-129", "DIST-130", "DIST-131", "DIST-132", "DIST-133"],
+      "predecessor_districts": [
+        "DIST-121",
+        "DIST-122",
+        "DIST-123",
+        "DIST-124",
+        "DIST-125",
+        "DIST-126",
+        "DIST-127",
+        "DIST-128",
+        "DIST-129",
+        "DIST-130",
+        "DIST-131",
+        "DIST-132",
+        "DIST-133"
+      ],
       "successor_district_id": "none",
       "confidence": "confirmed",
       "citations": [
-        {"url": "https://law.justia.com/cases/federal/district-courts/FSupp/392/1276/1580584/", "note": "US v. Hazelwood SD, 392 F.Supp. 1276: formed from thirteen rural school districts between 1949 and 1951 by annexation; 8 schools, 811 students at formation"},
-        {"url": "https://www.hazelwoodschools.org/about-us/history-of-the-district", "note": "District's own history page"},
-        {"url": "https://www.primecenter.org/prime-blog/blog-school-district-consolidation-stl", "note": "PRiME Center (SLU): created as Hazelwood R-1 by the October 1951 reorganization vote"}
+        {
+          "url": "https://law.justia.com/cases/federal/district-courts/FSupp/392/1276/1580584/",
+          "note": "US v. Hazelwood SD, 392 F.Supp. 1276: formed from thirteen rural school districts between 1949 and 1951 by annexation; 8 schools, 811 students at formation"
+        },
+        {
+          "url": "https://www.hazelwoodschools.org/about-us/history-of-the-district",
+          "note": "District's own history page"
+        },
+        {
+          "url": "https://www.primecenter.org/prime-blog/blog-school-district-consolidation-stl",
+          "note": "PRiME Center (SLU): created as Hazelwood R-1 by the October 1951 reorganization vote"
+        }
       ],
-      "notes": "R-1 reorganization district created by the October 1951 county-wide vote; assembled from thirteen rural districts of St. Ferdinand Township (1949-1951 annexations). Covers 78 sq mi of northernmost St. Louis County."
+      "notes": "R-1 reorganization district created by the October 1951 county-wide vote; assembled from thirteen rural districts of St. Ferdinand Township (1949-1951 annexations). Covers 78 sq mi of northernmost St. Louis County.",
+      "records_office": {
+        "name": "Hazelwood School District — Student Enrollment/Registrar (alumni transcripts)",
+        "address": "15955 New Halls Ferry Rd, Florissant, MO 63031",
+        "phone": "314-953-5000",
+        "url": "https://www.hazelwoodschools.org/departments/student-enrollment/transcripts",
+        "confidence": "confirmed",
+        "citation": "https://www.hazelwoodschools.org/departments/student-enrollment/transcripts",
+        "notes": "Alumni transcripts via Transcript Request Form emailed to transcripts@hazelwoodschools.org (photo ID required; 3-5 business days). Sunshine custodian of records: Kristina Allen, kallen2@hazelwoodschools.org (https://www.hazelwoodschools.org/about-us/board-of-education/open-recordssunshine-requests). Custodian for the 13 rural predecessor districts (DIST-121..133) — their school records live here."
+      }
     },
     {
       "district_id": "DIST-002",
@@ -32,15 +65,38 @@
       "type": "public",
       "formed_year": "1952",
       "dissolved_year": null,
-      "predecessor_districts": ["DIST-101", "DIST-102", "DIST-103", "DIST-104"],
+      "predecessor_districts": [
+        "DIST-101",
+        "DIST-102",
+        "DIST-103",
+        "DIST-104"
+      ],
       "successor_district_id": "none",
       "confidence": "confirmed",
       "citations": [
-        {"url": "https://en.wikipedia.org/wiki/McCluer_High_School", "note": "1952 merger of Ferguson Public School District and Florissant School District"},
-        {"url": "https://en.wikipedia.org/wiki/Ferguson-Florissant_School_District", "note": "June 7, 1975 federal order annexing Berkeley and Kinloch districts into FFSD"},
-        {"url": "https://law.resource.org/pub/us/case/reporter/F2/515/515.F2d.1365.75-1073.75-1064.75-1051.html", "note": "515 F.2d 1365 (8th Cir. 1975) affirming annexation of Berkeley and Kinloch"}
+        {
+          "url": "https://en.wikipedia.org/wiki/McCluer_High_School",
+          "note": "1952 merger of Ferguson Public School District and Florissant School District"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Ferguson-Florissant_School_District",
+          "note": "June 7, 1975 federal order annexing Berkeley and Kinloch districts into FFSD"
+        },
+        {
+          "url": "https://law.resource.org/pub/us/case/reporter/F2/515/515.F2d.1365.75-1073.75-1064.75-1051.html",
+          "note": "515 F.2d 1365 (8th Cir. 1975) affirming annexation of Berkeley and Kinloch"
+        }
       ],
-      "notes": "Ferguson Reorganized School District R-2 created by the October 1951 reorganization vote, effecting the 1952 merger of the Ferguson and Florissant districts. Boundaries expanded effective February 1, 1975 to include the dissolved Berkeley and Kinloch districts under federal court order (388 F.Supp. 1058). Student desegregation implemented 1976-77 school year."
+      "notes": "Ferguson Reorganized School District R-2 created by the October 1951 reorganization vote, effecting the 1952 merger of the Ferguson and Florissant districts. Boundaries expanded effective February 1, 1975 to include the dissolved Berkeley and Kinloch districts under federal court order (388 F.Supp. 1058). Student desegregation implemented 1976-77 school year.",
+      "records_office": {
+        "name": "Ferguson-Florissant School District — Student Records",
+        "address": "1005 Waterford Dr, Florissant, MO 63033",
+        "phone": "314-506-9000",
+        "url": "https://www.fergflor.org/families/alumni",
+        "confidence": "confirmed",
+        "citation": "https://www.fergflor.org/families/alumni",
+        "notes": "Alumni transcript requests via the district's Families > Alumni page (Transcripts link). District office 1005 Waterford Dr per NCES/needmytranscript. Custodian for the dissolved Berkeley, Kinloch, Robertson, Scudder, Ferguson Public, and Florissant districts (all records inherited at the 1952 merger and 1975 federal annexation)."
+      }
     },
     {
       "district_id": "DIST-003",
@@ -48,14 +104,37 @@
       "type": "public",
       "formed_year": "1951",
       "dissolved_year": null,
-      "predecessor_districts": ["DIST-109", "DIST-110", "DIST-111", "DIST-112", "DIST-115", "DIST-116", "DIST-117"],
+      "predecessor_districts": [
+        "DIST-109",
+        "DIST-110",
+        "DIST-111",
+        "DIST-112",
+        "DIST-115",
+        "DIST-116",
+        "DIST-117"
+      ],
       "successor_district_id": "none",
       "confidence": "confirmed",
       "citations": [
-        {"url": "https://www.primecenter.org/prime-blog/blog-school-district-consolidation-stl", "note": "Pattonville R-3 created by October 1951 reorganization vote"},
-        {"url": "https://sites.google.com/pattonville.k12.mo.us/", "note": "District history documenting the absorbed predecessor districts (Maryland Heights 1962, Bridgeton, Mount Pleasant, Penn-Junction, Fee Fee, St. Ann)"}
+        {
+          "url": "https://www.primecenter.org/prime-blog/blog-school-district-consolidation-stl",
+          "note": "Pattonville R-3 created by October 1951 reorganization vote"
+        },
+        {
+          "url": "https://sites.google.com/pattonville.k12.mo.us/",
+          "note": "District history documenting the absorbed predecessor districts (Maryland Heights 1962, Bridgeton, Mount Pleasant, Penn-Junction, Fee Fee, St. Ann)"
+        }
       ],
-      "notes": "R-3 reorganization district from the October 1951 vote, built on the pre-existing School District of Pattonville; absorbed Bridgeton (~1950), Mount Pleasant and Penn-Junction (~1951), St. Ann, and Maryland Heights School District (1962). Modern spelling R-III is the canonical form; seed/rows variants 'R-3' and 'Pattonville School District' normalized."
+      "notes": "R-3 reorganization district from the October 1951 vote, built on the pre-existing School District of Pattonville; absorbed Bridgeton (~1950), Mount Pleasant and Penn-Junction (~1951), St. Ann, and Maryland Heights School District (1962). Modern spelling R-III is the canonical form; seed/rows variants 'R-3' and 'Pattonville School District' normalized.",
+      "records_office": {
+        "name": "Pattonville R-III School District — Student Records / Registrar",
+        "address": "11097 St. Charles Rock Rd., St. Ann, MO 63074",
+        "phone": "314-213-8000",
+        "url": "https://www.psdr3.org/community",
+        "confidence": "confirmed",
+        "citation": "https://www.psdr3.org/community",
+        "notes": "District maintains a dedicated RECA Record Requests section on its Community page with Student Form and Staff Form — the single best-documented RECA endpoint in the region. PHS Registrar Lesley Gray, (314) 213-8051, grayl01@psdr3.org for alumni transcripts. Custodian for all dissolved Pattonville-feeder districts (Bridgeton, Maryland Heights, Mount Pleasant, Penn-Junction, Fee Fee No.16, St. Ann, School District of Pattonville)."
+      }
     },
     {
       "district_id": "DIST-004",
@@ -63,14 +142,31 @@
       "type": "public",
       "formed_year": "2014",
       "dissolved_year": null,
-      "predecessor_districts": ["DIST-106"],
+      "predecessor_districts": [
+        "DIST-106"
+      ],
       "successor_district_id": "none",
       "confidence": "confirmed",
       "citations": [
-        {"url": "https://en.wikipedia.org/wiki/Normandy_Schools_Collaborative", "note": "Established July 2014 by the Missouri State Board of Education, formerly the Normandy School District"},
-        {"url": "https://www.normandysc.org/about-nsc", "note": "District site; 2019-20 EleMiddle (grades 1-8) reconfiguration"}
+        {
+          "url": "https://en.wikipedia.org/wiki/Normandy_Schools_Collaborative",
+          "note": "Established July 2014 by the Missouri State Board of Education, formerly the Normandy School District"
+        },
+        {
+          "url": "https://www.normandysc.org/about-nsc",
+          "note": "District site; 2019-20 EleMiddle (grades 1-8) reconfiguration"
+        }
       ],
-      "notes": "The Normandy School District (DIST-106 lineage) was renamed/reconstituted as Normandy Schools Collaborative in July 2014 under state supervision following loss of accreditation; absorbed the dissolved Wellston district in 2010. Operates schools under the EleMiddle model since 2019-20."
+      "notes": "The Normandy School District (DIST-106 lineage) was renamed/reconstituted as Normandy Schools Collaborative in July 2014 under state supervision following loss of accreditation; absorbed the dissolved Wellston district in 2010. Operates schools under the EleMiddle model since 2019-20.",
+      "records_office": {
+        "name": "Ritenour School District — Registrar / Custodian of Records",
+        "address": "2420 Woodson Rd, St. Louis, MO 63114",
+        "phone": "314-493-6058",
+        "url": "https://www.ritenourschools.org/community/alumni/request-a-transcript",
+        "confidence": "confirmed",
+        "citation": "https://www.ritenourschools.org/community/alumni/request-a-transcript",
+        "notes": "Alumni transcripts via Parchment ($4.50, processed Tuesdays); registrar Reauna Dodds doddsr@ritenourschools.org. Custodian of records district-wide: Assistant to the Superintendent of Student Services. Custodian for dissolved Ritenour-feeder districts (Overland, Ritenour, Elmwood Park)."
+      }
     },
     {
       "district_id": "DIST-005",
@@ -82,9 +178,21 @@
       "successor_district_id": "none",
       "confidence": "probable",
       "citations": [
-        {"url": "https://www.ritenourschools.org/community/history-of-ritenour/100-facts", "note": "District's own history compendium; school lineage back to a rural district school of 1867"}
+        {
+          "url": "https://www.ritenourschools.org/community/history-of-ritenour/100-facts",
+          "note": "District's own history compendium; school lineage back to a rural district school of 1867"
+        }
       ],
-      "notes": "Ritenour Consolidated School District descends from an 1867 rural school district (per the district's 'Our First 132 Years' history, 132 years to ~1999). Never dissolved; absorbed local elementaries through internal reorganizations (notably the March 25, 1976 plan closing Home Heights, Midland, and New Overland)."
+      "notes": "Ritenour Consolidated School District descends from an 1867 rural school district (per the district's 'Our First 132 Years' history, 132 years to ~1999). Never dissolved; absorbed local elementaries through internal reorganizations (notably the March 25, 1976 plan closing Home Heights, Midland, and New Overland).",
+      "records_office": {
+        "name": "Normandy Schools Collaborative — Registrar Office / Custodian of Records",
+        "address": "3855 Lucas and Hunt Road, Normandy, MO 63121",
+        "phone": "314-493-0400",
+        "url": "https://normandyhighschool.normandysc.org/registrar-office-transcripts-student-records",
+        "confidence": "confirmed",
+        "citation": "https://www.normandysc.org/about-nsc/open-recordssunshine-requests",
+        "notes": "HS transcripts via Parchment; attendance/verification requests to Natessa Montgomery nmontgomery@normandysc.org. Sunshine custodian: Cecelia M. Rigsby, Executive Board Secretary, crigsby@normandysc.org, fax 314-385-3511. Custodian for Wellston School District records (2010 annexation) and the dissolved Normandy School District."
+      }
     },
     {
       "district_id": "DIST-006",
@@ -92,13 +200,28 @@
       "type": "public",
       "formed_year": "1950",
       "dissolved_year": null,
-      "predecessor_districts": ["DIST-118", "DIST-135"],
+      "predecessor_districts": [
+        "DIST-118",
+        "DIST-135"
+      ],
       "successor_district_id": "none",
       "confidence": "probable",
       "citations": [
-        {"url": "https://riverviewgardens1969.myevent.com/", "note": "District/alumni history: Riverview Gardens formed from the Science Hill District #20 and Moline predecessor districts"}
+        {
+          "url": "https://riverviewgardens1969.myevent.com/",
+          "note": "District/alumni history: Riverview Gardens formed from the Science Hill District #20 and Moline predecessor districts"
+        }
       ],
-      "notes": "North-county district assembled from the Science Hill District #20 and Moline predecessor districts; RGSD high school opened in the 1950s (1218 Shepley Dr). Formation year probable; see notes for the circa-1950 consolidation."
+      "notes": "North-county district assembled from the Science Hill District #20 and Moline predecessor districts; RGSD high school opened in the 1950s (1218 Shepley Dr). Formation year probable; see notes for the circa-1950 consolidation.",
+      "records_office": {
+        "name": "Riverview Gardens School District — Custodian of Records",
+        "address": "1370 Northumberland Dr, St. Louis, MO 63137",
+        "phone": "314-869-2505",
+        "url": "https://www.riverviewgardens.org/",
+        "confidence": "confirmed",
+        "citation": "https://www.civicplus.com/case-studies/rr/riverview-gardens-school-district-enhances-records-management-nextrequest/",
+        "notes": "Custodian of Records: Sha Fields, Coordinator of Board Governance; district processes records requests through the NextRequest public-records portal (implemented May 2023). Custodian for Science Hill District #20 and Moline predecessor districts."
+      }
     },
     {
       "district_id": "DIST-007",
@@ -110,9 +233,21 @@
       "successor_district_id": "none",
       "confidence": "probable",
       "citations": [
-        {"url": "https://www.ucityschools.org/", "note": "District site"}
+        {
+          "url": "https://www.ucityschools.org/",
+          "note": "District site"
+        }
       ],
-      "notes": "Independent district serving University City; formation date not established in Track C research (long predates the 1949 reorganization wave)."
+      "notes": "Independent district serving University City; formation date not established in Track C research (long predates the 1949 reorganization wave).",
+      "records_office": {
+        "name": "School District of University City — Custodian of Records",
+        "address": "7700 Olive Blvd, University City, MO 63130",
+        "phone": "314-290-4002",
+        "url": "https://www.ucityschools.org/departments/communications/sunshine-information-requests",
+        "confidence": "confirmed",
+        "citation": "https://www.ucityschools.org/departments/communications/sunshine-information-requests",
+        "notes": "Lakesha Boyce, Executive Manager for the Superintendent & Board of Education, is Custodian of Records (lboyce@ucityschools.org). Student education records requests go to the school principal per FERPA notice; alumni transcripts handled at U. City HS."
+      }
     },
     {
       "district_id": "DIST-008",
@@ -120,13 +255,27 @@
       "type": "public",
       "formed_year": "1838",
       "dissolved_year": null,
-      "predecessor_districts": ["DIST-134"],
+      "predecessor_districts": [
+        "DIST-134"
+      ],
       "successor_district_id": "none",
       "confidence": "confirmed",
       "citations": [
-        {"url": "https://en.wikipedia.org/wiki/St._Louis_Public_Schools", "note": "District organized 1838; absorbed the Baden local district when Baden was annexed to the city in 1876"}
+        {
+          "url": "https://en.wikipedia.org/wiki/St._Louis_Public_Schools",
+          "note": "District organized 1838; absorbed the Baden local district when Baden was annexed to the city in 1876"
+        }
       ],
-      "notes": "The city district; annexed-town districts (e.g. Baden, 1876) folded in as the city grew."
+      "notes": "The city district; annexed-town districts (e.g. Baden, 1876) folded in as the city grew.",
+      "records_office": {
+        "name": "St. Louis Public Schools — Student Transcript Office",
+        "address": "801 N. 11th Street, St. Louis, MO 63101",
+        "phone": "314-645-2648",
+        "url": "https://www.slps.org/community/student-transcripts",
+        "confidence": "confirmed",
+        "citation": "https://www.slps.org/community/student-transcripts",
+        "notes": "Central records office for all SLPS current/former student records incl. elementary records ($3), HS transcripts ($3), genealogy searches ($10). Email SLPSTRANSCRIPTS@SLPS.ORG, fax 314-633-5230. Sunshine custodian: Kim Dutch, SAR@slps.org. Custodian for the Baden local district (DIST-134) schools absorbed in 1876 and for closed city schools (e.g. Beaumont, Baden Elementary)."
+      }
     },
     {
       "district_id": "DIST-009",
@@ -134,13 +283,29 @@
       "type": "public",
       "formed_year": "1954",
       "dissolved_year": null,
-      "predecessor_districts": ["DIST-136", "DIST-137", "DIST-138"],
+      "predecessor_districts": [
+        "DIST-136",
+        "DIST-137",
+        "DIST-138"
+      ],
       "successor_district_id": "none",
       "confidence": "confirmed",
       "citations": [
-        {"url": "https://www.primecenter.org/prime-blog/blog-school-district-consolidation-stl", "note": "1954: Fern Ridge, Mason Ridge C-2, and Weber districts formed the consolidated high-school district Parkway C-2"}
+        {
+          "url": "https://www.primecenter.org/prime-blog/blog-school-district-consolidation-stl",
+          "note": "1954: Fern Ridge, Mason Ridge C-2, and Weber districts formed the consolidated high-school district Parkway C-2"
+        }
       ],
-      "notes": "Last major district merger of the St. Louis County consolidation wave."
+      "notes": "Last major district merger of the St. Louis County consolidation wave.",
+      "records_office": {
+        "name": "Parkway Schools — Student Records Office",
+        "address": "Parkway Welcome Center, 760 Woods Mill Road, Ballwin, MO 63011",
+        "phone": "314-415-9062",
+        "url": "https://www.parkwayschools.net/contact/departments/student-services/data-management-research-and-enrollment/student-records-and-transcripts",
+        "confidence": "confirmed",
+        "citation": "https://www.parkwayschools.net/contact/departments/student-services/data-management-research-and-enrollment/student-records-and-transcripts",
+        "notes": "Student Records office maintains education/health records for ALL former Parkway students (records held at school of last attendance for only 1 year). Contact Kami Kruger, Student Records Specialist, kkruger@parkwayschools.net. Sunshine custodian: Elisa Tomich, chief communications officer. NOTE: special-education records custodian is Special School District (DIST-301) for this and all STL County districts. Custodian for Fern Ridge, Mason Ridge C-2, and Weber predecessor records (1954 C-2 merger)."
+      }
     },
     {
       "district_id": "DIST-101",
@@ -152,9 +317,21 @@
       "successor_district_id": "DIST-002",
       "confidence": "confirmed",
       "citations": [
-        {"url": "https://en.wikipedia.org/wiki/McCluer_High_School", "note": "1952 merger of Ferguson Public School District and Florissant School District into FFSD"}
+        {
+          "url": "https://en.wikipedia.org/wiki/McCluer_High_School",
+          "note": "1952 merger of Ferguson Public School District and Florissant School District into FFSD"
+        }
       ],
-      "notes": "Also styled 'Ferguson School District' / 'District #3'. Operated Ferguson High School (1939) on the January Estate."
+      "notes": "Also styled 'Ferguson School District' / 'District #3'. Operated Ferguson High School (1939) on the January Estate.",
+      "records_office": {
+        "name": "Ferguson-Florissant School District — Student Records",
+        "address": "1005 Waterford Dr, Florissant, MO 63033",
+        "phone": "314-506-9000",
+        "url": "https://www.fergflor.org/families/alumni",
+        "confidence": "probable",
+        "citation": "https://dese.mo.gov/transcripts-and-diplomas",
+        "notes": "District dissolved 1952; student records are presumed held by successor district Ferguson-Florissant School District per Missouri DESE guidance (closed-school records go to the superintendent's office of the district now serving the area). Contact shown is the successor district's records office."
+      }
     },
     {
       "district_id": "DIST-102",
@@ -166,9 +343,21 @@
       "successor_district_id": "DIST-002",
       "confidence": "confirmed",
       "citations": [
-        {"url": "https://en.wikipedia.org/wiki/McCluer_High_School", "note": "1952 merger into Ferguson-Florissant"}
+        {
+          "url": "https://en.wikipedia.org/wiki/McCluer_High_School",
+          "note": "1952 merger into Ferguson-Florissant"
+        }
       ],
-      "notes": "The Florissant public district merged with Ferguson in the 1952 R-2 reorganization."
+      "notes": "The Florissant public district merged with Ferguson in the 1952 R-2 reorganization.",
+      "records_office": {
+        "name": "Ferguson-Florissant School District — Student Records",
+        "address": "1005 Waterford Dr, Florissant, MO 63033",
+        "phone": "314-506-9000",
+        "url": "https://www.fergflor.org/families/alumni",
+        "confidence": "probable",
+        "citation": "https://dese.mo.gov/transcripts-and-diplomas",
+        "notes": "District dissolved 1952; student records are presumed held by successor district Ferguson-Florissant School District per Missouri DESE guidance (closed-school records go to the superintendent's office of the district now serving the area). Contact shown is the successor district's records office."
+      }
     },
     {
       "district_id": "DIST-103",
@@ -176,14 +365,33 @@
       "type": "public",
       "formed_year": "1937",
       "dissolved_year": "1975",
-      "predecessor_districts": ["DIST-105", "DIST-107", "DIST-108"],
+      "predecessor_districts": [
+        "DIST-105",
+        "DIST-107",
+        "DIST-108"
+      ],
       "successor_district_id": "DIST-002",
       "confidence": "confirmed",
       "citations": [
-        {"url": "https://law.resource.org/pub/us/case/reporter/F2/515/515.F2d.1365.75-1073.75-1064.75-1051.html", "note": "515 F.2d 1365: Kinloch No. 18 split in 1937 into white Berkeley district and Black new Kinloch district; Berkeley annexed to FFSD by the 1975 order"},
-        {"url": "https://www.primecenter.org/prime-blog/blog-school-district-consolidation-stl", "note": "1975 federal-ordered merger of Berkeley and Kinloch into FFSD"}
+        {
+          "url": "https://law.resource.org/pub/us/case/reporter/F2/515/515.F2d.1365.75-1073.75-1064.75-1051.html",
+          "note": "515 F.2d 1365: Kinloch No. 18 split in 1937 into white Berkeley district and Black new Kinloch district; Berkeley annexed to FFSD by the 1975 order"
+        },
+        {
+          "url": "https://www.primecenter.org/prime-blog/blog-school-district-consolidation-stl",
+          "note": "1975 federal-ordered merger of Berkeley and Kinloch into FFSD"
+        }
       ],
-      "notes": "Created in the 1937 split of Kinloch School District No. 18; absorbed Scudder (1960) and Robertson (~1964) along the way; dissolved into Ferguson-Florissant effective February 1, 1975."
+      "notes": "Created in the 1937 split of Kinloch School District No. 18; absorbed Scudder (1960) and Robertson (~1964) along the way; dissolved into Ferguson-Florissant effective February 1, 1975.",
+      "records_office": {
+        "name": "Ferguson-Florissant School District — Student Records",
+        "address": "1005 Waterford Dr, Florissant, MO 63033",
+        "phone": "314-506-9000",
+        "url": "https://www.fergflor.org/families/alumni",
+        "confidence": "probable",
+        "citation": "https://dese.mo.gov/transcripts-and-diplomas",
+        "notes": "District dissolved 1975; student records are presumed held by successor district Ferguson-Florissant School District per Missouri DESE guidance (closed-school records go to the superintendent's office of the district now serving the area). Contact shown is the successor district's records office."
+      }
     },
     {
       "district_id": "DIST-104",
@@ -191,13 +399,27 @@
       "type": "public",
       "formed_year": "1937",
       "dissolved_year": "1975",
-      "predecessor_districts": ["DIST-105"],
+      "predecessor_districts": [
+        "DIST-105"
+      ],
       "successor_district_id": "DIST-002",
       "confidence": "confirmed",
       "citations": [
-        {"url": "https://law.resource.org/pub/us/case/reporter/F2/515/515.F2d.1365.75-1073.75-1064.75-1051.html", "note": "1937 split of Kinloch No. 18 produced the all-Black new Kinloch district; annexed to FFSD effective Feb 1, 1975"}
+        {
+          "url": "https://law.resource.org/pub/us/case/reporter/F2/515/515.F2d.1365.75-1073.75-1064.75-1051.html",
+          "note": "1937 split of Kinloch No. 18 produced the all-Black new Kinloch district; annexed to FFSD effective Feb 1, 1975"
+        }
       ],
-      "notes": "The all-Black district created by the 1937 split; underfunded and segregated by state action per the federal courts (363 F.Supp. 739; 388 F.Supp. 1058)."
+      "notes": "The all-Black district created by the 1937 split; underfunded and segregated by state action per the federal courts (363 F.Supp. 739; 388 F.Supp. 1058).",
+      "records_office": {
+        "name": "Ferguson-Florissant School District — Student Records",
+        "address": "1005 Waterford Dr, Florissant, MO 63033",
+        "phone": "314-506-9000",
+        "url": "https://www.fergflor.org/families/alumni",
+        "confidence": "probable",
+        "citation": "https://dese.mo.gov/transcripts-and-diplomas",
+        "notes": "District dissolved 1975; student records are presumed held by successor district Ferguson-Florissant School District per Missouri DESE guidance (closed-school records go to the superintendent's office of the district now serving the area). Contact shown is the successor district's records office."
+      }
     },
     {
       "district_id": "DIST-105",
@@ -209,9 +431,21 @@
       "successor_district_id": "unknown",
       "confidence": "confirmed",
       "citations": [
-        {"url": "https://law.resource.org/pub/us/case/reporter/F2/515/515.F2d.1365.75-1073.75-1064.75-1051.html", "note": "Prior to 1937 one district (Kinloch No. 18) covered present-day Kinloch and most of Berkeley; split into two districts in 1937"}
+        {
+          "url": "https://law.resource.org/pub/us/case/reporter/F2/515/515.F2d.1365.75-1073.75-1064.75-1051.html",
+          "note": "Prior to 1937 one district (Kinloch No. 18) covered present-day Kinloch and most of Berkeley; split into two districts in 1937"
+        }
       ],
-      "notes": "Predecessor of BOTH Berkeley and Kinloch (the 1937 split created two districts from one). successor_district_id 'unknown' because there are two successors; see DIST-103 and DIST-104."
+      "notes": "Predecessor of BOTH Berkeley and Kinloch (the 1937 split created two districts from one). successor_district_id 'unknown' because there are two successors; see DIST-103 and DIST-104.",
+      "records_office": {
+        "name": "Ferguson-Florissant School District — Student Records",
+        "address": "1005 Waterford Dr, Florissant, MO 63033",
+        "phone": "314-506-9000",
+        "url": "https://www.fergflor.org/families/alumni",
+        "confidence": "probable",
+        "citation": "https://dese.mo.gov/transcripts-and-diplomas",
+        "notes": "District split 1937 into the Berkeley and Kinloch districts; BOTH were annexed to Ferguson-Florissant effective Feb 1, 1975 (388 F.Supp. 1058), so FFSD is the presumed custodian of any surviving records per Missouri DESE guidance. Contact shown is the successor district's records office."
+      }
     },
     {
       "district_id": "DIST-106",
@@ -219,13 +453,27 @@
       "type": "public",
       "formed_year": "unknown",
       "dissolved_year": "2014",
-      "predecessor_districts": ["DIST-119"],
+      "predecessor_districts": [
+        "DIST-119"
+      ],
       "successor_district_id": "DIST-004",
       "confidence": "confirmed",
       "citations": [
-        {"url": "https://en.wikipedia.org/wiki/Normandy_Schools_Collaborative", "note": "Normandy School District became Normandy Schools Collaborative July 2014; absorbed Wellston district 2010"}
+        {
+          "url": "https://en.wikipedia.org/wiki/Normandy_Schools_Collaborative",
+          "note": "Normandy School District became Normandy Schools Collaborative July 2014; absorbed Wellston district 2010"
+        }
       ],
-      "notes": "Longstanding north-county district; the 2014 change to the Collaborative was a state-directed reconstitution of the same legal district (succession recorded as rename)."
+      "notes": "Longstanding north-county district; the 2014 change to the Collaborative was a state-directed reconstitution of the same legal district (succession recorded as rename).",
+      "records_office": {
+        "name": "Ritenour School District — Registrar / Custodian of Records",
+        "address": "2420 Woodson Rd, St. Louis, MO 63114",
+        "phone": "314-493-6058",
+        "url": "https://www.ritenourschools.org/community/alumni/request-a-transcript",
+        "confidence": "probable",
+        "citation": "https://dese.mo.gov/transcripts-and-diplomas",
+        "notes": "District dissolved 2014; student records are presumed held by successor district Normandy Schools Collaborative per Missouri DESE guidance (closed-school records go to the superintendent's office of the district now serving the area). Contact shown is the successor district's records office."
+      }
     },
     {
       "district_id": "DIST-107",
@@ -237,9 +485,21 @@
       "successor_district_id": "DIST-103",
       "confidence": "confirmed",
       "citations": [
-        {"url": "https://files.shsmo.org/", "note": "Scudder district history; merged into Berkeley School District 1960"}
+        {
+          "url": "https://files.shsmo.org/",
+          "note": "Scudder district history; merged into Berkeley School District 1960"
+        }
       ],
-      "notes": "Served the Scudder Avenue area; a portion of its territory had already gone to Kinloch No. 18 in 1902-03. Remainder merged into Berkeley in 1960; students then bused into Berkeley schools."
+      "notes": "Served the Scudder Avenue area; a portion of its territory had already gone to Kinloch No. 18 in 1902-03. Remainder merged into Berkeley in 1960; students then bused into Berkeley schools.",
+      "records_office": {
+        "name": "Ferguson-Florissant School District — Student Records",
+        "address": "1005 Waterford Dr, Florissant, MO 63033",
+        "phone": "314-506-9000",
+        "url": "https://www.fergflor.org/families/alumni",
+        "confidence": "probable",
+        "citation": "https://dese.mo.gov/transcripts-and-diplomas",
+        "notes": "District dissolved 1960; student records are presumed held by successor district Berkeley School District per Missouri DESE guidance (closed-school records go to the superintendent's office of the district now serving the area). Contact shown is the successor district's records office."
+      }
     },
     {
       "district_id": "DIST-108",
@@ -251,9 +511,21 @@
       "successor_district_id": "DIST-103",
       "confidence": "confirmed",
       "citations": [
-        {"url": "https://files.shsmo.org/", "note": "Robertson district dissolved ~1964; students bused to Berkeley School District schools"}
+        {
+          "url": "https://files.shsmo.org/",
+          "note": "Robertson district dissolved ~1964; students bused to Berkeley School District schools"
+        }
       ],
-      "notes": "Robertson district folded into Berkeley about 1964; its schools (e.g. Robertson Elementary, Robertson High School) came under Berkeley and then FFSD in 1975."
+      "notes": "Robertson district folded into Berkeley about 1964; its schools (e.g. Robertson Elementary, Robertson High School) came under Berkeley and then FFSD in 1975.",
+      "records_office": {
+        "name": "Ferguson-Florissant School District — Student Records",
+        "address": "1005 Waterford Dr, Florissant, MO 63033",
+        "phone": "314-506-9000",
+        "url": "https://www.fergflor.org/families/alumni",
+        "confidence": "probable",
+        "citation": "https://dese.mo.gov/transcripts-and-diplomas",
+        "notes": "District dissolved 1964; student records are presumed held by successor district Berkeley School District per Missouri DESE guidance (closed-school records go to the superintendent's office of the district now serving the area). Contact shown is the successor district's records office."
+      }
     },
     {
       "district_id": "DIST-109",
@@ -265,9 +537,21 @@
       "successor_district_id": "DIST-003",
       "confidence": "confirmed",
       "citations": [
-        {"url": "https://sites.google.com/pattonville.k12.mo.us/", "note": "Pattonville district history: Maryland Heights district merged into Pattonville R-III in 1962"}
+        {
+          "url": "https://sites.google.com/pattonville.k12.mo.us/",
+          "note": "Pattonville district history: Maryland Heights district merged into Pattonville R-III in 1962"
+        }
       ],
-      "notes": "Founded as Rural District 24; at the 1962 merger it operated Maryland Heights High School, Remington Elementary, and Carver Elementary (Carver was discontinued at the merger)."
+      "notes": "Founded as Rural District 24; at the 1962 merger it operated Maryland Heights High School, Remington Elementary, and Carver Elementary (Carver was discontinued at the merger).",
+      "records_office": {
+        "name": "Pattonville R-III School District — Student Records / Registrar",
+        "address": "11097 St. Charles Rock Rd., St. Ann, MO 63074",
+        "phone": "314-213-8000",
+        "url": "https://www.psdr3.org/community",
+        "confidence": "probable",
+        "citation": "https://dese.mo.gov/transcripts-and-diplomas",
+        "notes": "District dissolved 1962; student records are presumed held by successor district Pattonville R-III School District per Missouri DESE guidance (closed-school records go to the superintendent's office of the district now serving the area). Contact shown is the successor district's records office."
+      }
     },
     {
       "district_id": "DIST-110",
@@ -279,9 +563,21 @@
       "successor_district_id": "DIST-003",
       "confidence": "confirmed",
       "citations": [
-        {"url": "https://sites.google.com/pattonville.k12.mo.us/", "note": "Pattonville district history; Bridgeton district annexed into Pattonville during the 1949-50 school year"}
+        {
+          "url": "https://sites.google.com/pattonville.k12.mo.us/",
+          "note": "Pattonville district history; Bridgeton district annexed into Pattonville during the 1949-50 school year"
+        }
       ],
-      "notes": "Incorporated by the legislature in 1864, covering Bridgeton and Bridgeton Commons; like other small north-county districts it tuitioned secondary students out rather than operating a high school."
+      "notes": "Incorporated by the legislature in 1864, covering Bridgeton and Bridgeton Commons; like other small north-county districts it tuitioned secondary students out rather than operating a high school.",
+      "records_office": {
+        "name": "Pattonville R-III School District — Student Records / Registrar",
+        "address": "11097 St. Charles Rock Rd., St. Ann, MO 63074",
+        "phone": "314-213-8000",
+        "url": "https://www.psdr3.org/community",
+        "confidence": "probable",
+        "citation": "https://dese.mo.gov/transcripts-and-diplomas",
+        "notes": "District dissolved 1950; student records are presumed held by successor district Pattonville R-III School District per Missouri DESE guidance (closed-school records go to the superintendent's office of the district now serving the area). Contact shown is the successor district's records office."
+      }
     },
     {
       "district_id": "DIST-111",
@@ -293,9 +589,21 @@
       "successor_district_id": "DIST-003",
       "confidence": "confirmed",
       "citations": [
-        {"url": "https://sites.google.com/pattonville.k12.mo.us/", "note": "Absorbed into Pattonville R-III at the 1951 reorganization"}
+        {
+          "url": "https://sites.google.com/pattonville.k12.mo.us/",
+          "note": "Absorbed into Pattonville R-III at the 1951 reorganization"
+        }
       ],
-      "notes": "Mount Pleasant district folded into Pattonville; its school continued as a Pattonville elementary until 1978."
+      "notes": "Mount Pleasant district folded into Pattonville; its school continued as a Pattonville elementary until 1978.",
+      "records_office": {
+        "name": "Pattonville R-III School District — Student Records / Registrar",
+        "address": "11097 St. Charles Rock Rd., St. Ann, MO 63074",
+        "phone": "314-213-8000",
+        "url": "https://www.psdr3.org/community",
+        "confidence": "probable",
+        "citation": "https://dese.mo.gov/transcripts-and-diplomas",
+        "notes": "District dissolved 1951; student records are presumed held by successor district Pattonville R-III School District per Missouri DESE guidance (closed-school records go to the superintendent's office of the district now serving the area). Contact shown is the successor district's records office."
+      }
     },
     {
       "district_id": "DIST-112",
@@ -303,13 +611,28 @@
       "type": "public",
       "formed_year": "unknown",
       "dissolved_year": "1950",
-      "predecessor_districts": ["DIST-113", "DIST-114"],
+      "predecessor_districts": [
+        "DIST-113",
+        "DIST-114"
+      ],
       "successor_district_id": "DIST-003",
       "confidence": "probable",
       "citations": [
-        {"url": "https://sites.google.com/pattonville.k12.mo.us/", "note": "Penn-Junction combined the Penn and Junction districts; absorbed into Pattonville about 1950"}
+        {
+          "url": "https://sites.google.com/pattonville.k12.mo.us/",
+          "note": "Penn-Junction combined the Penn and Junction districts; absorbed into Pattonville about 1950"
+        }
       ],
-      "notes": "Joint district formed from the earlier Penn and Junction school districts; its school (Penn-Junction School) continued under Pattonville until 1982."
+      "notes": "Joint district formed from the earlier Penn and Junction school districts; its school (Penn-Junction School) continued under Pattonville until 1982.",
+      "records_office": {
+        "name": "Pattonville R-III School District — Student Records / Registrar",
+        "address": "11097 St. Charles Rock Rd., St. Ann, MO 63074",
+        "phone": "314-213-8000",
+        "url": "https://www.psdr3.org/community",
+        "confidence": "probable",
+        "citation": "https://dese.mo.gov/transcripts-and-diplomas",
+        "notes": "District dissolved 1950; student records are presumed held by successor district Pattonville R-III School District per Missouri DESE guidance (closed-school records go to the superintendent's office of the district now serving the area). Contact shown is the successor district's records office."
+      }
     },
     {
       "district_id": "DIST-113",
@@ -321,9 +644,21 @@
       "successor_district_id": "DIST-112",
       "confidence": "probable",
       "citations": [
-        {"url": "https://sites.google.com/pattonville.k12.mo.us/", "note": "Predecessor component of the Penn-Junction district"}
+        {
+          "url": "https://sites.google.com/pattonville.k12.mo.us/",
+          "note": "Predecessor component of the Penn-Junction district"
+        }
       ],
-      "notes": "Early common school district that combined with Junction to form Penn-Junction."
+      "notes": "Early common school district that combined with Junction to form Penn-Junction.",
+      "records_office": {
+        "name": "Pattonville R-III School District — Student Records / Registrar",
+        "address": "11097 St. Charles Rock Rd., St. Ann, MO 63074",
+        "phone": "314-213-8000",
+        "url": "https://www.psdr3.org/community",
+        "confidence": "probable",
+        "citation": "https://dese.mo.gov/transcripts-and-diplomas",
+        "notes": "District dissolved unknown; student records are presumed held by successor district Penn-Junction School District per Missouri DESE guidance (closed-school records go to the superintendent's office of the district now serving the area). Contact shown is the successor district's records office."
+      }
     },
     {
       "district_id": "DIST-114",
@@ -335,9 +670,21 @@
       "successor_district_id": "DIST-112",
       "confidence": "probable",
       "citations": [
-        {"url": "https://sites.google.com/pattonville.k12.mo.us/", "note": "Predecessor component of the Penn-Junction district"}
+        {
+          "url": "https://sites.google.com/pattonville.k12.mo.us/",
+          "note": "Predecessor component of the Penn-Junction district"
+        }
       ],
-      "notes": "Early common school district that combined with Penn to form Penn-Junction."
+      "notes": "Early common school district that combined with Penn to form Penn-Junction.",
+      "records_office": {
+        "name": "Pattonville R-III School District — Student Records / Registrar",
+        "address": "11097 St. Charles Rock Rd., St. Ann, MO 63074",
+        "phone": "314-213-8000",
+        "url": "https://www.psdr3.org/community",
+        "confidence": "probable",
+        "citation": "https://dese.mo.gov/transcripts-and-diplomas",
+        "notes": "District dissolved unknown; student records are presumed held by successor district Penn-Junction School District per Missouri DESE guidance (closed-school records go to the superintendent's office of the district now serving the area). Contact shown is the successor district's records office."
+      }
     },
     {
       "district_id": "DIST-115",
@@ -349,9 +696,21 @@
       "successor_district_id": "DIST-116",
       "confidence": "probable",
       "citations": [
-        {"url": "https://sites.google.com/pattonville.k12.mo.us/", "note": "Fee Fee District No. 16 became part of the School District of Pattonville (after 1930)"}
+        {
+          "url": "https://sites.google.com/pattonville.k12.mo.us/",
+          "note": "Fee Fee District No. 16 became part of the School District of Pattonville (after 1930)"
+        }
       ],
-      "notes": "Common district along Fee Fee Creek; merged into the School District of Pattonville about 1930."
+      "notes": "Common district along Fee Fee Creek; merged into the School District of Pattonville about 1930.",
+      "records_office": {
+        "name": "Pattonville R-III School District — Student Records / Registrar",
+        "address": "11097 St. Charles Rock Rd., St. Ann, MO 63074",
+        "phone": "314-213-8000",
+        "url": "https://www.psdr3.org/community",
+        "confidence": "probable",
+        "citation": "https://dese.mo.gov/transcripts-and-diplomas",
+        "notes": "District dissolved; student records presumed held by successor district School District of Pattonville per Missouri DESE guidance. Contact shown is the successor's records office."
+      }
     },
     {
       "district_id": "DIST-116",
@@ -359,13 +718,27 @@
       "type": "public",
       "formed_year": "1848",
       "dissolved_year": "1951",
-      "predecessor_districts": ["DIST-115"],
+      "predecessor_districts": [
+        "DIST-115"
+      ],
       "successor_district_id": "DIST-003",
       "confidence": "probable",
       "citations": [
-        {"url": "https://sites.google.com/pattonville.k12.mo.us/", "note": "Predecessor consolidated district; became Pattonville R-3 in the 1951 reorganization"}
+        {
+          "url": "https://sites.google.com/pattonville.k12.mo.us/",
+          "note": "Predecessor consolidated district; became Pattonville R-3 in the 1951 reorganization"
+        }
       ],
-      "notes": "The pre-1951 Pattonville district built around the Fee Fee Road school lineage; absorbed Fee Fee No. 16 in 1930. Formation year is the district's own tradition (1848); probable."
+      "notes": "The pre-1951 Pattonville district built around the Fee Fee Road school lineage; absorbed Fee Fee No. 16 in 1930. Formation year is the district's own tradition (1848); probable.",
+      "records_office": {
+        "name": "Pattonville R-III School District — Student Records / Registrar",
+        "address": "11097 St. Charles Rock Rd., St. Ann, MO 63074",
+        "phone": "314-213-8000",
+        "url": "https://www.psdr3.org/community",
+        "confidence": "probable",
+        "citation": "https://dese.mo.gov/transcripts-and-diplomas",
+        "notes": "District dissolved 1951; student records are presumed held by successor district Pattonville R-III School District per Missouri DESE guidance (closed-school records go to the superintendent's office of the district now serving the area). Contact shown is the successor district's records office."
+      }
     },
     {
       "district_id": "DIST-117",
@@ -377,9 +750,21 @@
       "successor_district_id": "DIST-003",
       "confidence": "probable",
       "citations": [
-        {"url": "https://sites.google.com/pattonville.k12.mo.us/", "note": "St. Ann district folded into Pattonville R-III"}
+        {
+          "url": "https://sites.google.com/pattonville.k12.mo.us/",
+          "note": "St. Ann district folded into Pattonville R-III"
+        }
       ],
-      "notes": "St. Ann area district absorbed by Pattonville; its elementary continued under Pattonville until 1982. Exact merger year not documented online."
+      "notes": "St. Ann area district absorbed by Pattonville; its elementary continued under Pattonville until 1982. Exact merger year not documented online.",
+      "records_office": {
+        "name": "Pattonville R-III School District — Student Records / Registrar",
+        "address": "11097 St. Charles Rock Rd., St. Ann, MO 63074",
+        "phone": "314-213-8000",
+        "url": "https://www.psdr3.org/community",
+        "confidence": "probable",
+        "citation": "https://dese.mo.gov/transcripts-and-diplomas",
+        "notes": "District dissolved unknown; student records are presumed held by successor district Pattonville R-III School District per Missouri DESE guidance (closed-school records go to the superintendent's office of the district now serving the area). Contact shown is the successor district's records office."
+      }
     },
     {
       "district_id": "DIST-118",
@@ -391,9 +776,21 @@
       "successor_district_id": "DIST-006",
       "confidence": "probable",
       "citations": [
-        {"url": "https://riverviewgardens1969.myevent.com/", "note": "Alumni/district history: Science Hill #20 predecessor of Riverview Gardens"}
+        {
+          "url": "https://riverviewgardens1969.myevent.com/",
+          "note": "Alumni/district history: Science Hill #20 predecessor of Riverview Gardens"
+        }
       ],
-      "notes": "Predecessor component of Riverview Gardens School District (with Moline)."
+      "notes": "Predecessor component of Riverview Gardens School District (with Moline).",
+      "records_office": {
+        "name": "Riverview Gardens School District — Custodian of Records",
+        "address": "1370 Northumberland Dr, St. Louis, MO 63137",
+        "phone": "314-869-2505",
+        "url": "https://www.riverviewgardens.org/",
+        "confidence": "probable",
+        "citation": "https://dese.mo.gov/transcripts-and-diplomas",
+        "notes": "District dissolved unknown; student records are presumed held by successor district Riverview Gardens School District per Missouri DESE guidance (closed-school records go to the superintendent's office of the district now serving the area). Contact shown is the successor district's records office."
+      }
     },
     {
       "district_id": "DIST-119",
@@ -405,9 +802,21 @@
       "successor_district_id": "DIST-106",
       "confidence": "confirmed",
       "citations": [
-        {"url": "https://www.primecenter.org/prime-blog/blog-school-district-consolidation-stl", "note": "2010: the state ordered Normandy to absorb the struggling district of Wellston"}
+        {
+          "url": "https://www.primecenter.org/prime-blog/blog-school-district-consolidation-stl",
+          "note": "2010: the state ordered Normandy to absorb the struggling district of Wellston"
+        }
       ],
-      "notes": "Dissolved and annexed into the Normandy district in 2010 — the last change to the county district map."
+      "notes": "Dissolved and annexed into the Normandy district in 2010 — the last change to the county district map.",
+      "records_office": {
+        "name": "Ritenour School District — Registrar / Custodian of Records",
+        "address": "2420 Woodson Rd, St. Louis, MO 63114",
+        "phone": "314-493-6058",
+        "url": "https://www.ritenourschools.org/community/alumni/request-a-transcript",
+        "confidence": "probable",
+        "citation": "https://dese.mo.gov/transcripts-and-diplomas",
+        "notes": "District dissolved 2010; student records are presumed held by successor district Normandy School District per Missouri DESE guidance (closed-school records go to the superintendent's office of the district now serving the area). Contact shown is the successor district's records office."
+      }
     },
     {
       "district_id": "DIST-120",
@@ -419,7 +828,16 @@
       "successor_district_id": "unknown",
       "confidence": "unknown",
       "citations": [],
-      "notes": "Rural district noted in seed/master as 'later merged into a west-county district' — the receiving district is not documented online; kept unknown pending a human follow-up."
+      "notes": "Rural district noted in seed/master as 'later merged into a west-county district' — the receiving district is not documented online; kept unknown pending a human follow-up.",
+      "records_office": {
+        "name": null,
+        "address": null,
+        "phone": null,
+        "url": null,
+        "confidence": "unknown",
+        "citation": "https://dese.mo.gov/transcripts-and-diplomas",
+        "notes": "No successor district recorded or successor custodian unverified. Per Missouri DESE, records of a closed school/district go to the superintendent's office of the district now serving the area; pre-consolidation common-district records may also be held by SHSMO or county historical societies."
+      }
     },
     {
       "district_id": "DIST-121",
@@ -431,9 +849,21 @@
       "successor_district_id": "DIST-001",
       "confidence": "confirmed",
       "citations": [
-        {"url": "https://law.justia.com/cases/federal/district-courts/FSupp/392/1276/1580584/", "note": "One of the thirteen rural districts annexed into Hazelwood 1949-1951"}
+        {
+          "url": "https://law.justia.com/cases/federal/district-courts/FSupp/392/1276/1580584/",
+          "note": "One of the thirteen rural districts annexed into Hazelwood 1949-1951"
+        }
       ],
-      "notes": "Rural district of St. Ferdinand Township; its school closed ~1950 at consolidation; namesake continuation is Brown Elementary (Hazelwood SD)."
+      "notes": "Rural district of St. Ferdinand Township; its school closed ~1950 at consolidation; namesake continuation is Brown Elementary (Hazelwood SD).",
+      "records_office": {
+        "name": "Hazelwood School District — Student Enrollment/Registrar (alumni transcripts)",
+        "address": "15955 New Halls Ferry Rd, Florissant, MO 63031",
+        "phone": "314-953-5000",
+        "url": "https://www.hazelwoodschools.org/departments/student-enrollment/transcripts",
+        "confidence": "probable",
+        "citation": "https://dese.mo.gov/transcripts-and-diplomas",
+        "notes": "District dissolved 1950; student records are presumed held by successor district Hazelwood School District per Missouri DESE guidance (closed-school records go to the superintendent's office of the district now serving the area). Contact shown is the successor district's records office."
+      }
     },
     {
       "district_id": "DIST-122",
@@ -445,9 +875,21 @@
       "successor_district_id": "DIST-001",
       "confidence": "confirmed",
       "citations": [
-        {"url": "https://law.justia.com/cases/federal/district-courts/FSupp/392/1276/1580584/", "note": "Thirteen-district annexation into Hazelwood"}
+        {
+          "url": "https://law.justia.com/cases/federal/district-courts/FSupp/392/1276/1580584/",
+          "note": "Thirteen-district annexation into Hazelwood"
+        }
       ],
-      "notes": "Rural district; school closed 1954."
+      "notes": "Rural district; school closed 1954.",
+      "records_office": {
+        "name": "Hazelwood School District — Student Enrollment/Registrar (alumni transcripts)",
+        "address": "15955 New Halls Ferry Rd, Florissant, MO 63031",
+        "phone": "314-953-5000",
+        "url": "https://www.hazelwoodschools.org/departments/student-enrollment/transcripts",
+        "confidence": "probable",
+        "citation": "https://dese.mo.gov/transcripts-and-diplomas",
+        "notes": "District dissolved 1954; student records are presumed held by successor district Hazelwood School District per Missouri DESE guidance (closed-school records go to the superintendent's office of the district now serving the area). Contact shown is the successor district's records office."
+      }
     },
     {
       "district_id": "DIST-123",
@@ -459,9 +901,21 @@
       "successor_district_id": "DIST-001",
       "confidence": "confirmed",
       "citations": [
-        {"url": "https://law.justia.com/cases/federal/district-courts/FSupp/392/1276/1580584/", "note": "Thirteen-district annexation into Hazelwood"}
+        {
+          "url": "https://law.justia.com/cases/federal/district-courts/FSupp/392/1276/1580584/",
+          "note": "Thirteen-district annexation into Hazelwood"
+        }
       ],
-      "notes": "St. Ferdinand Township rural district; the Prigge/Larimore school line continues as Larimore Elementary (Hazelwood SD)."
+      "notes": "St. Ferdinand Township rural district; the Prigge/Larimore school line continues as Larimore Elementary (Hazelwood SD).",
+      "records_office": {
+        "name": "Hazelwood School District — Student Enrollment/Registrar (alumni transcripts)",
+        "address": "15955 New Halls Ferry Rd, Florissant, MO 63031",
+        "phone": "314-953-5000",
+        "url": "https://www.hazelwoodschools.org/departments/student-enrollment/transcripts",
+        "confidence": "probable",
+        "citation": "https://dese.mo.gov/transcripts-and-diplomas",
+        "notes": "District dissolved 1951; student records are presumed held by successor district Hazelwood School District per Missouri DESE guidance (closed-school records go to the superintendent's office of the district now serving the area). Contact shown is the successor district's records office."
+      }
     },
     {
       "district_id": "DIST-124",
@@ -473,9 +927,21 @@
       "successor_district_id": "DIST-001",
       "confidence": "confirmed",
       "citations": [
-        {"url": "https://law.justia.com/cases/federal/district-courts/FSupp/392/1276/1580584/", "note": "Thirteen-district annexation into Hazelwood"}
+        {
+          "url": "https://law.justia.com/cases/federal/district-courts/FSupp/392/1276/1580584/",
+          "note": "Thirteen-district annexation into Hazelwood"
+        }
       ],
-      "notes": "Rural district; school closed 1951."
+      "notes": "Rural district; school closed 1951.",
+      "records_office": {
+        "name": "Hazelwood School District — Student Enrollment/Registrar (alumni transcripts)",
+        "address": "15955 New Halls Ferry Rd, Florissant, MO 63031",
+        "phone": "314-953-5000",
+        "url": "https://www.hazelwoodschools.org/departments/student-enrollment/transcripts",
+        "confidence": "probable",
+        "citation": "https://dese.mo.gov/transcripts-and-diplomas",
+        "notes": "District dissolved 1951; student records are presumed held by successor district Hazelwood School District per Missouri DESE guidance (closed-school records go to the superintendent's office of the district now serving the area). Contact shown is the successor district's records office."
+      }
     },
     {
       "district_id": "DIST-125",
@@ -487,10 +953,25 @@
       "successor_district_id": "DIST-001",
       "confidence": "confirmed",
       "citations": [
-        {"url": "https://law.justia.com/cases/federal/district-courts/FSupp/392/1276/1580584/", "note": "Thirteen-district annexation into Hazelwood"},
-        {"url": "https://files.shsmo.org/", "note": "Elm Grove District No. 9 established 1852"}
+        {
+          "url": "https://law.justia.com/cases/federal/district-courts/FSupp/392/1276/1580584/",
+          "note": "Thirteen-district annexation into Hazelwood"
+        },
+        {
+          "url": "https://files.shsmo.org/",
+          "note": "Elm Grove District No. 9 established 1852"
+        }
       ],
-      "notes": "Elm Grove District No. 9, established 1852; its landmark school building was moved to Brookes Park in the 1960s."
+      "notes": "Elm Grove District No. 9, established 1852; its landmark school building was moved to Brookes Park in the 1960s.",
+      "records_office": {
+        "name": "Hazelwood School District — Student Enrollment/Registrar (alumni transcripts)",
+        "address": "15955 New Halls Ferry Rd, Florissant, MO 63031",
+        "phone": "314-953-5000",
+        "url": "https://www.hazelwoodschools.org/departments/student-enrollment/transcripts",
+        "confidence": "probable",
+        "citation": "https://dese.mo.gov/transcripts-and-diplomas",
+        "notes": "District dissolved 1952; student records are presumed held by successor district Hazelwood School District per Missouri DESE guidance (closed-school records go to the superintendent's office of the district now serving the area). Contact shown is the successor district's records office."
+      }
     },
     {
       "district_id": "DIST-126",
@@ -502,9 +983,21 @@
       "successor_district_id": "DIST-001",
       "confidence": "confirmed",
       "citations": [
-        {"url": "https://law.justia.com/cases/federal/district-courts/FSupp/392/1276/1580584/", "note": "Thirteen-district annexation into Hazelwood"}
+        {
+          "url": "https://law.justia.com/cases/federal/district-courts/FSupp/392/1276/1580584/",
+          "note": "Thirteen-district annexation into Hazelwood"
+        }
       ],
-      "notes": "Rural district; school closed 1951."
+      "notes": "Rural district; school closed 1951.",
+      "records_office": {
+        "name": "Hazelwood School District — Student Enrollment/Registrar (alumni transcripts)",
+        "address": "15955 New Halls Ferry Rd, Florissant, MO 63031",
+        "phone": "314-953-5000",
+        "url": "https://www.hazelwoodschools.org/departments/student-enrollment/transcripts",
+        "confidence": "probable",
+        "citation": "https://dese.mo.gov/transcripts-and-diplomas",
+        "notes": "District dissolved 1951; student records are presumed held by successor district Hazelwood School District per Missouri DESE guidance (closed-school records go to the superintendent's office of the district now serving the area). Contact shown is the successor district's records office."
+      }
     },
     {
       "district_id": "DIST-127",
@@ -516,9 +1009,21 @@
       "successor_district_id": "DIST-001",
       "confidence": "confirmed",
       "citations": [
-        {"url": "https://law.justia.com/cases/federal/district-courts/FSupp/392/1276/1580584/", "note": "Thirteen-district annexation into Hazelwood"}
+        {
+          "url": "https://law.justia.com/cases/federal/district-courts/FSupp/392/1276/1580584/",
+          "note": "Thirteen-district annexation into Hazelwood"
+        }
       ],
-      "notes": "Rural district on the Columbia Bottoms; school closed 1951."
+      "notes": "Rural district on the Columbia Bottoms; school closed 1951.",
+      "records_office": {
+        "name": "Hazelwood School District — Student Enrollment/Registrar (alumni transcripts)",
+        "address": "15955 New Halls Ferry Rd, Florissant, MO 63031",
+        "phone": "314-953-5000",
+        "url": "https://www.hazelwoodschools.org/departments/student-enrollment/transcripts",
+        "confidence": "probable",
+        "citation": "https://dese.mo.gov/transcripts-and-diplomas",
+        "notes": "District dissolved 1951; student records are presumed held by successor district Hazelwood School District per Missouri DESE guidance (closed-school records go to the superintendent's office of the district now serving the area). Contact shown is the successor district's records office."
+      }
     },
     {
       "district_id": "DIST-128",
@@ -530,9 +1035,21 @@
       "successor_district_id": "DIST-001",
       "confidence": "confirmed",
       "citations": [
-        {"url": "https://law.justia.com/cases/federal/district-courts/FSupp/392/1276/1580584/", "note": "Thirteen-district annexation into Hazelwood"}
+        {
+          "url": "https://law.justia.com/cases/federal/district-courts/FSupp/392/1276/1580584/",
+          "note": "Thirteen-district annexation into Hazelwood"
+        }
       ],
-      "notes": "Rural district; school closed 1951."
+      "notes": "Rural district; school closed 1951.",
+      "records_office": {
+        "name": "Hazelwood School District — Student Enrollment/Registrar (alumni transcripts)",
+        "address": "15955 New Halls Ferry Rd, Florissant, MO 63031",
+        "phone": "314-953-5000",
+        "url": "https://www.hazelwoodschools.org/departments/student-enrollment/transcripts",
+        "confidence": "probable",
+        "citation": "https://dese.mo.gov/transcripts-and-diplomas",
+        "notes": "District dissolved 1951; student records are presumed held by successor district Hazelwood School District per Missouri DESE guidance (closed-school records go to the superintendent's office of the district now serving the area). Contact shown is the successor district's records office."
+      }
     },
     {
       "district_id": "DIST-129",
@@ -544,9 +1061,21 @@
       "successor_district_id": "DIST-001",
       "confidence": "confirmed",
       "citations": [
-        {"url": "https://law.justia.com/cases/federal/district-courts/FSupp/392/1276/1580584/", "note": "Thirteen-district annexation into Hazelwood"}
+        {
+          "url": "https://law.justia.com/cases/federal/district-courts/FSupp/392/1276/1580584/",
+          "note": "Thirteen-district annexation into Hazelwood"
+        }
       ],
-      "notes": "Rural district; school closed 1951."
+      "notes": "Rural district; school closed 1951.",
+      "records_office": {
+        "name": "Hazelwood School District — Student Enrollment/Registrar (alumni transcripts)",
+        "address": "15955 New Halls Ferry Rd, Florissant, MO 63031",
+        "phone": "314-953-5000",
+        "url": "https://www.hazelwoodschools.org/departments/student-enrollment/transcripts",
+        "confidence": "probable",
+        "citation": "https://dese.mo.gov/transcripts-and-diplomas",
+        "notes": "District dissolved 1951; student records are presumed held by successor district Hazelwood School District per Missouri DESE guidance (closed-school records go to the superintendent's office of the district now serving the area). Contact shown is the successor district's records office."
+      }
     },
     {
       "district_id": "DIST-130",
@@ -558,9 +1087,21 @@
       "successor_district_id": "DIST-001",
       "confidence": "confirmed",
       "citations": [
-        {"url": "https://law.justia.com/cases/federal/district-courts/FSupp/392/1276/1580584/", "note": "Thirteen-district annexation into Hazelwood"}
+        {
+          "url": "https://law.justia.com/cases/federal/district-courts/FSupp/392/1276/1580584/",
+          "note": "Thirteen-district annexation into Hazelwood"
+        }
       ],
-      "notes": "St. Ferdinand Township rural district; the Twillman school continued under Hazelwood."
+      "notes": "St. Ferdinand Township rural district; the Twillman school continued under Hazelwood.",
+      "records_office": {
+        "name": "Hazelwood School District — Student Enrollment/Registrar (alumni transcripts)",
+        "address": "15955 New Halls Ferry Rd, Florissant, MO 63031",
+        "phone": "314-953-5000",
+        "url": "https://www.hazelwoodschools.org/departments/student-enrollment/transcripts",
+        "confidence": "probable",
+        "citation": "https://dese.mo.gov/transcripts-and-diplomas",
+        "notes": "District dissolved 1951; student records are presumed held by successor district Hazelwood School District per Missouri DESE guidance (closed-school records go to the superintendent's office of the district now serving the area). Contact shown is the successor district's records office."
+      }
     },
     {
       "district_id": "DIST-131",
@@ -572,9 +1113,21 @@
       "successor_district_id": "DIST-001",
       "confidence": "probable",
       "citations": [
-        {"url": "https://flovalleynews.com/", "note": "Florissant Valley historical sources name Rosary among the Hazelwood predecessor districts"}
+        {
+          "url": "https://flovalleynews.com/",
+          "note": "Florissant Valley historical sources name Rosary among the Hazelwood predecessor districts"
+        }
       ],
-      "notes": "Named among the thirteen Hazelwood feeder districts in local historical accounts; no school row in the registry (not in the seed). District-level record only."
+      "notes": "Named among the thirteen Hazelwood feeder districts in local historical accounts; no school row in the registry (not in the seed). District-level record only.",
+      "records_office": {
+        "name": "Hazelwood School District — Student Enrollment/Registrar (alumni transcripts)",
+        "address": "15955 New Halls Ferry Rd, Florissant, MO 63031",
+        "phone": "314-953-5000",
+        "url": "https://www.hazelwoodschools.org/departments/student-enrollment/transcripts",
+        "confidence": "probable",
+        "citation": "https://dese.mo.gov/transcripts-and-diplomas",
+        "notes": "District dissolved 1951; student records are presumed held by successor district Hazelwood School District per Missouri DESE guidance (closed-school records go to the superintendent's office of the district now serving the area). Contact shown is the successor district's records office."
+      }
     },
     {
       "district_id": "DIST-132",
@@ -586,9 +1139,21 @@
       "successor_district_id": "DIST-001",
       "confidence": "probable",
       "citations": [
-        {"url": "https://flovalleynews.com/", "note": "Named among the Hazelwood predecessor districts"}
+        {
+          "url": "https://flovalleynews.com/",
+          "note": "Named among the Hazelwood predecessor districts"
+        }
       ],
-      "notes": "One of the thirteen Hazelwood feeder districts per local historical accounts; no corresponding seed row."
+      "notes": "One of the thirteen Hazelwood feeder districts per local historical accounts; no corresponding seed row.",
+      "records_office": {
+        "name": "Hazelwood School District — Student Enrollment/Registrar (alumni transcripts)",
+        "address": "15955 New Halls Ferry Rd, Florissant, MO 63031",
+        "phone": "314-953-5000",
+        "url": "https://www.hazelwoodschools.org/departments/student-enrollment/transcripts",
+        "confidence": "probable",
+        "citation": "https://dese.mo.gov/transcripts-and-diplomas",
+        "notes": "District dissolved 1951; student records are presumed held by successor district Hazelwood School District per Missouri DESE guidance (closed-school records go to the superintendent's office of the district now serving the area). Contact shown is the successor district's records office."
+      }
     },
     {
       "district_id": "DIST-133",
@@ -600,9 +1165,21 @@
       "successor_district_id": "DIST-001",
       "confidence": "probable",
       "citations": [
-        {"url": "https://flovalleynews.com/", "note": "Named among the Hazelwood predecessor districts"}
+        {
+          "url": "https://flovalleynews.com/",
+          "note": "Named among the Hazelwood predecessor districts"
+        }
       ],
-      "notes": "One of the thirteen Hazelwood feeder districts per local historical accounts; no corresponding seed row."
+      "notes": "One of the thirteen Hazelwood feeder districts per local historical accounts; no corresponding seed row.",
+      "records_office": {
+        "name": "Hazelwood School District — Student Enrollment/Registrar (alumni transcripts)",
+        "address": "15955 New Halls Ferry Rd, Florissant, MO 63031",
+        "phone": "314-953-5000",
+        "url": "https://www.hazelwoodschools.org/departments/student-enrollment/transcripts",
+        "confidence": "probable",
+        "citation": "https://dese.mo.gov/transcripts-and-diplomas",
+        "notes": "District dissolved 1951; student records are presumed held by successor district Hazelwood School District per Missouri DESE guidance (closed-school records go to the superintendent's office of the district now serving the area). Contact shown is the successor district's records office."
+      }
     },
     {
       "district_id": "DIST-134",
@@ -614,9 +1191,21 @@
       "successor_district_id": "DIST-008",
       "confidence": "confirmed",
       "citations": [
-        {"url": "https://en.wikipedia.org/wiki/Baden,_St._Louis", "note": "Baden annexed to the City of St. Louis in 1876, folding its local district into SLPS"}
+        {
+          "url": "https://en.wikipedia.org/wiki/Baden,_St._Louis",
+          "note": "Baden annexed to the City of St. Louis in 1876, folding its local district into SLPS"
+        }
       ],
-      "notes": "The town of Baden's local school district; absorbed by St. Louis Public Schools when Baden joined the city in 1876."
+      "notes": "The town of Baden's local school district; absorbed by St. Louis Public Schools when Baden joined the city in 1876.",
+      "records_office": {
+        "name": "St. Louis Public Schools — Student Transcript Office",
+        "address": "801 N. 11th Street, St. Louis, MO 63101",
+        "phone": "314-645-2648",
+        "url": "https://www.slps.org/community/student-transcripts",
+        "confidence": "probable",
+        "citation": "https://dese.mo.gov/transcripts-and-diplomas",
+        "notes": "District dissolved 1876; student records are presumed held by successor district St. Louis Public Schools per Missouri DESE guidance (closed-school records go to the superintendent's office of the district now serving the area). Contact shown is the successor district's records office."
+      }
     },
     {
       "district_id": "DIST-135",
@@ -628,9 +1217,21 @@
       "successor_district_id": "DIST-006",
       "confidence": "probable",
       "citations": [
-        {"url": "https://riverviewgardens1969.myevent.com/", "note": "Moline predecessor district of Riverview Gardens"}
+        {
+          "url": "https://riverviewgardens1969.myevent.com/",
+          "note": "Moline predecessor district of Riverview Gardens"
+        }
       ],
-      "notes": "Predecessor component of Riverview Gardens School District (with Science Hill #20)."
+      "notes": "Predecessor component of Riverview Gardens School District (with Science Hill #20).",
+      "records_office": {
+        "name": "Riverview Gardens School District — Custodian of Records",
+        "address": "1370 Northumberland Dr, St. Louis, MO 63137",
+        "phone": "314-869-2505",
+        "url": "https://www.riverviewgardens.org/",
+        "confidence": "probable",
+        "citation": "https://dese.mo.gov/transcripts-and-diplomas",
+        "notes": "District dissolved unknown; student records are presumed held by successor district Riverview Gardens School District per Missouri DESE guidance (closed-school records go to the superintendent's office of the district now serving the area). Contact shown is the successor district's records office."
+      }
     },
     {
       "district_id": "DIST-136",
@@ -642,9 +1243,21 @@
       "successor_district_id": "DIST-009",
       "confidence": "confirmed",
       "citations": [
-        {"url": "https://www.primecenter.org/prime-blog/blog-school-district-consolidation-stl", "note": "Fern Ridge + Mason Ridge C-2 + Weber voted to form Parkway C-2 in 1954"}
+        {
+          "url": "https://www.primecenter.org/prime-blog/blog-school-district-consolidation-stl",
+          "note": "Fern Ridge + Mason Ridge C-2 + Weber voted to form Parkway C-2 in 1954"
+        }
       ],
-      "notes": "West-county constituent of Parkway C-2."
+      "notes": "West-county constituent of Parkway C-2.",
+      "records_office": {
+        "name": "Parkway Schools — Student Records Office",
+        "address": "Parkway Welcome Center, 760 Woods Mill Road, Ballwin, MO 63011",
+        "phone": "314-415-9062",
+        "url": "https://www.parkwayschools.net/contact/departments/student-services/data-management-research-and-enrollment/student-records-and-transcripts",
+        "confidence": "probable",
+        "citation": "https://dese.mo.gov/transcripts-and-diplomas",
+        "notes": "District dissolved 1954; student records are presumed held by successor district Parkway C-2 School District per Missouri DESE guidance (closed-school records go to the superintendent's office of the district now serving the area). Contact shown is the successor district's records office."
+      }
     },
     {
       "district_id": "DIST-137",
@@ -656,9 +1269,21 @@
       "successor_district_id": "DIST-009",
       "confidence": "confirmed",
       "citations": [
-        {"url": "https://www.primecenter.org/prime-blog/blog-school-district-consolidation-stl", "note": "Constituent of Parkway C-2 (1954)"}
+        {
+          "url": "https://www.primecenter.org/prime-blog/blog-school-district-consolidation-stl",
+          "note": "Constituent of Parkway C-2 (1954)"
+        }
       ],
-      "notes": "West-county constituent of Parkway C-2."
+      "notes": "West-county constituent of Parkway C-2.",
+      "records_office": {
+        "name": "Parkway Schools — Student Records Office",
+        "address": "Parkway Welcome Center, 760 Woods Mill Road, Ballwin, MO 63011",
+        "phone": "314-415-9062",
+        "url": "https://www.parkwayschools.net/contact/departments/student-services/data-management-research-and-enrollment/student-records-and-transcripts",
+        "confidence": "probable",
+        "citation": "https://dese.mo.gov/transcripts-and-diplomas",
+        "notes": "District dissolved 1954; student records are presumed held by successor district Parkway C-2 School District per Missouri DESE guidance (closed-school records go to the superintendent's office of the district now serving the area). Contact shown is the successor district's records office."
+      }
     },
     {
       "district_id": "DIST-138",
@@ -670,9 +1295,21 @@
       "successor_district_id": "DIST-009",
       "confidence": "confirmed",
       "citations": [
-        {"url": "https://www.primecenter.org/prime-blog/blog-school-district-consolidation-stl", "note": "Constituent of Parkway C-2 (1954)"}
+        {
+          "url": "https://www.primecenter.org/prime-blog/blog-school-district-consolidation-stl",
+          "note": "Constituent of Parkway C-2 (1954)"
+        }
       ],
-      "notes": "West-county constituent of Parkway C-2."
+      "notes": "West-county constituent of Parkway C-2.",
+      "records_office": {
+        "name": "Parkway Schools — Student Records Office",
+        "address": "Parkway Welcome Center, 760 Woods Mill Road, Ballwin, MO 63011",
+        "phone": "314-415-9062",
+        "url": "https://www.parkwayschools.net/contact/departments/student-services/data-management-research-and-enrollment/student-records-and-transcripts",
+        "confidence": "probable",
+        "citation": "https://dese.mo.gov/transcripts-and-diplomas",
+        "notes": "District dissolved 1954; student records are presumed held by successor district Parkway C-2 School District per Missouri DESE guidance (closed-school records go to the superintendent's office of the district now serving the area). Contact shown is the successor district's records office."
+      }
     },
     {
       "district_id": "DIST-201",
@@ -684,10 +1321,25 @@
       "successor_district_id": "none",
       "confidence": "probable",
       "citations": [
-        {"url": "https://en.wikipedia.org/wiki/Wentzville_R-IV_School_District", "note": "Current district; serves Wentzville, Lake St. Louis, and adjacent areas"},
-        {"url": "https://en.wikipedia.org/wiki/Wentzville_Holt_High_School", "note": "Wentzville High School established 1896 as a 2-year high school; reorganized as a full 4-year high school in 1939"}
+        {
+          "url": "https://en.wikipedia.org/wiki/Wentzville_R-IV_School_District",
+          "note": "Current district; serves Wentzville, Lake St. Louis, and adjacent areas"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Wentzville_Holt_High_School",
+          "note": "Wentzville High School established 1896 as a 2-year high school; reorganized as a full 4-year high school in 1939"
+        }
       ],
-      "notes": "St. Charles County's western district; its high school dates to 1896. The district's own reorganization/formation year was not pinned down in Track C research — probable per the R-IV designation arising from the county reorganization era."
+      "notes": "St. Charles County's western district; its high school dates to 1896. The district's own reorganization/formation year was not pinned down in Track C research — probable per the R-IV designation arising from the county reorganization era.",
+      "records_office": {
+        "name": "Wentzville School District — High School Registrars",
+        "address": "One Campus Drive, Wentzville, MO 63385",
+        "phone": "636-327-3800",
+        "url": "https://www.wentzville.k12.mo.us/academics/transcript-requests",
+        "confidence": "confirmed",
+        "citation": "https://www.wentzville.k12.mo.us/academics/transcript-requests",
+        "notes": "Transcripts handled per high school registrar (Holt, Liberty, North Point, Timberland) — mailed/emailed form or Parchment ($3.50). Pre-1950s Wentzville R-IV predecessor records presumed held by district."
+      }
     },
     {
       "district_id": "DIST-202",
@@ -695,13 +1347,27 @@
       "type": "public",
       "formed_year": "1949",
       "dissolved_year": null,
-      "predecessor_districts": ["DIST-203"],
+      "predecessor_districts": [
+        "DIST-203"
+      ],
       "successor_district_id": "none",
       "confidence": "confirmed",
       "citations": [
-        {"url": "https://web.archive.org/web/20070812095313/www.fzschools.org/Html/fzsdhist.htm", "note": "District history: Central School District R-II formed by voter approval July 19, 1949, combining 12 small districts; district's high school opened 1960"}
+        {
+          "url": "https://web.archive.org/web/20070812095313/www.fzschools.org/Html/fzsdhist.htm",
+          "note": "District history: Central School District R-II formed by voter approval July 19, 1949, combining 12 small districts; district's high school opened 1960"
+        }
       ],
-      "notes": "The O'Fallon-area district. Formed as Central School District R-II (1949) and later renamed Fort Zumwalt R-II — the rename year is not documented online; recorded as a rename of the same legal district (see DIST-203)."
+      "notes": "The O'Fallon-area district. Formed as Central School District R-II (1949) and later renamed Fort Zumwalt R-II — the rename year is not documented online; recorded as a rename of the same legal district (see DIST-203).",
+      "records_office": {
+        "name": "Fort Zumwalt School District — District Office (records)",
+        "address": "555 E. Terra Lane, O'Fallon, MO 63366",
+        "phone": "636-240-2072",
+        "url": "https://www.fz.k12.mo.us/page/alumni",
+        "confidence": "confirmed",
+        "citation": "https://www.fz.k12.mo.us/page/alumni",
+        "notes": "District office per site footer; alumni/transcript resources on the Alumni page. Custodian for Central School District R-II (1949 consolidation) and its 12 feeder-district records."
+      }
     },
     {
       "district_id": "DIST-203",
@@ -709,13 +1375,27 @@
       "type": "public",
       "formed_year": "1949",
       "dissolved_year": "unknown",
-      "predecessor_districts": ["DIST-204"],
+      "predecessor_districts": [
+        "DIST-204"
+      ],
       "successor_district_id": "DIST-202",
       "confidence": "confirmed",
       "citations": [
-        {"url": "https://web.archive.org/web/20070812095313/www.fzschools.org/Html/fzsdhist.htm", "note": "Formation approved by voters July 19, 1949, combining 12 small districts under the 1947 reorganization law"}
+        {
+          "url": "https://web.archive.org/web/20070812095313/www.fzschools.org/Html/fzsdhist.htm",
+          "note": "Formation approved by voters July 19, 1949, combining 12 small districts under the 1947 reorganization law"
+        }
       ],
-      "notes": "Twelve small St. Charles County districts combined into Central R-II in 1949 — predecessor identity of today's Fort Zumwalt district. (Note: the state plan's 'reorganized district' suffix 'R-II' is coincidentally the same numeral the modern Fort Zumwalt district carries.)"
+      "notes": "Twelve small St. Charles County districts combined into Central R-II in 1949 — predecessor identity of today's Fort Zumwalt district. (Note: the state plan's 'reorganized district' suffix 'R-II' is coincidentally the same numeral the modern Fort Zumwalt district carries.)",
+      "records_office": {
+        "name": "Francis Howell School District — Guidance/Registrar (past graduates)",
+        "address": "801 Corporate Centre Drive, O'Fallon, MO 63368",
+        "phone": "636-851-4000",
+        "url": "https://fhhs.fhsdschools.org/academics/resources-supports",
+        "confidence": "confirmed",
+        "citation": "https://fhhs.fhsdschools.org/academics/resources-supports",
+        "notes": "Past-graduate transcripts via online request form on each HS guidance page; FHHS page explicitly lists a \"Transcript request for RRECA\" option — an existing RECA workflow. Contact Lori Riley Lori.Riley@Fhsdschools.org (FHHS guidance). Custodian for Consolidated School District No. 2 (1915) predecessor records."
+      }
     },
     {
       "district_id": "DIST-204",
@@ -727,9 +1407,21 @@
       "successor_district_id": "DIST-203",
       "confidence": "confirmed",
       "citations": [
-        {"url": "https://web.archive.org/web/20070812095313/www.fzschools.org/Html/fzsdhist.htm", "note": "O'Fallon school built 1869 at Convent Park (St. Mary's Academy grounds), first teacher Julius Reichenstein; local district consolidated into Central R-II in 1949"}
+        {
+          "url": "https://web.archive.org/web/20070812095313/www.fzschools.org/Html/fzsdhist.htm",
+          "note": "O'Fallon school built 1869 at Convent Park (St. Mary's Academy grounds), first teacher Julius Reichenstein; local district consolidated into Central R-II in 1949"
+        }
       ],
-      "notes": "The O'Fallon local district, folded into Central School District R-II in the 1949 consolidation."
+      "notes": "The O'Fallon local district, folded into Central School District R-II in the 1949 consolidation.",
+      "records_office": {
+        "name": "Francis Howell School District — Guidance/Registrar (past graduates)",
+        "address": "801 Corporate Centre Drive, O'Fallon, MO 63368",
+        "phone": "636-851-4000",
+        "url": "https://fhhs.fhsdschools.org/academics/resources-supports",
+        "confidence": "probable",
+        "citation": "https://dese.mo.gov/transcripts-and-diplomas",
+        "notes": "District dissolved 1949; student records are presumed held by successor district Central School District R-II per Missouri DESE guidance (closed-school records go to the superintendent's office of the district now serving the area). Contact shown is the successor district's records office."
+      }
     },
     {
       "district_id": "DIST-205",
@@ -737,13 +1429,27 @@
       "type": "public",
       "formed_year": "1966",
       "dissolved_year": null,
-      "predecessor_districts": ["DIST-206"],
+      "predecessor_districts": [
+        "DIST-206"
+      ],
       "successor_district_id": "none",
       "confidence": "confirmed",
       "citations": [
-        {"url": "https://www.fhsdschools.org/about", "note": "Official district history: 'District named as Francis Howell School District of St. Charles County, Missouri (1966, March 15)'"}
+        {
+          "url": "https://www.fhsdschools.org/about",
+          "note": "Official district history: 'District named as Francis Howell School District of St. Charles County, Missouri (1966, March 15)'"
+        }
       ],
-      "notes": "Successor name of Consolidated School District No. 2 (organized May 8, 1915). The district's official timeline gives the March 15, 1966 naming; recorded here as the district's modern identity — a rename, not a new legal entity."
+      "notes": "Successor name of Consolidated School District No. 2 (organized May 8, 1915). The district's official timeline gives the March 15, 1966 naming; recorded here as the district's modern identity — a rename, not a new legal entity.",
+      "records_office": {
+        "name": "Francis Howell School District — Guidance/Registrar (past graduates)",
+        "address": "801 Corporate Centre Drive, O'Fallon, MO 63368",
+        "phone": "636-851-4000",
+        "url": "https://fhhs.fhsdschools.org/academics/resources-supports",
+        "confidence": "probable",
+        "citation": "https://dese.mo.gov/transcripts-and-diplomas",
+        "notes": "District dissolved in the noted year; student records are presumed held by successor district Central School District R-II per Missouri DESE guidance (closed-school records go to the superintendent's office of the district now serving the area). Contact shown is the successor district's records office."
+      }
     },
     {
       "district_id": "DIST-206",
@@ -755,9 +1461,21 @@
       "successor_district_id": "DIST-205",
       "confidence": "confirmed",
       "citations": [
-        {"url": "https://www.fhsdschools.org/about", "note": "Organized May 8, 1915 from rural common school districts plus the Francis Howell Institute; named Francis Howell School District March 15, 1966"}
+        {
+          "url": "https://www.fhsdschools.org/about",
+          "note": "Organized May 8, 1915 from rural common school districts plus the Francis Howell Institute; named Francis Howell School District March 15, 1966"
+        }
       ],
-      "notes": "Formed from a band of rural common-school districts and the Howell family's Francis Howell Institute (1881). One of the earliest consolidations — predating the 1947 reorganization law by three decades."
+      "notes": "Formed from a band of rural common-school districts and the Howell family's Francis Howell Institute (1881). One of the earliest consolidations — predating the 1947 reorganization law by three decades.",
+      "records_office": {
+        "name": "Francis Howell School District — Guidance/Registrar (past graduates)",
+        "address": "801 Corporate Centre Drive, O'Fallon, MO 63368",
+        "phone": "636-851-4000",
+        "url": "https://fhhs.fhsdschools.org/academics/resources-supports",
+        "confidence": "probable",
+        "citation": "https://dese.mo.gov/transcripts-and-diplomas",
+        "notes": "District dissolved 1966; student records are presumed held by successor district Francis Howell R-III School District per Missouri DESE guidance (closed-school records go to the superintendent's office of the district now serving the area). Contact shown is the successor district's records office."
+      }
     },
     {
       "district_id": "DIST-207",
@@ -769,7 +1487,16 @@
       "successor_district_id": "DIST-205",
       "confidence": "probable",
       "citations": [],
-      "notes": "New Melle local district; folded into the Francis Howell district around 1949 (per the schools_master operator annotations). Exact year probable."
+      "notes": "New Melle local district; folded into the Francis Howell district around 1949 (per the schools_master operator annotations). Exact year probable.",
+      "records_office": {
+        "name": "Francis Howell School District — Guidance/Registrar (past graduates)",
+        "address": "801 Corporate Centre Drive, O'Fallon, MO 63368",
+        "phone": "636-851-4000",
+        "url": "https://fhhs.fhsdschools.org/academics/resources-supports",
+        "confidence": "probable",
+        "citation": "https://dese.mo.gov/transcripts-and-diplomas",
+        "notes": "District dissolved 1949; student records are presumed held by successor district Francis Howell R-III School District per Missouri DESE guidance (closed-school records go to the superintendent's office of the district now serving the area). Contact shown is the successor district's records office."
+      }
     },
     {
       "district_id": "DIST-208",
@@ -781,7 +1508,16 @@
       "successor_district_id": "unknown",
       "confidence": "unknown",
       "citations": [],
-      "notes": "Umbrella entry for the many one-room common districts (e.g. District No. 68) that variously consolidated into Francis Howell R-III, Central R-II (Fort Zumwalt), Wentzville R-IV, or Orchard Farm. Individual named districts get their own rows when documented."
+      "notes": "Umbrella entry for the many one-room common districts (e.g. District No. 68) that variously consolidated into Francis Howell R-III, Central R-II (Fort Zumwalt), Wentzville R-IV, or Orchard Farm. Individual named districts get their own rows when documented.",
+      "records_office": {
+        "name": null,
+        "address": null,
+        "phone": null,
+        "url": null,
+        "confidence": "unknown",
+        "citation": "https://dese.mo.gov/transcripts-and-diplomas",
+        "notes": "No successor district recorded or successor custodian unverified. Per Missouri DESE, records of a closed school/district go to the superintendent's office of the district now serving the area; pre-consolidation common-district records may also be held by SHSMO or county historical societies."
+      }
     },
     {
       "district_id": "DIST-209",
@@ -793,9 +1529,21 @@
       "successor_district_id": "none",
       "confidence": "probable",
       "citations": [
-        {"url": "https://www.washington.k12.mo.us/", "note": "District site"}
+        {
+          "url": "https://www.washington.k12.mo.us/",
+          "note": "District site"
+        }
       ],
-      "notes": "Franklin County district serving Washington, MO; operates Washington High School (est. 1889 per seed documentation). Formation year not established in Track C."
+      "notes": "Franklin County district serving Washington, MO; operates Washington High School (est. 1889 per seed documentation). Formation year not established in Track C.",
+      "records_office": {
+        "name": "School District of Washington — Washington HS Counseling Office",
+        "address": "600 Blue Jay Drive, Washington, MO 63090 (district office: PO Box 357, Washington, MO 63090)",
+        "phone": null,
+        "url": "https://whs.washington.k12.mo.us/72834_2",
+        "confidence": "confirmed",
+        "citation": "https://whs.washington.k12.mo.us/72834_2",
+        "notes": "Former students request transcripts from the WHS Counseling Office (phone/email/in person; 2 business days): Rachel Hart, rachel.hart@sdowmo.org. District office PO Box 357 per NCES."
+      }
     },
     {
       "district_id": "DIST-301",
@@ -807,9 +1555,21 @@
       "successor_district_id": "none",
       "confidence": "confirmed",
       "citations": [
-        {"url": "https://ssdmo.org/our-story/", "note": "SSD formed 1957 to serve students with disabilities across St. Louis County districts"}
+        {
+          "url": "https://ssdmo.org/our-story/",
+          "note": "SSD formed 1957 to serve students with disabilities across St. Louis County districts"
+        }
       ],
-      "notes": "Countywide special-education district (Ackerman School 1961, South Tech 1967, North Tech 1968, et al.); partner districts refer students for services."
+      "notes": "Countywide special-education district (Ackerman School 1961, South Tech 1967, North Tech 1968, et al.); partner districts refer students for services.",
+      "records_office": {
+        "name": "Special School District of St. Louis County — Student Records Department / Manager of Student Records",
+        "address": "12110 Clayton Road, Town & Country, MO 63131",
+        "phone": "314-989-8170",
+        "url": "https://www.ssdmo.org/departments/communications/mo-sunshine-law",
+        "confidence": "confirmed",
+        "citation": "https://www.ssdmo.org/our-story/public-notices/family-educational-rights-and-privacy-act-ferpa",
+        "notes": "Student Records dept processes/maintains all SSD student records: requests to e-records@ssdmo.org or fax 314-989-8170 (districts), Manager of Student Records is custodian per FERPA notice; general line 314-989-8100. Custodian of SPECIAL-EDUCATION records for every St. Louis County public district — relevant because many RECA-era students received SPED services. Sunshine requests via district form."
+      }
     },
     {
       "district_id": "DIST-302",
@@ -821,9 +1581,21 @@
       "successor_district_id": "none",
       "confidence": "confirmed",
       "citations": [
-        {"url": "https://dss.mo.gov/dys/", "note": "MO Dept. of Social Services — Division of Youth Services operates residential school facilities"}
+        {
+          "url": "https://dss.mo.gov/dys/",
+          "note": "MO Dept. of Social Services — Division of Youth Services operates residential school facilities"
+        }
       ],
-      "notes": "State agency operating residential/juvenile school facilities; took over some city-run residential programs in 1986 (e.g. the Girls' Industrial Home lineage)."
+      "notes": "State agency operating residential/juvenile school facilities; took over some city-run residential programs in 1986 (e.g. the Girls' Industrial Home lineage).",
+      "records_office": {
+        "name": "Missouri Division of Youth Services — Central Office Records",
+        "address": "Missouri DSS, Division of Youth Services, Jefferson City, MO",
+        "phone": "573-751-3324",
+        "url": "https://dss.mo.gov/dys/educational-services",
+        "confidence": "confirmed",
+        "citation": "https://www.law.cornell.edu/regulations/missouri/13-CSR-110-2-140",
+        "notes": "Case records confidential (13 CSR 110-2.140): formerly-committed youth 18+ may request own records in writing w/ photo ID or notarized request; parents/guardians entitled to full disclosure. Email AskDYS@dss.mo.gov. Education records for DYS schools (e.g. Fort Bellefontaine) route through DYS."
+      }
     },
     {
       "district_id": "DIST-303",
@@ -835,9 +1607,21 @@
       "successor_district_id": "none",
       "confidence": "confirmed",
       "citations": [
-        {"url": "https://en.wikipedia.org/wiki/St._Louis_Community_College", "note": "The Junior College District established 1962 operates St. Louis Community College"}
+        {
+          "url": "https://en.wikipedia.org/wiki/St._Louis_Community_College",
+          "note": "The Junior College District established 1962 operates St. Louis Community College"
+        }
       ],
-      "notes": "The legal district behind St. Louis Community College (Florissant Valley, Forest Park, Meramec, Wildwood campuses). Some master rows list 'St. Louis Community College' as operator — normalized to the district."
+      "notes": "The legal district behind St. Louis Community College (Florissant Valley, Forest Park, Meramec, Wildwood campuses). Some master rows list 'St. Louis Community College' as operator — normalized to the district.",
+      "records_office": {
+        "name": "St. Louis Community College — Registrar's Office",
+        "address": "Registrar's Office, STLCC-Forest Park Student Center 123, 5600 Oakland Ave, St. Louis, MO 63110",
+        "phone": "314-539-5159",
+        "url": "https://stlcc.edu/office-of-the-registrar/",
+        "confidence": "confirmed",
+        "citation": "https://stlcc.edu/office-of-the-registrar/",
+        "notes": "Transcripts via National Student Clearinghouse ($11); registrar@stlcc.edu. Holds records for the Junior College District incl. its early junior-college campuses (Forest Park, Meramec, Florissant Valley) — successor custodian for St. Louis Junior College-era records."
+      }
     },
     {
       "district_id": "DIST-304",
@@ -849,9 +1633,21 @@
       "successor_district_id": "none",
       "confidence": "probable",
       "citations": [
-        {"url": "https://en.wikipedia.org/wiki/St._Charles_Community_College", "note": "SCC established by voters in 1986; first classes 1987"}
+        {
+          "url": "https://en.wikipedia.org/wiki/St._Charles_Community_College",
+          "note": "SCC established by voters in 1986; first classes 1987"
+        }
       ],
-      "notes": "St. Charles County's community-college district."
+      "notes": "St. Charles County's community-college district.",
+      "records_office": {
+        "name": "St. Charles Community College — Admissions, Registration and Records",
+        "address": "4601 Mid Rivers Mall Drive, Cottleville, MO 63376-2865",
+        "phone": null,
+        "url": "https://www.stchas.edu/academics/grades-transcripts-records/",
+        "confidence": "confirmed",
+        "citation": "https://catalog.stchas.edu/content.php?catoid=12&navoid=808",
+        "notes": "Transcripts via www.GetMyTranscript.org or in person at the Office of Admissions, Registration and Records; transcript evaluator at Enrollment Services Department."
+      }
     },
     {
       "district_id": "DIST-401",
@@ -863,9 +1659,21 @@
       "successor_district_id": "none",
       "confidence": "confirmed",
       "citations": [
-        {"url": "https://www.archstl.org/", "note": "Archdiocese of St. Louis school system; parishes operate schools under archdiocesan supervision"}
+        {
+          "url": "https://www.archstl.org/",
+          "note": "Archdiocese of St. Louis school system; parishes operate schools under archdiocesan supervision"
+        }
       ],
-      "notes": "System-level operator for all Catholic parish schools in the registry. Individual parishes (St. Ferdinand, St. Norbert, Sacred Heart, etc.) appear in district_operator as 'X Parish / Archdiocese of St. Louis'. Includes the All Saints Academy partnership (DIST-402) and Christ, Light of the Nations inter-parish school."
+      "notes": "System-level operator for all Catholic parish schools in the registry. Individual parishes (St. Ferdinand, St. Norbert, Sacred Heart, etc.) appear in district_operator as 'X Parish / Archdiocese of St. Louis'. Includes the All Saints Academy partnership (DIST-402) and Christ, Light of the Nations inter-parish school.",
+      "records_office": {
+        "name": "Archdiocese of St. Louis Archives — Office of Archives and Records",
+        "address": "20 Archbishop May Drive, St. Louis, MO 63119-5738",
+        "phone": "314-792-7020",
+        "url": "https://www.archstl.org/about/offices-and-agencies/archives-archdiocesan/transcripts/",
+        "confidence": "confirmed",
+        "citation": "https://www.archstl.org/about/offices-and-agencies/archives-archdiocesan/transcripts/",
+        "notes": "Official repository for records of CLOSED archdiocesan schools and closed parishes only (transcripts, yearbooks, photographs). Open schools hold their own records — contact the school directly. Third-party requests fax 314-792-7029; email archives@archstl.org. $10 per transcript; photo ID required. Has a dedicated RECA page at https://www.archstl.org/reca."
+      }
     },
     {
       "district_id": "DIST-402",
@@ -877,9 +1685,21 @@
       "successor_district_id": "none",
       "confidence": "confirmed",
       "citations": [
-        {"url": "https://www.stlouisreview.com/", "note": "St. Louis Review: multi-campus academy opened 2018 under St. Ferdinand, St. Norbert, and (formerly) St. Rose Philippine Duchesne parishes; St. Rose campus closed 2023, academy wound down"}
+        {
+          "url": "https://www.stlouisreview.com/",
+          "note": "St. Louis Review: multi-campus academy opened 2018 under St. Ferdinand, St. Norbert, and (formerly) St. Rose Philippine Duchesne parishes; St. Rose campus closed 2023, academy wound down"
+        }
       ],
-      "notes": "Inter-parish school network in Florissant (Federation of Catholic Schools, Northeast Deanery). Multi-campus model dissolved 2023; campuses' successor treatment recorded on the school rows."
+      "notes": "Inter-parish school network in Florissant (Federation of Catholic Schools, Northeast Deanery). Multi-campus model dissolved 2023; campuses' successor treatment recorded on the school rows.",
+      "records_office": {
+        "name": "Archdiocese of St. Louis Archives (custodian for All Saints Academy records)",
+        "address": "20 Archbishop May Drive, St. Louis, MO 63119-5738",
+        "phone": "314-792-7020",
+        "url": "https://www.archstl.org/about/offices-and-agencies/archives-archdiocesan/transcripts/",
+        "confidence": "confirmed",
+        "citation": "https://www.archstl.org/about/offices-and-agencies/archives-archdiocesan/transcripts/",
+        "notes": "All Saints Academy closed 2023 (parish-school consolidation); its records went to the Office of Archives and Records, which holds all closed archdiocesan school records. archives@archstl.org."
+      }
     },
     {
       "district_id": "DIST-403",
@@ -891,9 +1711,21 @@
       "successor_district_id": "none",
       "confidence": "confirmed",
       "citations": [
-        {"url": "https://www.lutheranhighnorth.org/", "note": "LAHE/LCMS association operating Lutheran High School North and Lutheran High School South"}
+        {
+          "url": "https://www.lutheranhighnorth.org/",
+          "note": "LAHE/LCMS association operating Lutheran High School North and Lutheran High School South"
+        }
       ],
-      "notes": "Lutheran Church–Missouri Synod high-school association formed 1946 (Lutheran High School opened 1946 in the former Concordia College building); operates LHSN (opened 1950s) and LHSS."
+      "notes": "Lutheran Church–Missouri Synod high-school association formed 1946 (Lutheran High School opened 1946 in the former Concordia College building); operates LHSN (opened 1950s) and LHSS.",
+      "records_office": {
+        "name": "Lutheran High School Association — Alumni Relations / School Registrar",
+        "address": "Lutheran High School South, 9515 Tesson Ferry Rd, St. Louis, MO 63123",
+        "phone": "314-833-1082",
+        "url": "https://www.lslancers.org/academics/academic-and-college-counseling",
+        "confidence": "confirmed",
+        "citation": "https://www.lslancers.org/academics/academic-and-college-counseling",
+        "notes": "Alumni transcripts: Marci Belval, Office Manager, 314-833-1082; Registrar Robert Ladage 314-833-1086 (LHS South). LHSA records stay with the Association (lhsastl.org — Cheryl Ehrhard, alumni relations, cehrhard@lhsastl.org). Custodian for Lutheran HS Central (closed 1971) and all LHSA campus records."
+      }
     },
     {
       "district_id": "DIST-404",
@@ -905,9 +1737,21 @@
       "successor_district_id": "none",
       "confidence": "confirmed",
       "citations": [
-        {"url": "https://www.nerinxhall.org/about/nerinx-history", "note": "Sisters of Loretto founded 1812; opened Nerinx Hall 1924"}
+        {
+          "url": "https://www.nerinxhall.org/about/nerinx-history",
+          "note": "Sisters of Loretto founded 1812; opened Nerinx Hall 1924"
+        }
       ],
-      "notes": "Religious congregation operating Loretto Academy (1907-1952) and Nerinx Hall (1924-present) in Webster Groves."
+      "notes": "Religious congregation operating Loretto Academy (1907-1952) and Nerinx Hall (1924-present) in Webster Groves.",
+      "records_office": {
+        "name": "Loretto Heritage Center Archives (Sisters of Loretto)",
+        "address": "515 Nerinx Road, Nerinx, KY 40049 (Loretto Motherhouse)",
+        "phone": "270-431-0096",
+        "url": "https://www.lorettocommunity.org/about/motherhouse/heritage-center-archives/",
+        "confidence": "confirmed",
+        "citation": "https://www.lorettocommunity.org/about/motherhouse/heritage-center-archives/",
+        "notes": "Reba Weatherford, Director of Archives; lorarchives@lorettocommunity.org. Loretto records (incl. Loretto Academy, St. Louis — closed ~1952) stayed with the order, NOT the Archdiocese of St. Louis. Appointments available; email/phone for less extensive requests. Post-1952 Nerinx Hall records held by Nerinx Hall registrar (a separate entity no longer Loretto-operated)."
+      }
     },
     {
       "district_id": "DIST-405",
@@ -919,9 +1763,21 @@
       "successor_district_id": "none",
       "confidence": "confirmed",
       "citations": [
-        {"url": "https://www.lindenwood.edu/", "note": "Private university, St. Charles MO"}
+        {
+          "url": "https://www.lindenwood.edu/",
+          "note": "Private university, St. Charles MO"
+        }
       ],
-      "notes": "Operated a Florissant 'North County Center' extension site in the former Our Lady of Fatima school building (2006-~2022)."
+      "notes": "Operated a Florissant 'North County Center' extension site in the former Our Lady of Fatima school building (2006-~2022).",
+      "records_office": {
+        "name": "Lindenwood University — Office of the Registrar",
+        "address": "209 S. Kingshighway St., Saint Charles, MO 63301",
+        "phone": "636-949-4954",
+        "url": "https://www.lindenwood.edu/academics/support-resources/registrar/",
+        "confidence": "confirmed",
+        "citation": "https://www.lindenwood.edu/academics/support-resources/registrar/",
+        "notes": "Transcripts via Parchment ($9.50); registrar@lindenwood.edu."
+      }
     },
     {
       "district_id": "DIST-406",
@@ -933,9 +1789,21 @@
       "successor_district_id": "none",
       "confidence": "confirmed",
       "citations": [
-        {"url": "https://www.slu.edu/", "note": "Private Jesuit university"}
+        {
+          "url": "https://www.slu.edu/",
+          "note": "Private Jesuit university"
+        }
       ],
-      "notes": "Operator of university-lab-school records in the registry (e.g. the College Farm/Most Holy Name of Jesus site on E. Grand Blvd)."
+      "notes": "Operator of university-lab-school records in the registry (e.g. the College Farm/Most Holy Name of Jesus site on E. Grand Blvd).",
+      "records_office": {
+        "name": "Saint Louis University — Office of the University Registrar",
+        "address": "DuBourg Hall, Room 22, One North Grand Blvd., St. Louis, MO 63103",
+        "phone": "314-977-2269",
+        "url": "https://www.slu.edu/registrar/",
+        "confidence": "confirmed",
+        "citation": "https://www.slu.edu/registrar/contact-us.php",
+        "notes": "Transcripts via National Student Clearinghouse ordering center; registrar@slu.edu; fax 314-977-3447."
+      }
     },
     {
       "district_id": "DIST-407",
@@ -947,9 +1815,21 @@
       "successor_district_id": "none",
       "confidence": "confirmed",
       "citations": [
-        {"url": "https://wustl.edu/", "note": "Private research university"}
+        {
+          "url": "https://wustl.edu/",
+          "note": "Private research university"
+        }
       ],
-      "notes": "Operator affiliation for university-associated school records in the registry."
+      "notes": "Operator affiliation for university-associated school records in the registry.",
+      "records_office": {
+        "name": "Washington University in St. Louis — Office of the University Registrar",
+        "address": "Women's Building, Suite 10, One Brookings Drive, MSC 1143-0156-0B, St. Louis, MO 63130-4899",
+        "phone": "314-935-5959",
+        "url": "https://registrar.washu.edu/student-records-resources/transcripts/",
+        "confidence": "confirmed",
+        "citation": "https://registrar.washu.edu/student-records-resources/transcripts/",
+        "notes": "Transcripts via Parchment; registrar@wustl.edu; fax 314-935-4268."
+      }
     },
     {
       "district_id": "DIST-408",
@@ -961,7 +1841,16 @@
       "successor_district_id": "none",
       "confidence": "probable",
       "citations": [],
-      "notes": "Religious congregation recorded as operator for a residential/institutional school row in the registry."
+      "notes": "Religious congregation recorded as operator for a residential/institutional school row in the registry.",
+      "records_office": {
+        "name": "Incarnate Word Academy — School Registrar (records held by school)",
+        "address": "Incarnate Word Academy, 2788 Normandy Drive, Bel-Nor, MO 63121",
+        "phone": "314-725-5850",
+        "url": "https://www.incarnatewordacademy.org/",
+        "confidence": "probable",
+        "citation": "https://www.incarnatewordacademy.org/",
+        "notes": "School is OPEN — its own registrar holds student records (per Archdiocese policy, open schools keep their records). Congregation-level historical records of the Sisters of Charity of the Incarnate Word are held at the order archives in San Antonio, TX."
+      }
     },
     {
       "district_id": "DIST-409",
@@ -973,7 +1862,16 @@
       "successor_district_id": "none",
       "confidence": "probable",
       "citations": [],
-      "notes": "Private religious university; operator of a school row in the registry."
+      "notes": "Private religious university; operator of a school row in the registry.",
+      "records_office": {
+        "name": null,
+        "address": null,
+        "phone": null,
+        "url": null,
+        "confidence": "unknown",
+        "citation": "",
+        "notes": "No public records office identified for this small private operator; if the entity is defunct, records may be at the Missouri Dept. of Higher Education closed-school repository or the State Historical Society of Missouri."
+      }
     },
     {
       "district_id": "DIST-410",
@@ -985,9 +1883,21 @@
       "successor_district_id": "none",
       "confidence": "confirmed",
       "citations": [
-        {"url": "https://en.wikipedia.org/wiki/University_of_Missouri_System", "note": "University of Missouri system established 1963"}
+        {
+          "url": "https://en.wikipedia.org/wiki/University_of_Missouri_System",
+          "note": "University of Missouri system established 1963"
+        }
       ],
-      "notes": "Operator affiliation for UM-St. Louis associated records in the registry."
+      "notes": "Operator affiliation for UM-St. Louis associated records in the registry.",
+      "records_office": {
+        "name": "University of Missouri–St. Louis — Office of the Registrar",
+        "address": "269 Millennium Student Center, One University Blvd., St. Louis, MO 63121-4400",
+        "phone": "314-516-5545",
+        "url": "https://www.umsl.edu/registration/transcript-request.html",
+        "confidence": "confirmed",
+        "citation": "https://www.umsl.edu/registration/contact-us.html",
+        "notes": "UMSL campus registrar (relevant UM-System entity in registry). Transcripts via National Student Clearinghouse; registration@umsl.edu / onlinetranscript@umsl.edu; fax 314-516-7096."
+      }
     }
   ]
 }

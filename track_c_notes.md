@@ -69,3 +69,73 @@ Rows whose `district_operator` was already correct were verified against the dis
 ## Merge semantics
 
 `merge_schools.py` was naive concatenation — it would have duplicated all 166 update rows into the master. Patched to dedupe by `school_id` (later files win per rglob ordering; the updates file sorts after `schools_master.json`). Regenerated downstream artifacts afterward so `terminal_successor` picks up the resolved chains.
+
+---
+
+## Addendum — Q4: who holds the records today?
+
+Every `districts_master.json` entry now carries a `records_office` block:
+`{"name","address","phone","url","confidence","citation","notes"}`. Result:
+**25 confirmed, 42 probable, 3 unknown** — the actionable endpoint for a
+dissolved district is always its successor's office.
+
+### Method
+
+- **Operating districts/operators (confirmed):** registrar/records/custodian-of-records
+  contacts taken from each organization's public site (per-school research was out of
+  scope; the district office is the endpoint a records request actually reaches).
+- **Dissolved districts (probable):** custodian derived from `successor_district_id`
+  under Missouri DESE guidance — "if the school you attended is no longer open,
+  contact the superintendent's office of the district that now serves the area"
+  (https://dese.mo.gov/transcripts-and-diplomas). Successor office details are
+  mirrored into the dissolved entry so each row is self-contained; chains of
+  dissolved districts (e.g. Fee Fee → School District of Pattonville → Pattonville
+  R-III) resolve to the final successor.
+- **Never contacted anyone** — lookup only, per the standing rule.
+
+### Key custodian findings
+
+- **Archdiocese of St. Louis Archives** (Office of Archives and Records,
+  20 Archbishop May Dr, 314-792-7020, archives@archstl.org) is the documented
+  repository for **all closed archdiocesan schools and closed parishes** —
+  transcripts, yearbooks, photos. Open Catholic schools keep their own records.
+  It runs a transcript-request page ($10/copy, photo ID required) and a dedicated
+  **RECA page** (archstl.org/reca). All parish schools in the registry route here
+  via DIST-401; All Saints Academy (closed 2023) too (DIST-402).
+- **SLPS Student Transcript Office** (801 N. 11th St, 314-645-2648) — records for
+  every current/former city school incl. Baden-district schools annexed 1876;
+  $3 transcripts, $10 genealogy searches.
+- **Pattonville** maintains an explicit **RECA Record Requests** section on its
+  Community page (student + staff forms) — the best-documented RECA endpoint in
+  the region. Custodian for all 7 dissolved Pattonville-feeder districts.
+- **SSD of St. Louis County** (Student Records Dept, 12110 Clayton Rd,
+  e-records@ssdmo.org / fax 314-989-8170) — custodian of **special-education
+  records for every St. Louis County public district**, not just its own schools.
+- **Sisters of Loretto** records stayed with the order: Loretto Heritage Center
+  Archives, Nerinx KY (270-431-0096, lorarchives@lorettocommunity.org) — NOT the
+  Archdiocese. This is where Loretto Academy (closed ~1952) records live.
+- **Missouri DYS** case records are confidential (13 CSR 110-2.140); formerly-
+  committed youth 18+ may request their own records in writing w/ photo ID or
+  notarized request (AskDYS@dss.mo.gov, 573-751-3324). Covers Fort Bellefontaine.
+- **FHSD** guidance pages list a dedicated **"Transcript request for RRECA"**
+  option for past graduates.
+
+### Successor-school vs. original-district custody (per the ask)
+
+For schools with a resolved `successor_school_id`: records follow the
+**district**, not the building. A school that closed but whose district survives
+(e.g. Ritenour elementaries) → that district's office. A school whose district
+dissolved → the successor district's office (e.g. Kinloch No.18 → FFSD; Wellston
+→ Normandy SC). The successor *school* inherits students/programs; it does NOT
+inherit records — the district office does. Yearbooks specifically may also be
+in school libraries/alumni hands, but the records office is the documented
+custodian for transcripts and administrative files.
+
+### Left unknown
+
+- DIST-120 Melrose No.57 — receiving district at dissolution undocumented
+  (same limitation flagged in the district research).
+- DIST-208 St. Charles County common districts — pre-1949 consolidation records
+  custody undocumented; SHSMO / St. Charles County Historical Society plausible.
+- DIST-409 Olivet University — small private operator, no public records office
+  found; MDHE closed-school repository is the fallback if defunct.
