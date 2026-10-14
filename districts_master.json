@@ -1,0 +1,993 @@
+{
+  "_meta": {
+    "description": "Master district/operator registry for the RECA yearbook-registry project. One entry per district that operates (or historically operated) schools in schools_master.json, plus districts discovered through Track C consolidation research.",
+    "track": "Track C",
+    "conventions": [
+      "dissolved_year null = still operating",
+      "successor_district_id: 'none' = still operating / no successor; 'unknown' = unresolved",
+      "predecessor_districts lists districts that merged INTO this district (and were dissolved by it)",
+      "types: public | parish_system | private_operator | county_special | state_agency | higher_ed"
+    ]
+  },
+  "districts": [
+    {
+      "district_id": "DIST-001",
+      "name": "Hazelwood School District",
+      "type": "public",
+      "formed_year": "1949",
+      "dissolved_year": null,
+      "predecessor_districts": ["DIST-121", "DIST-122", "DIST-123", "DIST-124", "DIST-125", "DIST-126", "DIST-127", "DIST-128", "DIST-129", "DIST-130", "DIST-131", "DIST-132", "DIST-133"],
+      "successor_district_id": "none",
+      "confidence": "confirmed",
+      "citations": [
+        {"url": "https://law.justia.com/cases/federal/district-courts/FSupp/392/1276/1580584/", "note": "US v. Hazelwood SD, 392 F.Supp. 1276: formed from thirteen rural school districts between 1949 and 1951 by annexation; 8 schools, 811 students at formation"},
+        {"url": "https://www.hazelwoodschools.org/about-us/history-of-the-district", "note": "District's own history page"},
+        {"url": "https://www.primecenter.org/prime-blog/blog-school-district-consolidation-stl", "note": "PRiME Center (SLU): created as Hazelwood R-1 by the October 1951 reorganization vote"}
+      ],
+      "notes": "R-1 reorganization district created by the October 1951 county-wide vote; assembled from thirteen rural districts of St. Ferdinand Township (1949-1951 annexations). Covers 78 sq mi of northernmost St. Louis County."
+    },
+    {
+      "district_id": "DIST-002",
+      "name": "Ferguson-Florissant School District",
+      "type": "public",
+      "formed_year": "1952",
+      "dissolved_year": null,
+      "predecessor_districts": ["DIST-101", "DIST-102", "DIST-103", "DIST-104"],
+      "successor_district_id": "none",
+      "confidence": "confirmed",
+      "citations": [
+        {"url": "https://en.wikipedia.org/wiki/McCluer_High_School", "note": "1952 merger of Ferguson Public School District and Florissant School District"},
+        {"url": "https://en.wikipedia.org/wiki/Ferguson-Florissant_School_District", "note": "June 7, 1975 federal order annexing Berkeley and Kinloch districts into FFSD"},
+        {"url": "https://law.resource.org/pub/us/case/reporter/F2/515/515.F2d.1365.75-1073.75-1064.75-1051.html", "note": "515 F.2d 1365 (8th Cir. 1975) affirming annexation of Berkeley and Kinloch"}
+      ],
+      "notes": "Ferguson Reorganized School District R-2 created by the October 1951 reorganization vote, effecting the 1952 merger of the Ferguson and Florissant districts. Boundaries expanded effective February 1, 1975 to include the dissolved Berkeley and Kinloch districts under federal court order (388 F.Supp. 1058). Student desegregation implemented 1976-77 school year."
+    },
+    {
+      "district_id": "DIST-003",
+      "name": "Pattonville R-III School District",
+      "type": "public",
+      "formed_year": "1951",
+      "dissolved_year": null,
+      "predecessor_districts": ["DIST-109", "DIST-110", "DIST-111", "DIST-112", "DIST-115", "DIST-116", "DIST-117"],
+      "successor_district_id": "none",
+      "confidence": "confirmed",
+      "citations": [
+        {"url": "https://www.primecenter.org/prime-blog/blog-school-district-consolidation-stl", "note": "Pattonville R-3 created by October 1951 reorganization vote"},
+        {"url": "https://sites.google.com/pattonville.k12.mo.us/", "note": "District history documenting the absorbed predecessor districts (Maryland Heights 1962, Bridgeton, Mount Pleasant, Penn-Junction, Fee Fee, St. Ann)"}
+      ],
+      "notes": "R-3 reorganization district from the October 1951 vote, built on the pre-existing School District of Pattonville; absorbed Bridgeton (~1950), Mount Pleasant and Penn-Junction (~1951), St. Ann, and Maryland Heights School District (1962). Modern spelling R-III is the canonical form; seed/rows variants 'R-3' and 'Pattonville School District' normalized."
+    },
+    {
+      "district_id": "DIST-004",
+      "name": "Normandy Schools Collaborative",
+      "type": "public",
+      "formed_year": "2014",
+      "dissolved_year": null,
+      "predecessor_districts": ["DIST-106"],
+      "successor_district_id": "none",
+      "confidence": "confirmed",
+      "citations": [
+        {"url": "https://en.wikipedia.org/wiki/Normandy_Schools_Collaborative", "note": "Established July 2014 by the Missouri State Board of Education, formerly the Normandy School District"},
+        {"url": "https://www.normandysc.org/about-nsc", "note": "District site; 2019-20 EleMiddle (grades 1-8) reconfiguration"}
+      ],
+      "notes": "The Normandy School District (DIST-106 lineage) was renamed/reconstituted as Normandy Schools Collaborative in July 2014 under state supervision following loss of accreditation; absorbed the dissolved Wellston district in 2010. Operates schools under the EleMiddle model since 2019-20."
+    },
+    {
+      "district_id": "DIST-005",
+      "name": "Ritenour School District",
+      "type": "public",
+      "formed_year": "1867",
+      "dissolved_year": null,
+      "predecessor_districts": [],
+      "successor_district_id": "none",
+      "confidence": "probable",
+      "citations": [
+        {"url": "https://www.ritenourschools.org/community/history-of-ritenour/100-facts", "note": "District's own history compendium; school lineage back to a rural district school of 1867"}
+      ],
+      "notes": "Ritenour Consolidated School District descends from an 1867 rural school district (per the district's 'Our First 132 Years' history, 132 years to ~1999). Never dissolved; absorbed local elementaries through internal reorganizations (notably the March 25, 1976 plan closing Home Heights, Midland, and New Overland)."
+    },
+    {
+      "district_id": "DIST-006",
+      "name": "Riverview Gardens School District",
+      "type": "public",
+      "formed_year": "1950",
+      "dissolved_year": null,
+      "predecessor_districts": ["DIST-118", "DIST-135"],
+      "successor_district_id": "none",
+      "confidence": "probable",
+      "citations": [
+        {"url": "https://riverviewgardens1969.myevent.com/", "note": "District/alumni history: Riverview Gardens formed from the Science Hill District #20 and Moline predecessor districts"}
+      ],
+      "notes": "North-county district assembled from the Science Hill District #20 and Moline predecessor districts; RGSD high school opened in the 1950s (1218 Shepley Dr). Formation year probable; see notes for the circa-1950 consolidation."
+    },
+    {
+      "district_id": "DIST-007",
+      "name": "School District of University City",
+      "type": "public",
+      "formed_year": "unknown",
+      "dissolved_year": null,
+      "predecessor_districts": [],
+      "successor_district_id": "none",
+      "confidence": "probable",
+      "citations": [
+        {"url": "https://www.ucityschools.org/", "note": "District site"}
+      ],
+      "notes": "Independent district serving University City; formation date not established in Track C research (long predates the 1949 reorganization wave)."
+    },
+    {
+      "district_id": "DIST-008",
+      "name": "St. Louis Public Schools",
+      "type": "public",
+      "formed_year": "1838",
+      "dissolved_year": null,
+      "predecessor_districts": ["DIST-134"],
+      "successor_district_id": "none",
+      "confidence": "confirmed",
+      "citations": [
+        {"url": "https://en.wikipedia.org/wiki/St._Louis_Public_Schools", "note": "District organized 1838; absorbed the Baden local district when Baden was annexed to the city in 1876"}
+      ],
+      "notes": "The city district; annexed-town districts (e.g. Baden, 1876) folded in as the city grew."
+    },
+    {
+      "district_id": "DIST-009",
+      "name": "Parkway C-2 School District",
+      "type": "public",
+      "formed_year": "1954",
+      "dissolved_year": null,
+      "predecessor_districts": ["DIST-136", "DIST-137", "DIST-138"],
+      "successor_district_id": "none",
+      "confidence": "confirmed",
+      "citations": [
+        {"url": "https://www.primecenter.org/prime-blog/blog-school-district-consolidation-stl", "note": "1954: Fern Ridge, Mason Ridge C-2, and Weber districts formed the consolidated high-school district Parkway C-2"}
+      ],
+      "notes": "Last major district merger of the St. Louis County consolidation wave."
+    },
+    {
+      "district_id": "DIST-101",
+      "name": "Ferguson Public School District",
+      "type": "public",
+      "formed_year": "unknown",
+      "dissolved_year": "1952",
+      "predecessor_districts": [],
+      "successor_district_id": "DIST-002",
+      "confidence": "confirmed",
+      "citations": [
+        {"url": "https://en.wikipedia.org/wiki/McCluer_High_School", "note": "1952 merger of Ferguson Public School District and Florissant School District into FFSD"}
+      ],
+      "notes": "Also styled 'Ferguson School District' / 'District #3'. Operated Ferguson High School (1939) on the January Estate."
+    },
+    {
+      "district_id": "DIST-102",
+      "name": "Florissant School District",
+      "type": "public",
+      "formed_year": "unknown",
+      "dissolved_year": "1952",
+      "predecessor_districts": [],
+      "successor_district_id": "DIST-002",
+      "confidence": "confirmed",
+      "citations": [
+        {"url": "https://en.wikipedia.org/wiki/McCluer_High_School", "note": "1952 merger into Ferguson-Florissant"}
+      ],
+      "notes": "The Florissant public district merged with Ferguson in the 1952 R-2 reorganization."
+    },
+    {
+      "district_id": "DIST-103",
+      "name": "Berkeley School District",
+      "type": "public",
+      "formed_year": "1937",
+      "dissolved_year": "1975",
+      "predecessor_districts": ["DIST-105", "DIST-107", "DIST-108"],
+      "successor_district_id": "DIST-002",
+      "confidence": "confirmed",
+      "citations": [
+        {"url": "https://law.resource.org/pub/us/case/reporter/F2/515/515.F2d.1365.75-1073.75-1064.75-1051.html", "note": "515 F.2d 1365: Kinloch No. 18 split in 1937 into white Berkeley district and Black new Kinloch district; Berkeley annexed to FFSD by the 1975 order"},
+        {"url": "https://www.primecenter.org/prime-blog/blog-school-district-consolidation-stl", "note": "1975 federal-ordered merger of Berkeley and Kinloch into FFSD"}
+      ],
+      "notes": "Created in the 1937 split of Kinloch School District No. 18; absorbed Scudder (1960) and Robertson (~1964) along the way; dissolved into Ferguson-Florissant effective February 1, 1975."
+    },
+    {
+      "district_id": "DIST-104",
+      "name": "Kinloch School District",
+      "type": "public",
+      "formed_year": "1937",
+      "dissolved_year": "1975",
+      "predecessor_districts": ["DIST-105"],
+      "successor_district_id": "DIST-002",
+      "confidence": "confirmed",
+      "citations": [
+        {"url": "https://law.resource.org/pub/us/case/reporter/F2/515/515.F2d.1365.75-1073.75-1064.75-1051.html", "note": "1937 split of Kinloch No. 18 produced the all-Black new Kinloch district; annexed to FFSD effective Feb 1, 1975"}
+      ],
+      "notes": "The all-Black district created by the 1937 split; underfunded and segregated by state action per the federal courts (363 F.Supp. 739; 388 F.Supp. 1058)."
+    },
+    {
+      "district_id": "DIST-105",
+      "name": "Kinloch School District No. 18",
+      "type": "public",
+      "formed_year": "unknown",
+      "dissolved_year": "1937",
+      "predecessor_districts": [],
+      "successor_district_id": "unknown",
+      "confidence": "confirmed",
+      "citations": [
+        {"url": "https://law.resource.org/pub/us/case/reporter/F2/515/515.F2d.1365.75-1073.75-1064.75-1051.html", "note": "Prior to 1937 one district (Kinloch No. 18) covered present-day Kinloch and most of Berkeley; split into two districts in 1937"}
+      ],
+      "notes": "Predecessor of BOTH Berkeley and Kinloch (the 1937 split created two districts from one). successor_district_id 'unknown' because there are two successors; see DIST-103 and DIST-104."
+    },
+    {
+      "district_id": "DIST-106",
+      "name": "Normandy School District",
+      "type": "public",
+      "formed_year": "unknown",
+      "dissolved_year": "2014",
+      "predecessor_districts": ["DIST-119"],
+      "successor_district_id": "DIST-004",
+      "confidence": "confirmed",
+      "citations": [
+        {"url": "https://en.wikipedia.org/wiki/Normandy_Schools_Collaborative", "note": "Normandy School District became Normandy Schools Collaborative July 2014; absorbed Wellston district 2010"}
+      ],
+      "notes": "Longstanding north-county district; the 2014 change to the Collaborative was a state-directed reconstitution of the same legal district (succession recorded as rename)."
+    },
+    {
+      "district_id": "DIST-107",
+      "name": "Scudder School District",
+      "type": "public",
+      "formed_year": "unknown",
+      "dissolved_year": "1960",
+      "predecessor_districts": [],
+      "successor_district_id": "DIST-103",
+      "confidence": "confirmed",
+      "citations": [
+        {"url": "https://files.shsmo.org/", "note": "Scudder district history; merged into Berkeley School District 1960"}
+      ],
+      "notes": "Served the Scudder Avenue area; a portion of its territory had already gone to Kinloch No. 18 in 1902-03. Remainder merged into Berkeley in 1960; students then bused into Berkeley schools."
+    },
+    {
+      "district_id": "DIST-108",
+      "name": "Robertson School District",
+      "type": "public",
+      "formed_year": "unknown",
+      "dissolved_year": "1964",
+      "predecessor_districts": [],
+      "successor_district_id": "DIST-103",
+      "confidence": "confirmed",
+      "citations": [
+        {"url": "https://files.shsmo.org/", "note": "Robertson district dissolved ~1964; students bused to Berkeley School District schools"}
+      ],
+      "notes": "Robertson district folded into Berkeley about 1964; its schools (e.g. Robertson Elementary, Robertson High School) came under Berkeley and then FFSD in 1975."
+    },
+    {
+      "district_id": "DIST-109",
+      "name": "Maryland Heights School District",
+      "type": "public",
+      "formed_year": "unknown",
+      "dissolved_year": "1962",
+      "predecessor_districts": [],
+      "successor_district_id": "DIST-003",
+      "confidence": "confirmed",
+      "citations": [
+        {"url": "https://sites.google.com/pattonville.k12.mo.us/", "note": "Pattonville district history: Maryland Heights district merged into Pattonville R-III in 1962"}
+      ],
+      "notes": "Founded as Rural District 24; at the 1962 merger it operated Maryland Heights High School, Remington Elementary, and Carver Elementary (Carver was discontinued at the merger)."
+    },
+    {
+      "district_id": "DIST-110",
+      "name": "Bridgeton School District",
+      "type": "public",
+      "formed_year": "1864",
+      "dissolved_year": "1950",
+      "predecessor_districts": [],
+      "successor_district_id": "DIST-003",
+      "confidence": "confirmed",
+      "citations": [
+        {"url": "https://sites.google.com/pattonville.k12.mo.us/", "note": "Pattonville district history; Bridgeton district annexed into Pattonville during the 1949-50 school year"}
+      ],
+      "notes": "Incorporated by the legislature in 1864, covering Bridgeton and Bridgeton Commons; like other small north-county districts it tuitioned secondary students out rather than operating a high school."
+    },
+    {
+      "district_id": "DIST-111",
+      "name": "Mount Pleasant School District",
+      "type": "public",
+      "formed_year": "unknown",
+      "dissolved_year": "1951",
+      "predecessor_districts": [],
+      "successor_district_id": "DIST-003",
+      "confidence": "confirmed",
+      "citations": [
+        {"url": "https://sites.google.com/pattonville.k12.mo.us/", "note": "Absorbed into Pattonville R-III at the 1951 reorganization"}
+      ],
+      "notes": "Mount Pleasant district folded into Pattonville; its school continued as a Pattonville elementary until 1978."
+    },
+    {
+      "district_id": "DIST-112",
+      "name": "Penn-Junction School District",
+      "type": "public",
+      "formed_year": "unknown",
+      "dissolved_year": "1950",
+      "predecessor_districts": ["DIST-113", "DIST-114"],
+      "successor_district_id": "DIST-003",
+      "confidence": "probable",
+      "citations": [
+        {"url": "https://sites.google.com/pattonville.k12.mo.us/", "note": "Penn-Junction combined the Penn and Junction districts; absorbed into Pattonville about 1950"}
+      ],
+      "notes": "Joint district formed from the earlier Penn and Junction school districts; its school (Penn-Junction School) continued under Pattonville until 1982."
+    },
+    {
+      "district_id": "DIST-113",
+      "name": "Penn School District",
+      "type": "public",
+      "formed_year": "unknown",
+      "dissolved_year": "unknown",
+      "predecessor_districts": [],
+      "successor_district_id": "DIST-112",
+      "confidence": "probable",
+      "citations": [
+        {"url": "https://sites.google.com/pattonville.k12.mo.us/", "note": "Predecessor component of the Penn-Junction district"}
+      ],
+      "notes": "Early common school district that combined with Junction to form Penn-Junction."
+    },
+    {
+      "district_id": "DIST-114",
+      "name": "Junction School District",
+      "type": "public",
+      "formed_year": "unknown",
+      "dissolved_year": "unknown",
+      "predecessor_districts": [],
+      "successor_district_id": "DIST-112",
+      "confidence": "probable",
+      "citations": [
+        {"url": "https://sites.google.com/pattonville.k12.mo.us/", "note": "Predecessor component of the Penn-Junction district"}
+      ],
+      "notes": "Early common school district that combined with Penn to form Penn-Junction."
+    },
+    {
+      "district_id": "DIST-115",
+      "name": "Fee Fee District No. 16",
+      "type": "public",
+      "formed_year": "unknown",
+      "dissolved_year": "1930",
+      "predecessor_districts": [],
+      "successor_district_id": "DIST-116",
+      "confidence": "probable",
+      "citations": [
+        {"url": "https://sites.google.com/pattonville.k12.mo.us/", "note": "Fee Fee District No. 16 became part of the School District of Pattonville (after 1930)"}
+      ],
+      "notes": "Common district along Fee Fee Creek; merged into the School District of Pattonville about 1930."
+    },
+    {
+      "district_id": "DIST-116",
+      "name": "School District of Pattonville",
+      "type": "public",
+      "formed_year": "1848",
+      "dissolved_year": "1951",
+      "predecessor_districts": ["DIST-115"],
+      "successor_district_id": "DIST-003",
+      "confidence": "probable",
+      "citations": [
+        {"url": "https://sites.google.com/pattonville.k12.mo.us/", "note": "Predecessor consolidated district; became Pattonville R-3 in the 1951 reorganization"}
+      ],
+      "notes": "The pre-1951 Pattonville district built around the Fee Fee Road school lineage; absorbed Fee Fee No. 16 in 1930. Formation year is the district's own tradition (1848); probable."
+    },
+    {
+      "district_id": "DIST-117",
+      "name": "St. Ann School District",
+      "type": "public",
+      "formed_year": "unknown",
+      "dissolved_year": "unknown",
+      "predecessor_districts": [],
+      "successor_district_id": "DIST-003",
+      "confidence": "probable",
+      "citations": [
+        {"url": "https://sites.google.com/pattonville.k12.mo.us/", "note": "St. Ann district folded into Pattonville R-III"}
+      ],
+      "notes": "St. Ann area district absorbed by Pattonville; its elementary continued under Pattonville until 1982. Exact merger year not documented online."
+    },
+    {
+      "district_id": "DIST-118",
+      "name": "Science Hill School District #20",
+      "type": "public",
+      "formed_year": "unknown",
+      "dissolved_year": "unknown",
+      "predecessor_districts": [],
+      "successor_district_id": "DIST-006",
+      "confidence": "probable",
+      "citations": [
+        {"url": "https://riverviewgardens1969.myevent.com/", "note": "Alumni/district history: Science Hill #20 predecessor of Riverview Gardens"}
+      ],
+      "notes": "Predecessor component of Riverview Gardens School District (with Moline)."
+    },
+    {
+      "district_id": "DIST-119",
+      "name": "Wellston School District",
+      "type": "public",
+      "formed_year": "unknown",
+      "dissolved_year": "2010",
+      "predecessor_districts": [],
+      "successor_district_id": "DIST-106",
+      "confidence": "confirmed",
+      "citations": [
+        {"url": "https://www.primecenter.org/prime-blog/blog-school-district-consolidation-stl", "note": "2010: the state ordered Normandy to absorb the struggling district of Wellston"}
+      ],
+      "notes": "Dissolved and annexed into the Normandy district in 2010 — the last change to the county district map."
+    },
+    {
+      "district_id": "DIST-120",
+      "name": "Melrose School District No. 57",
+      "type": "public",
+      "formed_year": "unknown",
+      "dissolved_year": "unknown",
+      "predecessor_districts": [],
+      "successor_district_id": "unknown",
+      "confidence": "unknown",
+      "citations": [],
+      "notes": "Rural district noted in seed/master as 'later merged into a west-county district' — the receiving district is not documented online; kept unknown pending a human follow-up."
+    },
+    {
+      "district_id": "DIST-121",
+      "name": "Brown School District",
+      "type": "public",
+      "formed_year": "unknown",
+      "dissolved_year": "1950",
+      "predecessor_districts": [],
+      "successor_district_id": "DIST-001",
+      "confidence": "confirmed",
+      "citations": [
+        {"url": "https://law.justia.com/cases/federal/district-courts/FSupp/392/1276/1580584/", "note": "One of the thirteen rural districts annexed into Hazelwood 1949-1951"}
+      ],
+      "notes": "Rural district of St. Ferdinand Township; its school closed ~1950 at consolidation; namesake continuation is Brown Elementary (Hazelwood SD)."
+    },
+    {
+      "district_id": "DIST-122",
+      "name": "Cold Water School District",
+      "type": "public",
+      "formed_year": "unknown",
+      "dissolved_year": "1954",
+      "predecessor_districts": [],
+      "successor_district_id": "DIST-001",
+      "confidence": "confirmed",
+      "citations": [
+        {"url": "https://law.justia.com/cases/federal/district-courts/FSupp/392/1276/1580584/", "note": "Thirteen-district annexation into Hazelwood"}
+      ],
+      "notes": "Rural district; school closed 1954."
+    },
+    {
+      "district_id": "DIST-123",
+      "name": "Prigge-Larimore School District",
+      "type": "public",
+      "formed_year": "unknown",
+      "dissolved_year": "1951",
+      "predecessor_districts": [],
+      "successor_district_id": "DIST-001",
+      "confidence": "confirmed",
+      "citations": [
+        {"url": "https://law.justia.com/cases/federal/district-courts/FSupp/392/1276/1580584/", "note": "Thirteen-district annexation into Hazelwood"}
+      ],
+      "notes": "St. Ferdinand Township rural district; the Prigge/Larimore school line continues as Larimore Elementary (Hazelwood SD)."
+    },
+    {
+      "district_id": "DIST-124",
+      "name": "Hyatt School District",
+      "type": "public",
+      "formed_year": "unknown",
+      "dissolved_year": "1951",
+      "predecessor_districts": [],
+      "successor_district_id": "DIST-001",
+      "confidence": "confirmed",
+      "citations": [
+        {"url": "https://law.justia.com/cases/federal/district-courts/FSupp/392/1276/1580584/", "note": "Thirteen-district annexation into Hazelwood"}
+      ],
+      "notes": "Rural district; school closed 1951."
+    },
+    {
+      "district_id": "DIST-125",
+      "name": "Elm Grove School District",
+      "type": "public",
+      "formed_year": "1852",
+      "dissolved_year": "1952",
+      "predecessor_districts": [],
+      "successor_district_id": "DIST-001",
+      "confidence": "confirmed",
+      "citations": [
+        {"url": "https://law.justia.com/cases/federal/district-courts/FSupp/392/1276/1580584/", "note": "Thirteen-district annexation into Hazelwood"},
+        {"url": "https://files.shsmo.org/", "note": "Elm Grove District No. 9 established 1852"}
+      ],
+      "notes": "Elm Grove District No. 9, established 1852; its landmark school building was moved to Brookes Park in the 1960s."
+    },
+    {
+      "district_id": "DIST-126",
+      "name": "Pea Ridge School District",
+      "type": "public",
+      "formed_year": "unknown",
+      "dissolved_year": "1951",
+      "predecessor_districts": [],
+      "successor_district_id": "DIST-001",
+      "confidence": "confirmed",
+      "citations": [
+        {"url": "https://law.justia.com/cases/federal/district-courts/FSupp/392/1276/1580584/", "note": "Thirteen-district annexation into Hazelwood"}
+      ],
+      "notes": "Rural district; school closed 1951."
+    },
+    {
+      "district_id": "DIST-127",
+      "name": "Columbia Bottom School District",
+      "type": "public",
+      "formed_year": "unknown",
+      "dissolved_year": "1951",
+      "predecessor_districts": [],
+      "successor_district_id": "DIST-001",
+      "confidence": "confirmed",
+      "citations": [
+        {"url": "https://law.justia.com/cases/federal/district-courts/FSupp/392/1276/1580584/", "note": "Thirteen-district annexation into Hazelwood"}
+      ],
+      "notes": "Rural district on the Columbia Bottoms; school closed 1951."
+    },
+    {
+      "district_id": "DIST-128",
+      "name": "Vossenkemper School District",
+      "type": "public",
+      "formed_year": "unknown",
+      "dissolved_year": "1951",
+      "predecessor_districts": [],
+      "successor_district_id": "DIST-001",
+      "confidence": "confirmed",
+      "citations": [
+        {"url": "https://law.justia.com/cases/federal/district-courts/FSupp/392/1276/1580584/", "note": "Thirteen-district annexation into Hazelwood"}
+      ],
+      "notes": "Rural district; school closed 1951."
+    },
+    {
+      "district_id": "DIST-129",
+      "name": "Black Jack School District",
+      "type": "public",
+      "formed_year": "unknown",
+      "dissolved_year": "1951",
+      "predecessor_districts": [],
+      "successor_district_id": "DIST-001",
+      "confidence": "confirmed",
+      "citations": [
+        {"url": "https://law.justia.com/cases/federal/district-courts/FSupp/392/1276/1580584/", "note": "Thirteen-district annexation into Hazelwood"}
+      ],
+      "notes": "Rural district; school closed 1951."
+    },
+    {
+      "district_id": "DIST-130",
+      "name": "Twillman School District",
+      "type": "public",
+      "formed_year": "unknown",
+      "dissolved_year": "1951",
+      "predecessor_districts": [],
+      "successor_district_id": "DIST-001",
+      "confidence": "confirmed",
+      "citations": [
+        {"url": "https://law.justia.com/cases/federal/district-courts/FSupp/392/1276/1580584/", "note": "Thirteen-district annexation into Hazelwood"}
+      ],
+      "notes": "St. Ferdinand Township rural district; the Twillman school continued under Hazelwood."
+    },
+    {
+      "district_id": "DIST-131",
+      "name": "Rosary School District",
+      "type": "public",
+      "formed_year": "unknown",
+      "dissolved_year": "1951",
+      "predecessor_districts": [],
+      "successor_district_id": "DIST-001",
+      "confidence": "probable",
+      "citations": [
+        {"url": "https://flovalleynews.com/", "note": "Florissant Valley historical sources name Rosary among the Hazelwood predecessor districts"}
+      ],
+      "notes": "Named among the thirteen Hazelwood feeder districts in local historical accounts; no school row in the registry (not in the seed). District-level record only."
+    },
+    {
+      "district_id": "DIST-132",
+      "name": "Garrett School District",
+      "type": "public",
+      "formed_year": "unknown",
+      "dissolved_year": "1951",
+      "predecessor_districts": [],
+      "successor_district_id": "DIST-001",
+      "confidence": "probable",
+      "citations": [
+        {"url": "https://flovalleynews.com/", "note": "Named among the Hazelwood predecessor districts"}
+      ],
+      "notes": "One of the thirteen Hazelwood feeder districts per local historical accounts; no corresponding seed row."
+    },
+    {
+      "district_id": "DIST-133",
+      "name": "Bonfils School District",
+      "type": "public",
+      "formed_year": "unknown",
+      "dissolved_year": "1951",
+      "predecessor_districts": [],
+      "successor_district_id": "DIST-001",
+      "confidence": "probable",
+      "citations": [
+        {"url": "https://flovalleynews.com/", "note": "Named among the Hazelwood predecessor districts"}
+      ],
+      "notes": "One of the thirteen Hazelwood feeder districts per local historical accounts; no corresponding seed row."
+    },
+    {
+      "district_id": "DIST-134",
+      "name": "Baden School District",
+      "type": "public",
+      "formed_year": "unknown",
+      "dissolved_year": "1876",
+      "predecessor_districts": [],
+      "successor_district_id": "DIST-008",
+      "confidence": "confirmed",
+      "citations": [
+        {"url": "https://en.wikipedia.org/wiki/Baden,_St._Louis", "note": "Baden annexed to the City of St. Louis in 1876, folding its local district into SLPS"}
+      ],
+      "notes": "The town of Baden's local school district; absorbed by St. Louis Public Schools when Baden joined the city in 1876."
+    },
+    {
+      "district_id": "DIST-135",
+      "name": "Moline School District",
+      "type": "public",
+      "formed_year": "unknown",
+      "dissolved_year": "unknown",
+      "predecessor_districts": [],
+      "successor_district_id": "DIST-006",
+      "confidence": "probable",
+      "citations": [
+        {"url": "https://riverviewgardens1969.myevent.com/", "note": "Moline predecessor district of Riverview Gardens"}
+      ],
+      "notes": "Predecessor component of Riverview Gardens School District (with Science Hill #20)."
+    },
+    {
+      "district_id": "DIST-136",
+      "name": "Fern Ridge School District",
+      "type": "public",
+      "formed_year": "unknown",
+      "dissolved_year": "1954",
+      "predecessor_districts": [],
+      "successor_district_id": "DIST-009",
+      "confidence": "confirmed",
+      "citations": [
+        {"url": "https://www.primecenter.org/prime-blog/blog-school-district-consolidation-stl", "note": "Fern Ridge + Mason Ridge C-2 + Weber voted to form Parkway C-2 in 1954"}
+      ],
+      "notes": "West-county constituent of Parkway C-2."
+    },
+    {
+      "district_id": "DIST-137",
+      "name": "Mason Ridge C-2 School District",
+      "type": "public",
+      "formed_year": "unknown",
+      "dissolved_year": "1954",
+      "predecessor_districts": [],
+      "successor_district_id": "DIST-009",
+      "confidence": "confirmed",
+      "citations": [
+        {"url": "https://www.primecenter.org/prime-blog/blog-school-district-consolidation-stl", "note": "Constituent of Parkway C-2 (1954)"}
+      ],
+      "notes": "West-county constituent of Parkway C-2."
+    },
+    {
+      "district_id": "DIST-138",
+      "name": "Weber School District",
+      "type": "public",
+      "formed_year": "unknown",
+      "dissolved_year": "1954",
+      "predecessor_districts": [],
+      "successor_district_id": "DIST-009",
+      "confidence": "confirmed",
+      "citations": [
+        {"url": "https://www.primecenter.org/prime-blog/blog-school-district-consolidation-stl", "note": "Constituent of Parkway C-2 (1954)"}
+      ],
+      "notes": "West-county constituent of Parkway C-2."
+    },
+    {
+      "district_id": "DIST-201",
+      "name": "Wentzville R-IV School District",
+      "type": "public",
+      "formed_year": "unknown",
+      "dissolved_year": null,
+      "predecessor_districts": [],
+      "successor_district_id": "none",
+      "confidence": "probable",
+      "citations": [
+        {"url": "https://en.wikipedia.org/wiki/Wentzville_R-IV_School_District", "note": "Current district; serves Wentzville, Lake St. Louis, and adjacent areas"},
+        {"url": "https://en.wikipedia.org/wiki/Wentzville_Holt_High_School", "note": "Wentzville High School established 1896 as a 2-year high school; reorganized as a full 4-year high school in 1939"}
+      ],
+      "notes": "St. Charles County's western district; its high school dates to 1896. The district's own reorganization/formation year was not pinned down in Track C research — probable per the R-IV designation arising from the county reorganization era."
+    },
+    {
+      "district_id": "DIST-202",
+      "name": "Fort Zumwalt R-II School District",
+      "type": "public",
+      "formed_year": "1949",
+      "dissolved_year": null,
+      "predecessor_districts": ["DIST-203"],
+      "successor_district_id": "none",
+      "confidence": "confirmed",
+      "citations": [
+        {"url": "https://web.archive.org/web/20070812095313/www.fzschools.org/Html/fzsdhist.htm", "note": "District history: Central School District R-II formed by voter approval July 19, 1949, combining 12 small districts; district's high school opened 1960"}
+      ],
+      "notes": "The O'Fallon-area district. Formed as Central School District R-II (1949) and later renamed Fort Zumwalt R-II — the rename year is not documented online; recorded as a rename of the same legal district (see DIST-203)."
+    },
+    {
+      "district_id": "DIST-203",
+      "name": "Central School District R-II",
+      "type": "public",
+      "formed_year": "1949",
+      "dissolved_year": "unknown",
+      "predecessor_districts": ["DIST-204"],
+      "successor_district_id": "DIST-202",
+      "confidence": "confirmed",
+      "citations": [
+        {"url": "https://web.archive.org/web/20070812095313/www.fzschools.org/Html/fzsdhist.htm", "note": "Formation approved by voters July 19, 1949, combining 12 small districts under the 1947 reorganization law"}
+      ],
+      "notes": "Twelve small St. Charles County districts combined into Central R-II in 1949 — predecessor identity of today's Fort Zumwalt district. (Note: the state plan's 'reorganized district' suffix 'R-II' is coincidentally the same numeral the modern Fort Zumwalt district carries.)"
+    },
+    {
+      "district_id": "DIST-204",
+      "name": "O'Fallon School District",
+      "type": "public",
+      "formed_year": "1869",
+      "dissolved_year": "1949",
+      "predecessor_districts": [],
+      "successor_district_id": "DIST-203",
+      "confidence": "confirmed",
+      "citations": [
+        {"url": "https://web.archive.org/web/20070812095313/www.fzschools.org/Html/fzsdhist.htm", "note": "O'Fallon school built 1869 at Convent Park (St. Mary's Academy grounds), first teacher Julius Reichenstein; local district consolidated into Central R-II in 1949"}
+      ],
+      "notes": "The O'Fallon local district, folded into Central School District R-II in the 1949 consolidation."
+    },
+    {
+      "district_id": "DIST-205",
+      "name": "Francis Howell R-III School District",
+      "type": "public",
+      "formed_year": "1966",
+      "dissolved_year": null,
+      "predecessor_districts": ["DIST-206"],
+      "successor_district_id": "none",
+      "confidence": "confirmed",
+      "citations": [
+        {"url": "https://www.fhsdschools.org/about", "note": "Official district history: 'District named as Francis Howell School District of St. Charles County, Missouri (1966, March 15)'"}
+      ],
+      "notes": "Successor name of Consolidated School District No. 2 (organized May 8, 1915). The district's official timeline gives the March 15, 1966 naming; recorded here as the district's modern identity — a rename, not a new legal entity."
+    },
+    {
+      "district_id": "DIST-206",
+      "name": "Consolidated School District No. 2 of St. Charles County",
+      "type": "public",
+      "formed_year": "1915",
+      "dissolved_year": "1966",
+      "predecessor_districts": [],
+      "successor_district_id": "DIST-205",
+      "confidence": "confirmed",
+      "citations": [
+        {"url": "https://www.fhsdschools.org/about", "note": "Organized May 8, 1915 from rural common school districts plus the Francis Howell Institute; named Francis Howell School District March 15, 1966"}
+      ],
+      "notes": "Formed from a band of rural common-school districts and the Howell family's Francis Howell Institute (1881). One of the earliest consolidations — predating the 1947 reorganization law by three decades."
+    },
+    {
+      "district_id": "DIST-207",
+      "name": "New Melle School District",
+      "type": "public",
+      "formed_year": "unknown",
+      "dissolved_year": "1949",
+      "predecessor_districts": [],
+      "successor_district_id": "DIST-205",
+      "confidence": "probable",
+      "citations": [],
+      "notes": "New Melle local district; folded into the Francis Howell district around 1949 (per the schools_master operator annotations). Exact year probable."
+    },
+    {
+      "district_id": "DIST-208",
+      "name": "St. Charles County common school districts",
+      "type": "public",
+      "formed_year": "unknown",
+      "dissolved_year": "unknown",
+      "predecessor_districts": [],
+      "successor_district_id": "unknown",
+      "confidence": "unknown",
+      "citations": [],
+      "notes": "Umbrella entry for the many one-room common districts (e.g. District No. 68) that variously consolidated into Francis Howell R-III, Central R-II (Fort Zumwalt), Wentzville R-IV, or Orchard Farm. Individual named districts get their own rows when documented."
+    },
+    {
+      "district_id": "DIST-209",
+      "name": "School District of Washington",
+      "type": "public",
+      "formed_year": "unknown",
+      "dissolved_year": null,
+      "predecessor_districts": [],
+      "successor_district_id": "none",
+      "confidence": "probable",
+      "citations": [
+        {"url": "https://www.washington.k12.mo.us/", "note": "District site"}
+      ],
+      "notes": "Franklin County district serving Washington, MO; operates Washington High School (est. 1889 per seed documentation). Formation year not established in Track C."
+    },
+    {
+      "district_id": "DIST-301",
+      "name": "Special School District of St. Louis County",
+      "type": "county_special",
+      "formed_year": "1957",
+      "dissolved_year": null,
+      "predecessor_districts": [],
+      "successor_district_id": "none",
+      "confidence": "confirmed",
+      "citations": [
+        {"url": "https://ssdmo.org/our-story/", "note": "SSD formed 1957 to serve students with disabilities across St. Louis County districts"}
+      ],
+      "notes": "Countywide special-education district (Ackerman School 1961, South Tech 1967, North Tech 1968, et al.); partner districts refer students for services."
+    },
+    {
+      "district_id": "DIST-302",
+      "name": "Missouri Division of Youth Services",
+      "type": "state_agency",
+      "formed_year": "unknown",
+      "dissolved_year": null,
+      "predecessor_districts": [],
+      "successor_district_id": "none",
+      "confidence": "confirmed",
+      "citations": [
+        {"url": "https://dss.mo.gov/dys/", "note": "MO Dept. of Social Services — Division of Youth Services operates residential school facilities"}
+      ],
+      "notes": "State agency operating residential/juvenile school facilities; took over some city-run residential programs in 1986 (e.g. the Girls' Industrial Home lineage)."
+    },
+    {
+      "district_id": "DIST-303",
+      "name": "Junior College District of St. Louis-St. Louis County",
+      "type": "higher_ed",
+      "formed_year": "1962",
+      "dissolved_year": null,
+      "predecessor_districts": [],
+      "successor_district_id": "none",
+      "confidence": "confirmed",
+      "citations": [
+        {"url": "https://en.wikipedia.org/wiki/St._Louis_Community_College", "note": "The Junior College District established 1962 operates St. Louis Community College"}
+      ],
+      "notes": "The legal district behind St. Louis Community College (Florissant Valley, Forest Park, Meramec, Wildwood campuses). Some master rows list 'St. Louis Community College' as operator — normalized to the district."
+    },
+    {
+      "district_id": "DIST-304",
+      "name": "St. Charles Community College District",
+      "type": "higher_ed",
+      "formed_year": "1986",
+      "dissolved_year": null,
+      "predecessor_districts": [],
+      "successor_district_id": "none",
+      "confidence": "probable",
+      "citations": [
+        {"url": "https://en.wikipedia.org/wiki/St._Charles_Community_College", "note": "SCC established by voters in 1986; first classes 1987"}
+      ],
+      "notes": "St. Charles County's community-college district."
+    },
+    {
+      "district_id": "DIST-401",
+      "name": "Archdiocese of St. Louis",
+      "type": "parish_system",
+      "formed_year": "1826",
+      "dissolved_year": null,
+      "predecessor_districts": [],
+      "successor_district_id": "none",
+      "confidence": "confirmed",
+      "citations": [
+        {"url": "https://www.archstl.org/", "note": "Archdiocese of St. Louis school system; parishes operate schools under archdiocesan supervision"}
+      ],
+      "notes": "System-level operator for all Catholic parish schools in the registry. Individual parishes (St. Ferdinand, St. Norbert, Sacred Heart, etc.) appear in district_operator as 'X Parish / Archdiocese of St. Louis'. Includes the All Saints Academy partnership (DIST-402) and Christ, Light of the Nations inter-parish school."
+    },
+    {
+      "district_id": "DIST-402",
+      "name": "All Saints Academy",
+      "type": "parish_system",
+      "formed_year": "2018",
+      "dissolved_year": "2023",
+      "predecessor_districts": [],
+      "successor_district_id": "none",
+      "confidence": "confirmed",
+      "citations": [
+        {"url": "https://www.stlouisreview.com/", "note": "St. Louis Review: multi-campus academy opened 2018 under St. Ferdinand, St. Norbert, and (formerly) St. Rose Philippine Duchesne parishes; St. Rose campus closed 2023, academy wound down"}
+      ],
+      "notes": "Inter-parish school network in Florissant (Federation of Catholic Schools, Northeast Deanery). Multi-campus model dissolved 2023; campuses' successor treatment recorded on the school rows."
+    },
+    {
+      "district_id": "DIST-403",
+      "name": "Lutheran High School Association of St. Louis",
+      "type": "private_operator",
+      "formed_year": "1946",
+      "dissolved_year": null,
+      "predecessor_districts": [],
+      "successor_district_id": "none",
+      "confidence": "confirmed",
+      "citations": [
+        {"url": "https://www.lutheranhighnorth.org/", "note": "LAHE/LCMS association operating Lutheran High School North and Lutheran High School South"}
+      ],
+      "notes": "Lutheran Church–Missouri Synod high-school association formed 1946 (Lutheran High School opened 1946 in the former Concordia College building); operates LHSN (opened 1950s) and LHSS."
+    },
+    {
+      "district_id": "DIST-404",
+      "name": "Sisters of Loretto",
+      "type": "private_operator",
+      "formed_year": "1812",
+      "dissolved_year": null,
+      "predecessor_districts": [],
+      "successor_district_id": "none",
+      "confidence": "confirmed",
+      "citations": [
+        {"url": "https://www.nerinxhall.org/about/nerinx-history", "note": "Sisters of Loretto founded 1812; opened Nerinx Hall 1924"}
+      ],
+      "notes": "Religious congregation operating Loretto Academy (1907-1952) and Nerinx Hall (1924-present) in Webster Groves."
+    },
+    {
+      "district_id": "DIST-405",
+      "name": "Lindenwood University",
+      "type": "private_operator",
+      "formed_year": "1832",
+      "dissolved_year": null,
+      "predecessor_districts": [],
+      "successor_district_id": "none",
+      "confidence": "confirmed",
+      "citations": [
+        {"url": "https://www.lindenwood.edu/", "note": "Private university, St. Charles MO"}
+      ],
+      "notes": "Operated a Florissant 'North County Center' extension site in the former Our Lady of Fatima school building (2006-~2022)."
+    },
+    {
+      "district_id": "DIST-406",
+      "name": "Saint Louis University",
+      "type": "private_operator",
+      "formed_year": "1818",
+      "dissolved_year": null,
+      "predecessor_districts": [],
+      "successor_district_id": "none",
+      "confidence": "confirmed",
+      "citations": [
+        {"url": "https://www.slu.edu/", "note": "Private Jesuit university"}
+      ],
+      "notes": "Operator of university-lab-school records in the registry (e.g. the College Farm/Most Holy Name of Jesus site on E. Grand Blvd)."
+    },
+    {
+      "district_id": "DIST-407",
+      "name": "Washington University in St. Louis",
+      "type": "private_operator",
+      "formed_year": "1853",
+      "dissolved_year": null,
+      "predecessor_districts": [],
+      "successor_district_id": "none",
+      "confidence": "confirmed",
+      "citations": [
+        {"url": "https://wustl.edu/", "note": "Private research university"}
+      ],
+      "notes": "Operator affiliation for university-associated school records in the registry."
+    },
+    {
+      "district_id": "DIST-408",
+      "name": "Sisters of Charity of the Incarnate Word",
+      "type": "private_operator",
+      "formed_year": "unknown",
+      "dissolved_year": null,
+      "predecessor_districts": [],
+      "successor_district_id": "none",
+      "confidence": "probable",
+      "citations": [],
+      "notes": "Religious congregation recorded as operator for a residential/institutional school row in the registry."
+    },
+    {
+      "district_id": "DIST-409",
+      "name": "Olivet University",
+      "type": "private_operator",
+      "formed_year": "unknown",
+      "dissolved_year": null,
+      "predecessor_districts": [],
+      "successor_district_id": "none",
+      "confidence": "probable",
+      "citations": [],
+      "notes": "Private religious university; operator of a school row in the registry."
+    },
+    {
+      "district_id": "DIST-410",
+      "name": "University of Missouri System",
+      "type": "higher_ed",
+      "formed_year": "1963",
+      "dissolved_year": null,
+      "predecessor_districts": [],
+      "successor_district_id": "none",
+      "confidence": "confirmed",
+      "citations": [
+        {"url": "https://en.wikipedia.org/wiki/University_of_Missouri_System", "note": "University of Missouri system established 1963"}
+      ],
+      "notes": "Operator affiliation for UM-St. Louis associated records in the registry."
+    }
+  ]
+}
