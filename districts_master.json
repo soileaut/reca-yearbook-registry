@@ -184,21 +184,21 @@
       ],
       "notes": "The Normandy School District (DIST-106 lineage) was renamed/reconstituted as Normandy Schools Collaborative in July 2014 under state supervision following loss of accreditation; absorbed the dissolved Wellston district in 2010. Operates schools under the EleMiddle model since 2019-20.",
       "records_office": {
-        "name": "Ritenour School District — Registrar / Custodian of Records",
-        "address": "2420 Woodson Rd, St. Louis, MO 63114",
-        "phone": "314-493-6058",
-        "url": "https://www.ritenourschools.org/community/alumni/request-a-transcript",
+        "name": "Normandy Schools Collaborative — Registrar Office / Custodian of Records",
+        "address": "3855 Lucas and Hunt Road, Normandy, MO 63121",
+        "phone": "314-493-0400",
+        "url": "https://normandyhighschool.normandysc.org/registrar-office-transcripts-student-records",
         "confidence": "confirmed",
-        "citation": "https://www.ritenourschools.org/community/alumni/request-a-transcript",
-        "notes": "Alumni transcripts via Parchment ($4.50, processed Tuesdays); registrar Reauna Dodds doddsr@ritenourschools.org. Custodian of records district-wide: Assistant to the Superintendent of Student Services. Custodian for dissolved Ritenour-feeder districts (Overland, Ritenour, Elmwood Park)."
+        "citation": "https://www.normandysc.org/about-nsc/open-recordssunshine-requests",
+        "notes": "HS transcripts via Parchment; attendance/verification requests to Natessa Montgomery nmontgomery@normandysc.org. Sunshine custodian: the custodian of records listed on the Sunshine page (currently lchalmers@normandysc.org, fax 314-385-3511. Custodian for Wellston School District records (2010 annexation) and the dissolved Normandy School District."
       },
       "reca_request": {
-        "documented": true,
-        "display_text": "Submit the district's RECA Information Request form on this page and allow 4–6 weeks for processing. A valid photo ID is required before records are released — shown in person or emailed — and a request for a deceased person's records may require a death certificate, with additional documentation possible if you are representing a family member. A dedicated RECA phone line (314-493-6017) and email (reca@ritenourschools.org) are published; the page also links the St. Louis County Library Ritenour yearbook archive.",
-        "url": "https://www.ritenourschools.org/community/reca-information-request",
+        "documented": false,
+        "display_text": "Order a high-school transcript online through Parchment; attendance and verification requests go to the district registrar contact listed on the page (Natessa Montgomery, nmontgomery@normandysc.org). Public-records requests under the Sunshine Law go in writing to the custodian of records at 3855 Lucas and Hunt Road, Normandy, MO 63121 (fax 314-385-3511).",
+        "url": "https://normandyhighschool.normandysc.org/registrar-office-transcripts-student-records",
         "as_of": "2026-10-14",
         "confidence": "confirmed",
-        "citation": "https://www.ritenourschools.org/community/reca-information-request"
+        "citation": "https://normandyhighschool.normandysc.org/registrar-office-transcripts-student-records"
       }
     },
     {
@@ -218,21 +218,21 @@
       ],
       "notes": "Ritenour Consolidated School District descends from an 1867 rural school district (per the district's 'Our First 132 Years' history, 132 years to ~1999). Never dissolved; absorbed local elementaries through internal reorganizations (notably the March 25, 1976 plan closing Home Heights, Midland, and New Overland).",
       "records_office": {
-        "name": "Normandy Schools Collaborative — Registrar Office / Custodian of Records",
-        "address": "3855 Lucas and Hunt Road, Normandy, MO 63121",
-        "phone": "314-493-0400",
-        "url": "https://normandyhighschool.normandysc.org/registrar-office-transcripts-student-records",
+        "name": "Ritenour School District — Registrar / Custodian of Records",
+        "address": "2420 Woodson Rd, St. Louis, MO 63114",
+        "phone": "314-493-6058",
+        "url": "https://www.ritenourschools.org/community/alumni/request-a-transcript",
         "confidence": "confirmed",
-        "citation": "https://www.normandysc.org/about-nsc/open-recordssunshine-requests",
-        "notes": "HS transcripts via Parchment; attendance/verification requests to Natessa Montgomery nmontgomery@normandysc.org. Sunshine custodian: Cecelia M. Rigsby, Executive Board Secretary, crigsby@normandysc.org, fax 314-385-3511. Custodian for Wellston School District records (2010 annexation) and the dissolved Normandy School District."
+        "citation": "https://www.ritenourschools.org/community/alumni/request-a-transcript",
+        "notes": "Alumni transcripts via Parchment ($4.50, processed Tuesdays); registrar Reauna Dodds doddsr@ritenourschools.org. Custodian of records district-wide: Assistant to the Superintendent of Student Services. Custodian for dissolved Ritenour-feeder districts (Overland, Ritenour, Elmwood Park)."
       },
       "reca_request": {
-        "documented": false,
-        "display_text": "Order a high-school transcript online through Parchment; attendance and verification requests go to the district registrar contact listed on the page (Natessa Montgomery, nmontgomery@normandysc.org). Public-records requests under the Sunshine Law go in writing to the custodian of records at 3855 Lucas and Hunt Road, Normandy, MO 63121 (fax 314-385-3511).",
-        "url": "https://normandyhighschool.normandysc.org/registrar-office-transcripts-student-records",
+        "documented": true,
+        "display_text": "Submit the district's RECA Information Request form on this page and allow 4–6 weeks for processing. A valid photo ID is required before records are released — shown in person or emailed — and a request for a deceased person's records may require a death certificate, with additional documentation possible if you are representing a family member. A dedicated RECA phone line (314-493-6017) and email (reca@ritenourschools.org) are published; the page also links the St. Louis County Library Ritenour yearbook archive.",
+        "url": "https://www.ritenourschools.org/community/reca-information-request",
         "as_of": "2026-10-14",
         "confidence": "confirmed",
-        "citation": "https://normandyhighschool.normandysc.org/registrar-office-transcripts-student-records"
+        "citation": "https://www.ritenourschools.org/community/reca-information-request"
       }
     },
     {
@@ -579,21 +579,21 @@
       ],
       "notes": "Longstanding north-county district; the 2014 change to the Collaborative was a state-directed reconstitution of the same legal district (succession recorded as rename).",
       "records_office": {
-        "name": "Ritenour School District — Registrar / Custodian of Records",
-        "address": "2420 Woodson Rd, St. Louis, MO 63114",
-        "phone": "314-493-6058",
-        "url": "https://www.ritenourschools.org/community/alumni/request-a-transcript",
+        "name": "Normandy Schools Collaborative — Registrar Office / Custodian of Records",
+        "address": "3855 Lucas and Hunt Road, Normandy, MO 63121",
+        "phone": "314-493-0400",
+        "url": "https://normandyhighschool.normandysc.org/registrar-office-transcripts-student-records",
         "confidence": "probable",
         "citation": "https://dese.mo.gov/transcripts-and-diplomas",
-        "notes": "District dissolved 2014; student records are presumed held by successor district Normandy Schools Collaborative per Missouri DESE guidance (closed-school records go to the superintendent's office of the district now serving the area). Contact shown is the successor district's records office."
+        "notes": "District dissolved; student records presumed held by successor district Normandy Schools Collaborative per Missouri DESE guidance. Contact shown is the successor's records office."
       },
       "reca_request": {
-        "documented": true,
-        "display_text": "This district is dissolved; records are presumed held by its successor, Normandy Schools Collaborative. Submit the district's RECA Information Request form on this page and allow 4–6 weeks for processing. A valid photo ID is required before records are released — shown in person or emailed — and a request for a deceased person's records may require a death certificate, with additional documentation possible if you are representing a family member. A dedicated RECA phone line (314-493-6017) and email (reca@ritenourschools.org) are published; the page also links the St. Louis County Library Ritenour yearbook archive.",
-        "url": "https://www.ritenourschools.org/community/reca-information-request",
+        "documented": false,
+        "display_text": "This district is dissolved; records are presumed held by its successor, Normandy Schools Collaborative. Order a high-school transcript online through Parchment; attendance and verification requests go to the district registrar contact listed on the page (Natessa Montgomery, nmontgomery@normandysc.org). Public-records requests under the Sunshine Law go in writing to the custodian of records at 3855 Lucas and Hunt Road, Normandy, MO 63121 (fax 314-385-3511).",
+        "url": "https://normandyhighschool.normandysc.org/registrar-office-transcripts-student-records",
         "as_of": "2026-10-14",
         "confidence": "probable",
-        "citation": "https://www.ritenourschools.org/community/reca-information-request"
+        "citation": "https://normandyhighschool.normandysc.org/registrar-office-transcripts-student-records"
       }
     },
     {
@@ -1026,21 +1026,21 @@
       ],
       "notes": "Dissolved and annexed into the Normandy district in 2010 — the last change to the county district map.",
       "records_office": {
-        "name": "Ritenour School District — Registrar / Custodian of Records",
-        "address": "2420 Woodson Rd, St. Louis, MO 63114",
-        "phone": "314-493-6058",
-        "url": "https://www.ritenourschools.org/community/alumni/request-a-transcript",
+        "name": "Normandy Schools Collaborative — Registrar Office / Custodian of Records",
+        "address": "3855 Lucas and Hunt Road, Normandy, MO 63121",
+        "phone": "314-493-0400",
+        "url": "https://normandyhighschool.normandysc.org/registrar-office-transcripts-student-records",
         "confidence": "probable",
         "citation": "https://dese.mo.gov/transcripts-and-diplomas",
-        "notes": "District dissolved 2010; student records are presumed held by successor district Normandy School District per Missouri DESE guidance (closed-school records go to the superintendent's office of the district now serving the area). Contact shown is the successor district's records office."
+        "notes": "District dissolved; student records presumed held by successor district Normandy Schools Collaborative per Missouri DESE guidance. Contact shown is the successor's records office."
       },
       "reca_request": {
-        "documented": true,
-        "display_text": "This district is dissolved; records are presumed held by its successor, Normandy School District. Submit the district's RECA Information Request form on this page and allow 4–6 weeks for processing. A valid photo ID is required before records are released — shown in person or emailed — and a request for a deceased person's records may require a death certificate, with additional documentation possible if you are representing a family member. A dedicated RECA phone line (314-493-6017) and email (reca@ritenourschools.org) are published; the page also links the St. Louis County Library Ritenour yearbook archive.",
-        "url": "https://www.ritenourschools.org/community/reca-information-request",
+        "documented": false,
+        "display_text": "This district is dissolved; records are presumed held by its successor, the Normandy School District's successor, Normandy Schools Collaborative. Order a high-school transcript online through Parchment; attendance and verification requests go to the district registrar contact listed on the page (Natessa Montgomery, nmontgomery@normandysc.org). Public-records requests under the Sunshine Law go in writing to the custodian of records at 3855 Lucas and Hunt Road, Normandy, MO 63121 (fax 314-385-3511).",
+        "url": "https://normandyhighschool.normandysc.org/registrar-office-transcripts-student-records",
         "as_of": "2026-10-14",
         "confidence": "probable",
-        "citation": "https://www.ritenourschools.org/community/reca-information-request"
+        "citation": "https://normandyhighschool.normandysc.org/registrar-office-transcripts-student-records"
       }
     },
     {
