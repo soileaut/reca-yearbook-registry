@@ -132,6 +132,44 @@ def compute_scan_status(rows, tier_map):
     return "needs_scan"
 
 
+def _resolve_successor(value, by_id, seen):
+    """Resolve a raw successor_school_id value to terminal-school names.
+
+    Values may be 'none', 'unknown', a single id, or ';'/','-joined ids
+    (a school that split into multiple successors). Dead-end ids --
+    a recorded successor not in the master -- surface as a parenthetical
+    rather than silently resolving to nothing. `seen` guards cycles.
+    """
+    names = []
+    for part in re.split(r"[;,]", str(value or "")):
+        part = part.strip()
+        if not part or part.lower() in ("none", "unknown"):
+            continue
+        s = by_id.get(part)
+        if s is None:
+            names.append("(successor on record, not yet in registry)")
+        elif part in seen:
+            continue
+        else:
+            seen.add(part)
+            nxt = str(s.get("successor_school_id") or "").strip()
+            if not nxt or nxt.lower() in ("none", "unknown"):
+                dist = s.get("district_operator", "")
+                names.append(f"{s['name']} ({dist})" if dist else s["name"])
+            else:
+                names.extend(_resolve_successor(nxt, by_id, seen))
+    return names
+
+
+def terminal_successor(sid, by_id):
+    """Walk successor_school_id links to the FINAL school(s) in the
+    chain -- the present-day consolidation endpoint, not the immediate
+    successor. '' when there is no successor on record."""
+    names = _resolve_successor(
+        by_id[sid].get("successor_school_id"), by_id, set())
+    return "; ".join(dict.fromkeys(names))
+
+
 def archive_maps(archives_file):
     data = json.load(open(archives_file))
     archives = data.get("archives", [])
@@ -165,6 +203,9 @@ def main():
             all_years[row["school_id"]].append(row)
         elif ny is not None:
             per_year[(row["school_id"], ny)].append(row)
+
+    by_id = {s["school_id"]: s for s in schools}
+    successors = {sid: terminal_successor(sid, by_id) for sid in by_id}
 
     rows_out = []
     skipped_schools = []
@@ -224,6 +265,7 @@ def main():
                 "digital_in_library": rloc,
                 "physical_location": ploc,
                 "checked_at": checked,
+                "terminal_successor": successors[sid],
             })
 
     Path(OUTPUT_FILE).parent.mkdir(parents=True, exist_ok=True)
@@ -232,6 +274,7 @@ def main():
             "school_name", "also_known_as", "school_id", "zip", "district_operator", "year",
             "scan_status", "where_located", "view_online",
             "digital_in_library", "physical_location", "checked_at",
+            "terminal_successor",
         ])
         writer.writeheader()
         writer.writerows(rows_out)

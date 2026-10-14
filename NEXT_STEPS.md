@@ -52,6 +52,21 @@ of just names:
   operators, shifted columns, date errors) — already corrected in
   `schools_master.json` by the batch workers; no action needed unless
   auditing.
+- **Dead-end successor links** (~7 schools) — `successor_school_id`
+  values pointing at school_ids that don't exist in the master
+  (`ALL-343`, `ALL-465`, `ALL-382`, `ALL-486`, `ALL-314`, `ALL-378`,
+  `ALL-464`, plus one raw multi-value `"ALL-013; ALL-014"`). Surfaced
+  when `build_public_registry.py` began resolving terminal successors;
+  the public CSV renders these as "(successor on record, not yet in
+  registry)". Either mint the missing school rows (like the ALL-651..653
+  Lutheran fix) or adjudicate as phantom/incorrect links.
+- **Unestablished successor links** (data-completeness gap) — of 307
+  schools with a `closed_year`, 193 have `successor_school_id: none`
+  and 66 have `unknown`. Some closed schools genuinely have no successor
+  school (elementary/parish closures where records stayed with the
+  district/parish), but `none` currently conflates "still open" and
+  "closed, nothing found" — a research pass (or a `none_researched`
+  vs `none_open` distinction) could separate real dead ends from gaps.
 
 ## 2. Run the Track B round-2 fan-out — ready, not yet started
 
