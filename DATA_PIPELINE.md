@@ -143,6 +143,32 @@ full dataset. See `pilot/` for the original task prompts and output.
   minted real cited rows for ALL-651/652/653 (LHS North/South/Central),
   +43 registry rows for the Central and South CHI holdings.
   `schools_master.json` now covers **340 schools**.
+- **Track C — Districts & Consolidation Chains complete and merged
+  (PRs #5, #6, 2026-10-14):** a single-researcher pass per
+  `track_c_prompt.md` (plus two in-flight addenda) that (1) canonicalized
+  `district_operator` across all schools — 127 rows normalized, original
+  lineage strings preserved in notes; (2) filled `successor_school_id`
+  gaps — every dead-end reference resolved (repointed to surviving
+  dedupe ids or to six newly-minted receiver schools, ALL-901–905),
+  `schools_master.json` now covers **346 schools** with zero dangling
+  successors; (3) built `districts_master.json` — **70 district/operator
+  entities** with formed/dissolved years, predecessor/successor links,
+  and `records_office` contact blocks; and (4) addendum 2 — a
+  `reca_request` block on every district recording whether a
+  **documented RECA-specific request path** exists (46 documented /
+  22 generic-only / 2 unknown), with plain-language `display_text`
+  written for verbatim display to claimants. `merge_schools.py` was
+  patched to dedupe on `school_id` so update files apply as corrections.
+- **Public site gained the lineage strip (2026-10-14):**
+  `build_lineage.py` emits `publish/school_lineage.json` — per-school
+  successor-chain trees with records-office payloads resolved onto
+  terminal nodes via a normalized `district_operator`→district join
+  (parish strings resolve through their "/ Archdiocese" custodian half).
+  The site renders an inline boxes-and-arrows chain on school select
+  (closed-year labels on arrows, weak-confidence edges marked
+  "likely"/"unverified"), plus a records box showing the terminal
+  district's office link, instructions, as-of date, and a
+  RECA-process badge when `reca_request.documented`.
 - **Track B round-2 fan-out designed and ready to run (not yet executed):**
   `track_b_round2_prompt.md` covers the remaining surfaces —
   `archive_org`, `mohistory`, `mercantile_umsl`, `stcharles_lib`,
@@ -209,6 +235,12 @@ track_b_fanout_prompt.md       -- task spec for the Track B round-1 fan-out (com
 track_b_round2_prompt.md       -- task spec for the Track B round-2 fan-out (ready to run)
 track_b_notes_*.md             -- per-surface process notes from Track B workers
 
+track_c_prompt.md              -- task spec for Track C districts/consolidation (completed, PRs #5-6)
+track_c_notes.md               -- Track C adjudication write-up + addendum notes
+schools_track_c_updates.json   -- Track C school-row updates (merged via merge_schools.py)
+districts_master.json          -- district/operator entities: lineage + records_office
+                                    + reca_request (display-ready claimant instructions)
+
 schools_lutheran_hs.json       -- seed-style rows minted during round-1 reconciliation
                                     (ALL-651/652/653 Lutheran HS North/South/Central)
 schools_master.json             -- merged schools table across all completed work
@@ -221,14 +253,18 @@ citation_collisions.json        -- flatten_registry.py output: citation_urls reu
 publish/
   public_yearbook_registry.csv -- expanded public grid: every in-scope school x year (1949+),
                                     incl. unsearched years -- regenerate via build_public_registry.py
+  school_lineage.json          -- per-school successor trees + records payloads --
+                                    regenerate via build_lineage.py
 docs/                          -- GitHub Pages site (static, no dependencies)
-  index.html                   -- combobox search UI over the public CSV + form links
+  index.html                   -- combobox search UI + lineage strip + records box + form links
   public_yearbook_registry.csv -- copy of publish/ output; copy again whenever it regenerates
+  school_lineage.json          -- copy of publish/ output; copy again whenever it regenerates
 
 merge_schools.py                -- regenerates schools_master.json
 merge_registry.py               -- regenerates yearbook_registry_master.json
 flatten_registry.py             -- regenerates flat_yearbook_registry.csv + citation_collisions.json
 build_public_registry.py        -- regenerates publish/public_yearbook_registry.csv
+build_lineage.py                -- regenerates publish/school_lineage.json
 find_potential_duplicates.py    -- flags new rows that match already-researched schools
 dedupe_seed.py                  -- self-deduplicates raw seed rows (exact-match only, safe)
 compute_reca_scope.py           -- deterministically computes reca_scope_status

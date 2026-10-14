@@ -6,10 +6,12 @@
 
 See `DATA_PIPELINE.md` for full background and how we got here.
 
-**Done:** Pilot (12 schools), Track A scale-up (325 more, PR #3), and
-Track B round-1 fan-out (7 archive surfaces, PR #4) are all complete and
-merged to `main`. `schools_master.json`/`.csv` now cover 340 schools
-(337 + 3 LAHE Lutheran high schools added during round-1 reconciliation);
+**Done:** Pilot (12 schools), Track A scale-up (325 more, PR #3),
+Track B round-1 fan-out (7 archive surfaces, PR #4), and Track C
+districts/consolidation research (PRs #5–6) are all complete and merged
+to `main`. `schools_master.json`/`.csv` now cover 346 schools
+(337 + 3 LAHE Lutheran high schools + 6 Track-C-minted receivers) and
+`districts_master.json` covers 70 district/operator entities;
 `yearbook_registry_master.json` has 1,235 rows across 8 sources;
 `flat_yearbook_registry.csv` covers 779 school-years (319
 digitally_secured / 180 physical_only_known / 280 needs_scan).
@@ -21,10 +23,13 @@ produces `publish/public_yearbook_registry.csv`, the expanded
 claimant-facing grid (14,406 rows: every in-scope school × every
 school-year 1949+, incl. unsearched years; 291 schools, 49 excluded as
 closed-pre-1949/admin-only). A static site in `docs/` (GitHub Pages
-source) provides school-name/ZIP combobox search, year filter, live
-status counts, CSV download, and links to two live Google Forms —
-a report form (yearbook leads + corrections) and a testimonials form
-(stories for the planned Substack article).
+source, live at soileaut.github.io/reca-yearbook-registry) provides
+school-name/ZIP combobox search, year filter, live status counts, an
+inline successor-chain strip + records-instructions box per selected
+school (from `build_lineage.py`/`school_lineage.json`), CSV download,
+and links to two live Google Forms — a report form (yearbook leads +
+corrections) and a testimonials form (stories for the planned Substack
+article).
 
 ## 1. Resolve flagged ambiguous/phantom rows
 
@@ -52,21 +57,15 @@ of just names:
   operators, shifted columns, date errors) — already corrected in
   `schools_master.json` by the batch workers; no action needed unless
   auditing.
-- **Dead-end successor links** (~7 schools) — `successor_school_id`
-  values pointing at school_ids that don't exist in the master
-  (`ALL-343`, `ALL-465`, `ALL-382`, `ALL-486`, `ALL-314`, `ALL-378`,
-  `ALL-464`, plus one raw multi-value `"ALL-013; ALL-014"`). Surfaced
-  when `build_public_registry.py` began resolving terminal successors;
-  the public CSV renders these as "(successor on record, not yet in
-  registry)". Either mint the missing school rows (like the ALL-651..653
-  Lutheran fix) or adjudicate as phantom/incorrect links.
-- **Unestablished successor links** (data-completeness gap) — of 307
-  schools with a `closed_year`, 193 have `successor_school_id: none`
-  and 66 have `unknown`. Some closed schools genuinely have no successor
-  school (elementary/parish closures where records stayed with the
-  district/parish), but `none` currently conflates "still open" and
-  "closed, nothing found" — a research pass (or a `none_researched`
-  vs `none_open` distinction) could separate real dead ends from gaps.
+- ~~Dead-end successor links~~ — **resolved by Track C (PR #5)**: all
+  dead ends traced to dedupe-folded seed rows and repointed, six missing
+  receiver schools minted (ALL-901–905). Zero dangling successors.
+- ~~Unestablished successor links~~ — **resolved by Track C**: the
+  closed+`none`/`unknown` population was adjudicated — real successor
+  links filled where they exist, "records stayed with the district"
+  recorded in notes where they don't. `districts_master.json` now
+  carries the district-level answer (records_office + reca_request)
+  for the common "no successor school" case.
 
 ## 2. Run the Track B round-2 fan-out — ready, not yet started
 
